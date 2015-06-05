@@ -1,0 +1,383 @@
+header{
+	
+}
+.company_logo{
+	height: 50px;
+	position: absolute;
+	top: 5px;
+	left: 0;
+}
+#company_logo{
+	height: 80px;
+	width: 360px;
+}
+#company_wechat{
+	height: 200px;
+	width: 200px;
+}
+.header-login{
+	position: absolute;
+	top: 15px;
+	right: 120px;
+	height: 30px;
+	width: 80px;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	border-radius: 30px;
+	display: none;
+}
+.header-show{
+	position: absolute;
+	top: 15px;
+	right: 20px;
+	height: 30px;
+	width: 80px;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	border-radius: 30px;
+}
+
+.content-company-sty{
+	text-align: left;
+	padding: 30px 0;
+}
+.p{
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+.p_main{
+	width: 375px;
+}
+.p_left{
+	float: left;
+}
+.p_right{
+	float: right;
+}
+.z_title{
+	width: 370px;
+	height: 24px;
+	line-height: 24px;
+}
+.z_message{
+	font-family: 'Microsoft YaHei';
+	color: #666;
+	height: 40px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	width: 350px;
+	padding: 0 10px;
+}
+.div_message{
+	min-height: 80px;
+	height: auto;
+	width: 735px;
+	line-height: 20px;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+.z_bg{
+	background-color: #eee;
+}
+.z_button{
+	border: none;
+	background-color: #3ccaff;
+	color: #fff;
+	height: 34px;
+	width: 100px;
+	font-weight: bold;
+	font-family: 'Microsoft YaHei';
+	border-radius: 40px;
+	display: none;
+}
+
+.table{
+	width: 100%;
+}
+.table_title{
+	font-weight: bold;
+}
+.table_col{
+	padding: 10px 0;
+	font-size: 16px;
+}
+.tr_title{
+	background-color: #aaa;
+}
+.tr_1{
+	background-color: #ccc;
+}
+.tr_2{
+	background-color: #bbb;
+}
+.table_select{
+	width: 60px;
+}
+.update_ico,.delete_ico{
+	display: none;
+	cursor: pointer;
+	color: red;
+}
+.update-input-sty{
+	width: 440px;
+}
+.link_window{
+	z-index: 1100;
+	min-height: 240px;
+	height: auto;
+	width: 640px;
+	padding: 30px;
+	background-color: #fff;
+	position: fixed;
+	border-radius: 5px;
+	left: 50%;
+	margin-left: -250px;
+	display: none;
+	box-shadow: 0px 0px 6px #aaa;
+}
+.link_window_title{
+	font-size: 16px;
+	font-weight: bold;
+	border-bottom: 2px solid #ccc;
+	padding-bottom: 10px;
+	margin-bottom: 20px; 
+}
+.link_button{
+	display: none;
+}
+.link_cancal{
+	position: absolute;
+	top: 20px;
+	right: 40px;
+	cursor: pointer;
+}
+.link_cancal:hover{
+	color: red;
+}
+.z_img{
+	height: 80px;
+}
+.file_war{
+	display: none;
+	overflow: hidden;
+}
+.file_upload{
+	float: left;
+}
+.button_upload{
+	float: left;
+	padding: 2px 10px;
+}
+.home-link-a{
+	color: #3ccaff;
+	padding: 0 10px;
+	line-height: 30px;
+	display: block;
+	float: left;
+}
+.content-son-con{
+	overflow: hidden;
+}
+.home-link-a:hover{
+	color: #ccc;
+}
+
+
+/*news*/
+#news_window{
+	border: 1px solid #ccc;
+	width: 700px;
+	margin-left: -350px;
+}
+.update-textarea{
+	height: auto;
+	min-height: 140px;
+	width: 440px;
+	padding: 5px;
+}
+.show-main-list{
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 20px;
+	position: relative;
+	margin-bottom: 20px;
+	border: 1px solid #fff;
+}
+.show-main-list:hover{
+	border: 1px solid #3ccaff;
+}
+.show-list-thum{
+	height: 98px;
+	width: 140px;
+	float: left;
+	margin-right: 20px;
+}
+.show-list-right{
+	height: auto;
+	min-height: 100px;
+	overflow: hidden;
+	text-align: left;
+}
+.title-list-link{
+	color: #3ccaff;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 26px;
+}
+.content-list-con{
+	margin: 10px 0;
+	line-height: 24px;
+}
+.content-list-mess{
+	overflow: hidden;
+}
+.content-mess-con{
+	float: right;
+	padding: 0 20px;
+	height: 20px;
+}
+.delete-update{
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	color: red;
+	cursor: pointer;
+}
+.update_news:hover,.delete_news:hover{
+	color: #999;
+}
+.home-news-col{
+	padding: 10px;
+	background-color: #eee;
+	border-radius: 5px;
+	float: left;
+	margin: 10px;
+	width: 200px;
+	height: 200px;
+	border: 1px solid #fff;
+}
+.home-news-col:hover{
+	border: 1px solid #3ccaff;
+}
+
+
+/*films*/
+.content-films-con{
+	overflow: hidden;
+}
+.content-films-list{
+	border: 1px solid #fff;
+	float: left;
+	background: #fff;
+	border-radius: 5px;
+	padding: 10px;
+	color: #666;
+	margin: 10px;
+}
+.content-films-list:hover{
+	border: 1px solid #3ccaff;
+}
+.films-image-sty{
+	height: 150px;
+	width: 120px;
+}
+.films-title-sty{
+	margin-top: 10px;
+	width: 120px;
+	overflow: hidden;
+	height: 40px;
+	line-height: 20px;
+}
+.films-delete-update{
+	margin-bottom: 5px;
+	text-align: right;
+	color: red;
+}
+.update_films:hover,.delete_films:hover{
+	color: #666;
+}
+.delete_films,.update_films{
+	cursor: pointer;
+}
+
+
+
+
+.page-war{
+	display: inline-block;
+	margin: 0 auto;
+}
+.page-list{
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	width: 40px;
+	background: #fff;
+	border: 1px solid #ddd;
+	float: left;
+	margin: 0 5px;
+	cursor: pointer;
+}
+
+.show-news-con{
+	display: none;
+}
+
+.content-company-sty{
+	position: relative;
+}
+
+#upload-img{
+	z-index: 2000;
+	width: 300px;
+	position: fixed;
+	left: 60%;
+	top: 70px;
+	padding: 20px;
+	background: #ccc;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	display: none;
+}
+
+#update-company{
+	width: 300px;
+	position: absolute;
+	right: 5px;
+	top: 20px;
+	display: none;
+}
+#show{
+	opacity: 0;
+	height: 30px;
+	width: 280px;
+	overflow: hidden;
+}
+#img-logo,#img-wechat{
+	position: absolute;
+}
+#img-logo{
+	top: 60px;
+	left: -100px;
+}
+#img-wechat{
+	top: 260px;
+	left: -108px;
+}
+.upload-remark{
+	display: none;
+}
+.img-up-bnt{
+	padding: 3px 5px;
+}
+.close-upload{
+	position: absolute;
+	top: 10px;
+	right: 20px;
+	color: red;
+	cursor: pointer;
+}
+.close-upload:hover{
+	color: #fff;
+}

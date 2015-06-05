@@ -1,0 +1,129 @@
+html,body{
+    font-family: 'Microsoft JhengHei', Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif;
+    color: #000;
+    height: auto;
+    min-height: 100%;
+    background: #e5f6ff url('../images/headerBg.png') top no-repeat;
+    background-size: 100%;
+    position: relative;
+	text-align: center;
+	min-width: 1000px;
+}
+a:hover{
+	text-decoration: none;
+}
+.war{
+	position: relative;
+	overflow: hidden;
+	width: 1000px;
+	height: auto;
+	margin: 0 auto;
+}
+.logo_pic{
+	margin-top: 40px;
+	width: 360px;
+  	height: 80px;
+}
+.logo_pic img{
+	width: 360px;
+  	height: 80px;
+}
+.login_frame{
+	position: absolute;
+	right: 8px;
+	top:0;
+	width: 86px;
+	height: 28px;
+	border-radius: 0 0 5px 5px;
+	background: #3ccaff;
+	float: right;
+	-webkit-border-radius: 0 0 5px 5px;
+	-moz-border-radius: 0 0 5px 5px;
+	-ms-border-radius: 0 0 5px 5px;
+	box-shadow: 2px 2px 5px #999;
+}
+.login_frame a{
+	line-height: 28px;
+	color: #ffffff;
+	font-size: 14px;
+}
+.login_frame a:hover{
+	color: #6D6D6D;
+}
+.line{
+	display: inline;
+	color: #ffffff;
+	line-height: 28px;
+}
+/*header--------------------------------------------------------*/
+header{
+	height: 200px;
+	width: 100%;
+}
+
+
+/*nav-----------------------------------------------------------*/
+nav{
+	height: 50px;
+	width: 100%;
+	background: #3ccaff;
+	font-size: 18px;
+}
+.nav-ul{
+	overflow: hidden;
+}
+.nav-list{
+	float: left;
+	background: url('../images/splice.png') center right no-repeat;
+}
+.nosty{
+	background: none;
+}
+.nav-list:hover{
+	background: #3fabd4;
+}
+.nav-href{
+	display: block;
+	height: 50px;
+	line-height: 50px;
+	width: 130px;
+	color: #fff;
+}
+.on{
+	background: #2f9fc9;
+}
+
+
+/*content-------------------------------------------------------*/
+.content{
+	height: auto;
+	min-height: 600px;
+	width: 100%;
+}
+.content-nav{
+	width: 100%;
+	height: 38px;
+	line-height: 38px;
+	background: #c6edfd;
+	margin: 20px 0;
+	border-radius: 5px;
+	color: #2f9fc9;
+}
+.content-nav-href{
+	color: #2f9fc9;
+	padding: 0 10px;
+}
+.content-nav-href:hover{
+	text-decoration: underline;
+}
+
+
+/*footer--------------------------------------------------------*/
+footer{
+	font-size: 16px;
+	height: 100px;
+	padding-top: 100px;
+	line-height: 100px;
+	background: url('../images/footerBg.png') bottom no-repeat;
+	background-size: 100% 100%;
+}

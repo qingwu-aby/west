@@ -1,0 +1,280 @@
+@font-face {font-family: 'myfont';
+    src: url('../font/iconfont.eot'); /* IE9*/
+    src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../font/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../font/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../font/iconfont.svg#uxiconfont') format('svg'); /* iOS 4.1- */
+}
+
+.myfont{ font-family:"myfont"; font-style:normal;}
+
+html,body{
+    font-family: 'Microsoft JhengHei', Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif;
+    color: #000;
+    width: 100%;
+    height: 100%;
+    min-height: 600px;
+    min-width: 500px;
+	text-align: center;
+	background: #ddd;
+	position: relative;
+}
+a{
+	color: #fff;
+}
+a:hover{
+	text-decoration: none;
+}
+
+/*header--------------------------------------------------------*/
+header{
+	z-index: 1000;
+	position: fixed;
+	height: 60px;
+	width: 100%;
+	background: #3ccaff;
+	top: 0;
+	left: 0;
+	border-bottom: 1px solid #bbb;
+}
+.header-title{
+	line-height: 60px;
+	width: 100%;
+	margin: 0 auto;
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+}
+
+
+/*aside-----------------------------------------------------------*/
+aside{
+	z-index: 900;
+	height: 100%;
+	min-height: 500px;
+	width: 90px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: #333;
+	overflow-y: auto; 
+}
+.aside-ul{
+	width: 90px;
+	height: auto;
+	margin-top: 61px;
+	color: #fff;
+}
+.aside-list{
+	width: 90px;
+	height: 80px;
+	cursor: pointer;
+	overflow: hidden;
+}
+.aside-list:hover{
+	background-color: #484848;
+}
+.on{
+	background-color: #595959;
+}
+.aside-list-logo{
+	height: 40px;
+	width: 40px;
+	border-radius: 40px;
+	margin: 20px auto;
+	background: url('../images/selfLogo.jpg') no-repeat;
+	overflow: hidden;
+	border: 2px solid #fff;
+}
+.aside-list-icon{
+	margin-top: 15px;
+	font-size: 30px;
+	height: 30px;
+}
+.aside-list-title{
+	height: 20px;
+	line-height: 20px;
+}
+
+
+/*content-------------------------------------------------------*/
+.see_more{
+	font-size: 14px;
+	color: #999;
+	float: right;
+}
+.see_more:hover{
+	color: #3ccaff;
+}
+
+#content-1{
+	display: block;
+}
+#content-2,
+#content-3,
+#content-4,
+#content-5,
+#content-6{
+	display: none;
+}
+#content-films-1,#content-links-1,#content-control-1,#content-user-1,#content-news-1{
+	display: block;
+}
+.content-1{
+	padding: 90px 50px 0 110px;
+	height: auto;
+	overflow: hidden;
+}
+.content-2{
+	padding: 0 0 0 90px;
+	height: auto;
+	min-height: 100%;
+	overflow: hidden;
+}
+.content-sty{
+	overflow: hidden;
+}
+.content-right{
+	width: 36%;
+	float: right;
+	margin-left: 20px;
+}
+.content-left{}
+.content-son-sty{
+	height: auto;
+	background: #fff;
+	border-radius: 5px;
+	padding: 20px 20px 0 20px;
+	margin-bottom: 20px;
+}
+.content-son-title{
+	height: 30px;
+	text-align: left;
+	font-size: 18px;
+	border-bottom: 1px solid #ddd;
+}
+.content-son-con{
+	padding: 30px;
+}
+.con-remark{
+	color: #999;
+}
+
+/**/
+.content-nav{
+	z-index: 800;
+	position: fixed;
+	overflow: hidden;
+	width: 240px;
+	min-height: 100%;
+	border-right: 1px solid #bbb;
+}
+.content-nav-son{
+	margin-top: 60px;
+	text-align: left;
+}
+.content-nav-son-title{
+	padding: 30px;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 30px;
+}
+.information{
+	font-size: 14px;
+	color: #666;
+	font-weight: 100;
+	line-height: 18px;
+}
+.list{
+	color: #666;
+	font-size: 15px;
+	text-align: left;
+	padding: 10px 30px;
+	display: block;
+	margin-bottom: 5px;
+	cursor: pointer;
+}
+.list:hover{
+	color: #000;
+	background-color: #eee;
+}
+.content-main{
+	overflow: hidden;
+	height: auto;
+	min-height: 200px;
+	margin-left: 240px;
+	margin-top: 60px;
+	padding: 30px 50px;
+}
+.content-main-sty{
+	display: none;
+}
+.content-main-title{
+	text-align: left;
+	font-size: 18px;
+	height: 35px;
+	line-height: 30px;
+	border-bottom: 1px solid #ccc;
+}
+.content-main-con{
+	padding: 30px;
+}
+
+/*news*/
+.content-news{
+	margin-top: 60px;
+	padding: 30px 50px;
+}
+
+/*company*/
+.content-company{
+	width: 850px;
+}
+.update_company{
+	font-size: 14px;
+	color: #999;
+	float: right;
+	cursor: pointer;
+}
+.update_company:hover{
+	color: #3ccaff;
+}
+
+/*control*/
+#content-control-1{
+	width: 400px;
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 20px;
+}
+.content-son-form{
+	min-height: 100px;
+	height: auto;
+	text-align: left;
+	padding: 30px 0px 10px 50px;
+	overflow: hidden;
+}
+.form{
+	margin: 0 auto;
+	height: auto;
+	display: inline-block;
+}
+.update-input{
+	font-size: 14px;
+	width: 240px;
+	padding: 5px;
+	border: none;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 20px;
+}
+.update-button{
+	width: 100%;
+	height: 30px;
+	border: none;
+	background-color: #3ccaff;
+	color: #fff;
+	border-radius: 30px;
+}
+
+
+/*footer--------------------------------------------------------*/

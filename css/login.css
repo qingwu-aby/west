@@ -1,0 +1,120 @@
+html,body{
+    height: 100%;
+    min-height: 620px;
+    min-width: 1000px;
+    background: #e5f6ff url('../images/headerBg.png') top no-repeat;
+    background-size: 100%;
+    font-family: 'Microsoft JhengHei', Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif;
+    color: #000;
+	text-align: center;
+	overflow: hidden;
+	overflow-y: auto; 
+	position: relative;
+}
+
+header{
+	height: 50px;
+	width: 100%;
+	background: rgba(255,255,255,0.8);
+	border-bottom: 1px solid #ccc;
+}
+.header-title{
+	line-height: 50px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #333;
+}
+
+.main{
+	height: 500px;
+	width: 1000px;
+	overflow: hidden;
+	background: rgba(255,255,255,0.6);
+	border-radius: 10px;
+	box-shadow: 2px 2px 8px #ccc;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -500px;
+	margin-top: -250px;
+}
+.main-left{
+	float: left;
+	width: 700px;
+	height: 500px;
+	background: url('../images/show.png') no-repeat;
+}
+.main-right{
+	float: right;
+	width: 300px;
+	height: 500px;
+}
+.logo{
+	height: 170px;
+	width: 200px;
+	margin: 0 auto;
+	background: url('../images/logo.png') center center no-repeat;
+}
+.logo-title{
+	color: #3CCAFF;
+	font-size: 18px;
+	font-weight: bold;
+	position: relative;
+	height: 30px;
+	line-height: 30px;
+	top: 140px;
+}
+.form{
+	height: 230px;
+	margin-top: 30px;
+}
+.user,.pass,.code{
+	border: none;
+	border-bottom: 1px solid #bbb;
+	padding: 5px;
+	width: 150px;
+	background: rgba(0,0,0,0);
+	margin-bottom: 20px;
+}
+.code{
+	margin-bottom: 10px;
+}
+.codeNumber{
+	/*position: absolute;*/
+	/*background: #2db8ad;*/
+	/*top: 0;
+	left: 133px;*/
+	margin-left: 100px;
+	margin-bottom: 10px;
+	height: 40px;
+	width: 160px;
+}
+.enter{
+	width: 210px;
+	height: 40px;
+	border: none;
+	background: #3CCAFF;
+	margin-top: 30px;
+	color: #fff;
+	border-radius: 50px;
+	font-size: 16px;
+	font-weight: bold;
+}
+.link{
+	width: 200px;
+	margin: 0 auto;
+}
+.link a{
+	color: #3CCAFF;
+}
+.lose{
+	text-align: left;
+}
+
+footer{
+	height: 50px;
+	line-height: 50px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}

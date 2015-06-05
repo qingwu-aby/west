@@ -1,0 +1,1023 @@
+[ 2015-05-06T15:31:46+08:00 ] 127.0.0.1 /westernfilms/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.014001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009000s ]
+
+[ 2015-05-06T15:54:08+08:00 ] 127.0.0.1 /westernfilms/index.php/Home/user/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\Pdo
+
+[ 2015-05-06T15:59:37+08:00 ] 127.0.0.1 /westernfilms/index.php/Home/user/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_user` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-06T16:08:08+08:00 ] 127.0.0.1 /westernfilms/index.php/Home/user/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-06T16:08:16+08:00 ] 127.0.0.1 /westernfilms/index.php/Home/user/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-06T16:09:45+08:00 ] 127.0.0.1 /westernfilms/index.php/Home/user/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `west_user` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant retrun - assumed 'retrun' D:\wamp\www\WesternFilms\Apps\Home\Model\UserModel.class.php 第 41 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-06T16:11:57+08:00 ] 127.0.0.1 /westernfilms/index.php/Home/user/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_user` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant retrun - assumed 'retrun' D:\wamp\www\WesternFilms\Apps\Home\Model\UserModel.class.php 第 41 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-06T16:12:18+08:00 ] 127.0.0.1 /westernfilms/index.php/Home/user/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_user` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant retrun - assumed 'retrun' D:\wamp\www\WesternFilms\Apps\Home\Model\UserModel.class.php 第 41 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-06T16:13:20+08:00 ] 127.0.0.1 /westernfilms/index.php/Home/user/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: regist D:\wamp\www\WesternFilms\Apps\Home\Model\UserModel.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_user` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant retrun - assumed 'retrun' D:\wamp\www\WesternFilms\Apps\Home\Model\UserModel.class.php 第 41 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-06T16:13:40+08:00 ] 127.0.0.1 /westernfilms/index.php/Home/user/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: regist D:\wamp\www\WesternFilms\Apps\Home\Model\UserModel.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_user` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant retrun - assumed 'retrun' D:\wamp\www\WesternFilms\Apps\Home\Model\UserModel.class.php 第 41 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-06T16:15:57+08:00 ] 127.0.0.1 /westernfilms/index.php/Home/user/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-06T16:16:14+08:00 ] 127.0.0.1 /westernfilms/index.php/Home/user/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_user` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant retrun - assumed 'retrun' D:\wamp\www\WesternFilms\Apps\Home\Model\UserModel.class.php 第 41 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-06T16:16:47+08:00 ] 127.0.0.1 /westernfilms/index.php/Home/user/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_user` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant retrun - assumed 'retrun' D:\wamp\www\WesternFilms\Apps\Home\Model\UserModel.class.php 第 41 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-06T16:17:12+08:00 ] 127.0.0.1 /westernfilms/index.php/Home/user/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_user` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant retrun - assumed 'retrun' D:\wamp\www\WesternFilms\Apps\Home\Model\UserModel.class.php 第 42 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-06T16:17:13+08:00 ] 127.0.0.1 /westernfilms/index.php/Home/user/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `west_user` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant retrun - assumed 'retrun' D:\wamp\www\WesternFilms\Apps\Home\Model\UserModel.class.php 第 42 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-06T16:17:25+08:00 ] 127.0.0.1 /westernfilms/index.php/Home/user/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_user` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant retrun - assumed 'retrun' D:\wamp\www\WesternFilms\Apps\Home\Model\UserModel.class.php 第 43 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-06T16:18:25+08:00 ] 127.0.0.1 /westernfilms/index.php/Home/user/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_user` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `west_user` (`username`,`password`,`group`,`status`,`modify_time`) VALUES ('admin','21232f297a57a5a743894a0e4a801fc3','user','0','1430900305') [ RunTime:0.0570s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-06T16:53:06+08:00 ] 127.0.0.1 /westernfilms/index.php/Home/user/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_user` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant retrun - assumed 'retrun' D:\wamp\www\WesternFilms\Apps\Home\Model\UserModel.class.php 第 71 行.
+
+[ 2015-05-06T16:53:53+08:00 ] 127.0.0.1 /westernfilms/index.php/Home/user/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_user` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant retrun - assumed 'retrun' D:\wamp\www\WesternFilms\Apps\Home\Model\UserModel.class.php 第 70 行.
+
+[ 2015-05-06T16:54:27+08:00 ] 127.0.0.1 /westernfilms/index.php/Home/user/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_user` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant retrun - assumed 'retrun' D:\wamp\www\WesternFilms\Apps\Home\Model\UserModel.class.php 第 70 行.
+
+[ 2015-05-06T16:54:44+08:00 ] 127.0.0.1 /westernfilms/index.php/Home/user/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_user` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant retrun - assumed 'retrun' D:\wamp\www\WesternFilms\Apps\Home\Model\UserModel.class.php 第 70 行.
+
+[ 2015-05-06T16:55:42+08:00 ] 127.0.0.1 /westernfilms/index.php/Home/user/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_user` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant retrun - assumed 'retrun' D:\wamp\www\WesternFilms\Apps\Home\Model\UserModel.class.php 第 71 行.
+
+[ 2015-05-06T16:56:00+08:00 ] 127.0.0.1 /westernfilms/index.php/Home/user/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_user` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant retrun - assumed 'retrun' D:\wamp\www\WesternFilms\Apps\Home\Model\UserModel.class.php 第 71 行.
+
+[ 2015-05-06T16:57:16+08:00 ] 127.0.0.1 /westernfilms/index.php/Home/user/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_user` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant retrun - assumed 'retrun' D:\wamp\www\WesternFilms\Apps\Home\Model\UserModel.class.php 第 72 行.
+
+[ 2015-05-06T16:57:31+08:00 ] 127.0.0.1 /westernfilms/index.php/Home/user/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_user` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant retrun - assumed 'retrun' D:\wamp\www\WesternFilms\Apps\Home\Model\UserModel.class.php 第 73 行.
+
+[ 2015-05-06T16:57:59+08:00 ] 127.0.0.1 /westernfilms/index.php/Home/user/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_user` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant retrun - assumed 'retrun' D:\wamp\www\WesternFilms\Apps\Home\Model\UserModel.class.php 第 73 行.
+
+[ 2015-05-06T16:58:03+08:00 ] 127.0.0.1 /westernfilms/index.php/Home/user/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-06T16:58:11+08:00 ] 127.0.0.1 /westernfilms/index.php/Home/user/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_user` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant retrun - assumed 'retrun' D:\wamp\www\WesternFilms\Apps\Home\Model\UserModel.class.php 第 73 行.
+
+[ 2015-05-06T16:58:34+08:00 ] 127.0.0.1 /westernfilms/index.php/Home/user/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_user` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-06T16:59:02+08:00 ] 127.0.0.1 /westernfilms/index.php/Home/user/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_user` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant retrun - assumed 'retrun' D:\wamp\www\WesternFilms\Apps\Home\Model\UserModel.class.php 第 73 行.
+
+[ 2015-05-06T16:59:32+08:00 ] 127.0.0.1 /westernfilms/index.php/Home/user/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_user` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant retrun - assumed 'retrun' D:\wamp\www\WesternFilms\Apps\Home\Model\UserModel.class.php 第 73 行.
+
+[ 2015-05-06T16:59:56+08:00 ] 127.0.0.1 /westernfilms/index.php/Home/user/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `west_user` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant retrun - assumed 'retrun' D:\wamp\www\WesternFilms\Apps\Home\Model\UserModel.class.php 第 73 行.
+
+[ 2015-05-06T17:00:33+08:00 ] 127.0.0.1 /westernfilms/index.php/Home/user/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0040s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'westfilms.user' doesn't exist
+
+[ 2015-05-06T17:00:59+08:00 ] 127.0.0.1 /westernfilms/index.php/Home/user/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_user` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-05-06T17:01:27+08:00 ] 127.0.0.1 /westernfilms/index.php/Home/user/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_user` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant retrun - assumed 'retrun' D:\wamp\www\WesternFilms\Apps\Home\Model\UserModel.class.php 第 71 行.
+
+[ 2015-05-06T17:01:45+08:00 ] 127.0.0.1 /westernfilms/index.php/Home/user/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_user` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant retrun - assumed 'retrun' D:\wamp\www\WesternFilms\Apps\Home\Model\UserModel.class.php 第 72 行.
+
+[ 2015-05-06T17:01:55+08:00 ] 127.0.0.1 /westernfilms/index.php/Home/user/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `west_user` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Use of undefined constant retrun - assumed 'retrun' D:\wamp\www\WesternFilms\Apps\Home\Model\UserModel.class.php 第 73 行.
+
+[ 2015-05-06T17:02:09+08:00 ] 127.0.0.1 /westernfilms/index.php/Home/user/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_user` WHERE ( username = 'liang' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-05-06T17:02:41+08:00 ] 127.0.0.1 /westernfilms/index.php/Home/user/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `west_user` WHERE ( username = 'liang' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0030s ]
+SQL: INSERT INTO `west_user` (`username`,`password`,`group`,`status`,`modify_time`) VALUES ('liang','21232f297a57a5a743894a0e4a801fc3','user','0','1430902961') [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_company` WHERE ( name = '2liang Films company' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0030s ]
+SQL: INSERT INTO `west_company` (`user_id`,`name`,`mail`,`tel`,`modify_time`) VALUES ('2','2liang Films company','2liang@qq.com','12356256','1430902961') [ RunTime:0.0010s ]
+
+[ 2015-05-06T17:03:15+08:00 ] 127.0.0.1 /westernfilms/index.php/Home/user/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_user` WHERE ( username = 'liang' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant retrun - assumed 'retrun' D:\wamp\www\WesternFilms\Apps\Home\Model\UserModel.class.php 第 71 行.
+
+[ 2015-05-06T17:03:48+08:00 ] 127.0.0.1 /westernfilms/index.php/Home/user/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_user` WHERE ( username = 'liang' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant retrun - assumed 'retrun' D:\wamp\www\WesternFilms\Apps\Home\Model\UserModel.class.php 第 70 行.
+
+[ 2015-05-06T17:04:03+08:00 ] 127.0.0.1 /westernfilms/index.php/Home/user/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `west_user` WHERE ( username = 'liang' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant retrun - assumed 'retrun' D:\wamp\www\WesternFilms\Apps\Home\Model\UserModel.class.php 第 71 行.
+
+[ 2015-05-06T17:04:44+08:00 ] 127.0.0.1 /westernfilms/index.php/Home/user/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_user` WHERE ( username = 'liang' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant retrun - assumed 'retrun' D:\wamp\www\WesternFilms\Apps\Home\Model\UserModel.class.php 第 70 行.
+
+[ 2015-05-06T17:04:57+08:00 ] 127.0.0.1 /westernfilms/index.php/Home/user/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_user` WHERE ( username = 'liang' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant retrun - assumed 'retrun' D:\wamp\www\WesternFilms\Apps\Home\Model\UserModel.class.php 第 71 行.
+
+[ 2015-05-06T17:05:30+08:00 ] 127.0.0.1 /westernfilms/index.php/Home/user/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_user` WHERE ( username = 'liang' ) LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Use of undefined constant retrun - assumed 'retrun' D:\wamp\www\WesternFilms\Apps\Home\Model\UserModel.class.php 第 71 行.
+
+[ 2015-05-06T17:05:52+08:00 ] 127.0.0.1 /westernfilms/index.php/Home/user/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_user` WHERE ( username = 'liang' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0030s ]
+SQL: INSERT INTO `west_user` (`username`,`password`,`group`,`status`,`modify_time`) VALUES ('liang','21232f297a57a5a743894a0e4a801fc3','user','0','1430903152') [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_company` WHERE ( name = '2liang Films company' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-05-06T17:06:20+08:00 ] 127.0.0.1 /westernfilms/index.php/Home/user/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_user` WHERE ( username = 'liang' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0050s ]
+SQL: INSERT INTO `west_user` (`username`,`password`,`group`,`status`,`modify_time`) VALUES ('liang','21232f297a57a5a743894a0e4a801fc3','user','0','1430903180') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_company` WHERE ( name = '2liang Films company' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0030s ]
+SQL: INSERT INTO `west_company` (`user_id`,`name`,`mail`,`tel`,`modify_time`) VALUES ('4','2liang Films company','2liang@qq.com','12356256','1430903180') [ RunTime:0.0000s ]
+
+[ 2015-05-06T17:07:06+08:00 ] 127.0.0.1 /westernfilms/index.php/Home/user/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_user` WHERE ( username = 'liang' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant retrun - assumed 'retrun' D:\wamp\www\WesternFilms\Apps\Home\Model\UserModel.class.php 第 69 行.
+
+[ 2015-05-06T17:07:38+08:00 ] 127.0.0.1 /westernfilms/index.php/Home/user/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_user` WHERE ( username = 'liang' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant retrun - assumed 'retrun' D:\wamp\www\WesternFilms\Apps\Home\Model\UserModel.class.php 第 69 行.
+
+[ 2015-05-06T17:08:01+08:00 ] 127.0.0.1 /westernfilms/index.php/Home/user/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_user` WHERE ( username = 'liang' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant retrun - assumed 'retrun' D:\wamp\www\WesternFilms\Apps\Home\Model\UserModel.class.php 第 70 行.
+
+[ 2015-05-06T17:08:14+08:00 ] 127.0.0.1 /westernfilms/index.php/Home/user/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_user` WHERE ( username = 'liang' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-05-06T17:08:33+08:00 ] 127.0.0.1 /westernfilms/index.php/Home/user/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_user` WHERE ( username = 'liang' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-05-06T17:08:59+08:00 ] 127.0.0.1 /westernfilms/index.php/Home/user/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-06T17:09:14+08:00 ] 127.0.0.1 /westernfilms/index.php/Home/user/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `west_user` WHERE ( username = 'liang' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant retrun - assumed 'retrun' D:\wamp\www\WesternFilms\Apps\Home\Model\UserModel.class.php 第 69 行.
+
+[ 2015-05-06T17:10:02+08:00 ] 127.0.0.1 /westernfilms/index.php/Home/user/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_user` WHERE ( username = 'liang' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant retrun - assumed 'retrun' D:\wamp\www\WesternFilms\Apps\Home\Model\UserModel.class.php 第 71 行.
+
+[ 2015-05-06T17:10:22+08:00 ] 127.0.0.1 /westernfilms/index.php/Home/user/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_user` WHERE ( username = 'liang' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-05-06T17:10:32+08:00 ] 127.0.0.1 /westernfilms/index.php/Home/user/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_user` WHERE ( username = 'liang' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-05-06T17:10:41+08:00 ] 127.0.0.1 /westernfilms/index.php/Home/user/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_user` WHERE ( username = 'zhang' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0040s ]
+SQL: INSERT INTO `west_user` (`username`,`password`,`group`,`status`,`modify_time`) VALUES ('zhang','21232f297a57a5a743894a0e4a801fc3','user','0','1430903441') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_company` WHERE ( name = '2liang Films company' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-05-06T17:10:56+08:00 ] 127.0.0.1 /westernfilms/index.php/Home/user/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_user` WHERE ( username = 'zhang' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0040s ]
+SQL: INSERT INTO `west_user` (`username`,`password`,`group`,`status`,`modify_time`) VALUES ('zhang','21232f297a57a5a743894a0e4a801fc3','user','0','1430903456') [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_company` WHERE ( name = 'zhang Films company' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0030s ]
+SQL: INSERT INTO `west_company` (`user_id`,`name`,`mail`,`tel`,`modify_time`) VALUES ('6','zhang Films company','2liang@qq.com','12356256','1430903456') [ RunTime:0.0010s ]
+
+[ 2015-05-06T17:29:00+08:00 ] 127.0.0.1 /westernfilms/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-06T17:29:21+08:00 ] 127.0.0.1 /westernfilms/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-06T17:29:44+08:00 ] 127.0.0.1 /westernfilms/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_user` WHERE `username` = 'zhang' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-05-06T17:31:03+08:00 ] 127.0.0.1 /westernfilms/index.php/Home/user/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_user` WHERE ( username = 'zhang' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-05-06T17:31:23+08:00 ] 127.0.0.1 /westernfilms/index.php/Home/user/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_user` WHERE ( username = 'zhang' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-05-06T17:31:42+08:00 ] 127.0.0.1 /westernfilms/index.php/Home/user/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_user` WHERE ( username = 'he' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0030s ]
+SQL: INSERT INTO `west_user` (`username`,`password`,`group`,`status`,`modify_time`) VALUES ('he','21232f297a57a5a743894a0e4a801fc3','user','0','1430904702') [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_company` WHERE ( name = 'nihao' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0030s ]
+SQL: INSERT INTO `west_company` (`user_id`,`name`,`mail`,`tel`,`modify_time`) VALUES ('7','nihao','hellow@qq.com','1454547','1430904702') [ RunTime:0.0000s ]
+
+[ 2015-05-06T17:31:58+08:00 ] 127.0.0.1 /westernfilms/index.php/Home/user/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_user` WHERE ( username = 'li' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0040s ]
+SQL: INSERT INTO `west_user` (`username`,`password`,`group`,`status`,`modify_time`) VALUES ('li','21232f297a57a5a743894a0e4a801fc3','user','0','1430904718') [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_company` WHERE ( name = 'nihao' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-05-06T17:32:09+08:00 ] 127.0.0.1 /westernfilms/index.php/Home/user/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_user` WHERE ( username = 'li' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0050s ]
+SQL: INSERT INTO `west_user` (`username`,`password`,`group`,`status`,`modify_time`) VALUES ('li','21232f297a57a5a743894a0e4a801fc3','user','0','1430904729') [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_company` WHERE ( name = 'nihaoa' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0040s ]
+SQL: INSERT INTO `west_company` (`user_id`,`name`,`mail`,`tel`,`modify_time`) VALUES ('9','nihaoa','hellow@qq.com','1454547','1430904729') [ RunTime:0.0000s ]
+
+[ 2015-05-06T17:32:26+08:00 ] 127.0.0.1 /westernfilms/index.php/Home/user/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: company_name D:\wamp\www\WesternFilms\Apps\Home\Controller\UserController.class.php 第 37 行.
+NOTIC: [8] Undefined index: company_mail D:\wamp\www\WesternFilms\Apps\Home\Controller\UserController.class.php 第 38 行.
+NOTIC: [8] Undefined index: company_tel D:\wamp\www\WesternFilms\Apps\Home\Controller\UserController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_user` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2015-05-06T17:32:34+08:00 ] 127.0.0.1 /westernfilms/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-05-06T17:32:48+08:00 ] 127.0.0.1 /westernfilms/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-05-06T17:38:32+08:00 ] 127.0.0.1 /westernfilms/index.php/Home/user/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\WesternFilms\Apps\Home\Controller\BaseController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-06T17:38:38+08:00 ] 127.0.0.1 /westernfilms/index.php/Home/user/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-05-06T17:38:42+08:00 ] 127.0.0.1 /westernfilms/index.php/Home/user/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2015-05-06T17:38:49+08:00 ] 127.0.0.1 /westernfilms/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `west_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2015-05-06T17:38:53+08:00 ] 127.0.0.1 /westernfilms/index.php/Home/user/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\WesternFilms\Apps\Home\Controller\BaseController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-06T20:04:05+08:00 ] 127.0.0.1 /westernfilms/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-05-06T20:04:11+08:00 ] 127.0.0.1 /westernfilms/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_user` WHERE `username` = 'liang' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-05-06T20:11:47+08:00 ] 127.0.0.1 /westernfilms/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `west_user` WHERE `username` = 'liang' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-05-06T20:13:32+08:00 ] 127.0.0.1 /westernfilms/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: username D:\wamp\www\WesternFilms\Apps\Home\Controller\UserController.class.php 第 90 行.
+NOTIC: [8] Undefined index: password D:\wamp\www\WesternFilms\Apps\Home\Controller\UserController.class.php 第 91 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_user` WHERE `username` = null LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-05-06T20:13:47+08:00 ] 127.0.0.1 /westernfilms/index.php/Home/user/editInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\WesternFilms\Apps\Home\Controller\BaseController.class.php 第 20 行.
+NOTIC: [8] Undefined index: company_mail D:\wamp\www\WesternFilms\Apps\Home\Controller\UserController.class.php 第 236 行.
+NOTIC: [8] Undefined index: company_tel D:\wamp\www\WesternFilms\Apps\Home\Controller\UserController.class.php 第 237 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0040s ]
+SQL: UPDATE `west_company` SET `mail`=NULL,`tel`=NULL,`introduction`='xiaoxiao',`banner_url`='asf',`modify_time`='1430914427' WHERE ( user_id = '2' ) [ RunTime:0.0330s ]
+
+[ 2015-05-06T20:14:58+08:00 ] 127.0.0.1 /westernfilms/index.php/Home/user/editInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\WesternFilms\Apps\Home\Controller\BaseController.class.php 第 20 行.
+NOTIC: [8] Undefined index: wechar_url D:\wamp\www\WesternFilms\Apps\Home\Controller\UserController.class.php 第 238 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0050s ]
+SQL: UPDATE `west_company` SET `mail`='xiao@qq.com',`tel`='123456',`wechat_url`=NULL,`introduction`='xiaoxiao',`banner_url`='asf',`modify_time`='1430914498' WHERE ( user_id = '2' ) [ RunTime:0.0450s ]
+
+[ 2015-05-06T20:15:31+08:00 ] 127.0.0.1 /westernfilms/index.php/Home/user/editInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\WesternFilms\Apps\Home\Controller\BaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0030s ]
+SQL: UPDATE `west_company` SET `mail`='xiao@qq.com',`tel`='123456',`wechat_url`='abc',`introduction`='xiaoxiao',`banner_url`='asf',`modify_time`='1430914531' WHERE ( user_id = '2' ) [ RunTime:0.0550s ]
+
+[ 2015-05-06T20:35:15+08:00 ] 127.0.0.1 /westernfilms/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+

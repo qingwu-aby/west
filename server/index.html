@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title></title>
+</head>
+<body>
+
+	<input id="images" type="file" name="filename" />
+	<input id="button" type="button" value="提交" >
+
+<script type="text/javascript" src="./jquery.js"></script>
+<script type="text/javascript" src="./ajaxfileupload.js"></script>
+<script type="text/javascript">
+	window.onload=function(){
+
+		$(document).on('click','#button',function(){
+			// var img=$('#images').attr('name');
+
+			// var xmlHttp=null;
+	  //       if(window.XMLHttpRequest){
+	  //           xmlHttp=new XMLHttpRequest();
+	  //       }else{
+	  //           xmlHttp=new ActiveXObject('Microsoft.XMLHTTP');
+	  //       }
+
+	  //       //onreadystatechange事件触发
+	  //       xmlHttp.onreadystatechange=function(){
+	  //           if(xmlHttp.readyState==4){
+	  //               if(xmlHttp.status==200){
+	  //                   var res=JSON.parse(xmlHttp.responseText);
+	  //                   alert(res.msg);
+	  //               }
+	  //           }
+	  //       };
+
+	  //       //发送请求
+	  //       xmlHttp.open('post', './index.php/User/Api/upload', true);
+	  //       xmlHttp.setRequestHeader("Content-type","multipart/form-data");
+	  //       xmlHttp.send('filename');
+
+			$.ajaxFileUpload({
+				type: 'post',
+				url: './index.php/User/Api/upload',
+				secureuri: false, //是否需要安全协议，一般设置为false
+                fileElementId: 'images', //文件上传域的ID
+				dataType: 'json',
+				data: {filename: 'filename'},
+				success: function(data){
+					alert(data.msg+',');
+				}
+			});
+		});
+	};
+</script>
+</body>
+</html>

@@ -1,0 +1,310 @@
+.header-title{
+	width: 450px;
+}
+.content-son-con{
+	overflow: hidden;
+}
+.header-show{
+	position: absolute;
+	top: 15px;
+	right: 20px;
+	height: 30px;
+	width: 80px;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	border-radius: 30px;
+}
+.user-list-sty{
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 10px;
+	overflow: hidden;
+	height: auto;
+	margin-bottom: 20px;
+	position: relative;
+	border: 1px solid #fff;
+}
+.user-list-sty:hover{
+	border: 1px solid #3ccaff;
+}
+.user-list-logo{
+	height: 40px;
+	width: 180px;
+	margin: 10px;
+	float: left;
+}
+.user-list-img{
+	height: 60px;
+	width: 270px;
+	float: left;
+	margin-right: 20px;
+}
+.user-list-control{
+	position: absolute;
+	left: 10px;
+	bottom: 10px;
+	cursor: pointer;
+	color: red;
+}
+.user-del:hover,.user-1:hover,.user-2:hover,.user-3:hover{
+	color: #999;
+}
+.user-list-mess{
+	text-align: left;
+	overflow: hidden;
+	background-color: #eee;
+	height: auto;
+	min-height: 60px;
+	border-radius: 5px;
+	padding: 10px;
+}
+.user-mess-sty{
+	color: #3ccaff;
+	font-size: 14px;
+	line-height: 20px;
+}
+.user-mess-content{
+	color: #666;
+}
+
+
+
+
+/*links*/
+.content-links{
+	margin-top: 60px;
+	padding: 30px 50px;
+}
+.show-main-links{
+	position: relative;
+	float: left;
+	margin: 10px;
+	padding: 5px 10px;
+	border-radius: 5px;
+	overflow: hidden;
+}
+.links-img{
+	height: 60px;
+	width: 200px;
+}
+.show-main-links:hover{
+	background: rgba(0,0,0,0.1);
+}
+.show-main-links:hover .delete_links{
+	display: block;
+}
+.delete_links{
+	padding: 5px 10px;
+	position: absolute;
+	background: rgba(0,0,0,0.1);
+	top: 0px;
+	right: 0px;
+	display: none;
+	cursor: pointer;
+}
+.delete_links:hover{
+	color: red;
+}
+/**/
+.content-links{
+	position: relative;
+}
+.mess-window{
+	z-index: 800;
+	padding: 50px 30px 20px 30px;
+	height: auto;
+	min-height: 200px;
+	width: 380px;
+	background: #fff;
+	border-radius: 5px;
+	position: absolute;
+	top: 100px;
+	left: 50%;
+	margin-left: -220px;
+	border: 1px solid #ccc;
+	display: none;
+}
+.close-window{
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	color: red;
+	cursor: pointer;
+}
+.close-window:hover{
+	color: #999;
+}
+.show-main-links:hover .showLinks-window{
+	display: block;
+}
+.showLinks-window{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 220px;
+	padding: 3px 0;
+	display: none;
+	background: rgba(0,0,0,0.1);
+}
+.showLinks-window:hover{
+	color: red;
+}
+.films-message-con{
+	text-align: left;
+	line-height: 24px;
+}
+
+/*films*/
+.content-films{
+	margin-top: 60px;
+	padding: 30px 50px;
+}
+.content-films-con{
+	overflow: hidden;
+}
+.content-films-list{
+	border: 1px solid #eee;
+	float: left;
+	background: #fff;
+	border-radius: 5px;
+	padding: 10px;
+	color: #666;
+	margin: 10px;
+	position: relative;
+	overflow: hidden;
+}
+.content-films-list:hover{
+	border: 1px solid #3ccaff;
+}
+.films-image-sty{
+	height: 150px;
+	width: 120px;
+}
+.films-title-sty{
+	margin-top: 10px;
+	width: 120px;
+	overflow: hidden;
+	height: 40px;
+	line-height: 20px;
+}
+.films-delete-update{
+	margin-bottom: 5px;
+	text-align: right;
+	color: red;
+}
+.update_films:hover,.delete_films:hover,.show_films:hover{
+	color: #666;
+}
+.delete_films,.show_films{
+	cursor: pointer;
+}
+
+.user-mess-id{
+	background: rgba(0,0,0,0.1);
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	padding: 5px 0;
+	width: 100%;
+	display: none;
+}
+.user-mess-id:hover{
+	color: red;
+}
+.content-films-list:hover .user-mess-id{
+	display: block;
+}
+
+/*news*/
+#news_window{
+	border: 1px solid #ccc;
+}
+.update-textarea{
+	height: auto;
+	min-height: 140px;
+	width: 440px;
+	padding: 5px;
+}
+.show-main-list{
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 20px;
+	position: relative;
+	margin-bottom: 20px;
+	border: 1px solid #fff;
+}
+.show-main-list:hover{
+	border: 1px solid #3ccaff;
+}
+.show-list-thum{
+	height: 98px;
+	width: 140px;
+	float: left;
+	margin-right: 20px;
+}
+.show-list-right{
+	height: auto;
+	min-height: 100px;
+	overflow: hidden;
+	text-align: left;
+}
+.title-list-link{
+	color: #3ccaff;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 26px;
+}
+.content-list-con{
+	margin: 10px 0;
+	line-height: 24px;
+}
+.content-list-mess{
+	overflow: hidden;
+}
+.content-mess-con{
+	float: right;
+	padding: 0 20px;
+}
+.delete-update{
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	color: red;
+	cursor: pointer;
+}
+.update_news:hover,.delete_news:hover{
+	color: #999;
+}
+.home-news-col{
+	padding: 10px;
+	background-color: #eee;
+	border-radius: 5px;
+	float: left;
+	margin: 10px;
+	width: 200px;
+	height: 200px;
+	border: 1px solid #fff;
+}
+.home-news-col:hover{
+	border: 1px solid #3ccaff;
+}
+
+.page-war{
+	display: inline-block;
+	margin: 0 auto;
+}
+.page-list{
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	width: 40px;
+	background: #fff;
+	border: 1px solid #ddd;
+	float: left;
+	margin: 0 5px;
+	cursor: pointer;
+}
+
+.show-news-con,.content-films-con{
+	display: none;
+}

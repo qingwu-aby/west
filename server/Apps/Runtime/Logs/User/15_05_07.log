@@ -1,0 +1,131 @@
+[ 2015-05-07T09:20:05+08:00 ] 127.0.0.1 /westernfilms/index.php/User/news/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-07T09:42:59+08:00 ] 127.0.0.1 /westernfilms/index.php/User/news/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_log` [ RunTime:0.0030s ]
+
+[ 2015-05-07T09:43:51+08:00 ] 127.0.0.1 /westernfilms/index.php/User/news/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `west_log` [ RunTime:0.0030s ]
+
+[ 2015-05-07T09:44:49+08:00 ] 127.0.0.1 /westernfilms/index.php/User/news/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: result D:\wamp\www\WesternFilms\Apps\Common\Common\function.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-07T09:45:09+08:00 ] 127.0.0.1 /westernfilms/index.php/User/news/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_log` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: result D:\wamp\www\WesternFilms\Apps\Common\Common\function.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-07T09:45:32+08:00 ] 127.0.0.1 /westernfilms/index.php/User/news/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_log` [ RunTime:0.0030s ]
+SQL: INSERT INTO `west_log` (`uid`,`type`,`target`,`target_id`,`modify_time`) VALUES ('1','edit','news','1','1430963132') [ RunTime:0.0530s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2015-05-07T10:40:27+08:00 ] 127.0.0.1 /westernfilms/index.php/User/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_user` WHERE `username` = 'liang' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-05-07T10:42:23+08:00 ] 127.0.0.1 /westernfilms/index.php/User/news/addNews
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\WesternFilms\Apps\User\Controller\BaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `west_news` [ RunTime:0.0050s ]
+SQL: INSERT INTO `west_news` (`uid`,`title`,`big_img`,`thumbnail`,`content`,`release_time`,`modify_time`) VALUES ('2','hello world','http://www.xyz.com/1.jpg','sdlfkjaskdf','kdilsdfklajsdklfjaksdjfklasdjfklajskldfjklasdjfklajskdfjaklsdjfkajsdkfljaksldfj','1430966543','1430966543') [ RunTime:0.0410s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::ajaxReturn(), called in D:\wamp\www\WesternFilms\Apps\User\Controller\NewsController.class.php on line 60 and defined D:\wamp\www\WesternFilms\Think\Library\Think\Controller.class.php 第 210 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\WesternFilms\Think\Library\Think\Controller.class.php 第 216 行.
+
+[ 2015-05-07T10:43:36+08:00 ] 127.0.0.1 /westernfilms/index.php/User/news/addNews
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\WesternFilms\Apps\User\Controller\BaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `west_news` [ RunTime:0.0030s ]
+SQL: INSERT INTO `west_news` (`uid`,`title`,`big_img`,`thumbnail`,`summary`,`content`,`release_time`,`modify_time`) VALUES ('2','asdfasdfasd','http://www.xyz.com/1.jpg','http://www.xyz.com/2.jpg','sdlfkjaskdf','kdilsdfklajsdklfjaksdjfklasdjfklajskldfjklasdjfklajskdfjaklsdjfkajsdkfljaksldfj','1430966616','1430966616') [ RunTime:0.0530s ]
+SQL: SHOW COLUMNS FROM `west_log` [ RunTime:0.0040s ]
+SQL: INSERT INTO `west_log` (`uid`,`type`,`target`,`target_id`,`modify_time`) VALUES ('2','add','news','2','1430966616') [ RunTime:0.0730s ]
+
+[ 2015-05-07T10:44:16+08:00 ] 127.0.0.1 /westernfilms/index.php/User/news/editNews
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\WesternFilms\Apps\User\Controller\BaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `west_news` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_news` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `west_news` SET `title`='bbbbbbbbbb',`big_img`='http://www.xyz.com/1.jpg',`thumbnail`='sdlfkjaskdf',`content`='kdilsdfklajsdklfjaksdjfklasdjfklajskldfjklasdjfklajskdfjaklsdjfkajsdkfljaksldfj',`modify_time`='1430966656' WHERE ( id = 2 ) [ RunTime:0.0360s ]
+SQL: SHOW COLUMNS FROM `west_log` [ RunTime:0.0030s ]
+SQL: INSERT INTO `west_log` (`uid`,`type`,`target`,`target_id`,`modify_time`) VALUES ('2','edit','news','2','1430966656') [ RunTime:0.0260s ]
+
+[ 2015-05-07T10:44:51+08:00 ] 127.0.0.1 /westernfilms/index.php/User/news/delNews
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\WesternFilms\Apps\User\Controller\BaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `west_news` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_news` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `west_news` WHERE ( id = 1 ) [ RunTime:0.0380s ]
+SQL: SHOW COLUMNS FROM `west_log` [ RunTime:0.0040s ]
+SQL: INSERT INTO `west_log` (`uid`,`type`,`target`,`target_id`,`modify_time`) VALUES ('2','del','news','1','1430966691') [ RunTime:0.0360s ]
+

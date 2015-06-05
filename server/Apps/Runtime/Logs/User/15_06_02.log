@@ -1,0 +1,401 @@
+[ 2015-06-02T11:06:56+08:00 ] 127.0.0.1 /WesternFilms/server/index.php/User/user/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012119s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012304s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.1063s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `west_user` WHERE ( username = 'xxx' ) LIMIT 1   [ RunTime:0.1798s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0106s ]
+SQL: INSERT INTO `west_user` (`username`,`password`,`group`,`status`,`modify_time`) VALUES ('xxx','f561aaf6ef0bf14d4208bb46a4ccb3ad','user','0','1433214416') [ RunTime:0.1523s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0701s ]
+SQL: SELECT * FROM `west_company` WHERE ( name = 'xxx' ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0107s ]
+SQL: INSERT INTO `west_company` (`uid`,`name`,`mail`,`tel`,`modify_time`) VALUES ('26','xxx','xxx','','1433214416') [ RunTime:0.0009s ]
+
+[ 2015-06-02T11:07:24+08:00 ] 127.0.0.1 /WesternFilms/server/index.php/User/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000994s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `west_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2015-06-02T11:07:40+08:00 ] 127.0.0.1 /WesternFilms/server/index.php/User/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000950s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001514s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `west_user` WHERE `username` = 'ztf' LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2015-06-02T11:07:53+08:00 ] 127.0.0.1 /WesternFilms/server/index.php/User/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000835s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001442s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `west_user` WHERE `username` = 'xxx' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2015-06-02T11:08:10+08:00 ] 127.0.0.1 /WesternFilms/server/index.php/User/videos/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001127s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002306s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\User\Controller\BaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0068s ]
+SQL: INSERT INTO `west_videos` (`uid`,`title`,`url`,`pic`,`status`,`modify_time`) VALUES ('26','fff','fff','./uploads/20150602/20150602030805_61973.png','1','1433214489') [ RunTime:0.2820s ]
+SQL: SHOW COLUMNS FROM `west_log` [ RunTime:0.0252s ]
+SQL: INSERT INTO `west_log` (`uid`,`type`,`target`,`target_id`,`target_name`,`modify_time`) VALUES ('26','add','video','47','fff','1433214490') [ RunTime:0.2062s ]
+
+[ 2015-06-02T11:08:31+08:00 ] 127.0.0.1 /WesternFilms/server/index.php/User/news/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003385s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\User\Controller\BaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `west_news` [ RunTime:0.0081s ]
+SQL: INSERT INTO `west_news` (`uid`,`title`,`big_img`,`thumbnail`,`summary`,`source`,`author`,`content`,`release_time`,`status`,`modify_time`) VALUES ('26','fff','no','./uploads/20150602/20150602030826_57307.png','fff','','fff','fff','1433214511','1','1433214511') [ RunTime:0.1201s ]
+SQL: SHOW COLUMNS FROM `west_log` [ RunTime:0.0111s ]
+SQL: INSERT INTO `west_log` (`uid`,`type`,`target`,`target_id`,`target_name`,`modify_time`) VALUES ('26','add','news','43','fff','1433214511') [ RunTime:0.0651s ]
+
+[ 2015-06-02T11:08:59+08:00 ] 127.0.0.1 /WesternFilms/server/index.php/User/links/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000899s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002023s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\User\Controller\BaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `west_links` [ RunTime:0.0067s ]
+SQL: INSERT INTO `west_links` (`uid`,`name`,`logo`,`info`,`status`,`modify_time`) VALUES ('26','fff','./uploads/20150602/20150602030856_99313.png','ffff','1','1433214539') [ RunTime:0.0791s ]
+SQL: SHOW COLUMNS FROM `west_log` [ RunTime:0.0102s ]
+SQL: INSERT INTO `west_log` (`uid`,`type`,`target`,`target_id`,`target_name`,`modify_time`) VALUES ('26','add','links','38','fff','1433214539') [ RunTime:0.0661s ]
+
+[ 2015-06-02T11:09:30+08:00 ] 127.0.0.1 /WesternFilms/server/index.php/User/user/editInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000937s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001307s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\User\Controller\BaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0044s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0045s ]
+SQL: UPDATE `west_company` SET `uid`='26',`mail`='xxx',`tel`='155555555555',`wechat_url`='./uploads/20150602/20150602030917_63404.png',`introduction`='555555555',`banner_url`='./uploads/20150602/20150602030911_28124.png',`modify_time`='1433214569' WHERE ( uid = '26' ) [ RunTime:0.0891s ]
+
+[ 2015-06-02T11:09:42+08:00 ] 127.0.0.1 /WesternFilms/server/index.php/User/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000925s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `west_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-06-02T11:26:14+08:00 ] 127.0.0.1 /WesternFilms/server/index.php/User/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000925s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001010s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001095s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0440s ]
+SQL: SELECT * FROM `west_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2015-06-02T11:26:34+08:00 ] 127.0.0.1 /WesternFilms/server/index.php/User/user/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001022s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001571s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0077s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `west_user` WHERE ( username = 'zzz' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0077s ]
+SQL: INSERT INTO `west_user` (`username`,`password`,`group`,`status`,`modify_time`) VALUES ('zzz','f3abb86bd34cf4d52698f14c0da1dc60','user','0','1433215594') [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `west_company` WHERE ( name = 'zzz' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0081s ]
+SQL: INSERT INTO `west_company` (`uid`,`name`,`mail`,`tel`,`modify_time`) VALUES ('27','zzz','zzz','','1433215594') [ RunTime:0.0005s ]
+
+[ 2015-06-02T11:26:42+08:00 ] 127.0.0.1 /WesternFilms/server/index.php/User/user/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001501s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0119s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `west_user` WHERE ( username = 'aaa' ) LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2015-06-02T11:26:58+08:00 ] 127.0.0.1 /WesternFilms/server/index.php/User/user/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000863s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001440s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0071s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `west_user` WHERE ( username = 'aaa' ) LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2015-06-02T11:26:59+08:00 ] 127.0.0.1 /WesternFilms/server/index.php/User/user/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000982s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001440s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0069s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `west_user` WHERE ( username = 'aaa' ) LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2015-06-02T11:27:00+08:00 ] 127.0.0.1 /WesternFilms/server/index.php/User/user/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000974s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001435s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0064s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `west_user` WHERE ( username = 'aaa' ) LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2015-06-02T11:27:00+08:00 ] 127.0.0.1 /WesternFilms/server/index.php/User/user/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000978s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001435s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0068s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `west_user` WHERE ( username = 'aaa' ) LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2015-06-02T11:27:00+08:00 ] 127.0.0.1 /WesternFilms/server/index.php/User/user/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000981s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001440s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0108s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `west_user` WHERE ( username = 'aaa' ) LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2015-06-02T11:27:01+08:00 ] 127.0.0.1 /WesternFilms/server/index.php/User/user/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001005s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001444s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0069s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `west_user` WHERE ( username = 'aaa' ) LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2015-06-02T11:27:11+08:00 ] 127.0.0.1 /WesternFilms/server/index.php/User/user/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001798s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0065s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `west_user` WHERE ( username = 'aaa' ) LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2015-06-02T11:27:12+08:00 ] 127.0.0.1 /WesternFilms/server/index.php/User/user/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000979s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001441s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0068s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `west_user` WHERE ( username = 'aaa' ) LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2015-06-02T11:27:12+08:00 ] 127.0.0.1 /WesternFilms/server/index.php/User/user/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000984s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001437s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0069s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `west_user` WHERE ( username = 'aaa' ) LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2015-06-02T11:27:12+08:00 ] 127.0.0.1 /WesternFilms/server/index.php/User/user/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000981s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001445s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `west_user` WHERE ( username = 'aaa' ) LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2015-06-02T11:27:12+08:00 ] 127.0.0.1 /WesternFilms/server/index.php/User/user/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000987s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001442s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0067s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `west_user` WHERE ( username = 'aaa' ) LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2015-06-02T11:27:12+08:00 ] 127.0.0.1 /WesternFilms/server/index.php/User/user/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000978s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001438s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0069s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `west_user` WHERE ( username = 'aaa' ) LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2015-06-02T11:27:13+08:00 ] 127.0.0.1 /WesternFilms/server/index.php/User/user/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000979s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001441s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0068s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `west_user` WHERE ( username = 'aaa' ) LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2015-06-02T11:27:13+08:00 ] 127.0.0.1 /WesternFilms/server/index.php/User/user/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000961s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001338s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0069s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `west_user` WHERE ( username = 'aaa' ) LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2015-06-02T11:27:13+08:00 ] 127.0.0.1 /WesternFilms/server/index.php/User/user/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000562s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `west_user` WHERE ( username = 'aaa' ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-06-02T11:27:13+08:00 ] 127.0.0.1 /WesternFilms/server/index.php/User/user/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `west_user` WHERE ( username = 'aaa' ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-06-02T11:27:24+08:00 ] 127.0.0.1 /WesternFilms/server/index.php/User/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000654s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000955s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `west_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2015-06-02T11:28:25+08:00 ] 127.0.0.1 /WesternFilms/server/index.php/User/user/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000937s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0065s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `west_user` WHERE ( username = 'mmm' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0066s ]
+SQL: INSERT INTO `west_user` (`username`,`password`,`group`,`status`,`modify_time`) VALUES ('mmm','c4efd5020cb49b9d3257ffa0fbccc0ae','user','0','1433215705') [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `west_company` WHERE ( name = 'mmm' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0065s ]
+SQL: INSERT INTO `west_company` (`uid`,`name`,`mail`,`tel`,`modify_time`) VALUES ('28','mmm','mmm','','1433215705') [ RunTime:0.0005s ]
+
+[ 2015-06-02T11:28:29+08:00 ] 127.0.0.1 /WesternFilms/server/index.php/User/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000968s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `west_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2015-06-02T11:34:27+08:00 ] 127.0.0.1 /WesternFilms/server/index.php/User/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000674s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000968s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `west_user` WHERE `username` = 'mmm' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2015-06-02T11:34:54+08:00 ] 127.0.0.1 /WesternFilms/server/index.php/User/user/editInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000855s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001389s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\User\Controller\BaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0044s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0043s ]
+SQL: UPDATE `west_company` SET `uid`='28',`mail`='mmm',`tel`='55555',`wechat_url`='./uploads/20150602/20150602033448_53225.png',`introduction`='55555',`banner_url`='./uploads/20150602/20150602033442_81468.png',`modify_time`='1433216094' WHERE ( uid = '28' ) [ RunTime:0.1043s ]
+
+[ 2015-06-02T11:35:03+08:00 ] 127.0.0.1 /WesternFilms/server/index.php/User/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002424s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `west_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2015-06-02T20:40:05+08:00 ] 127.0.0.1 /WesternFilms/server/index.php/User/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010412s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0626s ]
+SQL: SELECT * FROM `west_user` WHERE `username` = 'ztf' LIMIT 1   [ RunTime:0.0137s ]
+

@@ -1,0 +1,80 @@
+<!Doctype html>
+<!--[if IE 8 ]><html lang="en" class="ie8"><![endif]-->
+<!--[if IE 9 ]><html lang="en" class="ie9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<title>陕西省影视产业管理平台系统</title>
+	<link rel="shortcut icon" type="image/x-icon" href="./images/ico.ico"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link type="text/css" rel="stylesheet" href="./css/reset.css" />
+	<link type="text/css" rel="stylesheet" href="./css/common.css" />
+	<link type="text/css" rel="stylesheet" href="./css/style.css" />
+	<script type="text/javascript" src="./js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		// var link=window.location.search;
+  //       var index=link.split('?')[1];
+  //       var oUid = index.substr(4);
+		
+		$.ajax({
+	        type: 'get',
+	        async:false,
+	        url: 'server/index.php?m=Home&c=index&a=getCompany',
+	        data: {uid: 13},
+	        dataType: 'json',
+	        success: function(data){
+                    var res =data.data; 
+	            	var str = '<a href="index.php"><img src="'+res.banner_url.substr(1)+'"/></a>';
+	        		$("#logo").append(str);
+	        }
+	    })
+
+	});
+	</script>
+	<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+	<header>
+		<div class="war">
+			<div id="logo" class="logo_pic">
+				 <!-- <a href="http://localhost/WesternFilms/show/">
+					<img class="logo_pic" src="./images/logo_pic.png"返回首页 alt="" /> </a> -->
+			</div>
+			<div class="login_frame">
+				<a href="./login.php">登录</a><li class="line"> | </li><a href="./regist.php">注册</a>
+			</div>
+		</div>
+	</header>
+	<nav>
+		<div class="war">
+			<ul class="nav-ul">
+				<li id="nav-list-1" class="nav-list on">
+					<a class="nav-href" href="./index.php">首页</a>
+				</li>
+				<li id="nav-list-2" class="nav-list">
+					<a class="nav-href" href="./situation.php">最新动态</a>
+				</li>
+				<li id="nav-list-3" class="nav-list">
+					<a class="nav-href" href="./films.php">影视作品</a>
+				</li>
+				
+				<li id="nav-list-5" class="nav-list">
+					<a class="nav-href" href="./link.php">友情链接</a>
+				</li>
+				<li id="nav-list-6" class="nav-list">
+					<a class="nav-href" href="./amuse.php">娱乐营销</a>
+				</li>
+				<li id="nav-list-7" class="nav-list nosty">
+					<a class="nav-href" href="./about.php">关于我们</a>
+				</li>
+			</ul>
+		</div>
+	</nav>

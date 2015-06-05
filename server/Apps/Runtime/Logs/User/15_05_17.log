@@ -1,0 +1,121 @@
+[ 2015-05-17T16:24:20+08:00 ] 127.0.0.1 /westernfilms/index.php/User/user/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0840s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_user` WHERE ( username = 'xiao' ) LIMIT 1   [ RunTime:0.0430s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0030s ]
+SQL: INSERT INTO `west_user` (`username`,`password`,`group`,`status`,`modify_time`) VALUES ('xiao','d2bf7126723ea8f6005ba141ea3c3e2c','user','0','1431851060') [ RunTime:0.0180s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0370s ]
+SQL: SELECT * FROM `west_company` WHERE ( name = 'xxxxxxx' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: user_id D:\wamp\www\WesternFilms\Apps\User\Model\UserModel.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0090s ]
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'uid' cannot be null
+
+[ 2015-05-17T16:25:50+08:00 ] 127.0.0.1 /westernfilms/index.php/User/user/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_user` WHERE ( username = 'xiao' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0020s ]
+SQL: INSERT INTO `west_user` (`username`,`password`,`group`,`status`,`modify_time`) VALUES ('xiao','d2bf7126723ea8f6005ba141ea3c3e2c','user','0','1431851150') [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_company` WHERE ( name = 'xxxxxxx' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0030s ]
+SQL: INSERT INTO `west_company` (`uid`,`name`,`mail`,`tel`,`modify_time`) VALUES ('11','xxxxxxx','xa@qq.com','1254521','1431851150') [ RunTime:0.0010s ]
+
+[ 2015-05-17T16:31:35+08:00 ] 127.0.0.1 /westernfilms/index.php/User/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `west_user` WHERE `username` = 'xiao' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-05-17T16:31:48+08:00 ] 127.0.0.1 /westernfilms/index.php/User/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `west_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-05-17T16:36:02+08:00 ] 127.0.0.1 /westernfilms/index.php/User/user/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-05-17T16:37:57+08:00 ] 127.0.0.1 /westernfilms/index.php/User/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_user` WHERE `username` = 'liang' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-05-17T16:38:19+08:00 ] 127.0.0.1 /westernfilms/index.php/User/user/editPass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\WesternFilms\Apps\User\Controller\BaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_user` WHERE ( username = 'liang' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `west_user` SET `password`='900dfd999fc81642102bf60dffc12d5a' WHERE ( username = 'liang' ) [ RunTime:0.0380s ]
+
+[ 2015-05-17T16:41:29+08:00 ] 127.0.0.1 /westernfilms/index.php/User/Api/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: filename D:\wamp\www\WesternFilms\Apps\User\Controller\ApiController.class.php 第 24 行.
+NOTIC: [8] Undefined index: tmp_name D:\wamp\www\WesternFilms\Think\Library\Think\Upload.class.php 第 152 行.
+NOTIC: [2] finfo_file(): Empty filename or path D:\wamp\www\WesternFilms\Think\Library\Think\Upload.class.php 第 152 行.
+NOTIC: [8] Undefined index: error D:\wamp\www\WesternFilms\Think\Library\Think\Upload.class.php 第 269 行.
+NOTIC: [8] Undefined index: tmp_name D:\wamp\www\WesternFilms\Think\Library\Think\Upload.class.php 第 280 行.
+
+[ 2015-05-17T16:41:49+08:00 ] 127.0.0.1 /westernfilms/index.php/User/Api/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: filename D:\wamp\www\WesternFilms\Apps\User\Controller\ApiController.class.php 第 24 行.
+NOTIC: [8] Undefined index: tmp_name D:\wamp\www\WesternFilms\Think\Library\Think\Upload.class.php 第 152 行.
+NOTIC: [2] finfo_file(): Empty filename or path D:\wamp\www\WesternFilms\Think\Library\Think\Upload.class.php 第 152 行.
+NOTIC: [8] Undefined index: error D:\wamp\www\WesternFilms\Think\Library\Think\Upload.class.php 第 269 行.
+NOTIC: [8] Undefined index: tmp_name D:\wamp\www\WesternFilms\Think\Library\Think\Upload.class.php 第 280 行.
+
+[ 2015-05-17T16:42:50+08:00 ] 127.0.0.1 /westernfilms/index.php/User/Api/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\WesternFilms\Think\Library\Think\Upload.class.php 第 170 行.
+

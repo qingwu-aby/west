@@ -1,0 +1,124 @@
+html,body{
+    height: 100%;
+    min-height: 600px;
+    min-width: 1000px;
+    background: #e5f6ff url('../images/headerBg.png') top no-repeat;
+    background-size: 100%;
+    font-family: 'Microsoft JhengHei', Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif;
+    color: #000;
+	text-align: center;
+	overflow: hidden;
+	overflow-y: auto; 
+	position: relative;
+}
+
+header{
+	height: 50px;
+	width: 100%;
+	background: rgba(255,255,255,0.8);
+	border-bottom: 1px solid #ccc;
+}
+.header-title{
+	line-height: 50px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #333;
+}
+
+.main{
+	height: 500px;
+	width: 1000px;
+	overflow: hidden;
+	background: rgba(255,255,255,0);
+	border-radius: 10px;
+	box-shadow: 2px 2px 8px #ccc;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -500px;
+	margin-top: -250px;
+}
+.main-left{
+	float: left;
+	width: 660px;
+	height: 500px;
+	background: rgba(255,255,255,0.6);
+	padding: 0 20px;
+}
+.regist-title{
+	margin-top: 10px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #3CCAFF;
+	border-bottom: 2px solid #3CCAFF;
+}
+.form{
+	height: auto;
+	width: 400px;
+	margin: 30px auto 0 auto;
+}
+.input{
+	border: none;
+	border-bottom: 1px solid #bbb;
+	padding: 5px 5px 5px 5px;
+	width: 255px;
+	background: rgba(0,0,0,0);
+	margin-bottom: 30px;
+}
+.button{
+	width: 310px;
+	height: 40px;
+	border: none;
+	background: #3CCAFF;
+	color: #fff;
+	border-radius: 50px;
+	font-size: 16px;
+	font-weight: bold;
+}
+.main-right{
+	float: right;
+	width: 300px;
+	height: 500px;
+	background: rgba(0,0,0,0.1);
+}
+.logo{
+	height: 170px;
+	width: 200px;
+	margin: 60px auto 0 auto;
+	background: url('../images/logo.png') center center no-repeat;
+}
+.logo-title{
+	color: #3CCAFF;
+	font-size: 18px;
+	font-weight: bold;
+	position: relative;
+	height: 30px;
+	line-height: 30px;
+	top: 140px;
+}
+.button-right{
+	width: 200px;
+	height: 30px;
+	border: none;
+	background: #3CCAFF;
+	color: #fff;
+	border-radius: 50px;
+	margin: 50px 0;
+}
+.remark{
+	line-height: 20px;
+	width: 200px;
+	margin: 0 auto;
+	color: red;
+	text-align: left;
+}
+
+footer{
+	height: 50px;
+	line-height: 50px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}

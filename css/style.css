@@ -1,0 +1,306 @@
+/*首页CSS*/
+#zSlider {
+	margin: 0px auto;
+	width: 1000px;
+	height: 360px;
+	overflow: hidden;
+	margin-bottom: 20px;
+	position: relative;
+}
+#picshow {
+	position: relative;
+}
+#picshow,
+#picshow_img {
+	width: 680px;
+	height: 360px;
+	overflow: hidden;
+	float: left;
+}
+#pic_show_list li {
+	width: 680px;
+	height: 360px;
+	overflow: hidden;
+	float: left;
+	display: none;
+}
+#pic_show_list li img {
+	width: 680px;
+	height: 360px;
+}
+#picshow_tx {
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	width: 680px;
+	height: 60px;
+	overflow: hidden;
+}
+#picshow_tx li {
+	background: rgba(51,51,51,0.4);
+	padding: 5px 30px;
+	height: 60px;
+	color: #fff;
+	display: none;
+}
+#picshow_tx li a {
+	color: #fff;
+	font-size: 20px;
+}
+#picshow_tx li a:hover {
+	text-decoration: underline;
+}
+#picshow_tx li h3 {
+	margin: 13px 0;
+}
+#picshow_tx li p {
+	color: #ccc;
+	line-height: 16px;
+	height: 16px;
+	overflow: hidden;
+}
+#select_btn {
+	height: 360px;
+	color: #111;
+	float: right;
+	display: inline;
+	background-color: #2F9FC9;
+}
+#select_btn li {
+	padding: 9px 11px 0px 9px;
+	width: 300px;
+	height: 80.25px;
+	border-top: 1px solid #444;
+	cursor: pointer;
+}
+#select_btn li:hover {
+	background-color: #3CCAFF;
+}
+#select_btn li.current {
+	background-color: #3CCAFF;
+}
+#select_btn li.current:hover {
+	background-color: #3CCAFF;
+}
+#select_btn a {
+	color: #000;
+}
+#select_btn img {
+	padding: 2px;
+	background: #f0f0f0;
+	border: 1px solid #ccc;
+	width: 96px;
+	height: 60px;
+	margin-right: 10px;
+	float: left;
+}
+.select_text{
+	display: inline-block;
+	padding-bottom: 12px;
+}
+#select_btn .select_text {
+	height: 20px;
+	font: bold 13px/16px 'Microsoft YaHei';
+	overflow: hidden;
+	display: block;
+}
+#select_btn .select_text:hover {
+	text-decoration: underline;
+}
+#select_btn .select_date {
+	height: 23px;
+	line-height: 23px;
+	overflow: hidden;
+}
+#select_btn{
+	display: block;
+}
+.m{
+	width:1000px;
+	height: 360px;
+	position: relative;
+	margin-top: 20px;
+	margin-bottom: 25px;
+}
+.content-main{
+	font-size: 18px;
+	color: #458fbe;
+	overflow: hidden;
+	text-align: left;
+}
+.yMain-left{
+	float:left;
+	width:680px;
+	min-height: 600px;
+}
+
+.yMain-right{
+	padding-left: 20px;
+	overflow: hidden;
+}
+.row{
+	margin-bottom: -10000px;
+	padding-bottom: 10000px;
+}
+.news{
+	background:url(../images/sprite.png) no-repeat;
+	display: inline-block;
+	height:40px;
+	width:40px;
+	background-position:0 -40px;
+}
+.text{
+	font-weight: bold;
+}
+.summary_info{
+	font-size:14px;
+}
+#get_more{
+	color: #333;
+	font-size: 14px;
+}
+.get_more{
+	text-align: center;
+	padding-top: 15px;
+}
+.eng{
+	color: #b6b6b6;
+	font-size: 12px;
+}
+.more{
+	color: #333333;
+	float: right;
+	margin-top: 26px;
+	font-size: 14px;
+}
+.more:hover{
+	color:#458FBE;
+}
+.yMain-left hr{
+	width:640px;
+	margin-top:5px;
+	float:right;
+	right:10px;
+	border-top:1px solid #ceecff;
+}
+.list li{
+	padding: 25px 0;
+	list-style: none;
+}
+.img{
+	height: 150px;
+	width: 200px;	
+	float: left;
+}
+.img img{
+	height: 150px;
+	width: 200px;
+}
+.info{
+	height: 150px;
+	overflow: hidden;
+	color: #000000;
+}
+.info h4{
+	line-height: 20px;
+	color: #333333;
+	padding-left: 20px;
+}
+.info h4:hover{
+	color: #458FBE;
+}
+p{
+	text-indent: 2em;
+	color: #6e6e6e;
+	font-size: 14px;
+	margin: 10px 0 0 20px;
+	line-height: 20px;
+}
+.article{
+	border-radius: 3px;
+	height: 60px;
+	padding: 10px;
+	background: #fafafa;
+}
+.date{
+	font-size: 12px;
+	padding-top: 2px;
+	float: right;
+}
+
+.company{
+	background: url(../images/sprite.png) no-repeat;
+	display: inline-block;
+	height:40px;
+	width:40px;
+	background-position:0 -80px;
+}
+#summary_company{
+	padding-bottom: 20px;
+}
+.summary{
+	font-size: 14px;
+	text-indent: 2em;
+	color: #333;
+	padding: 0 25px 0 25px;
+	margin: 20px;
+}
+.yMain-right hr{
+	width: 280px;
+	margin-top:5px;
+	float:right;
+	right:10px;
+	border-top:1px solid #ceecff;
+}
+.film{
+	background: url(../images/sprite.png) no-repeat;
+	display: inline-block;
+	height:40px;
+	width:40px;
+	background-position:0 0;
+}
+.thumbnail ul{
+	overflow: hidden;
+	width: 300px;
+}
+
+.Thum{
+	float: left;
+	padding-top: 20px;
+}
+.Thum img{
+	width: 80px;
+	height: 100px;
+	padding-right: 10px;
+}
+.Thum_center{
+	margin:0 18px;
+}
+.name{
+	font-size: 12px;
+	text-align: center;
+	margin-top: 4px;
+	color: #000;
+	
+	width: 80px;
+}
+.contact{
+	background: url(../images/sprite.png) no-repeat;
+	display: inline-block;
+	height:40px;
+	width:40px;
+	background-position:0 -120px;
+}
+.linkme{
+	padding-top: 20px;
+}
+.linkme p{
+	text-align: left;
+}
+.linkme img{
+	display: block;
+	margin:0 auto;
+	padding-top: 20px;
+}
+/*首页CSS代码结束*/
+

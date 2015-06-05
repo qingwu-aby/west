@@ -1,0 +1,10 @@
+[ 2015-05-26T00:05:13+08:00 ] 127.0.0.1 /WesternFilms/server/index.php/User/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002927s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010175s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0623s ]
+SQL: SELECT * FROM `west_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0135s ]
+
