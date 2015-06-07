@@ -1,0 +1,2098 @@
+[ 2015-06-06T01:08:18+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001018s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001647s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.025489s ]
+INFO: [ app_end ] --END-- [ RunTime:0.025805s ]
+
+[ 2015-06-06T01:08:32+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=user&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000765s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000959s ]
+NOTIC: [8] Undefined variable: id D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\User\Controller\UserController.class.php 第 86 行.
+
+[ 2015-06-06T01:08:34+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=verify&localeTime=1433524114029
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000795s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001227s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001347s ]
+
+[ 2015-06-06T01:08:41+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=user&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000697s ]
+NOTIC: [8] Undefined variable: id D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\User\Controller\UserController.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `west_user` WHERE `username` = 'baidu' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2015-06-06T01:08:48+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000755s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001245s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T01:09:02+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001124s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T01:09:36+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000949s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T01:11:47+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001801s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T01:12:15+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000654s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001816s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T01:12:26+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000952s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000824s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000933s ]
+
+[ 2015-06-06T01:12:47+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=user&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000838s ]
+NOTIC: [8] Undefined variable: id D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\User\Controller\UserController.class.php 第 86 行.
+
+[ 2015-06-06T01:12:56+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=videos&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000865s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\User\Controller\BaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0056s ]
+SQL: INSERT INTO `west_videos` (`uid`,`title`,`url`,`pic`,`status`,`modify_time`) VALUES ('30','烦烦烦','烦烦烦','../server/Public/Uploads/2015-06-06/2015060601121578989.png','1','1433524375') [ RunTime:0.1026s ]
+SQL: SHOW COLUMNS FROM `west_log` [ RunTime:0.0131s ]
+SQL: INSERT INTO `west_log` (`uid`,`type`,`target`,`target_id`,`target_name`,`modify_time`) VALUES ('30','add','video','24','烦烦烦','1433524375') [ RunTime:0.1076s ]
+
+[ 2015-06-06T01:13:11+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T01:13:14+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=news&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000569s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\User\Controller\BaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `west_news` [ RunTime:0.0053s ]
+SQL: INSERT INTO `west_news` (`uid`,`title`,`big_img`,`thumbnail`,`summary`,`source`,`author`,`content`,`release_time`,`status`,`modify_time`) VALUES ('30','高规格','no','../server/Public/Uploads/2015-06-06/2015060601131060280.png','高规格','','谷歌','高规格','1433524394','1','1433524394') [ RunTime:0.0906s ]
+SQL: SHOW COLUMNS FROM `west_log` [ RunTime:0.0124s ]
+SQL: INSERT INTO `west_log` (`uid`,`type`,`target`,`target_id`,`target_name`,`modify_time`) VALUES ('30','add','news','23','高规格','1433524394') [ RunTime:0.0638s ]
+
+[ 2015-06-06T01:13:21+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=news&a=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000821s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\User\Controller\BaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `west_news` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `west_news` WHERE ( id = 23 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `west_news` SET `title`='高规格高规格',`big_img`='no',`thumbnail`='../server/Public/Uploads/2015-06-06/2015060601131060280.png',`summary`='高规格',`source`='',`author`='谷歌',`content`='高规格',`modify_time`='1433524400' WHERE ( id = 23 ) [ RunTime:0.0973s ]
+SQL: SHOW COLUMNS FROM `west_log` [ RunTime:0.0086s ]
+SQL: INSERT INTO `west_log` (`uid`,`type`,`target`,`target_id`,`target_name`,`modify_time`) VALUES ('30','edit','news','23','高规格高规格','1433524401') [ RunTime:0.5840s ]
+
+[ 2015-06-06T01:13:38+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000702s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T01:13:41+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=links&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\User\Controller\BaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `west_links` [ RunTime:0.0053s ]
+SQL: INSERT INTO `west_links` (`uid`,`name`,`logo`,`info`,`status`,`modify_time`) VALUES ('30','谷歌','../server/Public/Uploads/2015-06-06/2015060601133824279.png','高规格','1','1433524421') [ RunTime:0.0686s ]
+SQL: SHOW COLUMNS FROM `west_log` [ RunTime:0.0132s ]
+SQL: INSERT INTO `west_log` (`uid`,`type`,`target`,`target_id`,`target_name`,`modify_time`) VALUES ('30','add','links','46','谷歌','1433524421') [ RunTime:0.0629s ]
+
+[ 2015-06-06T01:13:50+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=verify&localeTime=1433524429959
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000916s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000832s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000941s ]
+
+[ 2015-06-06T01:13:50+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=verify&localeTime=1433524430881
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000938s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000964s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001091s ]
+
+[ 2015-06-06T01:13:51+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=verify&localeTime=1433524431703
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000708s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000951s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000961s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001088s ]
+
+[ 2015-06-06T01:13:58+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=user&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000768s ]
+NOTIC: [8] Undefined variable: id D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\User\Controller\UserController.class.php 第 86 行.
+
+[ 2015-06-06T01:14:01+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=verify&localeTime=1433524441143
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000654s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001038s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000934s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001077s ]
+
+[ 2015-06-06T01:14:04+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=verify&localeTime=1433524444215
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000753s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000844s ]
+
+[ 2015-06-06T01:14:06+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=verify&localeTime=1433524446489
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001012s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000737s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000828s ]
+
+[ 2015-06-06T01:14:07+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=verify&localeTime=1433524447168
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001133s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001106s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001249s ]
+
+[ 2015-06-06T01:14:15+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=user&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000566s ]
+NOTIC: [8] Undefined variable: id D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\User\Controller\UserController.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `west_user` WHERE `username` = 'baidu' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-06-06T01:14:37+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T01:14:40+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=videos&a=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000872s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\User\Controller\BaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `west_videos` WHERE ( id = 24 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `west_videos` SET `title`='烦烦烦',`url`='烦烦烦',`pic`='../server/Public/Uploads/2015-06-06/2015060601121578989.png',`modify_time`='1433524479' WHERE ( id = 24 ) [ RunTime:0.0781s ]
+SQL: SHOW COLUMNS FROM `west_log` [ RunTime:0.0128s ]
+SQL: INSERT INTO `west_log` (`uid`,`type`,`target`,`target_id`,`target_name`,`modify_time`) VALUES ('30','edit','video','24','烦烦烦','1433524480') [ RunTime:0.0636s ]
+
+[ 2015-06-06T01:15:12+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000569s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T01:19:09+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001009s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T01:20:07+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=links&a=del
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000987s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\User\Controller\BaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `west_links` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `west_links` WHERE ( id = 46 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `west_links` SET `status`='0' WHERE ( id = 46 ) [ RunTime:0.0701s ]
+SQL: SHOW COLUMNS FROM `west_log` [ RunTime:0.0196s ]
+SQL: INSERT INTO `west_log` (`uid`,`type`,`target`,`target_id`,`target_name`,`modify_time`) VALUES ('30','del','links','46','谷歌','1433524806') [ RunTime:0.0675s ]
+
+[ 2015-06-06T01:20:12+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=news&a=del
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000879s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\User\Controller\BaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `west_news` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `west_news` WHERE ( id = 23 ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: UPDATE `west_news` SET `status`='0' WHERE ( id = 23 ) [ RunTime:0.4512s ]
+SQL: SHOW COLUMNS FROM `west_log` [ RunTime:0.0174s ]
+SQL: INSERT INTO `west_log` (`uid`,`type`,`target`,`target_id`,`target_name`,`modify_time`) VALUES ('30','del','news','23','高规格高规格','1433524811') [ RunTime:0.1809s ]
+
+[ 2015-06-06T01:20:24+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000814s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T01:20:35+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000997s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001541s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T01:20:56+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003261s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T01:21:22+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000939s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001021s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T01:21:34+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000817s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T01:21:54+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000625s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T01:22:04+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000651s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T01:22:44+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001548s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T01:23:03+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000832s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T01:23:11+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001157s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T01:23:29+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000939s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001054s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T01:24:05+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=videos&a=del
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000723s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\User\Controller\BaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `west_videos` WHERE ( id = 24 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `west_videos` SET `status`='0' WHERE ( id = 24 ) [ RunTime:0.1122s ]
+SQL: SHOW COLUMNS FROM `west_log` [ RunTime:0.0077s ]
+SQL: INSERT INTO `west_log` (`uid`,`type`,`target`,`target_id`,`target_name`,`modify_time`) VALUES ('30','del','video','24','烦烦烦','1433525045') [ RunTime:0.0691s ]
+
+[ 2015-06-06T01:24:09+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000816s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T01:25:38+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000963s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001102s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T01:25:56+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000720s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T01:26:15+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T01:26:31+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000618s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T01:28:08+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000946s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T01:28:41+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001196s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001341s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T01:30:48+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001177s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T01:31:02+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000765s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001763s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T01:31:10+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000799s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T01:36:06+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001016s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T01:36:17+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000934s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T01:37:19+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000726s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001327s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T01:37:37+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000966s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T01:38:20+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T01:38:33+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000740s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001196s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001923s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002196s ]
+
+[ 2015-06-06T01:38:41+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=user&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000629s ]
+NOTIC: [8] Undefined variable: id D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\User\Controller\UserController.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `west_user` WHERE `username` = 'baidu' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-06-06T01:38:55+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T01:42:50+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000753s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001555s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T01:43:29+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000777s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T01:43:43+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001148s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001300s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T01:43:50+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000705s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T01:43:52+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000726s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T01:43:53+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000839s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001398s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T01:44:14+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001066s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T01:44:25+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001397s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T01:44:36+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000808s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T01:45:02+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000793s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T01:45:09+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002736s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T01:46:02+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001321s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001212s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001382s ]
+
+[ 2015-06-06T01:46:09+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=verify&localeTime=1433526369893
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000732s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000746s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000846s ]
+
+[ 2015-06-06T01:46:13+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=verify&localeTime=1433526373827
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000736s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000984s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001115s ]
+
+[ 2015-06-06T01:46:14+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=verify&localeTime=1433526374651
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000924s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001031s ]
+
+[ 2015-06-06T01:46:21+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=user&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000700s ]
+NOTIC: [8] Undefined variable: id D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\User\Controller\UserController.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `west_user` WHERE `username` = 'ztf' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-06-06T01:47:27+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000965s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T01:47:30+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=news&a=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\User\Controller\BaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `west_news` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `west_news` WHERE ( id = 21 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `west_news` SET `title`='《匆匆那年》不悔梦归处，只恨太匆匆',`big_img`='no',`thumbnail`='../server/Public/Uploads/2015-06-06/2015060601472753311.jpg',`summary`='根据九夜茴同名小说改编。电影讲述了阳光少年陈寻（彭于晏 饰）、痴心女孩方茴（倪妮 饰）、纯情备胎赵烨（郑恺 饰）、温情暖男乔然（魏晨 饰）、豪放女神林嘉茉（张子萱 饰）这群死党跨越十五年的青春、记忆与友情。',`source`='',`author`='青葱',`content`='&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;这部片子并没有我期待中的好看，电影和片名一样拍得十分匆匆，最终拍成了一个散文式的mv，中途间或出现的字幕让人以为在做综卷调查。但它还原了每个人都有过的青春记忆，还是慢慢看痛了。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　如果不是彭大大主演，估计就给两星了。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　但出于偏心，冲着爱了八年的男神+去婚礼戏探过班，就打了四星。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　差的都有那么多人说了，那我就说点打动人的吧。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　虽然片子就像MV似的抒情散乱，但有几处还很动人美妙。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　方茴在黑板上写字，陈寻倚靠在教室前门，微笑地看着她。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　陈寻在前面快走，他知道方茴在后面，笑得不露声色，方茴在前小碎步地快跑，陈寻追了上去。这种心照不宣看得怦然心动。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　喜欢一个人会是什么样子？眼里都有光照进来。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　陈寻反穿校服，只为了让她在人群中第一眼看到自己。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　林嘉茉喜欢苏凯，便用他的名字缩写的钱去买优酸乳。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　她只想通过百转千回的方式，告诉他，我暗恋你呀。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　一张张带有“sk”开头的一元人命币就在苏凯眼前，哪知人家不解风情，转身走了。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　但是赵烨给了她一叠一块的，说，&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　“我给你攒的，sk开头的钱”。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　在沙滩上，两人约定写出彼此喜欢的人的名字。赵烨写了林嘉茉，而她写了苏凯。她说，我写完啦，便欢快地跑开。他说你还没看我写的呢，还没说完，她早已跑远。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　他苦笑，将苏凯的名字抹去，写上了自己的名字，假装她喜欢的人是自己。然后，换上高兴的表情，在沙滩上追她。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　所谓爱情不过如此，我爱你，你不爱我；他爱我，我不爱他。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　登对多难，于是只剩下了相互追逐。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　林嘉茉编了一条那时候最流行的塑料手链，送给苏凯，却骗他，这是隔壁班的某某女生托我转交给你的。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　撒了一个善意的小谎，只是为了让他不尴尬地收下自己亲手做的礼物，哪怕他并不知道。但只要看他戴着，心里就能甜出一条银河系的密度。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　但是苏凯一本正经地告诉她，让她转告“那位同学”，好好学习，为社会主义奋斗。哈哈哈哈哈哈哈。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　赵烨手臂受伤，他们在石膏上集体签名。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　陈寻方茴恋爱，他们就在树上一起刻字。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　唯有青春时期热情并且郑重其事，成年以后我们谁也不会再做。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　当年的他们好幼稚啊，但幼稚得多开心。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　毕业时刻，陈寻唱歌，方茴去抱住他，许愿。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　“我们以后会一直在一起吗？”&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　“会。”&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　“会结婚吗，会生孩子吗，一起晒被子吃早餐吗……”&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　“一定会。”&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　年轻的我们怎么会知道，对方在发誓的时候都是真的觉得自己一定不会违背承诺，而在反悔的时候也都是真的觉得自己不能做到。所以誓言这种东西无法衡量坚贞，也不能判断对错，它只能证明，在说出来的那一刻，彼此曾经真诚过。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　分手后再聚，方茴扛了两箱酒，终于肯暴露脆弱，喝醉哀求陈寻不要分手。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　喜欢方茴的新概念王子乔然看不下去，几个人打了起来。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　“高兴吗，高兴了就他妈散伙吧。”&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　赵烨摔了当初大家一起签名的石膏。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　林嘉茉用攒的SK开头的钱赔了老板。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　陈寻两手空空地背对大家离去。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　青春残酷之处在于，永远都以遗憾和惨烈收尾。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　陈寻说，男人会遇见两个女孩，一个是陆地，让他感到安全。一个是天空上的鸟，陪他一起高飞。如果方茴是陆地，那沈晓棠，便是能陪他飞翔的鸟。李碧华在《青蛇》里也写过，每个男人，都希望他生命中有两个女人：白蛇和青蛇。同期的，相间的，点缀他荒芜的命运。——只是，当他得到白蛇，她渐渐成了朱门旁惨白的余灰；那青蛇，却是树顶青翠欲滴爽脆刮辣的嫩叶子。当他得到了青蛇，她却是百子柜中闷绿的山草药；而白蛇，抬尽了头方见天际皑皑飘飞柔情万缕新雪花。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　在他在陪同方茴打完别人的孩子，抱着她时，他还是反悔了。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　“我想从这里重新来过，和之前不一样的重新来过，因为，我后悔了。”&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　回到他打球那天，人群定格，方茴向他跑过来，世界只有他们。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　回到方茴在寝室崴到脚跌倒没接到他电话那天，他没有选择和沈晓棠去弹吉他。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　回到他和沈晓棠演出那天，方茴打电话给他，问他喜不喜欢沈晓棠，他的回答不是“不知道”，而是，“我爱的人是你啊”。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　再回到很久以前，也许重来也是无用。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　黄伟文有一句歌词是怎么唱的。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　【其实你我这美梦，气数早已尽，重来也是无用。】&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　他简单纯粹热情，而她敏感骄傲倔强。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　她期待的他不懂，他想给出她退缩。终归是要错过的。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　于是时间过去十五年后，他们谁也没有和谁在一起。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　拍DV的女孩问陈寻有什么话想对方茴说时，他看着镜头，说，你好吗。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　DV女孩翻了一个白眼走了。他低下头，重复地念，方茴，你好吗。方茴。像当年他喜欢她的时候，人群里独独喜爱反复地念她的名字。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　“方茴。”&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　“怎么了？”&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　“没事。”&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　“方茴。”&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　“干嘛？”&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　“没事。就是想叫你名字。”&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　DV女孩拍远在法国的方茴，问她有什么时候话想对陈寻说。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　她已亭亭，一袭红裙，美得如梦似幻。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　她转过头来，很大气地笑笑。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　陈寻翻到当年方茴还他的原理书，上面写着：&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　不悔梦归处，只恨太匆匆。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　“永远不是以前，也不是以后，我们在一起的那些瞬间，就是永远。”&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　最好的结局不过如此。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　谁没有被辜负过，谁没有去辜负过。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　如果过去还值得眷恋，别太快冰释前嫌。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　我们要相互亏欠，要不然凭何怀缅。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　错过还有记忆，唯愿天各一方，互相安好，再不打扰。&lt;/span&gt;',`modify_time`='1433526449' WHERE ( id = 21 ) [ RunTime:0.2224s ]
+SQL: SHOW COLUMNS FROM `west_log` [ RunTime:0.0113s ]
+SQL: INSERT INTO `west_log` (`uid`,`type`,`target`,`target_id`,`target_name`,`modify_time`) VALUES ('13','edit','news','21','《匆匆那年》不悔梦归处，只恨太匆匆','1433526450') [ RunTime:0.2418s ]
+
+[ 2015-06-06T01:50:39+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000974s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000902s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008168s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008345s ]
+
+[ 2015-06-06T01:50:47+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=verify&localeTime=1433526647067
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000908s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001194s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001346s ]
+
+[ 2015-06-06T01:50:53+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=user&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000856s ]
+NOTIC: [8] Undefined variable: id D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\User\Controller\UserController.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `west_user` WHERE `username` = 'ztf' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-06-06T01:51:04+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000784s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T01:54:05+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001073s ]
+
+[ 2015-06-06T01:55:33+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000661s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T01:55:36+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000646s ]
+
+[ 2015-06-06T01:55:42+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000623s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T01:55:46+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000910s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T01:56:20+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000921s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T01:56:26+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000770s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T01:56:56+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=links&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000897s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\User\Controller\BaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `west_links` [ RunTime:0.0054s ]
+SQL: INSERT INTO `west_links` (`uid`,`name`,`logo`,`info`,`status`,`modify_time`) VALUES ('13','易校园','../server/Public/Uploads/2015-06-06/2015060601562624025.png','http://ecampus.ztf.me','1','1433527015') [ RunTime:0.1104s ]
+SQL: SHOW COLUMNS FROM `west_log` [ RunTime:0.0127s ]
+SQL: INSERT INTO `west_log` (`uid`,`type`,`target`,`target_id`,`target_name`,`modify_time`) VALUES ('13','add','links','47','易校园','1433527015') [ RunTime:0.0845s ]
+
+[ 2015-06-06T01:57:12+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000953s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001021s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001157s ]
+
+[ 2015-06-06T01:58:36+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000697s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T01:59:38+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=links&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000924s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\User\Controller\BaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `west_links` [ RunTime:0.0051s ]
+SQL: INSERT INTO `west_links` (`uid`,`name`,`logo`,`info`,`status`,`modify_time`) VALUES ('13','MyCollege','../server/Public/Uploads/2015-06-06/2015060601583669625.png','http://mycollege.ztf.me','1','1433527177') [ RunTime:0.2675s ]
+SQL: SHOW COLUMNS FROM `west_log` [ RunTime:0.0123s ]
+SQL: INSERT INTO `west_log` (`uid`,`type`,`target`,`target_id`,`target_name`,`modify_time`) VALUES ('13','add','links','48','MyCollege','1433527177') [ RunTime:0.3765s ]
+
+[ 2015-06-06T02:01:51+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001261s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002956s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003161s ]
+
+[ 2015-06-06T02:01:54+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=verify&localeTime=1433527313965
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000958s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001099s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000869s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000983s ]
+
+[ 2015-06-06T02:01:54+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=verify&localeTime=1433527314653
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000722s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000817s ]
+
+[ 2015-06-06T02:01:55+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=verify&localeTime=1433527315396
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001507s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000755s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000851s ]
+
+[ 2015-06-06T02:01:56+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=verify&localeTime=1433527316020
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001573s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001089s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001227s ]
+
+[ 2015-06-06T02:01:56+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=verify&localeTime=1433527316748
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000729s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001259s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001518s ]
+
+[ 2015-06-06T02:02:03+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=user&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000916s ]
+NOTIC: [8] Undefined variable: id D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\User\Controller\UserController.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `west_user` WHERE `username` = 'baidu' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-06-06T02:02:16+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=user&a=editInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000584s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\User\Controller\BaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0059s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0052s ]
+SQL: UPDATE `west_company` SET `uid`='30',`mail`='baidu@baidu.com',`tel`='02901236599',`wechat_url`='../server/Public/Uploads/2015-06-04/2015060413055691723.png',`introduction`='百度（Nasdaq：BIDU）是全球最大的中文搜索引擎、最大的中文网站。2000年1月由李彦宏创立于北京中关村，致力于向人们提供“简单，可依赖”的信息获取方式。“百度”二字源于中国宋朝词人辛弃疾的《青玉案·元夕》词句“众里寻他千百度”，象征着百度对中文信息检索技术的执著追求。2015年1月24日，百度创始人、董事长兼CEO李彦宏在百度2014年会暨十五周年庆典上发表的主题演讲中表示，十五年来，百度坚持相信技术的力量，始终把简单可依赖的文化和人才成长机制当成最宝贵的财富，他号召百度全体员工，向连接人与服务的战略目标发起进攻。',`banner_url`='../server/Public/Uploads/2015-06-04/2015060413053043082.jpg',`modify_time`='1433527336' WHERE ( uid = '30' ) [ RunTime:0.1180s ]
+
+[ 2015-06-06T02:06:49+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000693s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T02:06:52+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=user&a=editInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000657s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\User\Controller\BaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0068s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0059s ]
+SQL: UPDATE `west_company` SET `uid`='30',`mail`='baidu@baidu.com',`tel`='02901236599',`wechat_url`='../server/Public/Uploads/2015-06-04/2015060413055691723.png',`introduction`='百度（Nasdaq：BIDU）是全球最大的中文搜索引擎、最大的中文网站。2000年1月由李彦宏创立于北京中关村，致力于向人们提供“简单，可依赖”的信息获取方式。“百度”二字源于中国宋朝词人辛弃疾的《青玉案·元夕》词句“众里寻他千百度”，象征着百度对中文信息检索技术的执著追求。2015年1月24日，百度创始人、董事长兼CEO李彦宏在百度2014年会暨十五周年庆典上发表的主题演讲中表示，十五年来，百度坚持相信技术的力量，始终把简单可依赖的文化和人才成长机制当成最宝贵的财富，他号召百度全体员工，向连接人与服务的战略目标发起进攻。',`banner_url`='../server/Public/Uploads/2015-06-06/2015060602064930156.png',`modify_time`='1433527612' WHERE ( uid = '30' ) [ RunTime:0.0925s ]
+
+[ 2015-06-06T02:07:45+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001190s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T02:07:48+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=user&a=editInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000606s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\User\Controller\BaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0050s ]
+SQL: UPDATE `west_company` SET `uid`='30',`mail`='baidu@baidu.com',`tel`='02901236599',`wechat_url`='../server/Public/Uploads/2015-06-04/2015060413055691723.png',`introduction`='百度（Nasdaq：BIDU）是全球最大的中文搜索引擎、最大的中文网站。2000年1月由李彦宏创立于北京中关村，致力于向人们提供“简单，可依赖”的信息获取方式。“百度”二字源于中国宋朝词人辛弃疾的《青玉案·元夕》词句“众里寻他千百度”，象征着百度对中文信息检索技术的执著追求。2015年1月24日，百度创始人、董事长兼CEO李彦宏在百度2014年会暨十五周年庆典上发表的主题演讲中表示，十五年来，百度坚持相信技术的力量，始终把简单可依赖的文化和人才成长机制当成最宝贵的财富，他号召百度全体员工，向连接人与服务的战略目标发起进攻。',`banner_url`='../server/Public/Uploads/2015-06-06/2015060602074541443.png',`modify_time`='1433527668' WHERE ( uid = '30' ) [ RunTime:0.0766s ]
+
+[ 2015-06-06T02:09:18+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000584s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T02:09:26+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=user&a=editInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\User\Controller\BaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0052s ]
+SQL: UPDATE `west_company` SET `uid`='1',`mail`='i@ztf.me',`tel`='13577777775',`wechat_url`='../server/Public/Uploads/2015-06-04/2015060414313915517.png',`introduction`='完美世界是一家网络游戏研发、运营、销售和服务公司。于2004年成立，2007年在美国纳斯达克上市（股票代码：PWRD）。完美世界总部位于北京，在北美、欧洲和日本设有全资子公司自主运营游戏，旗下游戏已授权至亚洲、澳洲、拉丁美洲、俄罗斯及其它俄语地区等多个国家和地区的主要游戏运营商，游戏出口至世界100多个国家和地区，为全球用户提供优质的互联网娱乐服务。',`banner_url`='../server/Public/Uploads/2015-06-04/2015060414321825086.jpg',`modify_time`='1433527766' WHERE ( uid = '1' ) [ RunTime:0.0006s ]
+
+[ 2015-06-06T02:09:33+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=user&a=editInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000838s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\User\Controller\BaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0059s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0062s ]
+SQL: UPDATE `west_company` SET `uid`='1',`mail`='i@ztf.me',`tel`='13577777775',`wechat_url`='../server/Public/Uploads/2015-06-04/2015060414313915517.png',`introduction`='完美世界是一家网络游戏研发、运营、销售和服务公司。于2004年成立，2007年在美国纳斯达克上市（股票代码：PWRD）。完美世界总部位于北京，在北美、欧洲和日本设有全资子公司自主运营游戏，旗下游戏已授权至亚洲、澳洲、拉丁美洲、俄罗斯及其它俄语地区等多个国家和地区的主要游戏运营商，游戏出口至世界100多个国家和地区，为全球用户提供优质的互联网娱乐服务。',`banner_url`='../server/Public/Uploads/2015-06-04/2015060414321825086.jpg',`modify_time`='1433527773' WHERE ( uid = '1' ) [ RunTime:0.0006s ]
+
+[ 2015-06-06T02:09:52+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=links&a=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000771s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\User\Controller\BaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `west_links` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `west_links` WHERE ( id = 48 ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2015-06-06T02:10:04+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=videos&a=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000807s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\User\Controller\BaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `west_videos` WHERE ( id = 22 ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2015-06-06T02:10:20+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000930s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000827s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000955s ]
+
+[ 2015-06-06T02:10:24+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=verify&localeTime=1433527824126
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000645s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000754s ]
+
+[ 2015-06-06T02:10:24+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=verify&localeTime=1433527824763
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000881s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000799s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000911s ]
+
+[ 2015-06-06T02:10:26+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=verify&localeTime=1433527825980
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000769s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000875s ]
+
+[ 2015-06-06T02:10:33+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=user&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000972s ]
+NOTIC: [8] Undefined variable: id D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\User\Controller\UserController.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `west_user` WHERE `username` = 'ztf' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2015-06-06T02:10:39+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000819s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T02:10:41+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=user&a=editInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000708s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\User\Controller\BaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0064s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0053s ]
+SQL: UPDATE `west_company` SET `uid`='13',`mail`='i@ztf.me',`tel`='13577777775',`wechat_url`='../server/Public/Uploads/2015-06-04/2015060414313915517.png',`introduction`='完美世界是一家网络游戏研发、运营、销售和服务公司。于2004年成立，2007年在美国纳斯达克上市（股票代码：PWRD）。完美世界总部位于北京，在北美、欧洲和日本设有全资子公司自主运营游戏，旗下游戏已授权至亚洲、澳洲、拉丁美洲、俄罗斯及其它俄语地区等多个国家和地区的主要游戏运营商，游戏出口至世界100多个国家和地区，为全球用户提供优质的互联网娱乐服务。',`banner_url`='../server/Public/Uploads/2015-06-06/2015060602103958263.png',`modify_time`='1433527841' WHERE ( uid = '13' ) [ RunTime:0.0916s ]
+
+[ 2015-06-06T02:11:40+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001127s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001238s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T02:11:42+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=user&a=editInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000580s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\User\Controller\BaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0052s ]
+SQL: UPDATE `west_company` SET `uid`='13',`mail`='i@ztf.me',`tel`='13577777775',`wechat_url`='../server/Public/Uploads/2015-06-04/2015060414313915517.png',`introduction`='完美世界是一家网络游戏研发、运营、销售和服务公司。于2004年成立，2007年在美国纳斯达克上市（股票代码：PWRD）。完美世界总部位于北京，在北美、欧洲和日本设有全资子公司自主运营游戏，旗下游戏已授权至亚洲、澳洲、拉丁美洲、俄罗斯及其它俄语地区等多个国家和地区的主要游戏运营商，游戏出口至世界100多个国家和地区，为全球用户提供优质的互联网娱乐服务。',`banner_url`='../server/Public/Uploads/2015-06-06/2015060602114014511.png',`modify_time`='1433527902' WHERE ( uid = '13' ) [ RunTime:0.1132s ]
+
+[ 2015-06-06T02:19:25+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001630s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.016519s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016690s ]
+
+[ 2015-06-06T02:19:47+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=user&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000639s ]
+NOTIC: [8] Undefined variable: id D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\User\Controller\UserController.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `west_user` WHERE `username` = 'baidu' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-06-06T02:20:04+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001136s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001509s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T02:20:08+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000600s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T02:20:25+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000942s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T02:20:32+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000575s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T02:20:44+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T02:20:46+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000543s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T02:20:48+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T02:22:04+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000924s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001290s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001515s ]
+
+[ 2015-06-06T02:29:03+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000768s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001194s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001350s ]
+
+[ 2015-06-06T02:29:12+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=user&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000623s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001024s ]
+NOTIC: [8] Undefined variable: id D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\User\Controller\UserController.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `west_user` WHERE `username` = 'baidu' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2015-06-06T02:29:23+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000743s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001050s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T02:29:45+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000960s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001084s ]
+
+[ 2015-06-06T02:30:01+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=user&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000829s ]
+NOTIC: [8] Undefined variable: id D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\User\Controller\UserController.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `west_user` WHERE `username` = 'ztf' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2015-06-06T02:30:10+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T02:31:16+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000726s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T02:31:54+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000948s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001063s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000792s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000893s ]
+
+[ 2015-06-06T02:32:08+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=user&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001012s ]
+NOTIC: [8] Undefined variable: id D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\User\Controller\UserController.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `west_user` WHERE `username` = 'ztf' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2015-06-06T02:32:16+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=news&a=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\User\Controller\BaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `west_news` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `west_news` WHERE ( id = 21 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `west_news` SET `title`='《匆匆那年》不悔梦归处，只恨太匆匆000',`big_img`='no',`thumbnail`='../server/Public/Uploads/2015-06-04/2015060601472753311.jpg',`summary`='根据九夜茴同名小说改编。电影讲述了阳光少年陈寻（彭于晏 饰）、痴心女孩方茴（倪妮 饰）、纯情备胎赵烨（郑恺 饰）、温情暖男乔然（魏晨 饰）、豪放女神林嘉茉（张子萱 饰）这群死党跨越十五年的青春、记忆与友情。',`source`='',`author`='青葱',`content`='&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;这部片子并没有我期待中的好看，电影和片名一样拍得十分匆匆，最终拍成了一个散文式的mv，中途间或出现的字幕让人以为在做综卷调查。但它还原了每个人都有过的青春记忆，还是慢慢看痛了。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　如果不是彭大大主演，估计就给两星了。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　但出于偏心，冲着爱了八年的男神+去婚礼戏探过班，就打了四星。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　差的都有那么多人说了，那我就说点打动人的吧。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　虽然片子就像MV似的抒情散乱，但有几处还很动人美妙。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　方茴在黑板上写字，陈寻倚靠在教室前门，微笑地看着她。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　陈寻在前面快走，他知道方茴在后面，笑得不露声色，方茴在前小碎步地快跑，陈寻追了上去。这种心照不宣看得怦然心动。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　喜欢一个人会是什么样子？眼里都有光照进来。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　陈寻反穿校服，只为了让她在人群中第一眼看到自己。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　林嘉茉喜欢苏凯，便用他的名字缩写的钱去买优酸乳。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　她只想通过百转千回的方式，告诉他，我暗恋你呀。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　一张张带有“sk”开头的一元人命币就在苏凯眼前，哪知人家不解风情，转身走了。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　但是赵烨给了她一叠一块的，说，&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　“我给你攒的，sk开头的钱”。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　在沙滩上，两人约定写出彼此喜欢的人的名字。赵烨写了林嘉茉，而她写了苏凯。她说，我写完啦，便欢快地跑开。他说你还没看我写的呢，还没说完，她早已跑远。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　他苦笑，将苏凯的名字抹去，写上了自己的名字，假装她喜欢的人是自己。然后，换上高兴的表情，在沙滩上追她。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　所谓爱情不过如此，我爱你，你不爱我；他爱我，我不爱他。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　登对多难，于是只剩下了相互追逐。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　林嘉茉编了一条那时候最流行的塑料手链，送给苏凯，却骗他，这是隔壁班的某某女生托我转交给你的。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　撒了一个善意的小谎，只是为了让他不尴尬地收下自己亲手做的礼物，哪怕他并不知道。但只要看他戴着，心里就能甜出一条银河系的密度。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　但是苏凯一本正经地告诉她，让她转告“那位同学”，好好学习，为社会主义奋斗。哈哈哈哈哈哈哈。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　赵烨手臂受伤，他们在石膏上集体签名。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　陈寻方茴恋爱，他们就在树上一起刻字。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　唯有青春时期热情并且郑重其事，成年以后我们谁也不会再做。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　当年的他们好幼稚啊，但幼稚得多开心。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　毕业时刻，陈寻唱歌，方茴去抱住他，许愿。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　“我们以后会一直在一起吗？”&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　“会。”&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　“会结婚吗，会生孩子吗，一起晒被子吃早餐吗……”&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　“一定会。”&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　年轻的我们怎么会知道，对方在发誓的时候都是真的觉得自己一定不会违背承诺，而在反悔的时候也都是真的觉得自己不能做到。所以誓言这种东西无法衡量坚贞，也不能判断对错，它只能证明，在说出来的那一刻，彼此曾经真诚过。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　分手后再聚，方茴扛了两箱酒，终于肯暴露脆弱，喝醉哀求陈寻不要分手。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　喜欢方茴的新概念王子乔然看不下去，几个人打了起来。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　“高兴吗，高兴了就他妈散伙吧。”&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　赵烨摔了当初大家一起签名的石膏。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　林嘉茉用攒的SK开头的钱赔了老板。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　陈寻两手空空地背对大家离去。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　青春残酷之处在于，永远都以遗憾和惨烈收尾。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　陈寻说，男人会遇见两个女孩，一个是陆地，让他感到安全。一个是天空上的鸟，陪他一起高飞。如果方茴是陆地，那沈晓棠，便是能陪他飞翔的鸟。李碧华在《青蛇》里也写过，每个男人，都希望他生命中有两个女人：白蛇和青蛇。同期的，相间的，点缀他荒芜的命运。——只是，当他得到白蛇，她渐渐成了朱门旁惨白的余灰；那青蛇，却是树顶青翠欲滴爽脆刮辣的嫩叶子。当他得到了青蛇，她却是百子柜中闷绿的山草药；而白蛇，抬尽了头方见天际皑皑飘飞柔情万缕新雪花。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　在他在陪同方茴打完别人的孩子，抱着她时，他还是反悔了。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　“我想从这里重新来过，和之前不一样的重新来过，因为，我后悔了。”&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　回到他打球那天，人群定格，方茴向他跑过来，世界只有他们。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　回到方茴在寝室崴到脚跌倒没接到他电话那天，他没有选择和沈晓棠去弹吉他。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　回到他和沈晓棠演出那天，方茴打电话给他，问他喜不喜欢沈晓棠，他的回答不是“不知道”，而是，“我爱的人是你啊”。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　再回到很久以前，也许重来也是无用。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　黄伟文有一句歌词是怎么唱的。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　【其实你我这美梦，气数早已尽，重来也是无用。】&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　他简单纯粹热情，而她敏感骄傲倔强。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　她期待的他不懂，他想给出她退缩。终归是要错过的。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　于是时间过去十五年后，他们谁也没有和谁在一起。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　拍DV的女孩问陈寻有什么话想对方茴说时，他看着镜头，说，你好吗。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　DV女孩翻了一个白眼走了。他低下头，重复地念，方茴，你好吗。方茴。像当年他喜欢她的时候，人群里独独喜爱反复地念她的名字。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　“方茴。”&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　“怎么了？”&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　“没事。”&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　“方茴。”&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　“干嘛？”&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　“没事。就是想叫你名字。”&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　DV女孩拍远在法国的方茴，问她有什么时候话想对陈寻说。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　她已亭亭，一袭红裙，美得如梦似幻。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　她转过头来，很大气地笑笑。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　陈寻翻到当年方茴还他的原理书，上面写着：&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　不悔梦归处，只恨太匆匆。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　“永远不是以前，也不是以后，我们在一起的那些瞬间，就是永远。”&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　最好的结局不过如此。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　谁没有被辜负过，谁没有去辜负过。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　如果过去还值得眷恋，别太快冰释前嫌。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　我们要相互亏欠，要不然凭何怀缅。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　错过还有记忆，唯愿天各一方，互相安好，再不打扰。&lt;/span&gt;',`modify_time`='1433529136' WHERE ( id = 21 ) [ RunTime:0.1557s ]
+SQL: SHOW COLUMNS FROM `west_log` [ RunTime:0.0134s ]
+SQL: INSERT INTO `west_log` (`uid`,`type`,`target`,`target_id`,`target_name`,`modify_time`) VALUES ('13','edit','news','21','《匆匆那年》不悔梦归处，只恨太匆匆000','1433529136') [ RunTime:0.0626s ]
+
+[ 2015-06-06T02:32:26+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=news&a=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\User\Controller\BaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `west_news` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `west_news` WHERE ( id = 21 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `west_news` SET `title`='《匆匆那年》不悔梦归处，只恨太匆匆',`big_img`='no',`thumbnail`='../server/Public/Uploads/2015-06-04/2015060601472753311.jpg',`summary`='根据九夜茴同名小说改编。电影讲述了阳光少年陈寻（彭于晏 饰）、痴心女孩方茴（倪妮 饰）、纯情备胎赵烨（郑恺 饰）、温情暖男乔然（魏晨 饰）、豪放女神林嘉茉（张子萱 饰）这群死党跨越十五年的青春、记忆与友情。',`source`='',`author`='青葱',`content`='&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;这部片子并没有我期待中的好看，电影和片名一样拍得十分匆匆，最终拍成了一个散文式的mv，中途间或出现的字幕让人以为在做综卷调查。但它还原了每个人都有过的青春记忆，还是慢慢看痛了。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　如果不是彭大大主演，估计就给两星了。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　但出于偏心，冲着爱了八年的男神+去婚礼戏探过班，就打了四星。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　差的都有那么多人说了，那我就说点打动人的吧。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　虽然片子就像MV似的抒情散乱，但有几处还很动人美妙。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　方茴在黑板上写字，陈寻倚靠在教室前门，微笑地看着她。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　陈寻在前面快走，他知道方茴在后面，笑得不露声色，方茴在前小碎步地快跑，陈寻追了上去。这种心照不宣看得怦然心动。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　喜欢一个人会是什么样子？眼里都有光照进来。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　陈寻反穿校服，只为了让她在人群中第一眼看到自己。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　林嘉茉喜欢苏凯，便用他的名字缩写的钱去买优酸乳。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　她只想通过百转千回的方式，告诉他，我暗恋你呀。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　一张张带有“sk”开头的一元人命币就在苏凯眼前，哪知人家不解风情，转身走了。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　但是赵烨给了她一叠一块的，说，&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　“我给你攒的，sk开头的钱”。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　在沙滩上，两人约定写出彼此喜欢的人的名字。赵烨写了林嘉茉，而她写了苏凯。她说，我写完啦，便欢快地跑开。他说你还没看我写的呢，还没说完，她早已跑远。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　他苦笑，将苏凯的名字抹去，写上了自己的名字，假装她喜欢的人是自己。然后，换上高兴的表情，在沙滩上追她。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　所谓爱情不过如此，我爱你，你不爱我；他爱我，我不爱他。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　登对多难，于是只剩下了相互追逐。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　林嘉茉编了一条那时候最流行的塑料手链，送给苏凯，却骗他，这是隔壁班的某某女生托我转交给你的。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　撒了一个善意的小谎，只是为了让他不尴尬地收下自己亲手做的礼物，哪怕他并不知道。但只要看他戴着，心里就能甜出一条银河系的密度。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　但是苏凯一本正经地告诉她，让她转告“那位同学”，好好学习，为社会主义奋斗。哈哈哈哈哈哈哈。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　赵烨手臂受伤，他们在石膏上集体签名。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　陈寻方茴恋爱，他们就在树上一起刻字。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　唯有青春时期热情并且郑重其事，成年以后我们谁也不会再做。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　当年的他们好幼稚啊，但幼稚得多开心。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　毕业时刻，陈寻唱歌，方茴去抱住他，许愿。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　“我们以后会一直在一起吗？”&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　“会。”&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　“会结婚吗，会生孩子吗，一起晒被子吃早餐吗……”&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　“一定会。”&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　年轻的我们怎么会知道，对方在发誓的时候都是真的觉得自己一定不会违背承诺，而在反悔的时候也都是真的觉得自己不能做到。所以誓言这种东西无法衡量坚贞，也不能判断对错，它只能证明，在说出来的那一刻，彼此曾经真诚过。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　分手后再聚，方茴扛了两箱酒，终于肯暴露脆弱，喝醉哀求陈寻不要分手。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　喜欢方茴的新概念王子乔然看不下去，几个人打了起来。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　“高兴吗，高兴了就他妈散伙吧。”&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　赵烨摔了当初大家一起签名的石膏。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　林嘉茉用攒的SK开头的钱赔了老板。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　陈寻两手空空地背对大家离去。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　青春残酷之处在于，永远都以遗憾和惨烈收尾。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　陈寻说，男人会遇见两个女孩，一个是陆地，让他感到安全。一个是天空上的鸟，陪他一起高飞。如果方茴是陆地，那沈晓棠，便是能陪他飞翔的鸟。李碧华在《青蛇》里也写过，每个男人，都希望他生命中有两个女人：白蛇和青蛇。同期的，相间的，点缀他荒芜的命运。——只是，当他得到白蛇，她渐渐成了朱门旁惨白的余灰；那青蛇，却是树顶青翠欲滴爽脆刮辣的嫩叶子。当他得到了青蛇，她却是百子柜中闷绿的山草药；而白蛇，抬尽了头方见天际皑皑飘飞柔情万缕新雪花。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　在他在陪同方茴打完别人的孩子，抱着她时，他还是反悔了。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　“我想从这里重新来过，和之前不一样的重新来过，因为，我后悔了。”&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　回到他打球那天，人群定格，方茴向他跑过来，世界只有他们。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　回到方茴在寝室崴到脚跌倒没接到他电话那天，他没有选择和沈晓棠去弹吉他。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　回到他和沈晓棠演出那天，方茴打电话给他，问他喜不喜欢沈晓棠，他的回答不是“不知道”，而是，“我爱的人是你啊”。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　再回到很久以前，也许重来也是无用。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　黄伟文有一句歌词是怎么唱的。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　【其实你我这美梦，气数早已尽，重来也是无用。】&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　他简单纯粹热情，而她敏感骄傲倔强。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　她期待的他不懂，他想给出她退缩。终归是要错过的。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　于是时间过去十五年后，他们谁也没有和谁在一起。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　拍DV的女孩问陈寻有什么话想对方茴说时，他看着镜头，说，你好吗。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　DV女孩翻了一个白眼走了。他低下头，重复地念，方茴，你好吗。方茴。像当年他喜欢她的时候，人群里独独喜爱反复地念她的名字。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　“方茴。”&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　“怎么了？”&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　“没事。”&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　“方茴。”&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　“干嘛？”&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　“没事。就是想叫你名字。”&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　DV女孩拍远在法国的方茴，问她有什么时候话想对陈寻说。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　她已亭亭，一袭红裙，美得如梦似幻。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　她转过头来，很大气地笑笑。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　陈寻翻到当年方茴还他的原理书，上面写着：&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　不悔梦归处，只恨太匆匆。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　“永远不是以前，也不是以后，我们在一起的那些瞬间，就是永远。”&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　最好的结局不过如此。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　谁没有被辜负过，谁没有去辜负过。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　如果过去还值得眷恋，别太快冰释前嫌。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　我们要相互亏欠，要不然凭何怀缅。&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;color:#111111;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:21.0599994659424px;background-color:#FFFFFF;&quot;&gt;　　错过还有记忆，唯愿天各一方，互相安好，再不打扰。&lt;/span&gt;',`modify_time`='1433529145' WHERE ( id = 21 ) [ RunTime:1.4532s ]
+SQL: SHOW COLUMNS FROM `west_log` [ RunTime:0.0130s ]
+SQL: INSERT INTO `west_log` (`uid`,`type`,`target`,`target_id`,`target_name`,`modify_time`) VALUES ('13','edit','news','21','《匆匆那年》不悔梦归处，只恨太匆匆','1433529146') [ RunTime:0.0851s ]
+
+[ 2015-06-06T10:54:47+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010902s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011011s ]
+
+[ 2015-06-06T10:54:55+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=user&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+NOTIC: [8] Undefined variable: id D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\User\Controller\UserController.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0155s ]
+SQL: SELECT * FROM `west_user` WHERE `username` = 'baidu' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2015-06-06T10:55:44+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T10:56:10+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=links&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001379s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\User\Controller\BaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `west_links` [ RunTime:0.0095s ]
+SQL: INSERT INTO `west_links` (`uid`,`name`,`logo`,`info`,`status`,`modify_time`) VALUES ('30','百度','../server/Public/Uploads/2015-06-06/2015060610554463646.png','https://www.baidu.com/','1','1433559369') [ RunTime:0.1599s ]
+SQL: SHOW COLUMNS FROM `west_log` [ RunTime:0.0365s ]
+SQL: INSERT INTO `west_log` (`uid`,`type`,`target`,`target_id`,`target_name`,`modify_time`) VALUES ('30','add','links','49','百度','1433559369') [ RunTime:0.0951s ]
+
+[ 2015-06-06T11:01:28+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000584s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T11:01:41+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000749s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002129s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T11:01:54+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001150s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T11:03:20+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000755s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T11:03:42+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T11:04:11+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T11:04:28+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001255s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001249s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001336s ]
+
+[ 2015-06-06T11:04:38+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=verify&localeTime=1433559878806
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001174s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003158s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003376s ]
+
+[ 2015-06-06T11:04:40+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=verify&localeTime=1433559879740
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001606s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003594s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003799s ]
+
+[ 2015-06-06T11:04:41+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=verify&localeTime=1433559881233
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001682s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003010s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003168s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003083s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003314s ]
+
+[ 2015-06-06T11:04:48+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=user&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001352s ]
+NOTIC: [8] Undefined variable: id D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\User\Controller\UserController.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_user` WHERE `username` = 'baidu' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-06-06T11:04:55+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000762s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001124s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T11:05:49+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000981s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001107s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T11:06:26+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000745s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T11:07:49+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000686s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000822s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T11:07:57+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T11:08:06+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000548s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T11:08:20+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000972s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001098s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T11:08:36+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000938s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T11:09:01+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001982s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T11:09:35+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000829s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T11:09:45+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000788s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T11:12:09+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000810s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T11:12:21+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T11:12:31+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003672s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001553s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002622s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002733s ]
+
+[ 2015-06-06T11:12:44+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=user&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001400s ]
+NOTIC: [8] Undefined variable: id D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\User\Controller\UserController.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `west_user` WHERE `username` = 'ztf' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-06-06T11:12:50+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000809s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T11:13:23+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000683s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001364s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T11:15:03+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000733s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T11:15:12+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T11:15:28+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000742s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T11:15:30+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000748s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T11:15:32+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T11:16:07+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000754s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T11:16:13+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002163s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T11:16:42+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000750s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T11:17:42+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000736s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T11:18:06+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001645s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-06T11:52:17+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000702s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+

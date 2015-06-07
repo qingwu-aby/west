@@ -15,14 +15,14 @@ var updataCompany=function(url,uid,url_2,uploadUrl,api){
 		}
 	});
 
-	$(document).on('click','.buttonUp',function(){
+	$(document).on('change','#file_logo,#file_wechat',function(){
 
 		var buttonId=$(this).attr('id');
 		var fileId=null,imgId=null;
-		if(buttonId=='button_wechat'){
+		if(buttonId=='file_wechat'){
 			fileId='file_wechat';
 			imgId='company_wechat';
-		}else if(buttonId=='button_logo'){
+		}else if(buttonId=='file_logo'){
 			fileId='file_logo';
 			imgId='company_logo';
 		}
@@ -31,10 +31,11 @@ var updataCompany=function(url,uid,url_2,uploadUrl,api){
 			url: uploadUrl,
 			secureuri: true, //是否需要安全协议，一般设置为false
             fileElementId: fileId, //文件上传域的ID
-			dataType: 'content',
+			dataType: 'json',
 			data: {filename: 'filename'},
 			success: function(data, status){
-				var result=JSON.parse(data.replace(/<pre style=\"word-wrap: break-word; white-space: pre-wrap;\">|<\/pre>/ig,''));
+				//var result=JSON.parse(data.replace(/<pre style=\"word-wrap: break-word; white-space: pre-wrap;\">|<\/pre>/ig,''));
+				var result=data;
 				if(result.code==1){
 					var image_url=result.data.img_url.substr(3);
 					$('#'+imgId).attr('src','../server'+image_url);
@@ -44,7 +45,7 @@ var updataCompany=function(url,uid,url_2,uploadUrl,api){
 				//$('#div_message').text(result.data.img_url);
 			},
 			error: function(data, status, e){
-				alert('上传失败！');
+				alert('上传错误！');
 			}
 		});
 	});

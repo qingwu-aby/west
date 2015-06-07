@@ -204,16 +204,17 @@ var addNews=function(url,showUrl,uid,uploadUrl){
 		// 	$('#news_logo').attr('src','./uploads'+newsImgSrc);
 		// 	$('#upload-img').fadeOut();
 		// });
-	$(document).on('click','#newsUp_button',function(){
+	$(document).on('change','#newsUp_logo',function(){
 
 		$.ajaxFileUpload({
 			url: uploadUrl,
 			secureuri: true, //是否需要安全协议，一般设置为false
             fileElementId: 'newsUp_logo', //文件上传域的ID
-			dataType: 'content',
+			dataType: 'json',
 			data: {filename: 'filename'},
 			success: function(data){
-				var result=JSON.parse(data.replace(/<pre style=\"word-wrap: break-word; white-space: pre-wrap;\">|<\/pre>/ig,''));
+				//var result=JSON.parse(data.replace(/<pre style=\"word-wrap: break-word; white-space: pre-wrap;\">|<\/pre>/ig,''));
+				var result=data;
 				if(result.code==1){
 					var image_url=result.data.img_url.substr(3);
 					$('#news_logo').attr('src','../server'+image_url);
@@ -223,7 +224,7 @@ var addNews=function(url,showUrl,uid,uploadUrl){
 				//$('#div_message').text(result.data.img_url);
 			},
 			error: function(data){
-				alert('上传失败！');
+				alert('上传错误！');
 			}
 		});
 	});

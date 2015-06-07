@@ -98,12 +98,18 @@
 					<div id="films_window_title" class="link_window_title">添加影视作品</div>
 					<span class="form">
 						<span class="link">作品标题：</span><input id="films_title" type="text" class="update-input update-input-sty" placeholder="输入作品标题" /></br>
-						<span class="link"><div style="text-align: left;">作品图标：</div><img id="films_logo" src="" style="margin-left: 70px;height: 150px; width: 120px;" />
+						<span class="link"><div style="text-align: left;">作品图标：</div></span>
+
+							<img id="films_logo" src="" style="margin-left: 70px;height: 150px; width: 120px;" />
+
 						<span style="color: red; line-height:24px;">图片大小：160px * 200px，其他尺寸可能会显示不正常。</span></br>
+
 						<div style="overflow:hidden; margin-left:70px;">
 							<input id="filmsUp_logo" class="file_upload" type="file" name="filename" />
-							<button id="filmsUp_button" class="button_upload">上传</button>
+							<!-- <button id="filmsUp_button" class="button_upload">上传</button> -->
+							<!-- <input style="float: left" type="file" onchange="previewImage(this,'films_logo')" /> -->
 						</div>
+
 						<span class="link">作品链接：</span><input id="films_link" type="text" class="update-input update-input-sty" placeholder="输入作品链接" /></br>
 						<button id="films_add" type="button" class="update-button link_button">确认添加</button>
 						<button id="films_update" type="button" class="update-button link_button">确认修改</button>
@@ -155,7 +161,7 @@
 						<span style="color: red; line-height:24px; margin-left: 70px;">图片大小：700px * 490px，其他尺寸可能会显示不正常。</span></br>
 						<div style="overflow:hidden; margin-left:70px; margin-bottom: 10px;">
 							<input id="newsUp_logo" class="file_upload" type="file" name="filename" />
-							<button id="newsUp_button" class="button_upload">上传</button>
+							<!-- <button id="newsUp_button" class="button_upload">上传</button> -->
 						</div>
 						<div style="margin-bottom: 20px; text-align：left;"><span class="link">新闻内容：</span><textarea id="news_content" style="width: 400px; height: 400px;" name="newsContent" class="update-textarea" placeholder="输入新闻内容"></textarea></div>
 						<span class="link">编辑作者：</span><input id="news_author" type="text" class="update-input update-input-sty" placeholder="作者" /></br>
@@ -219,7 +225,7 @@
 						<span style="color: red; line-height:24px;">图片大小：200px * 60px，其他尺寸可能会显示不正常。</span></br>
 						<div style="overflow:hidden; margin-left:70px;">
 							<input id="linkUp_logo" class="file_upload" type="file" name="filename" />
-							<button id="linkUp_button" class="button_upload">上传</button>
+							<!-- <button id="linkUp_button" class="button_upload">上传</button> -->
 						</div>
 						<span class="link">链接地址：</span><input id="link_mess" type="text" class="update-input update-input-sty" placeholder="输入链接说明" /></br>
 						<button id="link_add" type="button" class="update-button link_button">确认添加</button>
@@ -251,7 +257,7 @@
 						<span class="upload-remark" style="color: red; line-height: 30px;">图片尺寸：360px * 80px，其他尺寸可能会显示不正常。</span>
 						<div class="file_war">
 							<input id="file_logo" class="file_upload" type="file" name="filename" />
-							<button id="button_logo" class="button_upload buttonUp">上传</button>
+							<!-- <button id="button_logo" class="button_upload buttonUp">上传</button> -->
 						</div>
 					</div>
 					<div class="p">
@@ -260,7 +266,7 @@
 						<span class="upload-remark" style="color: red; line-height: 30px;">图片尺寸：200px * 200px，其他尺寸可能会显示不正常。</span>
 						<div class="file_war">
 							<input id="file_wechat" class="file_upload" type="file" name="filename" />
-							<button id="button_wechat" class="button_upload buttonUp">上传</button>
+							<!-- <button id="button_wechat" class="button_upload buttonUp">上传</button> -->
 						</div>
 					</div>
 					<div class="p">
@@ -341,11 +347,13 @@
 			</div>
 		</div>
 	</div>
+	<script type="text/javascript" src="./js/ajaxfileupload.js"></script>
+	<!-- <script type="text/javascript" src="./js/jquery.upload.v2"></script> -->
+	<!-- <script type="text/javascript" src="./js/js-upload-preview.js"></script> -->
 	<script type="text/javascript" src="./js/links.js"></script>
 	<script type="text/javascript" src="./js/films.js"></script>
 	<script type="text/javascript" src="./js/news.js"></script>
 	<script type="text/javascript" src="./js/companys.js"></script>
-	<script type="text/javascript" src="./js/ajaxfileupload.js"></script>
 	<script type="text/javascript" src="./js/index.js"></script>
 </body>
 </html>

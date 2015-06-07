@@ -90,7 +90,7 @@ jQuery.extend({
 			{
                 requestDone = true;
                 var status;
-                try {
+                // try {
                     status = isTimeout != "timeout" ? "success" : "error";
                     // Make sure that the request was successful or notmodified
                     if ( status != "error" )
@@ -106,11 +106,11 @@ jQuery.extend({
                             jQuery.event.trigger( "ajaxSuccess", [xml, s] );
                     } else
                         jQuery.handleError(s, xml, status);
-                } catch(e)
-				{
-                    status = "error";
-                    jQuery.handleError(s, xml, status, e);
-                }
+    //             } catch(e)
+				// {
+    //                 status = "error";
+    //                 jQuery.handleError(s, xml, status, e);
+    //             }
 
                 // The request was completed
                 if( s.global )
@@ -188,7 +188,9 @@ jQuery.extend({
         if ( type == "json" ) {
             // 濡傛灉杩斿洖鐨勬槸瀛楃涓�(JSON鏍煎紡瀛楃涓�)锛屼笅闈細鎶ラ敊锛屽鑷存棤娉曡蛋鍏ucess鏂规硶 鍔犱笂\"
 			// eval( "data = " + data );
-			eval("data = \" "+data+" \" ");
+			//eval("data = \' "+data+" \' ");
+			//data = JSON.parse(data.replace(/<pre style=\"word-wrap: break-word; white-space: pre-wrap;\">|<\/pre>/ig,''));
+            data = JSON.parse(data.replace(/<pre style=\"word-wrap: break-word; white-space: pre-wrap;\">|<pre>|<\/pre>/ig,''));
 		}
         // evaluate scripts within html
         if ( type == "html" )

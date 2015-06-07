@@ -174,16 +174,17 @@ var addFilms=function(url,showUrl,uid,uploadUrl){
 	// 		$('#films_logo').attr('src','./uploads'+newsImgSrc);
 	// 		$('#upload-img').fadeOut();
 	// 	});
-	$(document).on('click','#filmsUp_button',function(){
+	$(document).on('change','#filmsUp_logo',function(){
 
 		$.ajaxFileUpload({
 			url: uploadUrl,
-			secureuri: true, //是否需要安全协议，一般设置为false
-      fileElementId: 'filmsUp_logo', //文件上传域的ID
-			dataType: 'text',
+			secureuri: false, //是否需要安全协议，一般设置为false
+      		fileElementId: 'filmsUp_logo', //文件上传域的ID
+			dataType: 'json',
 			data: {filename: 'filename'},
-			success: function(data){
-				var result=JSON.parse(data.replace(/<pre style=\"word-wrap: break-word; white-space: pre-wrap;\">|<\/pre>/ig,''));
+			success: function(data, status){
+				//var result=JSON.parse(data.replace(/<pre style=\"word-wrap: break-word; white-space: pre-wrap;\">|<\/pre>/ig,''));
+				var result=data;
 				if(result.code==1){
 					var image_url=result.data.img_url.substr(3);
 					$('#films_logo').attr('src','../server'+image_url);
@@ -192,8 +193,8 @@ var addFilms=function(url,showUrl,uid,uploadUrl){
 				}
 				//$('#div_message').text(result.data.img_url);
 			},
-			error: function(data){
-				alert('上传失败！');
+			error: function(data, status, e){
+				alert('上传错误！');
 			}
 		});
 	});
