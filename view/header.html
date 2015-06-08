@@ -16,20 +16,32 @@
 	<script type="text/javascript" src="./js/jquery-1.9.1.min.js"></script>
 	<script type="text/javascript">
 	$(document).ready(function(){
-		// var link=window.location.search;
-  //       var index=link.split('?')[1];
-  //       var oUid = index.substr(4);
+		var link=window.location.search;
+        var index=link.split('?')[1];
+        var oUid = index.substr(4);
 		
 		$.ajax({
 	        type: 'get',
 	        async:false,
 	        url: 'server/index.php?m=Home&c=index&a=getCompany',
-	        data: {uid: 13},
+	        data: {uid: oUid},
 	        dataType: 'json',
 	        success: function(data){
                     var res =data.data; 
 	            	var str = '<a href="index.php"><img src="'+res.banner_url.substr(1)+'"/></a>';
 	        		$("#logo").append(str);
+	        		var info = '<a class="nav-href" href="./index.php?uid='+res.uid+'">首页</a>';
+	        		$("#nav-list-1").append(info);
+	        		var info2 = '<a class="nav-href" href="./situation.php?uid='+res.uid+'">最新动态</a>';
+	        		$("#nav-list-2").append(info2);
+	        		var info3 = '<a class="nav-href" href="./films.php?uid='+res.uid+'">影视作品</a>';
+	        		$("#nav-list-3").append(info3);
+	        		var info4 = '<a class="nav-href" href="./link.php?uid='+res.uid+'">友情链接</a>';
+	        		$("#nav-list-5").append(info4);
+	        		var info5 = '<a class="nav-href" href="./amuse.php?uid='+res.uid+'">娱乐营销</a>';
+	        		$("#nav-list-6").append(info5);
+	        		var info6 = '<a class="nav-href" href="./about.php?uid='+res.uid+'">关于我们</a>';
+	        		$("#nav-list-7").append(info6);
 	        }
 	    })
 
@@ -57,23 +69,23 @@
 		<div class="war">
 			<ul class="nav-ul">
 				<li id="nav-list-1" class="nav-list on">
-					<a class="nav-href" href="./index.php">首页</a>
+					<!-- <a class="nav-href" href="./index.php">首页</a> -->
 				</li>
 				<li id="nav-list-2" class="nav-list">
-					<a class="nav-href" href="./situation.php">最新动态</a>
+					<!-- <a class="nav-href" href="./situation.php">最新动态</a> -->
 				</li>
 				<li id="nav-list-3" class="nav-list">
-					<a class="nav-href" href="./films.php">影视作品</a>
+					<!-- <a class="nav-href" href="./films.php">影视作品</a> -->
 				</li>
 				
 				<li id="nav-list-5" class="nav-list">
-					<a class="nav-href" href="./link.php">友情链接</a>
+					<!-- <a class="nav-href" href="./link.php">友情链接</a> -->
 				</li>
 				<li id="nav-list-6" class="nav-list">
-					<a class="nav-href" href="./amuse.php">娱乐营销</a>
+					<!-- <a class="nav-href" href="./amuse.php">娱乐营销</a> -->
 				</li>
 				<li id="nav-list-7" class="nav-list nosty">
-					<a class="nav-href" href="./about.php">关于我们</a>
+					<!-- <a class="nav-href" href="./about.php">关于我们</a> -->
 				</li>
 			</ul>
 		</div>

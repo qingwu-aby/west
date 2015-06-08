@@ -2,15 +2,15 @@ $(document).ready(function(){
   var link=window.location.search;
   var index=link.split('&')[1];
   var oId = index.substr(3);
-  // var link1=window.location.search;
-  // var index1=link1.split('?')[1];
-  // var oUid = index1.substr(4);
+  var link1=window.location.search;
+  var index1=link1.split('?')[1];
+  var oUid = index1.substr(4);
   
     $.ajax({
       type:'get',
       async:'false',
       url:"server/index.php?m=Home&c=views&a=getVideosContent",
-      data:{uid:13,id:oId},
+      data:{uid:oUid,id:oId},
       dataType:'json',
       success:function(data){  
           var str = ""; 

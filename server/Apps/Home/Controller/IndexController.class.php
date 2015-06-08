@@ -11,7 +11,7 @@ class IndexController extends Controller {
 
 		$uid = I('get.uid');
 		$news = M('News');
-		$result = $news->where(array('status' => 1, 'hot' => 1))->order('id DESC')->limit(3)->select();
+		$result = $news->where(array('status' => 1, 'hot' => 1))->order('id DESC')->limit(4)->select();
 		if(count($result) <= 0) {
 			$data = array(
 				'code' => -1,
@@ -85,7 +85,7 @@ class IndexController extends Controller {
 	public function getVideo() {
 		$uid = I('get.uid');
 		$videos = M('Videos');
-		$result = $videos->where(array('uid' => $uid))->order('id DESC')->limit(6)->select();
+		$result = $videos->where(array('uid' => $uid, 'status' => 1))->order('id DESC')->limit(6)->select();
 		if(count($result) == 0) {
 			$data = array(
 				'code' => -1,

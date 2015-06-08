@@ -2,13 +2,13 @@
 	var j = 0;  
 		    function getData() { 
 		            j++;
-		            // var link=window.location.search;
-	             //    var index=link.split('?')[1];
-	             //    var oUid = index.substr(4); 
+		            var link=window.location.search;
+	                var index=link.split('?')[1];
+	                var oUid = index.substr(4); 
 		                 $.ajax({
 		                    type:'get',
 		                    url:"server/index.php?m=Home&c=views&a=getVideo",
-		                    data:{uid:13,p:j}, 
+		                    data:{uid:oUid,p:j}, 
 		                    dataType:'json',
 		                    success:function(data){  
 		                            if(data){  

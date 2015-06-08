@@ -1,12 +1,12 @@
 $(document).ready(function(){
-  // var link=window.location.search;
-  // var index=link.split('?')[1];
-  // var oUid = index.substr(4);
+  var link=window.location.search;
+  var index=link.split('?')[1];
+  var oUid = index.substr(4);
                     
   $.ajax({
   type:'get',
   url:"server/index.php?m=Home&c=index&a=getCompany",
-  data:{uid:13}, 
+  data:{uid:oUid}, 
   dataType:'json',
   success:function(data){   
       var str = "";  
