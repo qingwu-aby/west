@@ -11,7 +11,7 @@ class IndexController extends Controller {
 
 		$uid = I('get.uid');
 		$news = M('News');
-		$result = $news->where(array('status' => 1, 'hot' => 1))->order('id DESC')->limit(3)->select();
+		$result = $news->where(array('status' => 1, 'hot' => 1))->order('id DESC')->limit(4)->select();
 		if(count($result) <= 0) {
 			$data = array(
 				'code' => -1,
