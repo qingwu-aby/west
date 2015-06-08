@@ -1,12 +1,12 @@
 $(document).ready(function(){
-    // var link=window.location.search;
-    // var index=link.split('?')[1];
-    // var oUid = index.substr(4);
+    var link=window.location.search;
+    var index=link.split('?')[1];
+    var oUid = index.substr(4);
         $.ajax({
                 type:'get',
                 async: false,
-                url:"server/index.php?m=Home&c=index&a=getNewsList",
-                data:{uid:13}, 
+                url:"server/index.php?m=Home&c=index&a=getMedia",
+                data:{uid:oUid}, 
                 dataType:'json',
                 success:function(data){ 
                         if(data){  

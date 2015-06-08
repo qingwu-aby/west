@@ -1,16 +1,16 @@
-$(document).ready(function(){
+// $(document).ready(function(){
   var link=window.location.search;
   var index=link.split('&')[1];
   var oId = index.substr(3);
-  // var link1=window.location.search;
-  // var index1=link1.split('?')[1];
-  // var oUid = index1.substr(4);
+  var link1=window.location.search;
+  var index1=link1.split('?')[1];
+  var oUid = index1.substr(4);
   
   $.ajax({
   type:'get',
   url:"server/index.php?m=Home&c=views&a=getNewsContent",
-  data:{uid:13,id:oId},
-  dataType:'json',
+  data:{uid:oUid,id:oId},
+  dataType:'jsoUidon',
   success:function(data){   
       var str = "";  
       var res = data.data;

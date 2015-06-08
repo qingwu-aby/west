@@ -1,12 +1,12 @@
  $(document).ready(function(){
- 	// var link=window.location.search;
-  //   var index=link.split('?')[1];
-  //   var oUid = index.substr(4);
+ 	var link=window.location.search;
+    var index=link.split('?')[1];
+    var oUid = index.substr(4);
  $.ajax({
  	
 		type:'get',
 		url:"server/index.php?m=Home&c=views&a=getLinks",
-		data:{uid:13,p:'1'}, 
+		data:{uid:oUid,p:'1'}, 
 		dataType:'json',
 		success:function(data){  
 		        if(data){  
