@@ -1,9 +1,15 @@
 <?php
-	$uid=$_GET['uid'];
-	$username=$_GET['username'];
+session_start();
+	if($_SESSION['username'] && $_SESSION['uid']) {
+		$uid=$_GET['uid'];
+		$username=$_GET['username'];
 
-	if($uid&&$username){
-		include_once './header.html';
+		if($uid&&$username){
+			include_once './header.html';
+	} else {
+		echo "<script>window.location.href='./login.php'</script>";
+	}
+	
 ?>
 
 	<link rel="stylesheet" type="text/css" href="./css/index.css" />
