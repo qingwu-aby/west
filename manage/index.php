@@ -93,7 +93,7 @@
 		</div>
 		<div class="content-main">
 			<div id="content-films-1" class="content-main-sty content-films-click">
-				<div id="films_window" class="link_window">
+				<div id="films_window" class="link_window" style="position: absolute;">
 					<span id="films_cancal" class="link_cancal">取消</span>
 					<div id="films_window_title" class="link_window_title">添加影视作品</div>
 					<span class="form">
@@ -155,6 +155,12 @@
 					<span id="news_cancal" class="link_cancal">取消</span>
 					<div id="news_window_title" class="link_window_title">添加新闻动态</div>
 					<span class="form" style=" padding-left: 25px;">
+						<div id="news_type" style="height: 30px; display: none;">
+							<span class="link">发表类型：</span>
+							<input id="news_radio" name="radio" type="radio" checked="checked" value="0" />新闻&ensp;&ensp;&ensp;
+							<input id="lunbo_radio" name="radio" type="radio" value="1" />轮播图
+							<!-- <input id="button_radio" type="button" value="000" /> -->
+						</div>
 						<span class="link">新闻标题：</span><input id="news_title" type="text" class="update-input update-input-sty" placeholder="输入新闻标题" /></br>
 						<span class="link">新闻摘要：</span><input id="news_summary" type="text" class="update-input update-input-sty" placeholder="输入新闻摘要" /></br>
 						<span class="link"><div style="text-algin: left;">新闻图片：</div><img id="news_logo" src="" style=" margin-left: 70px; height: 98px; width: 140px;" />

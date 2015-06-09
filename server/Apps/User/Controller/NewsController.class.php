@@ -30,7 +30,7 @@ class NewsController extends BaseController {
                     'author' => I('post.author'),
                     'content' => I('post.content'),
                     'release_time' => time(),
-                    'hot' => 1,
+                    'hot' => I('post.hot'),
                     'status' => 1,
                     'modify_time' => time(),
                 );
@@ -83,6 +83,7 @@ class NewsController extends BaseController {
                     'author' => I('post.author'),
     				'content' => I('post.content'),
     				'release_time' => time(),
+                    'hot' => I('post.hot'),
                     'status' => 1,
     				'modify_time' => time(),
     			);
