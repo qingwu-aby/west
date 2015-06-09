@@ -19,7 +19,7 @@ class BaseController extends Controller {
 		if(session('?username') && session('?uid')) {
 			return ture;
 		} else {
-			return false;
+			$this->error('请登录后操作', 'index/index');
 		}
 	}
 }
