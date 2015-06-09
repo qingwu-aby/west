@@ -21,13 +21,28 @@
 					}
 				});
 		});
+		$(document).on('click', '#logout', function(){
+				$.ajax({
+					type: 'post',
+					url: '../server/index.php?m=User&c=user&a=logout',
+					dataType: 'json',
+					success: function(data){
+						if(data.code==1){
+							location.href='../login.php';
+						}
+					},
+					error: function(){
+						alert('退出失败！');
+					}
+				});
+		});
 	</script>
 	<!-- header -->
 	<header id="header_uid" class="<?php echo $uid; ?>">
 		<!-- <img class="company_logo" src="" /> -->
 		<div id="header-title" class="header-title">陕西省影视产业管理平台——<?php echo $username; ?></div>
 		<a href="../login.php"><button type="button" id="header-login" class="header-login">登录</button></a>
-		<a href="../"><button type="button" class="header-show">退出</button></a>
+		<button id="logout" type="button" class="header-show">退出</button>
 	</header>
 
 	<!-- home -->

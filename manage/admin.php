@@ -67,7 +67,7 @@
 	<!-- header -->
 	<header>
 		<div class="header-title">陕西省影视产业管理平台——系统管理员</div>
-		<a href="../"><button type="button" class="header-show">退出</button></a>
+		<button id="logout" type="button" class="header-show">退出</button>
 	</header>
 
 	<!-- home -->
@@ -267,6 +267,23 @@
 	
 	<script type="text/javascript" src="./js/jquery-1.9.1.min.js"></script>
 	<script type="text/javascript" src="./js/admin.js"></script>
+	<script type="text/javascript">
+		$(document).on('click', '#logout', function(){
+				$.ajax({
+					type: 'post',
+					url: '../server/index.php?m=User&c=user&a=logout',
+					dataType: 'json',
+					success: function(data){
+						if(data.code==1){
+							location.href='../login.php';
+						}
+					},
+					error: function(){
+						alert('退出失败！');
+					}
+				});
+		});
+	</script>
 </body>
 </html>
 

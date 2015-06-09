@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	$('title').text('首页-陕西省影视产业管理平台系统');
     //交互绑定
-    var i = 0; 
+    
         function getYmdTime(time){
 		if(time > 0){
 			var dateStr = new Date(time);
@@ -10,6 +10,7 @@ $(document).ready(function(){
 			return '末知时间';
 		}
 	} 
+    var i = 0; 
     function getData() { 
             i++; 
                 var link=window.location.search;
@@ -21,7 +22,7 @@ $(document).ready(function(){
                     url:"server/index.php?m=Home&c=index&a=getNewsList",
                     data:{uid:oUid,p:i}, 
                     dataType:'json',
-                    success:function(data){  
+                    success:function(data){
                             if(data){  
                                 var str = "";  
                                 $.each(data.data,function(index,array){  
