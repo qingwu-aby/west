@@ -11,11 +11,11 @@ class IndexController extends Controller {
 
 		$uid = I('get.uid');
 		$news = M('News');
-		$result = $news->where(array('status' => 1, 'hot' => 1))->order('id DESC')->limit(4)->select();
+		$result = $news->where(array('status' => 1, 'hot' => 1, 'uid' => $uid))->order('id DESC')->limit(4)->select();
 		if(count($result) <= 0) {
 			$data = array(
 				'code' => -1,
-				'msg' => '公司ID有误',
+				'msg' => '数据为空',
 			);
 		} else {
 			$data = array(
