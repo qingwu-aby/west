@@ -12,6 +12,13 @@ namespace User\Controller;
 use Think\Controller;
 class BaseController extends Controller {
 
+public function _initialize() {
+		if(session('?username') && session('?uid')) {
+			return ture;
+		} else {
+			echo "<script>window.location.href='../../../../login.php'</script>";
+		}
+	}
 	/**
 	 * 是否登陆
 	 */
@@ -19,8 +26,11 @@ class BaseController extends Controller {
 		if(session('?username') && session('?uid')) {
 			return ture;
 		} else {
-			$this->error('请登录后操作', 'index/index');
+			echo "<script>window.location.href='../../../../login.php'</script>";
 		}
 	}
+
+	
+
 }
 ?>

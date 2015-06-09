@@ -1438,3 +1438,656 @@ SQL: SHOW COLUMNS FROM `west_links` [ RunTime:0.0006s ]
 SQL: SELECT * FROM `west_links` WHERE ( status = 1 ) AND `uid` = 13 ORDER BY id DESC LIMIT 0,10000   [ RunTime:0.0001s ]
 SQL: SELECT COUNT(*) AS tp_count FROM `west_links` LIMIT 1   [ RunTime:0.0001s ]
 
+[ 2015-06-09T21:56:55+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=Home&c=index&a=getCompany&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000154s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-06-09T21:56:55+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=Home&c=views&a=getVideo&uid=13&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000098s ]
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `west_videos` WHERE ( status = 1 ) AND `uid` = 13 ORDER BY id DESC LIMIT 0,10000   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_videos` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-06-09T21:56:55+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=Home&c=views&a=getNewsList&uid=13&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000188s ]
+SQL: SHOW COLUMNS FROM `west_news` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `west_news` WHERE `status` = 1 AND `uid` = 13 ORDER BY id DESC LIMIT 0,10000   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_news` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-06-09T21:56:55+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=Home&c=views&a=getLinks&uid=13&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000164s ]
+SQL: SHOW COLUMNS FROM `west_links` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `west_links` WHERE ( status = 1 ) AND `uid` = 13 ORDER BY id DESC LIMIT 0,10000   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_links` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-06-09T21:56:57+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=Home&c=index&a=getCompany&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000122s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000137s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-06-09T21:56:57+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=Home&c=views&a=getVideo&uid=13&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000099s ]
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `west_videos` WHERE ( status = 1 ) AND `uid` = 13 ORDER BY id DESC LIMIT 0,10000   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_videos` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-06-09T21:56:57+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=Home&c=views&a=getNewsList&uid=13&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000102s ]
+SQL: SHOW COLUMNS FROM `west_news` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `west_news` WHERE `status` = 1 AND `uid` = 13 ORDER BY id DESC LIMIT 0,10000   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_news` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-06-09T21:56:57+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=Home&c=views&a=getLinks&uid=13&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000157s ]
+SQL: SHOW COLUMNS FROM `west_links` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `west_links` WHERE ( status = 1 ) AND `uid` = 13 ORDER BY id DESC LIMIT 0,10000   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_links` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-06-09T21:57:18+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=Home&c=index&a=getCompany&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000098s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-06-09T21:57:18+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=Home&c=index&a=getMedia&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000094s ]
+SQL: SHOW COLUMNS FROM `west_news` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `west_news` WHERE `status` = 1 AND `hot` = 1 AND `uid` = 13 ORDER BY id DESC LIMIT 4   [ RunTime:0.0001s ]
+
+[ 2015-06-09T21:57:18+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=Home&c=index&a=getNewsList&uid=13&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000259s ]
+SQL: SHOW COLUMNS FROM `west_news` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `west_news` WHERE `uid` = 13 AND `status` = 1 AND `hot` = 0 ORDER BY id DESC LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_news` LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-06-09T21:57:18+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=Home&c=index&a=getCompany&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000126s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000293s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-06-09T21:57:18+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=Home&c=index&a=getVideo&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `west_videos` WHERE `uid` = 13 AND `status` = 1 ORDER BY id DESC LIMIT 6   [ RunTime:0.0002s ]
+
+[ 2015-06-09T21:57:36+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=Home&c=index&a=getCompany&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000170s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-06-09T21:57:36+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=Home&c=views&a=getVideo&uid=13&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000171s ]
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `west_videos` WHERE ( status = 1 ) AND `uid` = 13 ORDER BY id DESC LIMIT 0,10000   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_videos` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-06-09T21:57:36+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=Home&c=views&a=getNewsList&uid=13&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000158s ]
+SQL: SHOW COLUMNS FROM `west_news` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `west_news` WHERE `status` = 1 AND `uid` = 13 ORDER BY id DESC LIMIT 0,10000   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_news` LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-06-09T21:57:36+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=Home&c=views&a=getLinks&uid=13&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000160s ]
+SQL: SHOW COLUMNS FROM `west_links` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `west_links` WHERE ( status = 1 ) AND `uid` = 13 ORDER BY id DESC LIMIT 0,10000   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_links` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-06-09T21:57:42+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=Home&c=index&a=getCompany&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000186s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-06-09T21:57:42+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=Home&c=views&a=getVideo&uid=13&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000172s ]
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `west_videos` WHERE ( status = 1 ) AND `uid` = 13 ORDER BY id DESC LIMIT 0,10000   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_videos` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-06-09T21:57:42+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=Home&c=views&a=getNewsList&uid=13&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000195s ]
+SQL: SHOW COLUMNS FROM `west_news` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `west_news` WHERE `status` = 1 AND `uid` = 13 ORDER BY id DESC LIMIT 0,10000   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_news` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-06-09T21:57:42+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=Home&c=views&a=getLinks&uid=13&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000159s ]
+SQL: SHOW COLUMNS FROM `west_links` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `west_links` WHERE ( status = 1 ) AND `uid` = 13 ORDER BY id DESC LIMIT 0,10000   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_links` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-06-09T21:59:19+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=Home&c=index&a=getCompany&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000107s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-06-09T21:59:19+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=Home&c=views&a=getVideo&uid=13&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000098s ]
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `west_videos` WHERE ( status = 1 ) AND `uid` = 13 ORDER BY id DESC LIMIT 0,10000   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_videos` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-06-09T21:59:19+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=Home&c=views&a=getNewsList&uid=13&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000175s ]
+SQL: SHOW COLUMNS FROM `west_news` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `west_news` WHERE `status` = 1 AND `uid` = 13 ORDER BY id DESC LIMIT 0,10000   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_news` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-06-09T21:59:19+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=Home&c=views&a=getLinks&uid=13&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000155s ]
+SQL: SHOW COLUMNS FROM `west_links` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `west_links` WHERE ( status = 1 ) AND `uid` = 13 ORDER BY id DESC LIMIT 0,10000   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_links` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-06-09T21:59:23+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=Home&c=index&a=getCompany&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000103s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-06-09T21:59:23+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=Home&c=views&a=getVideo&uid=13&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000192s ]
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `west_videos` WHERE ( status = 1 ) AND `uid` = 13 ORDER BY id DESC LIMIT 0,10000   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_videos` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-06-09T21:59:23+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=Home&c=views&a=getNewsList&uid=13&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000100s ]
+SQL: SHOW COLUMNS FROM `west_news` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `west_news` WHERE `status` = 1 AND `uid` = 13 ORDER BY id DESC LIMIT 0,10000   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_news` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-06-09T21:59:23+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=Home&c=views&a=getLinks&uid=13&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000131s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000291s ]
+SQL: SHOW COLUMNS FROM `west_links` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `west_links` WHERE ( status = 1 ) AND `uid` = 13 ORDER BY id DESC LIMIT 0,10000   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_links` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-06-09T22:05:51+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=Home&c=index&a=getCompany&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000212s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-06-09T22:05:51+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=Home&c=views&a=getNewsList&uid=13&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000201s ]
+SQL: SHOW COLUMNS FROM `west_news` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `west_news` WHERE `status` = 1 AND `uid` = 13 ORDER BY id DESC LIMIT 0,10000   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_news` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-06-09T22:05:51+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=Home&c=views&a=getLinks&uid=13&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000200s ]
+SQL: SHOW COLUMNS FROM `west_links` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `west_links` WHERE ( status = 1 ) AND `uid` = 13 ORDER BY id DESC LIMIT 0,10000   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_links` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-06-09T22:05:51+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=Home&c=views&a=getVideo&uid=13&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000193s ]
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `west_videos` WHERE ( status = 1 ) AND `uid` = 13 ORDER BY id DESC LIMIT 0,10000   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_videos` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-06-09T22:06:00+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=Home&c=index&a=getCompany&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000182s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-06-09T22:06:00+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=Home&c=views&a=getNewsList&uid=13&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000174s ]
+SQL: SHOW COLUMNS FROM `west_news` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `west_news` WHERE `status` = 1 AND `uid` = 13 ORDER BY id DESC LIMIT 0,10000   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_news` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-06-09T22:06:00+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=Home&c=views&a=getVideo&uid=13&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000223s ]
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `west_videos` WHERE ( status = 1 ) AND `uid` = 13 ORDER BY id DESC LIMIT 0,10000   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_videos` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-06-09T22:06:00+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=Home&c=views&a=getLinks&uid=13&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000177s ]
+SQL: SHOW COLUMNS FROM `west_links` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `west_links` WHERE ( status = 1 ) AND `uid` = 13 ORDER BY id DESC LIMIT 0,10000   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_links` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-06-09T22:12:06+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=Home&c=index&a=getCompany&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000122s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000133s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-06-09T22:12:06+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=Home&c=views&a=getVideo&uid=13&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000172s ]
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `west_videos` WHERE ( status = 1 ) AND `uid` = 13 ORDER BY id DESC LIMIT 0,10000   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_videos` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-06-09T22:12:06+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=Home&c=views&a=getNewsList&uid=13&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000457s ]
+SQL: SHOW COLUMNS FROM `west_news` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `west_news` WHERE `status` = 1 AND `uid` = 13 ORDER BY id DESC LIMIT 0,10000   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_news` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-06-09T22:12:06+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=Home&c=views&a=getLinks&uid=13&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000457s ]
+SQL: SHOW COLUMNS FROM `west_links` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `west_links` WHERE ( status = 1 ) AND `uid` = 13 ORDER BY id DESC LIMIT 0,10000   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_links` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-06-09T22:12:46+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=Home&c=views&a=getVideo&uid=13&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000105s ]
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `west_videos` WHERE ( status = 1 ) AND `uid` = 13 ORDER BY id DESC LIMIT 0,10000   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_videos` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-06-09T22:12:46+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=Home&c=index&a=getCompany&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000105s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000220s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-06-09T22:12:46+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=Home&c=views&a=getNewsList&uid=13&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000166s ]
+SQL: SHOW COLUMNS FROM `west_news` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `west_news` WHERE `status` = 1 AND `uid` = 13 ORDER BY id DESC LIMIT 0,10000   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_news` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-06-09T22:12:46+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=Home&c=views&a=getLinks&uid=13&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000112s ]
+SQL: SHOW COLUMNS FROM `west_links` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `west_links` WHERE ( status = 1 ) AND `uid` = 13 ORDER BY id DESC LIMIT 0,10000   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_links` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-06-09T22:13:52+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=Home&c=index&a=getCompany&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000103s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-06-09T22:13:52+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=Home&c=views&a=getVideo&uid=13&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000144s ]
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `west_videos` WHERE ( status = 1 ) AND `uid` = 13 ORDER BY id DESC LIMIT 0,10000   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_videos` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-06-09T22:13:52+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=Home&c=views&a=getNewsList&uid=13&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000167s ]
+SQL: SHOW COLUMNS FROM `west_news` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `west_news` WHERE `status` = 1 AND `uid` = 13 ORDER BY id DESC LIMIT 0,10000   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_news` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-06-09T22:13:52+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=Home&c=views&a=getLinks&uid=13&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000127s ]
+SQL: SHOW COLUMNS FROM `west_links` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `west_links` WHERE ( status = 1 ) AND `uid` = 13 ORDER BY id DESC LIMIT 0,10000   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_links` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-06-09T22:14:11+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=Home&c=views&a=getVideo&uid=13&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000163s ]
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `west_videos` WHERE ( status = 1 ) AND `uid` = 13 ORDER BY id DESC LIMIT 0,10000   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_videos` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-06-09T22:14:11+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=Home&c=index&a=getCompany&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000161s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-06-09T22:14:11+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=Home&c=views&a=getNewsList&uid=13&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000191s ]
+SQL: SHOW COLUMNS FROM `west_news` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `west_news` WHERE `status` = 1 AND `uid` = 13 ORDER BY id DESC LIMIT 0,10000   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_news` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-06-09T22:14:11+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=Home&c=views&a=getLinks&uid=13&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000201s ]
+SQL: SHOW COLUMNS FROM `west_links` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `west_links` WHERE ( status = 1 ) AND `uid` = 13 ORDER BY id DESC LIMIT 0,10000   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_links` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-06-09T22:14:18+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=Home&c=index&a=getCompany&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000183s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-06-09T22:14:18+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=Home&c=views&a=getVideo&uid=13&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000177s ]
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `west_videos` WHERE ( status = 1 ) AND `uid` = 13 ORDER BY id DESC LIMIT 0,10000   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_videos` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-06-09T22:14:18+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=Home&c=views&a=getNewsList&uid=13&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000120s ]
+SQL: SHOW COLUMNS FROM `west_news` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `west_news` WHERE `status` = 1 AND `uid` = 13 ORDER BY id DESC LIMIT 0,10000   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_news` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-06-09T22:14:18+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=Home&c=views&a=getLinks&uid=13&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000221s ]
+SQL: SHOW COLUMNS FROM `west_links` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `west_links` WHERE ( status = 1 ) AND `uid` = 13 ORDER BY id DESC LIMIT 0,10000   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_links` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-06-09T22:14:24+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=Home&c=index&a=getCompany&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000190s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-06-09T22:14:24+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=Home&c=views&a=getVideo&uid=13&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000100s ]
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `west_videos` WHERE ( status = 1 ) AND `uid` = 13 ORDER BY id DESC LIMIT 0,10000   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_videos` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-06-09T22:14:24+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=Home&c=views&a=getNewsList&uid=13&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000106s ]
+SQL: SHOW COLUMNS FROM `west_news` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `west_news` WHERE `status` = 1 AND `uid` = 13 ORDER BY id DESC LIMIT 0,10000   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_news` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2015-06-09T22:14:24+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=Home&c=views&a=getLinks&uid=13&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000191s ]
+SQL: SHOW COLUMNS FROM `west_links` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `west_links` WHERE ( status = 1 ) AND `uid` = 13 ORDER BY id DESC LIMIT 0,10000   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_links` LIMIT 1   [ RunTime:0.0001s ]
+
