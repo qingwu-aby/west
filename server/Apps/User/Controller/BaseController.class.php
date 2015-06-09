@@ -28,7 +28,7 @@ public function _initialize() {
 		if(session('?username') && session('?uid')) {
 			return ture;
 		} else {
-			echo "<script>window.location.href='../../../../login.php'</script>";
+			return false;
 		}
 	}
 
