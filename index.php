@@ -40,7 +40,7 @@
 				<div>
 					<span class="news"></span>
 					<span class="text">最新动态 <i class="eng">UPDATE SITUATION</i></span>
-					<a href="./situation.php" class="more">更多新闻<<</a>
+					<span id="news_title"><!-- <a href="./situation.php" class="more">更多新闻<<</a> --></span>
 					<hr />
 				</div>
 				
@@ -100,10 +100,11 @@
 </div>
 	<script type="text/javascript" src="./js/jquery-1.9.1.min.js"></script>
 	<script type="text/javascript" src="./js/module.js"></script>
-	<script type="text/javascript" src="./js/getmedia.js"></script>
+	
 	<script type="text/javascript" src="./js/media.js"></script>
 	<script type="text/javascript" src="./js/index.js"></script>
 	<script type="text/javascript" src="./js/company.js"></script>
 	<script type="text/javascript" src="./js/string.js"></script>
-	<script type="text/javascript" src="./js/video.js"></script>		
+	<script type="text/javascript" src="./js/video.js"></script>
+	<script type="text/javascript" src="./js/getmedia.js"></script>
 <?php include_once './view/footer.html'; ?>

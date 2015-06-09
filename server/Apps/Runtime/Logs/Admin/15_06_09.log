@@ -1,0 +1,1027 @@
+[ 2015-06-09T22:13:19+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=Admin&c=user&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001157s ]
+NOTIC: [8] Undefined variable: id D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\Admin\Controller\UserController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `west_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2015-06-09T22:13:19+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=Admin&c=views&a=getUser&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000849s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\Admin\Controller\BaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0098s ]
+SQL: SELECT `uid`,`username`,`modify_time` FROM `west_user` WHERE `group` = 'user' AND `status` = 0 ORDER BY uid DESC LIMIT 0,10000   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: count D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\Admin\Controller\ViewsController.class.php 第 61 行.
+NOTIC: [8] Undefined variable: list_t D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\Admin\Controller\ViewsController.class.php 第 62 行.
+
+[ 2015-06-09T22:13:19+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=Admin&c=views&a=getUser&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000857s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001008s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\Admin\Controller\BaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0144s ]
+SQL: SELECT `uid`,`username`,`modify_time` FROM `west_user` WHERE `group` = 'user' AND `status` = 2 ORDER BY uid DESC LIMIT 0,10000   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0126s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 31 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: count D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\Admin\Controller\ViewsController.class.php 第 61 行.
+
+[ 2015-06-09T22:13:19+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=Admin&c=views&a=getNews&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001024s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\Admin\Controller\BaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `west_news` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `west_news` WHERE ( status = 1 ) ORDER BY id DESC LIMIT 0,100000   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_news` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-06-09T22:13:19+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=Admin&c=views&a=getUser&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001728s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\Admin\Controller\BaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0099s ]
+SQL: SELECT `uid`,`username`,`modify_time` FROM `west_user` WHERE `group` = 'user' ORDER BY uid DESC LIMIT 0,10000   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_user` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 31 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 30 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-06-09T22:13:19+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=Admin&c=views&a=getVideos&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001619s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\Admin\Controller\BaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `west_videos` WHERE ( status = 1 ) ORDER BY id DESC LIMIT 0,100000   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_videos` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-06-09T22:13:19+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=Admin&c=views&a=getLinks&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000965s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\Admin\Controller\BaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `west_links` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `west_links` WHERE ( status = 1 ) ORDER BY id DESC LIMIT 0,100000   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_links` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 30 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-06-09T22:13:19+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=Admin&c=views&a=getUser&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000957s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001210s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\Admin\Controller\BaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0058s ]
+SQL: SELECT `uid`,`username`,`modify_time` FROM `west_user` WHERE `group` = 'user' AND `status` = 1 ORDER BY uid DESC LIMIT 0,10000   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 30 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: count D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\Admin\Controller\ViewsController.class.php 第 61 行.
+
+[ 2015-06-09T22:13:25+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=Admin&c=user&a=logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+ERR: 非法操作:logout
+
+[ 2015-06-09T22:13:28+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=Admin&c=views&a=getUser&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\Admin\Controller\BaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0086s ]
+SQL: SELECT `uid`,`username`,`modify_time` FROM `west_user` WHERE `group` = 'user' ORDER BY uid DESC LIMIT 0,10000   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_user` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 31 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 30 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2015-06-09T22:13:28+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=Admin&c=views&a=getNews&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\Admin\Controller\BaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `west_news` [ RunTime:0.0307s ]
+SQL: SELECT * FROM `west_news` WHERE ( status = 1 ) ORDER BY id DESC LIMIT 0,100000   [ RunTime:0.0029s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_news` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-06-09T22:13:28+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=Admin&c=views&a=getVideos&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001121s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\Admin\Controller\BaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `west_videos` WHERE ( status = 1 ) ORDER BY id DESC LIMIT 0,100000   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_videos` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-06-09T22:13:28+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=Admin&c=views&a=getUser&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000872s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\Admin\Controller\BaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0180s ]
+SQL: SELECT `uid`,`username`,`modify_time` FROM `west_user` WHERE `group` = 'user' AND `status` = 0 ORDER BY uid DESC LIMIT 0,10000   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: count D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\Admin\Controller\ViewsController.class.php 第 61 行.
+NOTIC: [8] Undefined variable: list_t D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\Admin\Controller\ViewsController.class.php 第 62 行.
+
+[ 2015-06-09T22:13:28+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=Admin&c=views&a=getUser&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001062s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\Admin\Controller\BaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0082s ]
+SQL: SELECT `uid`,`username`,`modify_time` FROM `west_user` WHERE `group` = 'user' AND `status` = 1 ORDER BY uid DESC LIMIT 0,10000   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 30 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: count D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\Admin\Controller\ViewsController.class.php 第 61 行.
+
+[ 2015-06-09T22:13:28+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=Admin&c=views&a=getUser&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000974s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\Admin\Controller\BaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0075s ]
+SQL: SELECT `uid`,`username`,`modify_time` FROM `west_user` WHERE `group` = 'user' AND `status` = 2 ORDER BY uid DESC LIMIT 0,10000   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 31 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: count D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\Admin\Controller\ViewsController.class.php 第 61 行.
+
+[ 2015-06-09T22:13:28+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=Admin&c=views&a=getLinks&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001142s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001310s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\Admin\Controller\BaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `west_links` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `west_links` WHERE ( status = 1 ) ORDER BY id DESC LIMIT 0,100000   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_links` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 30 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-06-09T22:13:29+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=Admin&c=user&a=logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000574s ]
+ERR: 非法操作:logout
+
+[ 2015-06-09T22:14:05+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=Admin&c=views&a=getUser&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\Admin\Controller\BaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0101s ]
+SQL: SELECT `uid`,`username`,`modify_time` FROM `west_user` WHERE `group` = 'user' AND `status` = 2 ORDER BY uid DESC LIMIT 0,10000   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 31 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: count D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\Admin\Controller\ViewsController.class.php 第 61 行.
+
+[ 2015-06-09T22:14:05+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=Admin&c=views&a=getUser&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002669s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002164s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002273s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\Admin\Controller\BaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0098s ]
+SQL: SELECT `uid`,`username`,`modify_time` FROM `west_user` WHERE `group` = 'user' AND `status` = 0 ORDER BY uid DESC LIMIT 0,10000   [ RunTime:0.0018s ]
+NOTIC: [8] Undefined variable: count D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\Admin\Controller\ViewsController.class.php 第 61 行.
+NOTIC: [8] Undefined variable: list_t D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\Admin\Controller\ViewsController.class.php 第 62 行.
+
+[ 2015-06-09T22:14:05+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=Admin&c=views&a=getUser&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000879s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\Admin\Controller\BaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0072s ]
+SQL: SELECT `uid`,`username`,`modify_time` FROM `west_user` WHERE `group` = 'user' ORDER BY uid DESC LIMIT 0,10000   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 31 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 30 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-06-09T22:14:05+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=Admin&c=views&a=getUser&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000869s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\Admin\Controller\BaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0087s ]
+SQL: SELECT `uid`,`username`,`modify_time` FROM `west_user` WHERE `group` = 'user' AND `status` = 1 ORDER BY uid DESC LIMIT 0,10000   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 30 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0013s ]
+NOTIC: [8] Undefined variable: count D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\Admin\Controller\ViewsController.class.php 第 61 行.
+
+[ 2015-06-09T22:14:05+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=Admin&c=views&a=getVideos&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001049s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\Admin\Controller\BaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `west_videos` WHERE ( status = 1 ) ORDER BY id DESC LIMIT 0,100000   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_videos` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-06-09T22:14:05+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=Admin&c=views&a=getNews&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001351s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\Admin\Controller\BaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `west_news` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `west_news` WHERE ( status = 1 ) ORDER BY id DESC LIMIT 0,100000   [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_news` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-06-09T22:14:05+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=Admin&c=views&a=getLinks&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000827s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001004s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\Admin\Controller\BaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `west_links` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `west_links` WHERE ( status = 1 ) ORDER BY id DESC LIMIT 0,100000   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_links` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 30 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-06-09T22:14:17+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=Admin&c=user&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000580s ]
+NOTIC: [8] Undefined variable: id D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\Admin\Controller\UserController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `west_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-06-09T22:14:17+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=Admin&c=views&a=getUser&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\Admin\Controller\BaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0087s ]
+SQL: SELECT `uid`,`username`,`modify_time` FROM `west_user` WHERE `group` = 'user' ORDER BY uid DESC LIMIT 0,10000   [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_user` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 31 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 30 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-06-09T22:14:17+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=Admin&c=views&a=getUser&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000600s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\Admin\Controller\BaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0077s ]
+SQL: SELECT `uid`,`username`,`modify_time` FROM `west_user` WHERE `group` = 'user' AND `status` = 0 ORDER BY uid DESC LIMIT 0,10000   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: count D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\Admin\Controller\ViewsController.class.php 第 61 行.
+NOTIC: [8] Undefined variable: list_t D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\Admin\Controller\ViewsController.class.php 第 62 行.
+
+[ 2015-06-09T22:14:17+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=Admin&c=views&a=getNews&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000784s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000949s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\Admin\Controller\BaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `west_news` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `west_news` WHERE ( status = 1 ) ORDER BY id DESC LIMIT 0,100000   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_news` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-06-09T22:14:17+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=Admin&c=views&a=getVideos&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001034s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\Admin\Controller\BaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `west_videos` WHERE ( status = 1 ) ORDER BY id DESC LIMIT 0,100000   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_videos` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-06-09T22:14:17+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=Admin&c=views&a=getUser&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001186s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001006s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001154s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\Admin\Controller\BaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0099s ]
+SQL: SELECT `uid`,`username`,`modify_time` FROM `west_user` WHERE `group` = 'user' AND `status` = 1 ORDER BY uid DESC LIMIT 0,10000   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 30 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: count D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\Admin\Controller\ViewsController.class.php 第 61 行.
+
+[ 2015-06-09T22:14:17+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=Admin&c=views&a=getUser&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000973s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\Admin\Controller\BaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0051s ]
+SQL: SELECT `uid`,`username`,`modify_time` FROM `west_user` WHERE `group` = 'user' AND `status` = 2 ORDER BY uid DESC LIMIT 0,10000   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 31 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: count D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\Admin\Controller\ViewsController.class.php 第 61 行.
+
+[ 2015-06-09T22:14:17+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=Admin&c=views&a=getLinks&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000922s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\Admin\Controller\BaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `west_links` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `west_links` WHERE ( status = 1 ) ORDER BY id DESC LIMIT 0,100000   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_links` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 30 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-06-09T22:14:25+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=Admin&c=views&a=getUser&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000600s ]
+
+[ 2015-06-09T22:14:25+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=Admin&c=views&a=getUser&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000940s ]
+
+[ 2015-06-09T22:14:25+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=Admin&c=views&a=getUser&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000625s ]
+
+[ 2015-06-09T22:14:25+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=Admin&c=views&a=getUser&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000993s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001150s ]
+
+[ 2015-06-09T22:14:25+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=Admin&c=views&a=getVideos&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006141s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000927s ]
+
+[ 2015-06-09T22:14:25+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=Admin&c=views&a=getLinks&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000840s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001037s ]
+
+[ 2015-06-09T22:14:25+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=Admin&c=views&a=getNews&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000937s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001439s ]
+
+[ 2015-06-09T22:14:31+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=Admin&c=views&a=getUser&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001119s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000911s ]
+
+[ 2015-06-09T22:14:31+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=Admin&c=views&a=getVideos&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000507s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001107s ]
+
+[ 2015-06-09T22:14:31+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=Admin&c=views&a=getUser&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000861s ]
+
+[ 2015-06-09T22:14:31+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=Admin&c=views&a=getUser&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000923s ]
+
+[ 2015-06-09T22:14:31+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=Admin&c=views&a=getUser&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001718s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000937s ]
+
+[ 2015-06-09T22:14:31+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=Admin&c=views&a=getNews&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000828s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000901s ]
+
+[ 2015-06-09T22:14:31+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=Admin&c=views&a=getLinks&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000793s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000997s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001098s ]
+
+[ 2015-06-09T22:14:32+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=Admin&c=views&a=getUser&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000952s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000997s ]
+
+[ 2015-06-09T22:14:32+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=Admin&c=views&a=getVideos&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+
+[ 2015-06-09T22:14:32+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=Admin&c=views&a=getUser&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000730s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005744s ]
+
+[ 2015-06-09T22:14:32+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=Admin&c=views&a=getUser&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000833s ]
+
+[ 2015-06-09T22:14:32+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=Admin&c=views&a=getUser&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001101s ]
+
+[ 2015-06-09T22:14:32+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=Admin&c=views&a=getLinks&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000913s ]
+
+[ 2015-06-09T22:14:32+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=Admin&c=views&a=getNews&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000943s ]
+
+[ 2015-06-09T22:14:32+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=Admin&c=views&a=getUser&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001260s ]
+
+[ 2015-06-09T22:14:32+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=Admin&c=views&a=getUser&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000677s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000887s ]
+
+[ 2015-06-09T22:14:32+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=Admin&c=views&a=getUser&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000891s ]
+
+[ 2015-06-09T22:14:32+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=Admin&c=views&a=getUser&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000854s ]
+
+[ 2015-06-09T22:14:32+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=Admin&c=views&a=getLinks&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001015s ]
+
+[ 2015-06-09T22:14:32+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=Admin&c=views&a=getVideos&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000949s ]
+
+[ 2015-06-09T22:14:32+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=Admin&c=views&a=getNews&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000756s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001044s ]
+
+[ 2015-06-09T22:14:33+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=Admin&c=views&a=getUser&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000938s ]
+
+[ 2015-06-09T22:14:33+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=Admin&c=views&a=getUser&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001661s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002008s ]
+
+[ 2015-06-09T22:14:33+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=Admin&c=views&a=getNews&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000885s ]
+
+[ 2015-06-09T22:14:33+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=Admin&c=views&a=getUser&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004516s ]
+
+[ 2015-06-09T22:14:33+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=Admin&c=views&a=getVideos&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001142s ]
+
+[ 2015-06-09T22:14:33+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=Admin&c=views&a=getUser&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001809s ]
+
+[ 2015-06-09T22:14:33+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=Admin&c=views&a=getLinks&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000690s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000952s ]
+
+[ 2015-06-09T22:15:11+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=Admin&c=user&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000577s ]
+NOTIC: [8] Undefined variable: id D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\Admin\Controller\UserController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `west_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-06-09T22:15:11+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=Admin&c=views&a=getUser&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006920s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001083s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\Admin\Controller\BaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0098s ]
+SQL: SELECT `uid`,`username`,`modify_time` FROM `west_user` WHERE `group` = 'user' ORDER BY uid DESC LIMIT 0,10000   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_user` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 31 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 30 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-06-09T22:15:11+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=Admin&c=views&a=getUser&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000890s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\Admin\Controller\BaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0058s ]
+SQL: SELECT `uid`,`username`,`modify_time` FROM `west_user` WHERE `group` = 'user' AND `status` = 0 ORDER BY uid DESC LIMIT 0,10000   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: count D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\Admin\Controller\ViewsController.class.php 第 61 行.
+NOTIC: [8] Undefined variable: list_t D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\Admin\Controller\ViewsController.class.php 第 62 行.
+
+[ 2015-06-09T22:15:11+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=Admin&c=views&a=getNews&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000589s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001011s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\Admin\Controller\BaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `west_news` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `west_news` WHERE ( status = 1 ) ORDER BY id DESC LIMIT 0,100000   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_news` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-06-09T22:15:11+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=Admin&c=views&a=getUser&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006815s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001127s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001316s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\Admin\Controller\BaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0066s ]
+SQL: SELECT `uid`,`username`,`modify_time` FROM `west_user` WHERE `group` = 'user' AND `status` = 2 ORDER BY uid DESC LIMIT 0,10000   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 31 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: count D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\Admin\Controller\ViewsController.class.php 第 61 行.
+
+[ 2015-06-09T22:15:11+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=Admin&c=views&a=getUser&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000767s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001068s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\Admin\Controller\BaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0050s ]
+SQL: SELECT `uid`,`username`,`modify_time` FROM `west_user` WHERE `group` = 'user' AND `status` = 1 ORDER BY uid DESC LIMIT 0,10000   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 30 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: count D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\Admin\Controller\ViewsController.class.php 第 61 行.
+
+[ 2015-06-09T22:15:11+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=Admin&c=views&a=getVideos&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000851s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001052s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\Admin\Controller\BaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `west_videos` WHERE ( status = 1 ) ORDER BY id DESC LIMIT 0,100000   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_videos` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-06-09T22:15:11+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=Admin&c=views&a=getLinks&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\server\Apps\Admin\Controller\BaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `west_links` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `west_links` WHERE ( status = 1 ) ORDER BY id DESC LIMIT 0,100000   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_links` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 30 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-06-09T22:15:21+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=Admin&c=views&a=getUser&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000936s ]
+
+[ 2015-06-09T22:15:21+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=Admin&c=views&a=getUser&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000949s ]
+
+[ 2015-06-09T22:15:21+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=Admin&c=views&a=getNews&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000725s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000978s ]
+
+[ 2015-06-09T22:15:21+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=Admin&c=views&a=getUser&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001026s ]
+
+[ 2015-06-09T22:15:21+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=Admin&c=views&a=getVideos&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001680s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000960s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001063s ]
+
+[ 2015-06-09T22:15:21+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=Admin&c=views&a=getLinks&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000887s ]
+
+[ 2015-06-09T22:15:21+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=Admin&c=views&a=getUser&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001133s ]
+
