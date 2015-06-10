@@ -1,14 +1,15 @@
 <?php
 session_start();
-	if($_SESSION['username'] && $_SESSION['uid']) {
+if(!isset($_SESSION['username'])) {
+	echo "<script>window.location.href='../login.php'</script>";
+}
+	
 		$uid=$_GET['uid'];
 		$username=$_GET['username'];
 
 		if($uid&&$username){
 			include_once './header.html';
-	} else {
-		echo "<script>window.location.href='./login.php'</script>";
-	}
+	
 	
 ?>
 
