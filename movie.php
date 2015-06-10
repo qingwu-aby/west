@@ -19,18 +19,7 @@ $data = array(
 					'time' => '11:05',
 					'type' => '3D',
 				),
-				array(
-					'date' => '2015-06-11',
-					'price' => '37.9',
-					'time' => '12:30',
-					'type' => '3D',
-				),
-				array(
-					'date' => '2015-06-11',
-					'price' => '37.9',
-					'time' => '10:00',
-					'type' => '3D',
-				),
+				
 			),
 		),
 		array(
@@ -50,20 +39,10 @@ $data = array(
 					'time' => '11:05',
 					'type' => '数字3D',
 				),
-				array(
-					'date' => '2015-06-11',
-					'price' => '37.9',
-					'time' => '12:30',
-					'type' => '3D',
-				),
-				array(
-					'date' => '2015-06-11',
-					'price' => '37.9',
-					'time' => '10:00',
-					'type' => '3D',
-				),
 			),
 		),
 	),
 );
+var_dump($data['data']);
+exit;
 echo json_encode($data);

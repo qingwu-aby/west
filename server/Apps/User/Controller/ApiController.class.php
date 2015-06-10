@@ -60,12 +60,131 @@ class ApiController extends BaseController {
     	return;
 	}
 
-	 /**
-     * 生成验证码
-     */
-    public function verify() {
-    ob_clean();
-        $Verify = new \Think\Verify();
-        $Verify->entry();
-    }
+	/**
+	   * 生成验证码
+	   */
+	public function verify() {
+		ob_clean();
+		$Verify = new \Think\Verify();
+		$Verify->entry();
+	}
+
+	/**
+	 * 获取本地影讯	 
+	 */
+	public function getMovie() {
+		$name = I('get.name');
+		$time = date('Y-m-d',time());
+		$result = M('movies')->where(array('name' => $name, 'time' => $time))->find();
+		if($result != null) {	// 表示已经请求过API
+			// 查数据库
+			$mid = $result['id'];
+			// 获取影院
+			$cinemas = M('cinemas');
+			$result = $cinemas->where(array('mid' => $mid))->select();
+			if(count($result) == 0) {
+				$return = array(
+					'code' => -1,
+					'msg' => '找不到数据',
+				);
+			} else {
+				$returnData = array();
+				foreach ($result as $cinema) {
+					$temp = array(
+						'uid' => $cinema['uid'],
+						'name' => $cinema['name'],
+						'address' => $cinema['address'],
+					);
+					// 获取时间表
+					$timeResult = M('movies_time')->where(array('mid' => $mid, 'cid' => $cinema['id']))->select();
+					$time_table = array();
+					foreach ($timeResult as $time) {
+						$time_table[] = array(
+							'date' => $time['date'],
+							'type' => $time['type'],
+							'price' => $time['price'],
+							'time' => $time['time'],
+						);
+					}
+					$temp['time_table'] = $time_table;
+					$returnData[] = $temp;
+				}
+				$return = array(
+					'code' => 1,
+					'data' => $returnData,
+				);
+			}
+		} else {
+			$mid = M('movies')->data(array('name' => $name, 'time' => $time))->add();
+			$location = '西安';
+			$format = 'json';
+			$url = "http://api.36wu.com/Movie/GetMovieInfo?movie=$name&location=$location&format=$format";
+			$ch = curl_init();
+			curl_setopt($ch, CURLOPT_URL, $url);
+			curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+			curl_setopt($ch, CURLOPT_HEADER, 0);
+			$output = curl_exec($ch);
+			curl_close($ch);
+			$output = json_decode($output);
+			$returnData = array();
+			if($output->status == 200 && $output->message == 'OK') {
+				foreach ($output->data as $data) {
+					$temp = array(
+						'uid' => $data->uid,
+						'name' => $data->name,
+						'address' => $data->address,
+					);
+					// 添加影院库
+					$cid = $data->uid;
+					$cinemas = M('cinemas');
+					$result = $cinemas->where(array('uid' => $cid, 'mid' => $mid))->find();
+					if($result == null) {
+						$cData = array(
+							'mid' => $mid,
+							'uid' => $cid,
+							'name' => $data->name,
+							'address' => $data->address,
+						);
+						$result = $cinemas->data($cData)->add();
+						$cid = $result;
+					}
+					// 排片表
+					$time_table = array();
+					foreach ($data->time_table as $time) {
+						if($time->date == date('Y-m-d', time())) {
+							$time_table[] = array(
+								'date' => $time->date,
+								'time' => $time->time,
+								'type' => $time->type,
+								'price' => $time->price,
+							);
+							$movies_time = M('movies_time');
+							$result = $movies_time->data(array(
+								'mid' => $mid,
+								'cid' => $cid,
+								'date' => $time->date,
+								'time' => $time->time,
+								'type' => $time->type,
+								'price' => $time->price,
+							))->add();
+						}
+					}
+					$temp['time_table'] = $time_table;
+					$returnData[] = $temp;
+				}
+				$return = array(
+					'code' => 1,
+					'data' => $returnData,
+				); 
+			} else {
+				$return = array(
+					'code' => -1,
+					'msg' => '获取不到数据',
+				);
+			}
+		}
+		$this->ajaxReturn($return);
+	}
+
 }
+
