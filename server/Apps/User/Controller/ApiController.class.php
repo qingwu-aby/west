@@ -64,7 +64,7 @@ class ApiController extends BaseController {
      * 生成验证码
      */
     public function verify() {
-    	ob_clean();
+    ob_clean();
         $Verify = new \Think\Verify();
         $Verify->entry();
     }
