@@ -12,6 +12,7 @@ namespace User\Controller;
 use Think\Controller;
 class BaseController extends Controller {
 
+/*
 public function _initialize() {
 		if(session('?username') && session('?uid')) {
 			return ture;
@@ -19,6 +20,7 @@ public function _initialize() {
 			echo "<script>window.location.href='../../../../login.php'</script>";
 		}
 	}
+	*/
 	/**
 	 * 是否登陆
 	 */
@@ -26,7 +28,7 @@ public function _initialize() {
 		if(session('?username') && session('?uid')) {
 			return ture;
 		} else {
-			echo "<script>window.location.href='../../../../login.php'</script>";
+			return false;
 		}
 	}
 

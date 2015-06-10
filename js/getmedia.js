@@ -4,7 +4,7 @@ $(document).ready(function(){
     var oUid = index.substr(4);
         $.ajax({
                 type:'get',
-                //async: false,
+                async: false,
                 url:"server/index.php?m=Home&c=index&a=getMedia",
                 data:{uid:oUid}, 
                 dataType:'json',

@@ -1,9 +1,15 @@
 <?php
-	$uid=$_GET['uid'];
-	$username=$_GET['username'];
+session_start();
+	if($_SESSION['username'] && $_SESSION['uid']) {
+		$uid=$_GET['uid'];
+		$username=$_GET['username'];
 
-	if($uid&&$username){
-		include_once './header.html';
+		if($uid&&$username){
+			include_once './header.html';
+	} else {
+		echo "<script>window.location.href='./login.php'</script>";
+	}
+	
 ?>
 
 	<link rel="stylesheet" type="text/css" href="./css/index.css" />
@@ -36,12 +42,20 @@
 					}
 				});
 		});
+		$(document).on('click','#gohome',function(){
+
+			var uid=$('#header_uid').attr('class');
+			//location.href='../index.php?uid='+uid;
+			window.open('../index.php?uid='+uid);
+			//alert(uid);
+		});
 	</script>
 	<!-- header -->
 	<header id="header_uid" class="<?php echo $uid; ?>">
 		<!-- <img class="company_logo" src="" /> -->
 		<div id="header-title" class="header-title">陕西省影视产业管理平台——<?php echo $username; ?></div>
 		<a href="../login.php"><button type="button" id="header-login" class="header-login">登录</button></a>
+		<button id="gohome" type="button" class="header-show">去我的首页</button>
 		<button id="logout" type="button" class="header-show">退出</button>
 	</header>
 

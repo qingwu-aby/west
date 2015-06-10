@@ -100,11 +100,10 @@
 </div>
 	<script type="text/javascript" src="./js/jquery-1.9.1.min.js"></script>
 	<script type="text/javascript" src="./js/module.js"></script>
-	
-	<script type="text/javascript" src="./js/media.js"></script>
 	<script type="text/javascript" src="./js/index.js"></script>
 	<script type="text/javascript" src="./js/company.js"></script>
 	<script type="text/javascript" src="./js/string.js"></script>
 	<script type="text/javascript" src="./js/video.js"></script>
 	<script type="text/javascript" src="./js/getmedia.js"></script>
+	<script type="text/javascript" src="./js/media.js"></script>
 <?php include_once './view/footer.html'; ?>
