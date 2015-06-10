@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- 主机: localhost
--- 生成日期: 2015-06-10 15:43:21
+-- 生成日期: 2015-06-11 01:53:20
 -- 服务器版本: 5.5.41-0ubuntu0.14.04.1
 -- PHP 版本: 5.5.9-1ubuntu4.6
 
@@ -19,6 +19,33 @@ SET time_zone = "+00:00";
 --
 -- 数据库: `westfilms`
 --
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `west_cinemas`
+--
+
+CREATE TABLE IF NOT EXISTS `west_cinemas` (
+  `id` mediumint(8) NOT NULL AUTO_INCREMENT COMMENT '影院ID',
+  `mid` mediumint(8) NOT NULL COMMENT '影片ID',
+  `uid` varchar(64) NOT NULL COMMENT '影院UID',
+  `name` varchar(128) NOT NULL COMMENT '影院名称',
+  `address` varchar(256) NOT NULL COMMENT '影院地址',
+  PRIMARY KEY (`id`),
+  KEY `mid` (`mid`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='影讯之影院表' AUTO_INCREMENT=49 ;
+
+--
+-- 转存表中的数据 `west_cinemas`
+--
+
+INSERT INTO `west_cinemas` (`id`, `mid`, `uid`, `name`, `address`) VALUES
+(44, 18, '23c94f9ff665c9fb1ef74d42', '大地影院(长安步行街)', '西安市长安区长安步行街北口长百新市购物广场3楼'),
+(45, 18, '3018f4615eb0d018a80dd8b8', '大地影院(西安金莎国际)', '西安市雁塔区长安中路65号小寨金莎国际6楼'),
+(46, 18, '6438daee51883a5dc51e5190', '横店影城（西安开远店）', '西安市莲湖区西二环和沣惠南路交汇处北侧开远半岛广场'),
+(47, 18, 'db8bad956cc64b6a6240a92a', '万达影城(西安民乐万达广场店)', '解放路中段111号万达百货民乐园店4层'),
+(48, 18, '4cee3db92306b7d41e5800c4', '西安耀莱国际影城', '西安市曲江新区大唐不夜城银泰中心4层');
 
 -- --------------------------------------------------------
 
@@ -528,6 +555,86 @@ INSERT INTO `west_log` (`id`, `uid`, `type`, `target`, `target_id`, `target_name
 -- --------------------------------------------------------
 
 --
+-- 表的结构 `west_movies`
+--
+
+CREATE TABLE IF NOT EXISTS `west_movies` (
+  `id` mediumint(8) NOT NULL AUTO_INCREMENT COMMENT '影片ID',
+  `name` varchar(128) NOT NULL COMMENT '影片名称',
+  `time` varchar(12) NOT NULL COMMENT '添加时间',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='影讯之电影表' AUTO_INCREMENT=19 ;
+
+--
+-- 转存表中的数据 `west_movies`
+--
+
+INSERT INTO `west_movies` (`id`, `name`, `time`) VALUES
+(18, '末日崩塌', '2015-06-11');
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `west_movies_time`
+--
+
+CREATE TABLE IF NOT EXISTS `west_movies_time` (
+  `id` mediumint(8) NOT NULL AUTO_INCREMENT COMMENT '排片ID',
+  `mid` mediumint(8) NOT NULL COMMENT '电影ID',
+  `cid` mediumint(8) NOT NULL COMMENT '影院ID',
+  `date` varchar(12) NOT NULL COMMENT '日期',
+  `time` varchar(10) NOT NULL COMMENT '时间点',
+  `type` varchar(24) NOT NULL COMMENT '电影类型',
+  `price` varchar(32) NOT NULL COMMENT '价格',
+  PRIMARY KEY (`id`),
+  KEY `mid` (`mid`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='影讯之排片表' AUTO_INCREMENT=37 ;
+
+--
+-- 转存表中的数据 `west_movies_time`
+--
+
+INSERT INTO `west_movies_time` (`id`, `mid`, `cid`, `date`, `time`, `type`, `price`) VALUES
+(1, 18, 44, '2015-06-11', '11:25', '3D', '34'),
+(2, 18, 44, '2015-06-11', '12:15', '3D', '34'),
+(3, 18, 44, '2015-06-11', '13:35', '3D', '34'),
+(4, 18, 44, '2015-06-11', '14:25', '3D', '34'),
+(5, 18, 44, '2015-06-11', '15:45', '3D', '34'),
+(6, 18, 44, '2015-06-11', '18:00', '3D', '34'),
+(7, 18, 44, '2015-06-11', '19:20', '3D', '34'),
+(8, 18, 44, '2015-06-11', '20:15', '3D', '34'),
+(9, 18, 44, '2015-06-11', '21:35', '3D', '34'),
+(10, 18, 44, '2015-06-11', '22:20', '3D', '34'),
+(11, 18, 45, '2015-06-11', '10:30', '3D', '39'),
+(12, 18, 45, '2015-06-11', '10:50', '3D', '39'),
+(13, 18, 45, '2015-06-11', '13:00', '3D', '39'),
+(14, 18, 45, '2015-06-11', '15:10', '3D', '39'),
+(15, 18, 45, '2015-06-11', '17:20', '3D', '39'),
+(16, 18, 45, '2015-06-11', '19:00', '3D', '39'),
+(17, 18, 45, '2015-06-11', '19:30', '3D', '39'),
+(18, 18, 45, '2015-06-11', '21:40', '3D', '39'),
+(19, 18, 45, '2015-06-11', '22:10', '3D', '39'),
+(20, 18, 46, '2015-06-11', '16:10', '3D', '80'),
+(21, 18, 46, '2015-06-11', '19:55', '3D', '80'),
+(22, 18, 46, '2015-06-11', '21:00', '3D', '80'),
+(23, 18, 46, '2015-06-11', '21:55', '3D', '80'),
+(24, 18, 46, '2015-06-11', '23:00', '3D', '80'),
+(25, 18, 46, '2015-06-11', '12:00', '3D', '80'),
+(26, 18, 46, '2015-06-11', '12:35', '3D', '80'),
+(27, 18, 46, '2015-06-11', '14:05', '3D', '80'),
+(28, 18, 46, '2015-06-11', '14:45', '3D', '80'),
+(29, 18, 48, '2015-06-11', '11:25', '3D', '90'),
+(30, 18, 48, '2015-06-11', '13:40', '3D', '90'),
+(31, 18, 48, '2015-06-11', '15:55', '3D', '90'),
+(32, 18, 48, '2015-06-11', '16:20', '3D', '120'),
+(33, 18, 48, '2015-06-11', '18:05', '3D', '90'),
+(34, 18, 48, '2015-06-11', '20:20', '3D', '90'),
+(35, 18, 48, '2015-06-11', '21:55', '3D', '90'),
+(36, 18, 48, '2015-06-11', '22:35', '3D', '90');
+
+-- --------------------------------------------------------
+
+--
 -- 表的结构 `west_news`
 --
 
@@ -568,7 +675,7 @@ INSERT INTO `west_news` (`id`, `uid`, `title`, `big_img`, `thumbnail`, `summary`
 INSERT INTO `west_news` (`id`, `uid`, `title`, `big_img`, `thumbnail`, `summary`, `author`, `source`, `content`, `views`, `release_time`, `hot`, `status`, `modify_time`) VALUES
 (30, 32, '《九月照相馆》热拍 殷旭演技大爆发', 'no', '../server/Public/Uploads/2015-06-09/2015060922564191496.jpg', '近日，电影《九月照相馆》开拍，该片由实力派女演员殷旭领衔主演，殷旭片中饰演李丹——一个爱孩子、爱丈夫，尊敬老人的女子。在片中她将挑战大量多种形式的哭戏。', '电影', '', '&lt;p style=&quot;font-size:14px;font-family:宋体;background-color:#F5FAFE;&quot;&gt;\n	近日，电影《九月照相馆》开拍，该片由实力派女演员殷旭领衔主演，殷旭片中饰演李丹——一个爱孩子、爱丈夫，尊敬老人的女子。在片中她将挑战大量多种形式的哭戏。\n&lt;/p&gt;\n&lt;p style=&quot;font-size:14px;font-family:宋体;background-color:#F5FAFE;&quot;&gt;\n	　　《九月照相馆》讲述的是照相馆发生的一系列故事。片中，殷旭饰演的李丹是一个内心十分纠结复杂的人物，并有着各种情绪的宣泄。片中殷旭诠释的李丹还将表现出各种不同状态下的哭泣，来释放情绪。殷旭表示：“这是我拍过哭戏最多的一部剧，希望通过自己的诠释能给这个角色带来不一样的灵魂。”制片人称：“殷旭是一个特别用功和用心的好演员，演的很棒！”\n&lt;/p&gt;\n&lt;p style=&quot;font-size:14px;font-family:宋体;background-color:#F5FAFE;&quot;&gt;\n	　　据悉，《九月照相馆》目前正在紧锣密鼓地拍摄中，这次殷旭将给我带来一个不同与以往的作品，让我们共同期待她在新片中的表现。\n&lt;/p&gt;', 0, '1433861815', 1, 1, '1433861815'),
 (31, 32, '《花千骨》今晚开播 阮伟旌获封“蓝眼狂魔”', 'no', '../server/Public/Uploads/2015-06-09/2015060922573458478.jpg', '古装玄幻剧《花千骨》将于今晚在湖南卫视开播', '花千骨', '', '&lt;div id=&quot;NewsContentLabel&quot; class=&quot;NewsContent&quot; style=&quot;margin:0px auto;padding:10px 30px;border:0px;font-size:14px;font-family:宋体;&quot;&gt;\n	&lt;p&gt;\n		古装玄幻剧《花千骨》将于今晚在湖南卫视开播，作为暑期档首发剧，该剧由慈文传媒集团制作并发行，林玉芬、高林豹、梁胜权联合执导，霍建华、赵丽颖、张丹峰、马可、阮伟旌联合主演，讲述了少女花千骨与长留上仙白子画的凄美爱情、三界之间各种斗争的故事。阮伟旌作为花千骨中反派大魔头，除了白色的眉毛，飘逸的长发等标配，他的蓝眼造型成为又一亮点，被“骨粉们”称为“蓝眼狂魔”。\n	&lt;/p&gt;\n	&lt;div&gt;\n		&lt;br /&gt;\n	&lt;/div&gt;\n&lt;/div&gt;', 0, '1433861868', 1, 1, '1433861868'),
-(32, 32, '关晓彤再饰安洁西 《嬉戏魔法乐园》创奇幻世界', 'no', '../server/Public/Uploads/2015-06-09/2015060922582892879.jpg', '国内首部主题公园实景偶像剧《嬉戏魔法乐园》近期正在常州环球动漫嬉戏谷如火如荼的热拍中', '姜珮', '', '&lt;p style=&quot;font-size:14px;font-family:宋体;background-color:#F5FAFE;&quot;&gt;\n	国内首部主题公园实景&lt;a href=&quot;http://www.yule.com.cn/ouxiang/&quot; target=&quot;_blank&quot; class=&quot;keylink&quot;&gt;偶像&lt;/a&gt;剧《嬉戏魔法乐园》近期正在常州环球动漫嬉戏谷如火如荼的热拍中，剧中集结姜珮瑶、纪子墨、杨雪、孙蒙恩、蒋羽熙、王祖怀、蒋诗萌、周凯文等众多高颜值&lt;a href=&quot;http://www.yule.com.cn/ouxiang/&quot; target=&quot;_blank&quot; class=&quot;keylink&quot;&gt;偶像&lt;/a&gt;新星，曾在新媒体电影《魔法触恋》中有过精彩演绎的关晓彤、蔡俊涛强力回归，在本剧中延续奇幻魔力。\n&lt;/p&gt;\n&lt;p style=&quot;font-size:14px;font-family:宋体;background-color:#F5FAFE;&quot;&gt;\n	　　6月6日，《嬉戏魔法乐园》在阴雨初晴的常州迎来重头戏份，“完美公主”关晓彤一身飘逸长裙现身常州环球动漫嬉戏谷。本日，拍摄的是“安洁西公主”受到“爆米花王子”的吸引来到现实世界，再次施展魔法点亮朦胧爱恋。近日，忙于新戏拍摄的蔡俊涛也特别从剧组请假，继续化身魔法师，玩转奇幻世界。\n&lt;/p&gt;', 0, '1433861914', 0, 1, '1433861914');
+(32, 32, '关晓彤再饰安洁西 《嬉戏魔法乐园》创奇幻世界', 'no', '../server/Public/Uploads/2015-06-09/2015060922582892879.jpg', '国内首部主题公园实景偶像剧《嬉戏魔法乐园》近期正在常州环球动漫嬉戏谷如火如荼的热拍中', '姜珮', '', '&lt;p style=&quot;font-size:14px;font-family:宋体;background-color:#F5FAFE;&quot;&gt;\n	国内首部主题公园实景&lt;a href=&quot;http://www.yule.com.cn/ouxiang/&quot; target=&quot;_blank&quot; class=&quot;keylink&quot;&gt;偶像&lt;/a&gt;剧《嬉戏魔法乐园》近期正在常州环球动漫嬉戏谷如火如荼的热拍中，剧中集结姜珮瑶、纪子墨、杨雪、孙蒙恩、蒋羽熙、王祖怀、蒋诗萌、周凯文等众多高颜值&lt;a href=&quot;http://www.yule.com.cn/ouxiang/&quot; target=&quot;_blank&quot; class=&quot;keylink&quot;&gt;偶像&lt;/a&gt;新星，曾在新媒体电影《魔法触恋》中有过精彩演绎的关晓彤、蔡俊涛强力回归，在本剧中延续奇幻魔力。\n&lt;/p&gt;\n&lt;p style=&quot;font-size:14px;font-family:宋体;background-color:#F5FAFE;&quot;&gt;\n	　　6月6日，《嬉戏魔法乐园》在阴雨初晴的常州迎来重头戏份，“完美公主”关晓彤一身飘逸长裙现身常州环球动漫嬉戏谷。本日，拍摄的是“安洁西公主”受到“爆米花王子”的吸引来到现实世界，再次施展魔法点亮朦胧爱恋。近日，忙于新戏拍摄的蔡俊涛也特别从剧组请假，继续化身魔法师，玩转奇幻世界。\n&lt;/p&gt;', 1, '1433861914', 0, 1, '1433861914');
 
 -- --------------------------------------------------------
 
