@@ -76,6 +76,7 @@ class ApiController extends BaseController {
 		$name = I('get.name');
 		$time = date('Y-m-d',time());
 		$result = M('movies')->where(array('name' => $name, 'time' => $time))->find();
+		//if(false){
 		if($result != null) {	// 表示已经请求过API
 			// 查数据库
 			$mid = $result['id'];
@@ -136,7 +137,6 @@ class ApiController extends BaseController {
 						'address' => $data->address,
 						'tel' => $data->telephone,
 					);
-
 					// 添加影院库
 					$cid = $data->uid;
 					$cinemas = M('cinemas');
