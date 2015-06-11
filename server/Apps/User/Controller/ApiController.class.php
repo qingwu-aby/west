@@ -94,6 +94,7 @@ class ApiController extends BaseController {
 						'uid' => $cinema['uid'],
 						'name' => $cinema['name'],
 						'address' => $cinema['address'],
+						'tel' => $cinema['tel'],
 					);
 					// 获取时间表
 					$timeResult = M('movies_time')->where(array('mid' => $mid, 'cid' => $cinema['id']))->select();
@@ -133,7 +134,9 @@ class ApiController extends BaseController {
 						'uid' => $data->uid,
 						'name' => $data->name,
 						'address' => $data->address,
+						'tel' => $data->telephone,
 					);
+
 					// 添加影院库
 					$cid = $data->uid;
 					$cinemas = M('cinemas');
@@ -144,6 +147,7 @@ class ApiController extends BaseController {
 							'uid' => $cid,
 							'name' => $data->name,
 							'address' => $data->address,
+							'tel' => $data->telephone,
 						);
 						$result = $cinemas->data($cData)->add();
 						$cid = $result;
