@@ -136,14 +136,22 @@ class ApiController extends BaseController {
 			$returnData = array();
 			if($output->status == 200 && $output->message == 'OK') {
 				foreach ($output->data as $data) {
-					$temp = array(
-						'uid' => $data->uid,
-						'name' => $data->name,
-						'address' => $data->address,
-						'tel' => $data->telephone,
-					);
+					$count = count($data->time_table);
+					for($i = 0; $i < $count; $i++) {
+						//echo '$data->time_table['.$i.']->date = ' . $data->time_table[$i]->date . '<br>';
+						//echo 'date = ' . date('Y-m-d', time()) . '<br>';
+						if($data->time_table[$i]->date !== date('Y-m-d', time())) {
+							unset($data->time_table[$i]);
+						}
+					}
 					// 添加影院库
 					if(count($data->time_table) > 0) {
+						$temp = array(
+							'uid' => $data->uid,
+							'name' => $data->name,
+							'address' => $data->address,
+							'tel' => $data->telephone,
+						);
 						$cid = $data->uid;
 						$cinemas = M('cinemas');
 						$result = $cinemas->where(array('uid' => $cid, 'mid' => $mid))->find();
@@ -184,7 +192,6 @@ class ApiController extends BaseController {
 					} else {
 						continue;
 					}
-					
 				}
 				$return = array(
 					'code' => 1,
@@ -197,17 +204,8 @@ class ApiController extends BaseController {
 				);
 			}
 		}
-		$this->ajaxReturn($return);
-	}
-	
-	public function test() {
-		$name = I('get.name');
-		$callback = I('get.callback');
-		$arr = array(
-			'name' => $name,
-			'hello' => "hello",
-		);
-		echo $callback . "(".json_encode($arr).")";
+		echo $_GET['callback']."(".json_encode($return).")";
+		//$this->ajaxReturn($return);
 	}
 
 }

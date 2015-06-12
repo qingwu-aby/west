@@ -140,3 +140,1020 @@ SQL: SELECT * FROM `west_movies_time` WHERE `mid` = 13 AND `cid` = 48  [ RunTime
 SQL: SELECT * FROM `west_movies_time` WHERE `mid` = 13 AND `cid` = 49  [ RunTime:0.0000s ]
 SQL: SELECT * FROM `west_movies_time` WHERE `mid` = 13 AND `cid` = 50  [ RunTime:0.0000s ]
 
+[ 2015-06-12T21:08:52+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=getMovie&name=%E6%9C%AB%E6%97%A5%E5%B4%A9%E5%A1%8C
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_movies` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_movies` WHERE `name` = '末日崩塌' AND `time` = '2015-06-12' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `west_cinemas` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `mid` = 13  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `west_movies_time` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `west_movies_time` WHERE `mid` = 13 AND `cid` = 46  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `west_movies_time` WHERE `mid` = 13 AND `cid` = 47  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `west_movies_time` WHERE `mid` = 13 AND `cid` = 48  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `west_movies_time` WHERE `mid` = 13 AND `cid` = 49  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `west_movies_time` WHERE `mid` = 13 AND `cid` = 50  [ RunTime:0.0010s ]
+
+[ 2015-06-12T21:09:47+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=getMovie&name=%E6%9C%AB%E6%97%A5%E5%B4%A9%E5%A1%8C
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `west_movies` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_movies` WHERE `name` = '末日崩塌' AND `time` = '2015-06-12' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `west_movies` (`name`,`time`) VALUES ('末日崩塌','2015-06-12') [ RunTime:0.0720s ]
+SQL: SHOW COLUMNS FROM `west_cinemas` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = 'c4418e9b360531699e82eaa6' AND `mid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('1','c4418e9b360531699e82eaa6','西安奥斯卡金地国际影城','陕西省西安市雁塔区曲江池东路999号金地广场4F','(029)88639952') [ RunTime:0.0460s ]
+SQL: SHOW COLUMNS FROM `west_movies_time` [ RunTime:0.0030s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('1','1','2015-06-12','21:50','3D','90') [ RunTime:0.0330s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = 'ebf4adf5e6c07390eb56fa07' AND `mid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('1','ebf4adf5e6c07390eb56fa07','西安万达影城(大明宫店)','西安市未央区太华北路369号万达广场四层','(029)85450088') [ RunTime:0.0360s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('1','2','2015-06-12','21:30','数字3D','90') [ RunTime:0.0760s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('1','2','2015-06-12','22:40','数字3D','90') [ RunTime:0.1090s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = 'dfba656348903d94430245cf' AND `mid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('1','dfba656348903d94430245cf','西安恒大影城','西安市雁塔区大寨路99号恒大影城3-4层','(029)86616468') [ RunTime:0.0360s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('1','3','2015-06-12','22:10','3D','80') [ RunTime:0.0380s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = '3018f4615eb0d018a80dd8b8' AND `mid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('1','3018f4615eb0d018a80dd8b8','大地影院(西安金莎国际)','西安市雁塔区长安中路65号小寨金莎国际6楼','(029)89640502') [ RunTime:0.0970s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('1','4','2015-06-12','22:10','3D','39') [ RunTime:0.1480s ]
+
+[ 2015-06-12T21:09:51+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=getMovie&name=%E6%9C%AB%E6%97%A5%E5%B4%A9%E5%A1%8C
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `west_movies` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_movies` WHERE `name` = '末日崩塌' AND `time` = '2015-06-12' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `west_cinemas` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `mid` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `west_movies_time` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_movies_time` WHERE `mid` = 1 AND `cid` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `west_movies_time` WHERE `mid` = 1 AND `cid` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `west_movies_time` WHERE `mid` = 1 AND `cid` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `west_movies_time` WHERE `mid` = 1 AND `cid` = 4  [ RunTime:0.0000s ]
+
+[ 2015-06-12T21:21:57+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=getMovie&name=%E5%86%8D%E8%A7%81%E6%88%91%E4%BB%AC%E7%9A%84%E5%8D%81%E5%B9%B4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_movies` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_movies` WHERE `name` = '再见我们的十年' AND `time` = '2015-06-12' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `west_movies` (`name`,`time`) VALUES ('再见我们的十年','2015-06-12') [ RunTime:0.0650s ]
+SQL: SHOW COLUMNS FROM `west_cinemas` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = 'c4418e9b360531699e82eaa6' AND `mid` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('2','c4418e9b360531699e82eaa6','西安奥斯卡金地国际影城','陕西省西安市雁塔区曲江池东路999号金地广场4F','(029)88639952') [ RunTime:0.0450s ]
+SQL: SHOW COLUMNS FROM `west_movies_time` [ RunTime:0.0030s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('2','5','2015-06-12','22:30','2D','80') [ RunTime:0.0340s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = 'ebf4adf5e6c07390eb56fa07' AND `mid` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('2','ebf4adf5e6c07390eb56fa07','西安万达影城(大明宫店)','西安市未央区太华北路369号万达广场四层','(029)85450088') [ RunTime:0.0750s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = 'dfba656348903d94430245cf' AND `mid` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('2','dfba656348903d94430245cf','西安恒大影城','西安市雁塔区大寨路99号恒大影城3-4层','(029)86616468') [ RunTime:0.0750s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = '3018f4615eb0d018a80dd8b8' AND `mid` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('2','3018f4615eb0d018a80dd8b8','大地影院(西安金莎国际)','西安市雁塔区长安中路65号小寨金莎国际6楼','(029)89640502') [ RunTime:0.0970s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = 'f4041508bc32ce793310af88' AND `mid` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('2','f4041508bc32ce793310af88','横店影城（西安中贸店）','南关正街中茂广场5楼南稍门十字向北100米路西','029-88669090') [ RunTime:0.1080s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('2','9','2015-06-12','23:05','2D','70') [ RunTime:0.0360s ]
+
+[ 2015-06-12T21:22:14+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=getMovie&name=%E5%86%8D%E8%A7%81%E6%88%91%E4%BB%AC%E7%9A%84%E5%8D%81%E5%B9%B4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_movies` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_movies` WHERE `name` = '再见我们的十年' AND `time` = '2015-06-12' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `west_cinemas` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `mid` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `west_movies_time` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_movies_time` WHERE `mid` = 2 AND `cid` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `west_movies_time` WHERE `mid` = 2 AND `cid` = 6  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `west_movies_time` WHERE `mid` = 2 AND `cid` = 7  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `west_movies_time` WHERE `mid` = 2 AND `cid` = 8  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `west_movies_time` WHERE `mid` = 2 AND `cid` = 9  [ RunTime:0.0010s ]
+
+[ 2015-06-12T21:24:09+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=getMovie&name=%E5%86%8D%E8%A7%81%E6%88%91%E4%BB%AC%E7%9A%84%E5%8D%81%E5%B9%B4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_movies` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_movies` WHERE `name` = '再见我们的十年' AND `time` = '2015-06-12' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `west_cinemas` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `mid` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `west_movies_time` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_movies_time` WHERE `mid` = 2 AND `cid` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `west_movies_time` WHERE `mid` = 2 AND `cid` = 6  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `west_movies_time` WHERE `mid` = 2 AND `cid` = 7  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `west_movies_time` WHERE `mid` = 2 AND `cid` = 8  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `west_movies_time` WHERE `mid` = 2 AND `cid` = 9  [ RunTime:0.0000s ]
+
+[ 2015-06-12T21:27:57+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=getMovie&name=%E5%86%8D%E8%A7%81%E6%88%91%E4%BB%AC%E7%9A%84%E5%8D%81%E5%B9%B4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `west_movies` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_movies` WHERE `name` = '再见我们的十年' AND `time` = '2015-06-12' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `west_movies` (`name`,`time`) VALUES ('再见我们的十年','2015-06-12') [ RunTime:0.0760s ]
+SQL: SHOW COLUMNS FROM `west_cinemas` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = '4cee3db92306b7d41e5800c4' AND `mid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('1','4cee3db92306b7d41e5800c4','西安耀莱国际影城','西安市曲江新区大唐不夜城银泰中心4层','(029)89126600,(029)89126611') [ RunTime:0.0380s ]
+SQL: SHOW COLUMNS FROM `west_movies_time` [ RunTime:0.0040s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('1','1','2015-06-12','23:40','2D','120') [ RunTime:0.0310s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = 'd88ce3e10fa05b88902ca358' AND `mid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('1','d88ce3e10fa05b88902ca358','万达影城(西安民乐万达广场店)','解放路中段111号万达百货民乐园店4层','(029)85450088,4000806060') [ RunTime:0.0350s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('1','2','2015-06-12','23:20','数字2D','70') [ RunTime:0.0760s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = '7aea43b7548198e17d29bdf0' AND `mid` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('1','7aea43b7548198e17d29bdf0','西安万达国际影城(东新街店)','西安市解放路63号民乐精品服饰广场四层','(029)85450088') [ RunTime:0.0720s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = '4bb049d988306f5e980050f3' AND `mid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('1','4bb049d988306f5e980050f3','西安万达国际影城(碑林万达广场店)','西安市碑林区雁塔路北段8号万达广场娱乐楼4层','(029)85450088,4000806060') [ RunTime:0.0370s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('1','4','2015-06-12','21:30','数字2D','70') [ RunTime:0.0750s ]
+
+[ 2015-06-12T21:29:49+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=getMovie&name=%E5%86%8D%E8%A7%81%E6%88%91%E4%BB%AC%E7%9A%84%E5%8D%81%E5%B9%B4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_movies` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_movies` WHERE `name` = '再见我们的十年' AND `time` = '2015-06-12' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `west_cinemas` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `mid` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `west_movies_time` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_movies_time` WHERE `mid` = 1 AND `cid` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `west_movies_time` WHERE `mid` = 1 AND `cid` = 2  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `west_movies_time` WHERE `mid` = 1 AND `cid` = 3  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `west_movies_time` WHERE `mid` = 1 AND `cid` = 4  [ RunTime:0.0000s ]
+
+[ 2015-06-12T21:30:09+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=getMovie&name=%E5%86%8D%E8%A7%81%E6%88%91%E4%BB%AC%E7%9A%84%E5%8D%81%E5%B9%B4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_movies` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_movies` WHERE `name` = '再见我们的十年' AND `time` = '2015-06-12' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `west_cinemas` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `mid` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `west_movies_time` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_movies_time` WHERE `mid` = 1 AND `cid` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `west_movies_time` WHERE `mid` = 1 AND `cid` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `west_movies_time` WHERE `mid` = 1 AND `cid` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `west_movies_time` WHERE `mid` = 1 AND `cid` = 4  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.018001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.018001s ]
+
+[ 2015-06-12T21:30:49+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=getMovie&name=%E5%86%8D%E8%A7%81%E6%88%91%E4%BB%AC%E7%9A%84%E5%8D%81%E5%B9%B4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_movies` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_movies` WHERE `name` = '再见我们的十年' AND `time` = '2015-06-12' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `west_cinemas` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `mid` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `west_movies_time` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_movies_time` WHERE `mid` = 1 AND `cid` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `west_movies_time` WHERE `mid` = 1 AND `cid` = 2  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `west_movies_time` WHERE `mid` = 1 AND `cid` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `west_movies_time` WHERE `mid` = 1 AND `cid` = 4  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-12T21:30:58+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=getMovie&name=%E5%86%8D%E8%A7%81%E6%88%91%E4%BB%AC%E7%9A%84%E5%8D%81%E5%B9%B4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_movies` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_movies` WHERE `name` = '再见我们的十年' AND `time` = '2015-06-12' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `west_cinemas` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `mid` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `west_movies_time` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_movies_time` WHERE `mid` = 1 AND `cid` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `west_movies_time` WHERE `mid` = 1 AND `cid` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `west_movies_time` WHERE `mid` = 1 AND `cid` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `west_movies_time` WHERE `mid` = 1 AND `cid` = 4  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-12T21:31:15+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=getMovie&name=%E5%86%8D%E8%A7%81%E6%88%91%E4%BB%AC%E7%9A%84%E5%8D%81%E5%B9%B4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_movies` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_movies` WHERE `name` = '再见我们的十年' AND `time` = '2015-06-12' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `west_cinemas` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `mid` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `west_movies_time` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_movies_time` WHERE `mid` = 1 AND `cid` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `west_movies_time` WHERE `mid` = 1 AND `cid` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `west_movies_time` WHERE `mid` = 1 AND `cid` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `west_movies_time` WHERE `mid` = 1 AND `cid` = 4  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-12T21:31:34+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=getMovie&name=%E5%86%8D%E8%A7%81%E6%88%91%E4%BB%AC%E7%9A%84%E5%8D%81%E5%B9%B4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `west_movies` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_movies` WHERE `name` = '再见我们的十年' AND `time` = '2015-06-12' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `west_cinemas` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `mid` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `west_movies_time` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_movies_time` WHERE `mid` = 1 AND `cid` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `west_movies_time` WHERE `mid` = 1 AND `cid` = 2  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `west_movies_time` WHERE `mid` = 1 AND `cid` = 3  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `west_movies_time` WHERE `mid` = 1 AND `cid` = 4  [ RunTime:0.0010s ]
+
+[ 2015-06-12T21:32:07+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=getMovie&name=%E5%86%8D%E8%A7%81%E6%88%91%E4%BB%AC%E7%9A%84%E5%8D%81%E5%B9%B4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `west_movies` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_movies` WHERE `name` = '再见我们的十年' AND `time` = '2015-06-12' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `west_movies` (`name`,`time`) VALUES ('再见我们的十年','2015-06-12') [ RunTime:0.0490s ]
+SQL: SHOW COLUMNS FROM `west_cinemas` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = 'c4418e9b360531699e82eaa6' AND `mid` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('2','c4418e9b360531699e82eaa6','西安奥斯卡金地国际影城','陕西省西安市雁塔区曲江池东路999号金地广场4F','(029)88639952') [ RunTime:0.0450s ]
+SQL: SHOW COLUMNS FROM `west_movies_time` [ RunTime:0.0030s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('2','5','2015-06-12','22:30','2D','80') [ RunTime:0.0340s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = 'ebf4adf5e6c07390eb56fa07' AND `mid` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('2','ebf4adf5e6c07390eb56fa07','西安万达影城(大明宫店)','西安市未央区太华北路369号万达广场四层','(029)85450088') [ RunTime:0.1100s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = 'dfba656348903d94430245cf' AND `mid` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('2','dfba656348903d94430245cf','西安恒大影城','西安市雁塔区大寨路99号恒大影城3-4层','(029)86616468') [ RunTime:0.0740s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = '3018f4615eb0d018a80dd8b8' AND `mid` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('2','3018f4615eb0d018a80dd8b8','大地影院(西安金莎国际)','西安市雁塔区长安中路65号小寨金莎国际6楼','(029)89640502') [ RunTime:0.0360s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = 'f4041508bc32ce793310af88' AND `mid` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('2','f4041508bc32ce793310af88','横店影城（西安中贸店）','南关正街中茂广场5楼南稍门十字向北100米路西','029-88669090') [ RunTime:0.0330s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('2','9','2015-06-12','23:05','2D','70') [ RunTime:0.0380s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-12T21:32:46+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=getMovie&name=%E5%86%8D%E8%A7%81%E6%88%91%E4%BB%AC%E7%9A%84%E5%8D%81%E5%B9%B4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_movies` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_movies` WHERE `name` = '再见我们的十年' AND `time` = '2015-06-12' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `west_movies` (`name`,`time`) VALUES ('再见我们的十年','2015-06-12') [ RunTime:0.0460s ]
+SQL: SHOW COLUMNS FROM `west_cinemas` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = 'c4418e9b360531699e82eaa6' AND `mid` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('3','c4418e9b360531699e82eaa6','西安奥斯卡金地国际影城','陕西省西安市雁塔区曲江池东路999号金地广场4F','(029)88639952') [ RunTime:0.0880s ]
+SQL: SHOW COLUMNS FROM `west_movies_time` [ RunTime:0.0030s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('3','10','2015-06-12','22:30','2D','80') [ RunTime:0.0350s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = 'ebf4adf5e6c07390eb56fa07' AND `mid` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('3','ebf4adf5e6c07390eb56fa07','西安万达影城(大明宫店)','西安市未央区太华北路369号万达广场四层','(029)85450088') [ RunTime:0.0740s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = 'dfba656348903d94430245cf' AND `mid` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('3','dfba656348903d94430245cf','西安恒大影城','西安市雁塔区大寨路99号恒大影城3-4层','(029)86616468') [ RunTime:0.0730s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = '3018f4615eb0d018a80dd8b8' AND `mid` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('3','3018f4615eb0d018a80dd8b8','大地影院(西安金莎国际)','西安市雁塔区长安中路65号小寨金莎国际6楼','(029)89640502') [ RunTime:0.0460s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = 'f4041508bc32ce793310af88' AND `mid` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('3','f4041508bc32ce793310af88','横店影城（西安中贸店）','南关正街中茂广场5楼南稍门十字向北100米路西','029-88669090') [ RunTime:0.0340s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('3','14','2015-06-12','23:05','2D','70') [ RunTime:0.0360s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-12T21:33:41+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=getMovie&name=%E5%86%8D%E8%A7%81%E6%88%91%E4%BB%AC%E7%9A%84%E5%8D%81%E5%B9%B4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_movies` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_movies` WHERE `name` = '再见我们的十年' AND `time` = '2015-06-12' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `west_movies` (`name`,`time`) VALUES ('再见我们的十年','2015-06-12') [ RunTime:0.0430s ]
+SQL: SHOW COLUMNS FROM `west_cinemas` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = '4cee3db92306b7d41e5800c4' AND `mid` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('4','4cee3db92306b7d41e5800c4','西安耀莱国际影城','西安市曲江新区大唐不夜城银泰中心4层','(029)89126600,(029)89126611') [ RunTime:0.0440s ]
+SQL: SHOW COLUMNS FROM `west_movies_time` [ RunTime:0.0030s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('4','15','2015-06-12','23:40','2D','120') [ RunTime:0.0790s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('4','15','2015-06-13','9:45','2D','80') [ RunTime:0.0760s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('4','15','2015-06-14','9:45','2D','80') [ RunTime:0.0770s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = 'd88ce3e10fa05b88902ca358' AND `mid` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('4','d88ce3e10fa05b88902ca358','万达影城(西安民乐万达广场店)','解放路中段111号万达百货民乐园店4层','(029)85450088,4000806060') [ RunTime:0.0330s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('4','16','2015-06-12','23:20','数字2D','70') [ RunTime:0.0410s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('4','16','2015-06-13','10:50','数字2D','70') [ RunTime:0.0340s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('4','16','2015-06-13','12:40','数字2D','70') [ RunTime:0.0380s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('4','16','2015-06-13','19:20','数字2D','70') [ RunTime:0.0870s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('4','16','2015-06-13','23:20','数字2D','70') [ RunTime:0.0370s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = '7aea43b7548198e17d29bdf0' AND `mid` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('4','7aea43b7548198e17d29bdf0','西安万达国际影城(东新街店)','西安市解放路63号民乐精品服饰广场四层','(029)85450088') [ RunTime:0.0350s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('4','17','2015-06-13','11:05','数字2D','70') [ RunTime:0.0340s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('4','17','2015-06-13','14:55','数字2D','70') [ RunTime:0.0730s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('4','17','2015-06-13','18:55','数字2D','70') [ RunTime:0.0340s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('4','17','2015-06-13','21:30','数字2D','70') [ RunTime:0.0390s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('4','17','2015-06-13','23:25','数字2D','70') [ RunTime:0.0360s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = '4bb049d988306f5e980050f3' AND `mid` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('4','4bb049d988306f5e980050f3','西安万达国际影城(碑林万达广场店)','西安市碑林区雁塔路北段8号万达广场娱乐楼4层','(029)85450088,4000806060') [ RunTime:0.0890s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('4','18','2015-06-13','10:35','数字2D','70') [ RunTime:0.0360s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('4','18','2015-06-13','12:25','数字2D','70') [ RunTime:0.0380s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('4','18','2015-06-13','14:15','数字2D','70') [ RunTime:0.0590s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('4','18','2015-06-13','16:00','数字2D','70') [ RunTime:0.0370s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('4','18','2015-06-13','17:55','数字2D','70') [ RunTime:0.0330s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('4','18','2015-06-13','19:40','数字2D','70') [ RunTime:0.0350s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('4','18','2015-06-13','21:30','数字2D','70') [ RunTime:0.0960s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-06-12T21:34:11+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=getMovie&name=%E5%86%8D%E8%A7%81%E6%88%91%E4%BB%AC%E7%9A%84%E5%8D%81%E5%B9%B4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_movies` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_movies` WHERE `name` = '再见我们的十年' AND `time` = '2015-06-12' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `west_movies` (`name`,`time`) VALUES ('再见我们的十年','2015-06-12') [ RunTime:0.0820s ]
+SQL: SHOW COLUMNS FROM `west_cinemas` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = '4cee3db92306b7d41e5800c4' AND `mid` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('5','4cee3db92306b7d41e5800c4','西安耀莱国际影城','西安市曲江新区大唐不夜城银泰中心4层','(029)89126600,(029)89126611') [ RunTime:0.0390s ]
+SQL: SHOW COLUMNS FROM `west_movies_time` [ RunTime:0.0030s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('5','19','2015-06-12','23:40','2D','120') [ RunTime:0.0350s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = 'd88ce3e10fa05b88902ca358' AND `mid` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('5','d88ce3e10fa05b88902ca358','万达影城(西安民乐万达广场店)','解放路中段111号万达百货民乐园店4层','(029)85450088,4000806060') [ RunTime:0.0460s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('5','20','2015-06-12','23:20','数字2D','70') [ RunTime:0.0380s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = '7aea43b7548198e17d29bdf0' AND `mid` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('5','7aea43b7548198e17d29bdf0','西安万达国际影城(东新街店)','西安市解放路63号民乐精品服饰广场四层','(029)85450088') [ RunTime:0.0350s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = '4bb049d988306f5e980050f3' AND `mid` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('5','4bb049d988306f5e980050f3','西安万达国际影城(碑林万达广场店)','西安市碑林区雁塔路北段8号万达广场娱乐楼4层','(029)85450088,4000806060') [ RunTime:0.0360s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-12T21:39:48+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=getMovie&name=%E5%86%8D%E8%A7%81%E6%88%91%E4%BB%AC%E7%9A%84%E5%8D%81%E5%B9%B4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `west_movies` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_movies` WHERE `name` = '再见我们的十年' AND `time` = '2015-06-12' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `west_movies` (`name`,`time`) VALUES ('再见我们的十年','2015-06-12') [ RunTime:0.0460s ]
+
+[ 2015-06-12T21:40:42+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=getMovie&name=%E5%86%8D%E8%A7%81%E6%88%91%E4%BB%AC%E7%9A%84%E5%8D%81%E5%B9%B4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-12T21:41:16+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=getMovie&name=%E5%86%8D%E8%A7%81%E6%88%91%E4%BB%AC%E7%9A%84%E5%8D%81%E5%B9%B4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_movies` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_movies` WHERE `name` = '再见我们的十年' AND `time` = '2015-06-12' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `west_movies` (`name`,`time`) VALUES ('再见我们的十年','2015-06-12') [ RunTime:0.0530s ]
+
+[ 2015-06-12T21:41:37+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=getMovie&name=%E5%86%8D%E8%A7%81%E6%88%91%E4%BB%AC%E7%9A%84%E5%8D%81%E5%B9%B4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_movies` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_movies` WHERE `name` = '再见我们的十年' AND `time` = '2015-06-12' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `west_movies` (`name`,`time`) VALUES ('再见我们的十年','2015-06-12') [ RunTime:0.0590s ]
+SQL: SHOW COLUMNS FROM `west_cinemas` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = '4cee3db92306b7d41e5800c4' AND `mid` = 8 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('8','4cee3db92306b7d41e5800c4','西安耀莱国际影城','西安市曲江新区大唐不夜城银泰中心4层','(029)89126600,(029)89126611') [ RunTime:0.0470s ]
+SQL: SHOW COLUMNS FROM `west_movies_time` [ RunTime:0.0030s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('8','23','2015-06-12','23:40','2D','120') [ RunTime:0.0320s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = 'd88ce3e10fa05b88902ca358' AND `mid` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('8','d88ce3e10fa05b88902ca358','万达影城(西安民乐万达广场店)','解放路中段111号万达百货民乐园店4层','(029)85450088,4000806060') [ RunTime:0.0360s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('8','24','2015-06-12','23:20','数字2D','70') [ RunTime:0.0360s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = '7aea43b7548198e17d29bdf0' AND `mid` = 8 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('8','7aea43b7548198e17d29bdf0','西安万达国际影城(东新街店)','西安市解放路63号民乐精品服饰广场四层','(029)85450088') [ RunTime:0.0360s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = '4bb049d988306f5e980050f3' AND `mid` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('8','4bb049d988306f5e980050f3','西安万达国际影城(碑林万达广场店)','西安市碑林区雁塔路北段8号万达广场娱乐楼4层','(029)85450088,4000806060') [ RunTime:0.0460s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-12T21:41:57+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=getMovie&name=%E5%86%8D%E8%A7%81%E6%88%91%E4%BB%AC%E7%9A%84%E5%8D%81%E5%B9%B4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_movies` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_movies` WHERE `name` = '再见我们的十年' AND `time` = '2015-06-12' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `west_movies` (`name`,`time`) VALUES ('再见我们的十年','2015-06-12') [ RunTime:0.0500s ]
+SQL: SHOW COLUMNS FROM `west_cinemas` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = '4cee3db92306b7d41e5800c4' AND `mid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('9','4cee3db92306b7d41e5800c4','西安耀莱国际影城','西安市曲江新区大唐不夜城银泰中心4层','(029)89126600,(029)89126611') [ RunTime:0.1020s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = 'd88ce3e10fa05b88902ca358' AND `mid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('9','d88ce3e10fa05b88902ca358','万达影城(西安民乐万达广场店)','解放路中段111号万达百货民乐园店4层','(029)85450088,4000806060') [ RunTime:0.0370s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = '7aea43b7548198e17d29bdf0' AND `mid` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('9','7aea43b7548198e17d29bdf0','西安万达国际影城(东新街店)','西安市解放路63号民乐精品服饰广场四层','(029)85450088') [ RunTime:0.0330s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = '4bb049d988306f5e980050f3' AND `mid` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('9','4bb049d988306f5e980050f3','西安万达国际影城(碑林万达广场店)','西安市碑林区雁塔路北段8号万达广场娱乐楼4层','(029)85450088,4000806060') [ RunTime:0.0430s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-12T21:43:11+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=getMovie&name=%E5%86%8D%E8%A7%81%E6%88%91%E4%BB%AC%E7%9A%84%E5%8D%81%E5%B9%B4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_movies` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_movies` WHERE `name` = '再见我们的十年' AND `time` = '2015-06-12' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `west_movies` (`name`,`time`) VALUES ('再见我们的十年','2015-06-12') [ RunTime:0.0450s ]
+SQL: SHOW COLUMNS FROM `west_cinemas` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = '4cee3db92306b7d41e5800c4' AND `mid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('1','4cee3db92306b7d41e5800c4','西安耀莱国际影城','西安市曲江新区大唐不夜城银泰中心4层','(029)89126600,(029)89126611') [ RunTime:0.0550s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = 'd88ce3e10fa05b88902ca358' AND `mid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('1','d88ce3e10fa05b88902ca358','万达影城(西安民乐万达广场店)','解放路中段111号万达百货民乐园店4层','(029)85450088,4000806060') [ RunTime:0.0260s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = '7aea43b7548198e17d29bdf0' AND `mid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('1','7aea43b7548198e17d29bdf0','西安万达国际影城(东新街店)','西安市解放路63号民乐精品服饰广场四层','(029)85450088') [ RunTime:0.0640s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = '4bb049d988306f5e980050f3' AND `mid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('1','4bb049d988306f5e980050f3','西安万达国际影城(碑林万达广场店)','西安市碑林区雁塔路北段8号万达广场娱乐楼4层','(029)85450088,4000806060') [ RunTime:0.0640s ]
+
+[ 2015-06-12T21:43:47+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=getMovie&name=%E5%86%8D%E8%A7%81%E6%88%91%E4%BB%AC%E7%9A%84%E5%8D%81%E5%B9%B4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_movies` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_movies` WHERE `name` = '再见我们的十年' AND `time` = '2015-06-12' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `west_cinemas` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `mid` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `west_movies_time` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_movies_time` WHERE `mid` = 1 AND `cid` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `west_movies_time` WHERE `mid` = 1 AND `cid` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `west_movies_time` WHERE `mid` = 1 AND `cid` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `west_movies_time` WHERE `mid` = 1 AND `cid` = 4  [ RunTime:0.0010s ]
+
+[ 2015-06-12T21:44:23+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=getMovie&name=%E5%86%8D%E8%A7%81%E6%88%91%E4%BB%AC%E7%9A%84%E5%8D%81%E5%B9%B4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_movies` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_movies` WHERE `name` = '再见我们的十年' AND `time` = '2015-06-12' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `west_movies` (`name`,`time`) VALUES ('再见我们的十年','2015-06-12') [ RunTime:0.0600s ]
+SQL: SHOW COLUMNS FROM `west_cinemas` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = '4cee3db92306b7d41e5800c4' AND `mid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('1','4cee3db92306b7d41e5800c4','西安耀莱国际影城','西安市曲江新区大唐不夜城银泰中心4层','(029)89126600,(029)89126611') [ RunTime:0.1420s ]
+SQL: SHOW COLUMNS FROM `west_movies_time` [ RunTime:0.0080s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('1','1','2015-06-12','23:40','2D','120') [ RunTime:0.0250s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = 'd88ce3e10fa05b88902ca358' AND `mid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('1','d88ce3e10fa05b88902ca358','万达影城(西安民乐万达广场店)','解放路中段111号万达百货民乐园店4层','(029)85450088,4000806060') [ RunTime:0.0330s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('1','2','2015-06-12','23:20','数字2D','70') [ RunTime:0.0870s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = '7aea43b7548198e17d29bdf0' AND `mid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('1','7aea43b7548198e17d29bdf0','西安万达国际影城(东新街店)','西安市解放路63号民乐精品服饰广场四层','(029)85450088') [ RunTime:0.0630s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = '4bb049d988306f5e980050f3' AND `mid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('1','4bb049d988306f5e980050f3','西安万达国际影城(碑林万达广场店)','西安市碑林区雁塔路北段8号万达广场娱乐楼4层','(029)85450088,4000806060') [ RunTime:0.0270s ]
+
+[ 2015-06-12T21:46:06+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=getMovie&name=%E5%86%8D%E8%A7%81%E6%88%91%E4%BB%AC%E7%9A%84%E5%8D%81%E5%B9%B4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_movies` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_movies` WHERE `name` = '再见我们的十年' AND `time` = '2015-06-12' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `west_movies` (`name`,`time`) VALUES ('再见我们的十年','2015-06-12') [ RunTime:0.0340s ]
+SQL: SHOW COLUMNS FROM `west_cinemas` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = '4cee3db92306b7d41e5800c4' AND `mid` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('2','4cee3db92306b7d41e5800c4','西安耀莱国际影城','西安市曲江新区大唐不夜城银泰中心4层','(029)89126600,(029)89126611') [ RunTime:0.0310s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = 'd88ce3e10fa05b88902ca358' AND `mid` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('2','d88ce3e10fa05b88902ca358','万达影城(西安民乐万达广场店)','解放路中段111号万达百货民乐园店4层','(029)85450088,4000806060') [ RunTime:0.0310s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = '7aea43b7548198e17d29bdf0' AND `mid` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('2','7aea43b7548198e17d29bdf0','西安万达国际影城(东新街店)','西安市解放路63号民乐精品服饰广场四层','(029)85450088') [ RunTime:0.0640s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = '4bb049d988306f5e980050f3' AND `mid` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('2','4bb049d988306f5e980050f3','西安万达国际影城(碑林万达广场店)','西安市碑林区雁塔路北段8号万达广场娱乐楼4层','(029)85450088,4000806060') [ RunTime:0.0690s ]
+
+[ 2015-06-12T21:47:56+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=getMovie&name=%E5%86%8D%E8%A7%81%E6%88%91%E4%BB%AC%E7%9A%84%E5%8D%81%E5%B9%B4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_movies` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_movies` WHERE `name` = '再见我们的十年' AND `time` = '2015-06-12' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `west_movies` (`name`,`time`) VALUES ('再见我们的十年','2015-06-12') [ RunTime:0.0420s ]
+SQL: SHOW COLUMNS FROM `west_cinemas` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = '4cee3db92306b7d41e5800c4' AND `mid` = 3 LIMIT 1   [ RunTime:0.0020s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('3','4cee3db92306b7d41e5800c4','西安耀莱国际影城','西安市曲江新区大唐不夜城银泰中心4层','(029)89126600,(029)89126611') [ RunTime:0.0400s ]
+SQL: SHOW COLUMNS FROM `west_movies_time` [ RunTime:0.0030s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('3','9','2015-06-12','23:40','2D','120') [ RunTime:0.0950s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = 'd88ce3e10fa05b88902ca358' AND `mid` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('3','d88ce3e10fa05b88902ca358','万达影城(西安民乐万达广场店)','解放路中段111号万达百货民乐园店4层','(029)85450088,4000806060') [ RunTime:0.0250s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('3','10','2015-06-12','23:20','数字2D','70') [ RunTime:0.0340s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = '7aea43b7548198e17d29bdf0' AND `mid` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('3','7aea43b7548198e17d29bdf0','西安万达国际影城(东新街店)','西安市解放路63号民乐精品服饰广场四层','(029)85450088') [ RunTime:0.0610s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = '4bb049d988306f5e980050f3' AND `mid` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('3','4bb049d988306f5e980050f3','西安万达国际影城(碑林万达广场店)','西安市碑林区雁塔路北段8号万达广场娱乐楼4层','(029)85450088,4000806060') [ RunTime:0.0600s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp\www\westfilms\server\Apps\User\Controller\ApiController.class.php:140) D:\wamp\www\westfilms\server\Think\Library\Think\Controller.class.php 第 215 行.
+
+[ 2015-06-12T21:49:09+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=getMovie&name=%E5%86%8D%E8%A7%81%E6%88%91%E4%BB%AC%E7%9A%84%E5%8D%81%E5%B9%B4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `west_movies` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_movies` WHERE `name` = '再见我们的十年' AND `time` = '2015-06-12' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `west_movies` (`name`,`time`) VALUES ('再见我们的十年','2015-06-12') [ RunTime:0.0390s ]
+SQL: SHOW COLUMNS FROM `west_cinemas` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = '4cee3db92306b7d41e5800c4' AND `mid` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('4','4cee3db92306b7d41e5800c4','西安耀莱国际影城','西安市曲江新区大唐不夜城银泰中心4层','(029)89126600,(029)89126611') [ RunTime:0.0360s ]
+SQL: SHOW COLUMNS FROM `west_movies_time` [ RunTime:0.0070s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('4','13','2015-06-12','23:40','2D','120') [ RunTime:0.2020s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = 'd88ce3e10fa05b88902ca358' AND `mid` = 4 LIMIT 1   [ RunTime:0.0020s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('4','d88ce3e10fa05b88902ca358','万达影城(西安民乐万达广场店)','解放路中段111号万达百货民乐园店4层','(029)85450088,4000806060') [ RunTime:0.0460s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('4','14','2015-06-12','23:20','数字2D','70') [ RunTime:0.0290s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = '7aea43b7548198e17d29bdf0' AND `mid` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('4','7aea43b7548198e17d29bdf0','西安万达国际影城(东新街店)','西安市解放路63号民乐精品服饰广场四层','(029)85450088') [ RunTime:0.0620s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = '4bb049d988306f5e980050f3' AND `mid` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('4','4bb049d988306f5e980050f3','西安万达国际影城(碑林万达广场店)','西安市碑林区雁塔路北段8号万达广场娱乐楼4层','(029)85450088,4000806060') [ RunTime:0.0850s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\wamp\www\westfilms\server\Apps\User\Controller\ApiController.class.php:148) D:\wamp\www\westfilms\server\Think\Library\Think\Controller.class.php 第 215 行.
+
+[ 2015-06-12T21:50:41+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=getMovie&name=%E5%86%8D%E8%A7%81%E6%88%91%E4%BB%AC%E7%9A%84%E5%8D%81%E5%B9%B4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `west_movies` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_movies` WHERE `name` = '再见我们的十年' AND `time` = '2015-06-12' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `west_movies` (`name`,`time`) VALUES ('再见我们的十年','2015-06-12') [ RunTime:0.0450s ]
+NOTIC: [4096] Object of class stdClass could not be converted to string D:\wamp\www\westfilms\server\Apps\User\Controller\ApiController.class.php 第 136 行.
+
+[ 2015-06-12T21:51:04+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=getMovie&name=%E5%86%8D%E8%A7%81%E6%88%91%E4%BB%AC%E7%9A%84%E5%8D%81%E5%B9%B4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_movies` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_movies` WHERE `name` = '再见我们的十年' AND `time` = '2015-06-12' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `west_movies` (`name`,`time`) VALUES ('再见我们的十年','2015-06-12') [ RunTime:0.0460s ]
+
+[ 2015-06-12T21:54:08+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-12T21:54:38+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-12T21:57:45+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-12T21:57:59+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-06-12T21:58:07+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=getMovie&name=%E5%86%8D%E8%A7%81%E6%88%91%E4%BB%AC%E7%9A%84%E5%8D%81%E5%B9%B4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_movies` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `west_movies` WHERE `name` = '再见我们的十年' AND `time` = '2015-06-12' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `west_movies` (`name`,`time`) VALUES ('再见我们的十年','2015-06-12') [ RunTime:0.0340s ]
+
+[ 2015-06-12T21:58:17+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=getMovie&name=%E5%86%8D%E8%A7%81%E6%88%91%E4%BB%AC%E7%9A%84%E5%8D%81%E5%B9%B4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_movies` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_movies` WHERE `name` = '再见我们的十年' AND `time` = '2015-06-12' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `west_movies` (`name`,`time`) VALUES ('再见我们的十年','2015-06-12') [ RunTime:0.0840s ]
+
+[ 2015-06-12T21:58:53+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=getMovie&name=%E5%86%8D%E8%A7%81%E6%88%91%E4%BB%AC%E7%9A%84%E5%8D%81%E5%B9%B4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_movies` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_movies` WHERE `name` = '再见我们的十年' AND `time` = '2015-06-12' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `west_movies` (`name`,`time`) VALUES ('再见我们的十年','2015-06-12') [ RunTime:0.0420s ]
+SQL: SHOW COLUMNS FROM `west_cinemas` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = 'c4418e9b360531699e82eaa6' AND `mid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('9','c4418e9b360531699e82eaa6','西安奥斯卡金地国际影城','陕西省西安市雁塔区曲江池东路999号金地广场4F','(029)88639952') [ RunTime:0.0450s ]
+SQL: SHOW COLUMNS FROM `west_movies_time` [ RunTime:0.0030s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('9','17','2015-06-12','22:30','2D','80') [ RunTime:0.0400s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = 'dfba656348903d94430245cf' AND `mid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('9','dfba656348903d94430245cf','西安恒大影城','西安市雁塔区大寨路99号恒大影城3-4层','(029)86616468') [ RunTime:0.0280s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = '3018f4615eb0d018a80dd8b8' AND `mid` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('9','3018f4615eb0d018a80dd8b8','大地影院(西安金莎国际)','西安市雁塔区长安中路65号小寨金莎国际6楼','(029)89640502') [ RunTime:0.0330s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = 'f4041508bc32ce793310af88' AND `mid` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('9','f4041508bc32ce793310af88','横店影城（西安中贸店）','南关正街中茂广场5楼南稍门十字向北100米路西','029-88669090') [ RunTime:0.0640s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('9','20','2015-06-12','23:05','2D','70') [ RunTime:0.0760s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = '23c94f9ff665c9fb1ef74d42' AND `mid` = 9 LIMIT 1   [ RunTime:0.0020s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('9','23c94f9ff665c9fb1ef74d42','大地影院(长安步行街)','西安市长安区长安步行街北口长百新市购物广场3楼','(029)63366846,(029)63366840') [ RunTime:0.0360s ]
+
+[ 2015-06-12T22:00:07+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=getMovie&name=%E5%86%8D%E8%A7%81%E6%88%91%E4%BB%AC%E7%9A%84%E5%8D%81%E5%B9%B4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `west_movies` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_movies` WHERE `name` = '再见我们的十年' AND `time` = '2015-06-12' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `west_movies` (`name`,`time`) VALUES ('再见我们的十年','2015-06-12') [ RunTime:0.0740s ]
+
+[ 2015-06-12T22:00:56+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-12T22:00:59+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=getMovie&name=%E5%86%8D%E8%A7%81%E6%88%91%E4%BB%AC%E7%9A%84%E5%8D%81%E5%B9%B4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_movies` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_movies` WHERE `name` = '再见我们的十年' AND `time` = '2015-06-12' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `west_movies` (`name`,`time`) VALUES ('再见我们的十年','2015-06-12') [ RunTime:0.0970s ]
+SQL: SHOW COLUMNS FROM `west_cinemas` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = 'c4418e9b360531699e82eaa6' AND `mid` = 11 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('11','c4418e9b360531699e82eaa6','西安奥斯卡金地国际影城','陕西省西安市雁塔区曲江池东路999号金地广场4F','(029)88639952') [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `west_movies_time` [ RunTime:0.0030s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('11','22','2015-06-12','22:30','2D','80') [ RunTime:0.0260s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = 'dfba656348903d94430245cf' AND `mid` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('11','dfba656348903d94430245cf','西安恒大影城','西安市雁塔区大寨路99号恒大影城3-4层','(029)86616468') [ RunTime:0.0320s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = '3018f4615eb0d018a80dd8b8' AND `mid` = 11 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('11','3018f4615eb0d018a80dd8b8','大地影院(西安金莎国际)','西安市雁塔区长安中路65号小寨金莎国际6楼','(029)89640502') [ RunTime:0.0850s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = 'f4041508bc32ce793310af88' AND `mid` = 11 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('11','f4041508bc32ce793310af88','横店影城（西安中贸店）','南关正街中茂广场5楼南稍门十字向北100米路西','029-88669090') [ RunTime:0.0650s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('11','25','2015-06-12','23:05','2D','70') [ RunTime:0.0280s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = '23c94f9ff665c9fb1ef74d42' AND `mid` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('11','23c94f9ff665c9fb1ef74d42','大地影院(长安步行街)','西安市长安区长安步行街北口长百新市购物广场3楼','(029)63366846,(029)63366840') [ RunTime:0.0840s ]
+
+[ 2015-06-12T22:01:20+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=getMovie&name=%E5%86%8D%E8%A7%81%E6%88%91%E4%BB%AC%E7%9A%84%E5%8D%81%E5%B9%B4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_movies` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_movies` WHERE `name` = '再见我们的十年' AND `time` = '2015-06-12' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `west_movies` (`name`,`time`) VALUES ('再见我们的十年','2015-06-12') [ RunTime:0.1190s ]
+SQL: SHOW COLUMNS FROM `west_cinemas` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = 'c4418e9b360531699e82eaa6' AND `mid` = 12 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('12','c4418e9b360531699e82eaa6','西安奥斯卡金地国际影城','陕西省西安市雁塔区曲江池东路999号金地广场4F','(029)88639952') [ RunTime:0.0380s ]
+SQL: SHOW COLUMNS FROM `west_movies_time` [ RunTime:0.0030s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('12','27','2015-06-12','22:30','2D','80') [ RunTime:0.0620s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = 'dfba656348903d94430245cf' AND `mid` = 12 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('12','dfba656348903d94430245cf','西安恒大影城','西安市雁塔区大寨路99号恒大影城3-4层','(029)86616468') [ RunTime:0.1880s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = '3018f4615eb0d018a80dd8b8' AND `mid` = 12 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('12','3018f4615eb0d018a80dd8b8','大地影院(西安金莎国际)','西安市雁塔区长安中路65号小寨金莎国际6楼','(029)89640502') [ RunTime:0.0370s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = 'f4041508bc32ce793310af88' AND `mid` = 12 LIMIT 1   [ RunTime:0.0020s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('12','f4041508bc32ce793310af88','横店影城（西安中贸店）','南关正街中茂广场5楼南稍门十字向北100米路西','029-88669090') [ RunTime:0.0380s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('12','30','2015-06-12','23:05','2D','70') [ RunTime:0.0320s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = '23c94f9ff665c9fb1ef74d42' AND `mid` = 12 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('12','23c94f9ff665c9fb1ef74d42','大地影院(长安步行街)','西安市长安区长安步行街北口长百新市购物广场3楼','(029)63366846,(029)63366840') [ RunTime:0.0270s ]
+
+[ 2015-06-12T22:05:05+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=getMovie&name=%E5%86%8D%E8%A7%81%E6%88%91%E4%BB%AC%E7%9A%84%E5%8D%81%E5%B9%B4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_movies` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_movies` WHERE `name` = '再见我们的十年' AND `time` = '2015-06-12' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `west_movies` (`name`,`time`) VALUES ('再见我们的十年','2015-06-12') [ RunTime:0.0480s ]
+SQL: SHOW COLUMNS FROM `west_cinemas` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = 'c4418e9b360531699e82eaa6' AND `mid` = 13 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('13','c4418e9b360531699e82eaa6','西安奥斯卡金地国际影城','陕西省西安市雁塔区曲江池东路999号金地广场4F','(029)88639952') [ RunTime:0.0380s ]
+SQL: SHOW COLUMNS FROM `west_movies_time` [ RunTime:0.0060s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('13','32','2015-06-12','22:30','2D','80') [ RunTime:0.0550s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = 'dfba656348903d94430245cf' AND `mid` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('13','dfba656348903d94430245cf','西安恒大影城','西安市雁塔区大寨路99号恒大影城3-4层','(029)86616468') [ RunTime:0.0720s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = '3018f4615eb0d018a80dd8b8' AND `mid` = 13 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('13','3018f4615eb0d018a80dd8b8','大地影院(西安金莎国际)','西安市雁塔区长安中路65号小寨金莎国际6楼','(029)89640502') [ RunTime:0.0330s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = 'f4041508bc32ce793310af88' AND `mid` = 13 LIMIT 1   [ RunTime:0.0070s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('13','f4041508bc32ce793310af88','横店影城（西安中贸店）','南关正街中茂广场5楼南稍门十字向北100米路西','029-88669090') [ RunTime:0.0330s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('13','35','2015-06-12','23:05','2D','70') [ RunTime:0.1390s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = '23c94f9ff665c9fb1ef74d42' AND `mid` = 13 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('13','23c94f9ff665c9fb1ef74d42','大地影院(长安步行街)','西安市长安区长安步行街北口长百新市购物广场3楼','(029)63366846,(029)63366840') [ RunTime:0.0440s ]
+
+[ 2015-06-12T22:06:25+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=getMovie&name=%E5%86%8D%E8%A7%81%E6%88%91%E4%BB%AC%E7%9A%84%E5%8D%81%E5%B9%B4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `west_movies` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_movies` WHERE `name` = '再见我们的十年' AND `time` = '2015-06-12' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `west_movies` (`name`,`time`) VALUES ('再见我们的十年','2015-06-12') [ RunTime:0.1010s ]
+SQL: SHOW COLUMNS FROM `west_cinemas` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = 'c4418e9b360531699e82eaa6' AND `mid` = 14 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('14','c4418e9b360531699e82eaa6','西安奥斯卡金地国际影城','陕西省西安市雁塔区曲江池东路999号金地广场4F','(029)88639952') [ RunTime:0.0480s ]
+SQL: SHOW COLUMNS FROM `west_movies_time` [ RunTime:0.0030s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('14','37','2015-06-12','22:30','2D','80') [ RunTime:0.0720s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = 'dfba656348903d94430245cf' AND `mid` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('14','dfba656348903d94430245cf','西安恒大影城','西安市雁塔区大寨路99号恒大影城3-4层','(029)86616468') [ RunTime:0.1660s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = '3018f4615eb0d018a80dd8b8' AND `mid` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('14','3018f4615eb0d018a80dd8b8','大地影院(西安金莎国际)','西安市雁塔区长安中路65号小寨金莎国际6楼','(029)89640502') [ RunTime:0.0380s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = 'f4041508bc32ce793310af88' AND `mid` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('14','f4041508bc32ce793310af88','横店影城（西安中贸店）','南关正街中茂广场5楼南稍门十字向北100米路西','029-88669090') [ RunTime:0.0270s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('14','40','2015-06-12','23:05','2D','70') [ RunTime:0.0320s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = '23c94f9ff665c9fb1ef74d42' AND `mid` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('14','23c94f9ff665c9fb1ef74d42','大地影院(长安步行街)','西安市长安区长安步行街北口长百新市购物广场3楼','(029)63366846,(029)63366840') [ RunTime:0.0400s ]
+
+[ 2015-06-12T22:08:01+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=getMovie&name=%E5%86%8D%E8%A7%81%E6%88%91%E4%BB%AC%E7%9A%84%E5%8D%81%E5%B9%B4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `west_movies` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_movies` WHERE `name` = '再见我们的十年' AND `time` = '2015-06-12' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `west_movies` (`name`,`time`) VALUES ('再见我们的十年','2015-06-12') [ RunTime:0.0420s ]
+SQL: SHOW COLUMNS FROM `west_cinemas` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = 'c4418e9b360531699e82eaa6' AND `mid` = 16 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('16','c4418e9b360531699e82eaa6','西安奥斯卡金地国际影城','陕西省西安市雁塔区曲江池东路999号金地广场4F','(029)88639952') [ RunTime:0.0240s ]
+SQL: SHOW COLUMNS FROM `west_movies_time` [ RunTime:0.0030s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('16','42','2015-06-12','22:30','2D','80') [ RunTime:0.0290s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = 'f4041508bc32ce793310af88' AND `mid` = 16 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('16','f4041508bc32ce793310af88','横店影城（西安中贸店）','南关正街中茂广场5楼南稍门十字向北100米路西','029-88669090') [ RunTime:0.0280s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('16','43','2015-06-12','23:05','2D','70') [ RunTime:0.1390s ]
+
+[ 2015-06-12T22:08:02+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=getMovie&name=%E5%86%8D%E8%A7%81%E6%88%91%E4%BB%AC%E7%9A%84%E5%8D%81%E5%B9%B4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_movies` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_movies` WHERE `name` = '再见我们的十年' AND `time` = '2015-06-12' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `west_movies` (`name`,`time`) VALUES ('再见我们的十年','2015-06-12') [ RunTime:0.1010s ]
+SQL: SHOW COLUMNS FROM `west_cinemas` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = 'c4418e9b360531699e82eaa6' AND `mid` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('17','c4418e9b360531699e82eaa6','西安奥斯卡金地国际影城','陕西省西安市雁塔区曲江池东路999号金地广场4F','(029)88639952') [ RunTime:0.0280s ]
+SQL: SHOW COLUMNS FROM `west_movies_time` [ RunTime:0.0030s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('17','44','2015-06-12','22:30','2D','80') [ RunTime:0.0310s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = 'f4041508bc32ce793310af88' AND `mid` = 17 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('17','f4041508bc32ce793310af88','横店影城（西安中贸店）','南关正街中茂广场5楼南稍门十字向北100米路西','029-88669090') [ RunTime:0.2520s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('17','45','2015-06-12','23:05','2D','70') [ RunTime:0.1640s ]
+
+[ 2015-06-12T22:08:54+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=getMovie&name=%E5%86%8D%E8%A7%81%E6%88%91%E4%BB%AC%E7%9A%84%E5%8D%81%E5%B9%B4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `west_movies` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_movies` WHERE `name` = '再见我们的十年' AND `time` = '2015-06-12' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `west_movies` (`name`,`time`) VALUES ('再见我们的十年','2015-06-12') [ RunTime:0.0380s ]
+SQL: SHOW COLUMNS FROM `west_cinemas` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = 'c4418e9b360531699e82eaa6' AND `mid` = 18 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('18','c4418e9b360531699e82eaa6','西安奥斯卡金地国际影城','陕西省西安市雁塔区曲江池东路999号金地广场4F','(029)88639952') [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `west_movies_time` [ RunTime:0.0040s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('18','46','2015-06-12','22:30','2D','80') [ RunTime:0.0230s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = 'f4041508bc32ce793310af88' AND `mid` = 18 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('18','f4041508bc32ce793310af88','横店影城（西安中贸店）','南关正街中茂广场5楼南稍门十字向北100米路西','029-88669090') [ RunTime:0.0330s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('18','47','2015-06-12','23:05','2D','70') [ RunTime:0.0300s ]
+
+[ 2015-06-12T22:09:57+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=getMovie&name=%E4%BE%8F%E7%BD%97%E7%BA%AA%E4%B8%96%E7%95%8C
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `west_movies` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_movies` WHERE `name` = '侏罗纪世界' AND `time` = '2015-06-12' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `west_movies` (`name`,`time`) VALUES ('侏罗纪世界','2015-06-12') [ RunTime:0.1320s ]
+SQL: SHOW COLUMNS FROM `west_cinemas` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = 'c4418e9b360531699e82eaa6' AND `mid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('1','c4418e9b360531699e82eaa6','西安奥斯卡金地国际影城','陕西省西安市雁塔区曲江池东路999号金地广场4F','(029)88639952') [ RunTime:0.0360s ]
+SQL: SHOW COLUMNS FROM `west_movies_time` [ RunTime:0.0020s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('1','1','2015-06-12','23:05','3D','90') [ RunTime:0.0410s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = 'dfba656348903d94430245cf' AND `mid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('1','dfba656348903d94430245cf','西安恒大影城','西安市雁塔区大寨路99号恒大影城3-4层','(029)86616468') [ RunTime:0.0280s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('1','2','2015-06-12','22:30','3D','80') [ RunTime:0.0890s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('1','2','2015-06-12','23:00','3D','80') [ RunTime:0.0710s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = '3018f4615eb0d018a80dd8b8' AND `mid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('1','3018f4615eb0d018a80dd8b8','大地影院(西安金莎国际)','西安市雁塔区长安中路65号小寨金莎国际6楼','(029)89640502') [ RunTime:0.0290s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('1','3','2015-06-12','23:00','3D','39') [ RunTime:0.1090s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = 'edd1547d3955c9941e58003c' AND `mid` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('1','edd1547d3955c9941e58003c','西安米格国际影城','西安市大南门外珠江时代广场世纪金花4F','(029)85202222') [ RunTime:0.0340s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('1','4','2015-06-12','22:30','3D','80') [ RunTime:0.0610s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('1','4','2015-06-12','23:20','3D','80') [ RunTime:0.0890s ]
+
+[ 2015-06-12T22:10:19+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=getMovie&name=%E4%BE%8F%E7%BD%97%E7%BA%AA%E4%B8%96%E7%95%8C
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `west_movies` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_movies` WHERE `name` = '侏罗纪世界' AND `time` = '2015-06-12' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `west_cinemas` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `mid` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `west_movies_time` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_movies_time` WHERE `mid` = 1 AND `cid` = 1  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `west_movies_time` WHERE `mid` = 1 AND `cid` = 2  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `west_movies_time` WHERE `mid` = 1 AND `cid` = 3  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `west_movies_time` WHERE `mid` = 1 AND `cid` = 4  [ RunTime:0.0000s ]
+
+[ 2015-06-12T22:11:49+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=getMovie&callback=jsonp1434118309169&name=%E4%BE%8F%E7%BD%97%E7%BA%AA%E4%B8%96%E7%95%8C
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `west_movies` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `west_movies` WHERE `name` = '侏罗纪世界' AND `time` = '2015-06-12' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `west_cinemas` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `mid` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `west_movies_time` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_movies_time` WHERE `mid` = 1 AND `cid` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `west_movies_time` WHERE `mid` = 1 AND `cid` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `west_movies_time` WHERE `mid` = 1 AND `cid` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `west_movies_time` WHERE `mid` = 1 AND `cid` = 4  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-12T22:12:54+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=getMovie&callback=jsonp1434118372177&name=%E6%88%91%E6%98%AF%E8%B0%812015
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `west_movies` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_movies` WHERE `name` = '我是谁2015' AND `time` = '2015-06-12' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `west_movies` (`name`,`time`) VALUES ('我是谁2015','2015-06-12') [ RunTime:0.0730s ]
+SQL: SHOW COLUMNS FROM `west_cinemas` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = 'fb5b13756b7979f9b75f1e45' AND `mid` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('2','fb5b13756b7979f9b75f1e45','西安澳堡开顿国际影城','西安市长安区西长安街555号澳堡时代广场6F','(029)65669333') [ RunTime:0.0560s ]
+SQL: SHOW COLUMNS FROM `west_movies_time` [ RunTime:0.0030s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('2','5','2015-06-12','22:40','2D','80') [ RunTime:0.0280s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-12T22:13:06+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=getMovie&callback=jsonp1434118386172&name=%E6%88%91%E6%98%AF%E8%B0%812015
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_movies` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_movies` WHERE `name` = '我是谁2015' AND `time` = '2015-06-12' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `west_cinemas` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `mid` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `west_movies_time` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_movies_time` WHERE `mid` = 2 AND `cid` = 5  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-12T22:14:30+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=getMovie&callback=jsonp1434118470030&name=%E6%88%91%E6%98%AF%E8%B0%812015
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `west_movies` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_movies` WHERE `name` = '我是谁2015' AND `time` = '2015-06-12' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `west_cinemas` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `mid` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `west_movies_time` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_movies_time` WHERE `mid` = 2 AND `cid` = 5  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-12T22:14:35+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=getMovie&callback=jsonp1434118475540&name=%E6%88%91%E6%98%AF%E8%B0%812015
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `west_movies` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_movies` WHERE `name` = '我是谁2015' AND `time` = '2015-06-12' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `west_cinemas` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `mid` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `west_movies_time` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `west_movies_time` WHERE `mid` = 2 AND `cid` = 5  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
