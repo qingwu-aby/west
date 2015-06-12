@@ -72,6 +72,7 @@ class ApiController extends BaseController {
 	/**
 	 * 获取本地影讯	 
 	 */
+	
 	public function getMovie() {
 		$name = I('get.name');
 		$time = date('Y-m-d',time());
@@ -91,25 +92,29 @@ class ApiController extends BaseController {
 			} else {
 				$returnData = array();
 				foreach ($result as $cinema) {
-					$temp = array(
-						'uid' => $cinema['uid'],
-						'name' => $cinema['name'],
-						'address' => $cinema['address'],
-						'tel' => $cinema['tel'],
-					);
 					// 获取时间表
 					$timeResult = M('movies_time')->where(array('mid' => $mid, 'cid' => $cinema['id']))->select();
-					$time_table = array();
-					foreach ($timeResult as $time) {
-						$time_table[] = array(
-							'date' => $time['date'],
-							'type' => $time['type'],
-							'price' => $time['price'],
-							'time' => $time['time'],
+					if(count($timeResult) > 0) {
+						$temp = array(
+							'uid' => $cinema['uid'],
+							'name' => $cinema['name'],
+							'address' => $cinema['address'],
+							'tel' => $cinema['tel'],
 						);
+						$time_table = array();
+						foreach ($timeResult as $time) {
+							$time_table[] = array(
+								'date' => $time['date'],
+								'type' => $time['type'],
+								'price' => $time['price'],
+								'time' => $time['time'],
+							);
+						}
+						$temp['time_table'] = $time_table;
+						$returnData[] = $temp;
+					} else {
+						continue;
 					}
-					$temp['time_table'] = $time_table;
-					$returnData[] = $temp;
 				}
 				$return = array(
 					'code' => 1,
@@ -138,43 +143,48 @@ class ApiController extends BaseController {
 						'tel' => $data->telephone,
 					);
 					// 添加影院库
-					$cid = $data->uid;
-					$cinemas = M('cinemas');
-					$result = $cinemas->where(array('uid' => $cid, 'mid' => $mid))->find();
-					if($result == null) {
-						$cData = array(
-							'mid' => $mid,
-							'uid' => $cid,
-							'name' => $data->name,
-							'address' => $data->address,
-							'tel' => $data->telephone,
-						);
-						$result = $cinemas->data($cData)->add();
-						$cid = $result;
-					}
-					// 排片表
-					$time_table = array();
-					foreach ($data->time_table as $time) {
-						if($time->date == date('Y-m-d', time())) {
-							$time_table[] = array(
-								'date' => $time->date,
-								'time' => $time->time,
-								'type' => $time->type,
-								'price' => $time->price,
-							);
-							$movies_time = M('movies_time');
-							$result = $movies_time->data(array(
+					if(count($data->time_table) > 0) {
+						$cid = $data->uid;
+						$cinemas = M('cinemas');
+						$result = $cinemas->where(array('uid' => $cid, 'mid' => $mid))->find();
+						if($result == null) {
+							$cData = array(
 								'mid' => $mid,
-								'cid' => $cid,
-								'date' => $time->date,
-								'time' => $time->time,
-								'type' => $time->type,
-								'price' => $time->price,
-							))->add();
+								'uid' => $cid,
+								'name' => $data->name,
+								'address' => $data->address,
+								'tel' => $data->telephone,
+							);
+							$result = $cinemas->data($cData)->add();
+							$cid = $result;
 						}
+						// 排片表
+						$time_table = array();
+						foreach ($data->time_table as $time) {
+							if($time->date == date('Y-m-d', time())) {
+								$time_table[] = array(
+									'date' => $time->date,
+									'time' => $time->time,
+									'type' => $time->type,
+									'price' => $time->price,
+								);
+								$movies_time = M('movies_time');
+								$result = $movies_time->data(array(
+									'mid' => $mid,
+									'cid' => $cid,
+									'date' => $time->date,
+									'time' => $time->time,
+									'type' => $time->type,
+									'price' => $time->price,
+								))->add();
+							}
+						}
+						$temp['time_table'] = $time_table;
+						$returnData[] = $temp;
+					} else {
+						continue;
 					}
-					$temp['time_table'] = $time_table;
-					$returnData[] = $temp;
+					
 				}
 				$return = array(
 					'code' => 1,
@@ -188,6 +198,16 @@ class ApiController extends BaseController {
 			}
 		}
 		$this->ajaxReturn($return);
+	}
+	
+	public function test() {
+		$name = I('get.name');
+		$callback = I('get.callback');
+		$arr = array(
+			'name' => $name,
+			'hello' => "hello",
+		);
+		echo $callback . "(".json_encode($arr).")";
 	}
 
 }

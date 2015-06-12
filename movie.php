@@ -43,6 +43,4 @@ $data = array(
 		),
 	),
 );
-var_dump($data['data']);
-exit;
 echo json_encode($data);
