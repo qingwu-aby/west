@@ -1,0 +1,107 @@
+[ 2015-06-30T08:23:14+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012001s ]
+
+[ 2015-06-30T08:24:05+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=getMovie&callback=jsonp1435623842053&name=%E6%A8%AA%E5%86%B2%E7%9B%B4%E6%92%9E%E5%A5%BD%E8%8E%B1%E5%9D%9E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_movies` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `west_movies` WHERE `name` = '横冲直撞好莱坞' AND `time` = '2015-06-30' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `west_movies` (`name`,`time`) VALUES ('横冲直撞好莱坞','2015-06-30') [ RunTime:0.0480s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-06-30T08:24:50+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=getMovie&callback=jsonp1435623890246&name=%E6%A8%AA%E5%86%B2%E7%9B%B4%E6%92%9E%E5%A5%BD%E8%8E%B1%E5%9D%9E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-30T08:25:25+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=getMovie&callback=jsonp1435623925027&name=%E6%A8%AA%E5%86%B2%E7%9B%B4%E6%92%9E%E5%A5%BD%E8%8E%B1%E5%9D%9E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-30T08:25:34+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=getMovie&callback=jsonp1435623934704&name=%E6%A8%AA%E5%86%B2%E7%9B%B4%E6%92%9E%E5%A5%BD%E8%8E%B1%E5%9D%9E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-30T08:26:13+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=getMovie&callback=jsonp1435623967871&name=%E6%A8%AA%E5%86%B2%E7%9B%B4%E6%92%9E%E5%A5%BD%E8%8E%B1%E5%9D%9E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_movies` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_movies` WHERE `name` = '横冲直撞好莱坞' AND `time` = '2015-06-30' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `west_movies` (`name`,`time`) VALUES ('横冲直撞好莱坞','2015-06-30') [ RunTime:0.0800s ]
+SQL: SHOW COLUMNS FROM `west_cinemas` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = 'fff6bbca65d52d027adbd2c9' AND `mid` = 16 LIMIT 1   [ RunTime:0.0280s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('16','fff6bbca65d52d027adbd2c9','西安欢乐小马电影城','西安市长安中路36号陕西省军区A区军人服务社商业楼8层','(029)88780818') [ RunTime:0.0320s ]
+SQL: SHOW COLUMNS FROM `west_movies_time` [ RunTime:0.0080s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('16','17','2015-06-30','17:15','2D','80') [ RunTime:0.0290s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('16','17','2015-06-30','17:45','2D','80') [ RunTime:0.0310s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('16','17','2015-06-30','19:30','2D','80') [ RunTime:0.0390s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('16','17','2015-06-30','20:15','2D','80') [ RunTime:0.0300s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('16','17','2015-06-30','22:25','2D','80') [ RunTime:0.0510s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = 'ebf4adf5e6c07390eb56fa07' AND `mid` = 16 LIMIT 1   [ RunTime:0.0020s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('16','ebf4adf5e6c07390eb56fa07','西安万达影城(大明宫店)','西安市未央区太华北路369号万达广场四层','(029)85450088') [ RunTime:0.0570s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('16','18','2015-06-30','17:10','数字2D','38') [ RunTime:0.0730s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('16','18','2015-06-30','18:00','数字2D','38') [ RunTime:0.0310s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('16','18','2015-06-30','18:45','数字2D','38') [ RunTime:0.0280s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('16','18','2015-06-30','19:30','数字2D','38') [ RunTime:0.0300s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('16','18','2015-06-30','20:20','数字2D','38') [ RunTime:0.0280s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('16','18','2015-06-30','21:05','数字2D','38') [ RunTime:0.0310s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('16','18','2015-06-30','21:50','数字2D','38') [ RunTime:0.0390s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('16','18','2015-06-30','22:40','数字2D','38') [ RunTime:0.0300s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('16','18','2015-06-30','23:25','数字2D','38') [ RunTime:0.0280s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = 'dfba656348903d94430245cf' AND `mid` = 16 LIMIT 1   [ RunTime:0.0020s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('16','dfba656348903d94430245cf','西安恒大影城','西安市雁塔区大寨路99号恒大影城3-4层','(029)86616468') [ RunTime:0.0380s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('16','19','2015-06-30','16:50','2D','100') [ RunTime:0.0280s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('16','19','2015-06-30','17:35','2D','80') [ RunTime:0.0350s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('16','19','2015-06-30','18:20','2D','80') [ RunTime:0.0350s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('16','19','2015-06-30','19:05','2D','100') [ RunTime:0.0280s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('16','19','2015-06-30','19:50','2D','80') [ RunTime:0.0310s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('16','19','2015-06-30','20:35','2D','80') [ RunTime:0.0280s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('16','19','2015-06-30','21:20','2D','100') [ RunTime:0.0310s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('16','19','2015-06-30','22:05','2D','80') [ RunTime:0.0680s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('16','19','2015-06-30','22:50','2D','80') [ RunTime:0.0790s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = '23c94f9ff665c9fb1ef74d42' AND `mid` = 16 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('16','23c94f9ff665c9fb1ef74d42','大地影院(长安步行街)','西安市长安区长安步行街北口长百新市购物广场3楼','(029)63366846,(029)63366840') [ RunTime:0.0700s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('16','20','2015-06-30','22:05','2D','34') [ RunTime:0.0730s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('16','20','2015-06-30','19:50','2D','34') [ RunTime:0.0510s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('16','20','2015-06-30','17:35','2D','34') [ RunTime:0.0290s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('16','20','2015-06-30','20:30','2D','34') [ RunTime:0.0360s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('16','20','2015-06-30','18:15','2D','34') [ RunTime:0.0260s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('16','20','2015-06-30','19:10','2D','34') [ RunTime:0.0340s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = 'f4041508bc32ce793310af88' AND `mid` = 16 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('16','f4041508bc32ce793310af88','横店影城（西安中贸店）','南关正街中茂广场5楼南稍门十字向北100米路西','029-88669090') [ RunTime:0.0270s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('16','21','2015-06-30','18:15','2D','80') [ RunTime:0.0320s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('16','21','2015-06-30','20:30','2D','80') [ RunTime:0.0400s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('16','21','2015-06-30','22:45','2D','80') [ RunTime:0.0340s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

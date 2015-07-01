@@ -238,7 +238,7 @@ if(!isset($_SESSION['username'])) {
 					<li>
 						<a id="update_links" href="javascript: window.scrollTo(0,0);" class="list links-list">
 							<span class="myfont">&#243</span>
-							<span>修改友情链接</span>
+							<span>编辑友情链接</span>
 						</a>
 					</li>
 					<li>
@@ -284,7 +284,7 @@ if(!isset($_SESSION['username'])) {
 			<div class="content-son-sty">
 				<div class="content-son-title">
 					<span>公司信息</span>
-					<span id="update_company" class="update_company">修改</span>
+					<span id="update_company" class="update_company">编辑</span>
 				</div>
 				<div class="content-son-con content-company-sty">
 					<div class="p">
@@ -344,7 +344,7 @@ if(!isset($_SESSION['username'])) {
 			<div class="content-nav-son">
 				<div class="content-nav-son-title">
 					<span>账户设置</span>
-					<div class="information">公司账号信息的管理,可对账号进行修改与注销操作</div>
+					<div class="information">公司账号信息的管理,可对账号进行编辑与注销操作</div>
 				</div>
 				<ul class="content-nav-son-ul">
 					<li>

@@ -17,17 +17,15 @@ session_start();
 <head>
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<!--[if lt IE 9]>
+     <meta http-equiv="Refresh" content="0; url=../browser.html" /> 
+      <![endif]-->
 	<title>陕西省影视产业管理平台</title>
 	<link rel="shortcut icon" type="image/x-icon" href="./images/ico.ico"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<link type="text/css" rel="stylesheet" href="./css/reset.css" />
 	<link type="text/css" rel="stylesheet" href="./css/common.css" />
 	<link rel="stylesheet" type="text/css" href="./css/admin.css" />
-
-	<!--[if lt IE 9]>
-	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
-	<![endif]-->
 </head>
 
 <body>
@@ -268,7 +266,7 @@ session_start();
 			</div>
 		</div>
 	</div>
-	
+
 	<script type="text/javascript" src="./js/jquery-1.9.1.min.js"></script>
 	<script type="text/javascript" src="./js/admin.js"></script>
 	<script type="text/javascript">

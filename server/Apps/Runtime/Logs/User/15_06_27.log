@@ -1,0 +1,367 @@
+[ 2015-06-27T14:59:30+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=getMovie&callback=jsonp1435388369471&name=%E6%88%91%E6%98%AF%E8%B0%812015
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `west_movies` [ RunTime:0.0590s ]
+SQL: SELECT * FROM `west_movies` WHERE `name` = '我是谁2015' AND `time` = '2015-06-27' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `west_movies` (`name`,`time`) VALUES ('我是谁2015','2015-06-27') [ RunTime:0.2400s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2015-06-27T15:02:05+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=getMovie&callback=jsonp1435388522191&name=%E6%A8%AA%E5%86%B2%E7%9B%B4%E6%92%9E%E5%A5%BD%E8%8E%B1%E5%9D%9E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_movies` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_movies` WHERE `name` = '横冲直撞好莱坞' AND `time` = '2015-06-27' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `west_movies` (`name`,`time`) VALUES ('横冲直撞好莱坞','2015-06-27') [ RunTime:0.0550s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-27T15:02:10+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=getMovie&callback=jsonp1435388530339&name=%E6%A8%AA%E5%86%B2%E7%9B%B4%E6%92%9E%E5%A5%BD%E8%8E%B1%E5%9D%9E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_movies` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_movies` WHERE `name` = '横冲直撞好莱坞' AND `time` = '2015-06-27' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `west_cinemas` [ RunTime:0.0980s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `mid` = 7  [ RunTime:0.0150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-27T15:02:41+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=getMovie&callback=jsonp1435388561600&name=%E6%A8%AA%E5%86%B2%E7%9B%B4%E6%92%9E%E5%A5%BD%E8%8E%B1%E5%9D%9E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `west_movies` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_movies` WHERE `name` = '横冲直撞好莱坞' AND `time` = '2015-06-27' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `west_cinemas` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `mid` = 7  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-27T15:02:48+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=getMovie&callback=jsonp1435388568005&name=%E6%A8%AA%E5%86%B2%E7%9B%B4%E6%92%9E%E5%A5%BD%E8%8E%B1%E5%9D%9E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_movies` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_movies` WHERE `name` = '横冲直撞好莱坞' AND `time` = '2015-06-27' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `west_cinemas` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `mid` = 7  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-27T15:03:12+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=getMovie&callback=jsonp1435388592253&name=%E6%A8%AA%E5%86%B2%E7%9B%B4%E6%92%9E%E5%A5%BD%E8%8E%B1%E5%9D%9E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_movies` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `west_movies` WHERE `name` = '横冲直撞好莱坞' AND `time` = '2015-06-27' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `west_cinemas` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `mid` = 7  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-27T15:05:21+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=getMovie&callback=jsonp1435388721330&name=%E6%A8%AA%E5%86%B2%E7%9B%B4%E6%92%9E%E5%A5%BD%E8%8E%B1%E5%9D%9E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `west_movies` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_movies` WHERE `name` = '横冲直撞好莱坞' AND `time` = '2015-06-27' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `west_cinemas` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `mid` = 7  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-27T15:05:45+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=getMovie&callback=jsonp1435388721330&name=%E6%A8%AA%E5%86%B2%E7%9B%B4%E6%92%9E%E5%A5%BD%E8%8E%B1%E5%9D%9E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_movies` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `west_movies` WHERE `name` = '横冲直撞好莱坞' AND `time` = '2015-06-27' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `west_cinemas` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `mid` = 7  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-27T15:05:58+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=getMovie&callback=jsonp1435388721330&name=%E6%A8%AA%E5%86%B2%E7%9B%B4%E6%92%9E%E5%A5%BD%E8%8E%B1%E5%9D%9E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_movies` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_movies` WHERE `name` = '横冲直撞好莱坞' AND `time` = '2015-06-27' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `west_cinemas` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `mid` = 7  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-27T15:05:59+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=getMovie&callback=jsonp1435388721330&name=%E6%A8%AA%E5%86%B2%E7%9B%B4%E6%92%9E%E5%A5%BD%E8%8E%B1%E5%9D%9E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_movies` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `west_movies` WHERE `name` = '横冲直撞好莱坞' AND `time` = '2015-06-27' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `west_cinemas` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `mid` = 7  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-27T15:06:13+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=getMovie&callback=jsonp1435388721330&name=%E6%A8%AA%E5%86%B2%E7%9B%B4%E6%92%9E%E5%A5%BD%E8%8E%B1%E5%9D%9E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_movies` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_movies` WHERE `name` = '横冲直撞好莱坞' AND `time` = '2015-06-27' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `west_cinemas` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `mid` = 7  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-27T15:06:15+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=getMovie&callback=jsonp1435388721330&name=%E6%A8%AA%E5%86%B2%E7%9B%B4%E6%92%9E%E5%A5%BD%E8%8E%B1%E5%9D%9E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `west_movies` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `west_movies` WHERE `name` = '横冲直撞好莱坞' AND `time` = '2015-06-27' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `west_cinemas` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `mid` = 7  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-06-27T15:06:51+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=getMovie&callback=jsonp1435388721330&name=%E6%A8%AA%E5%86%B2%E7%9B%B4%E6%92%9E%E5%A5%BD%E8%8E%B1%E5%9D%9E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_movies` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_movies` WHERE `name` = '横冲直撞好莱坞' AND `time` = '2015-06-27' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `west_cinemas` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `mid` = 7  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-27T15:06:54+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=getMovie&callback=jsonp1435388721330&name=%E6%A8%AA%E5%86%B2%E7%9B%B4%E6%92%9E%E5%A5%BD%E8%8E%B1%E5%9D%9E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_movies` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_movies` WHERE `name` = '横冲直撞好莱坞' AND `time` = '2015-06-27' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `west_cinemas` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `mid` = 7  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-27T15:09:15+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=getMovie&callback=jsonp1435388944705&name=%E5%88%86%E6%AD%A7%E8%80%852%EF%BC%9A%E7%BB%9D%E5%9C%B0%E5%8F%8D%E5%87%BB
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_movies` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `west_movies` WHERE `name` = '分歧者2：绝地反击' AND `time` = '2015-06-27' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `west_movies` (`name`,`time`) VALUES ('分歧者2：绝地反击','2015-06-27') [ RunTime:0.1060s ]
+NOTIC: [8] Trying to get property of non-object D:\wamp\www\westfilms\server\Apps\User\Controller\ApiController.class.php 第 138 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-27T15:09:36+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=getMovie&callback=jsonp1435388976605&name=%E6%A8%AA%E5%86%B2%E7%9B%B4%E6%92%9E%E5%A5%BD%E8%8E%B1%E5%9D%9E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_movies` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_movies` WHERE `name` = '横冲直撞好莱坞' AND `time` = '2015-06-27' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `west_cinemas` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `mid` = 7  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-27T15:10:08+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=getMovie&callback=jsonp1435389008707&name=%E6%A8%AA%E5%86%B2%E7%9B%B4%E6%92%9E%E5%A5%BD%E8%8E%B1%E5%9D%9E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_movies` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_movies` WHERE `name` = '横冲直撞好莱坞' AND `time` = '2015-06-27' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `west_cinemas` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `mid` = 7  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-27T15:10:20+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=getMovie&callback=jsonp1435389017727&name=%E6%A8%AA%E5%86%B2%E7%9B%B4%E6%92%9E%E5%A5%BD%E8%8E%B1%E5%9D%9E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `west_movies` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_movies` WHERE `name` = '横冲直撞好莱坞' AND `time` = '2015-06-27' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `west_movies` (`name`,`time`) VALUES ('横冲直撞好莱坞','2015-06-27') [ RunTime:0.0410s ]
+SQL: SHOW COLUMNS FROM `west_cinemas` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = 'ebf4adf5e6c07390eb56fa07' AND `mid` = 9 LIMIT 1   [ RunTime:0.0020s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('9','ebf4adf5e6c07390eb56fa07','西安万达影城(大明宫店)','西安市未央区太华北路369号万达广场四层','(029)85450088') [ RunTime:0.0730s ]
+SQL: SHOW COLUMNS FROM `west_movies_time` [ RunTime:0.0190s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('9','11','2015-06-27','23:25','数字2D','75') [ RunTime:0.0410s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-27T15:11:02+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=getMovie&callback=jsonp1435389061949&name=%E6%A8%AA%E5%86%B2%E7%9B%B4%E6%92%9E%E5%A5%BD%E8%8E%B1%E5%9D%9E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_movies` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_movies` WHERE `name` = '横冲直撞好莱坞' AND `time` = '2015-06-27' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `west_movies` (`name`,`time`) VALUES ('横冲直撞好莱坞','2015-06-27') [ RunTime:0.0730s ]
+SQL: SHOW COLUMNS FROM `west_cinemas` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = 'ebf4adf5e6c07390eb56fa07' AND `mid` = 10 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('10','ebf4adf5e6c07390eb56fa07','西安万达影城(大明宫店)','西安市未央区太华北路369号万达广场四层','(029)85450088') [ RunTime:0.0850s ]
+SQL: SHOW COLUMNS FROM `west_movies_time` [ RunTime:0.0020s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('10','12','2015-06-27','23:25','数字2D','75') [ RunTime:0.0270s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-27T15:11:28+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=getMovie&callback=jsonp1435389084581&name=%E6%A8%AA%E5%86%B2%E7%9B%B4%E6%92%9E%E5%A5%BD%E8%8E%B1%E5%9D%9E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `west_movies` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_movies` WHERE `name` = '横冲直撞好莱坞' AND `time` = '2015-06-27' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `west_movies` (`name`,`time`) VALUES ('横冲直撞好莱坞','2015-06-27') [ RunTime:0.0440s ]
+SQL: SHOW COLUMNS FROM `west_cinemas` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = 'ebf4adf5e6c07390eb56fa07' AND `mid` = 11 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('11','ebf4adf5e6c07390eb56fa07','西安万达影城(大明宫店)','西安市未央区太华北路369号万达广场四层','(029)85450088') [ RunTime:0.0950s ]
+SQL: SHOW COLUMNS FROM `west_movies_time` [ RunTime:0.0070s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('11','13','2015-06-27','23:25','数字2D','75') [ RunTime:0.0530s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-06-27T15:12:39+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=getMovie&callback=jsonp1435389159280&name=%E6%A8%AA%E5%86%B2%E7%9B%B4%E6%92%9E%E5%A5%BD%E8%8E%B1%E5%9D%9E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_movies` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_movies` WHERE `name` = '横冲直撞好莱坞' AND `time` = '2015-06-27' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `west_movies` (`name`,`time`) VALUES ('横冲直撞好莱坞','2015-06-27') [ RunTime:0.1010s ]
+SQL: SHOW COLUMNS FROM `west_cinemas` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = 'ebf4adf5e6c07390eb56fa07' AND `mid` = 12 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('12','ebf4adf5e6c07390eb56fa07','西安万达影城(大明宫店)','西安市未央区太华北路369号万达广场四层','(029)85450088') [ RunTime:0.0450s ]
+SQL: SHOW COLUMNS FROM `west_movies_time` [ RunTime:0.0030s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('12','14','2015-06-27','23:25','数字2D','75') [ RunTime:0.0630s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-27T15:12:45+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=getMovie&callback=jsonp1435389165323&name=%E6%A8%AA%E5%86%B2%E7%9B%B4%E6%92%9E%E5%A5%BD%E8%8E%B1%E5%9D%9E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `west_movies` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `west_movies` WHERE `name` = '横冲直撞好莱坞' AND `time` = '2015-06-27' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `west_movies` (`name`,`time`) VALUES ('横冲直撞好莱坞','2015-06-27') [ RunTime:0.0610s ]
+SQL: SHOW COLUMNS FROM `west_cinemas` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = 'ebf4adf5e6c07390eb56fa07' AND `mid` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('13','ebf4adf5e6c07390eb56fa07','西安万达影城(大明宫店)','西安市未央区太华北路369号万达广场四层','(029)85450088') [ RunTime:0.0340s ]
+SQL: SHOW COLUMNS FROM `west_movies_time` [ RunTime:0.0030s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('13','15','2015-06-27','23:25','数字2D','75') [ RunTime:0.0260s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-27T15:13:18+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=getMovie&callback=jsonp1435389198105&name=%E6%A8%AA%E5%86%B2%E7%9B%B4%E6%92%9E%E5%A5%BD%E8%8E%B1%E5%9D%9E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `west_movies` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_movies` WHERE `name` = '横冲直撞好莱坞' AND `time` = '2015-06-27' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `west_movies` (`name`,`time`) VALUES ('横冲直撞好莱坞','2015-06-27') [ RunTime:0.0420s ]
+SQL: SHOW COLUMNS FROM `west_cinemas` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `west_cinemas` WHERE `uid` = 'ebf4adf5e6c07390eb56fa07' AND `mid` = 14 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `west_cinemas` (`mid`,`uid`,`name`,`address`,`tel`) VALUES ('14','ebf4adf5e6c07390eb56fa07','西安万达影城(大明宫店)','西安市未央区太华北路369号万达广场四层','(029)85450088') [ RunTime:0.0280s ]
+SQL: SHOW COLUMNS FROM `west_movies_time` [ RunTime:0.0020s ]
+SQL: INSERT INTO `west_movies_time` (`mid`,`cid`,`date`,`time`,`type`,`price`) VALUES ('14','16','2015-06-27','23:25','数字2D','75') [ RunTime:0.0540s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

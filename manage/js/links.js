@@ -133,7 +133,7 @@ var addLink=function(url,showLinkUrl,uid,uploadUrl){
 	});
 };
 
-//修改友情链接
+//编辑友情链接
 var updateLink=function(url,showLinkUrl,uid){
 	var linkId;
 	// $(document).on('click','#links_logo',function(){
@@ -150,7 +150,7 @@ var updateLink=function(url,showLinkUrl,uid){
 		var linkMess=$('#link-'+linkId).find('.table_col_3').text();
 		var linkImag=$('#link-'+linkId).find('.table_col_2 img').attr('src');
 
-		$('#link_window_title').text('修改友情链接');
+		$('#link_window_title').text('编辑友情链接');
 		$('#link_window').css('display','block');
 		$('#link_name').val(linkName);
 		$('#link_mess').val(linkMess);

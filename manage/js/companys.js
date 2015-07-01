@@ -88,7 +88,7 @@ var updataCompany=function(url,uid,url_2,uploadUrl,api){
 				}
 			},
 			error: function(){
-				$('#company_remark').text('修改失败！');
+				$('#company_remark').text('编辑失败！');
 				$('#company_remark').css('color','red');
 			}
 		});

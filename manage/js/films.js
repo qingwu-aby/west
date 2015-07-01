@@ -34,7 +34,7 @@ var filmsNavClick=function(){
 	});
 };
 
-//修改
+//编辑
 var updateFilms=function(url,showUrl,uid){
 	var FilmsId;
 	// $(document).on('click','#films_logo',function(){
@@ -52,7 +52,7 @@ var updateFilms=function(url,showUrl,uid){
 		var filmsTitle=$('#films-'+FilmsId).find('.films-title-sty').text();
 		var filmsLogo=$('#films-'+FilmsId).find('.films-image-sty').attr('src');
 
-		$('#films_window_title').text('修改影视作品');
+		$('#films_window_title').text('编辑影视作品');
 		$('#films_window').css('display','block');
 		$('#films_title').val(filmsTitle);
 		$('#films_logo').attr('src',filmsLogo);
@@ -145,7 +145,7 @@ var showFilms=function(url,uid){
 
 					$('#content-films-list').append('<div id="films-'+data.data[filmsNumber].id+'" class="content-films-list">'+
 								'<div class="films-delete-update">'+
-									'<span id="films-update-'+data.data[filmsNumber].id+'" class="update_films">修改</span>  <span id="films-delete-'+data.data[filmsNumber].id+'" class="delete_films">删除</span>'+
+									'<span id="films-update-'+data.data[filmsNumber].id+'" class="update_films">编辑</span>  <span id="films-delete-'+data.data[filmsNumber].id+'" class="delete_films">删除</span>'+
 								'</div>'+
 								'<a class="films-link-a" href="'+data.data[filmsNumber].url+'" target="_blank"><img class="films-image-sty" src="'+data.data[filmsNumber].pic+'" /></a>'+
 								'<div class="films-title-sty">'+data.data[filmsNumber].title+'</div>'+

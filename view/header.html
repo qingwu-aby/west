@@ -7,6 +7,9 @@
 <head>
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<!--[if lt IE 9]>
+    <meta http-equiv="Refresh" content="0; url=./browser.html" /> 
+    <![endif]-->
 	<title>陕西省影视产业管理平台系统</title>
 	<link rel="shortcut icon" type="image/x-icon" href="./images/ico.ico"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -19,7 +22,7 @@
 		var link=window.location.search;
         var index=link.split('?')[1];
         var oUid = index.substr(4);
-		
+
 		$.ajax({
 	        type: 'get',
 	        async:false,
@@ -27,8 +30,8 @@
 	        data: {uid: oUid},
 	        dataType: 'json',
 	        success: function(data){
-                    var res =data.data; 
-	            	var str = '<a href="index.php"><img src="'+res.banner_url.substr(1)+'"/></a>';
+                    var res =data.data;
+	            	var str = '<a href="index.php?uid='+res.uid+'"><img src="'+res.banner_url.substr(1)+'"/></a>';
 	        		$("#logo").append(str);
 	        		var info = '<a class="nav-href" href="./index.php?uid='+res.uid+'">首页</a>';
 	        		$("#nav-list-1").append(info);
@@ -42,16 +45,12 @@
 	        		$("#nav-list-6").append(info5);
 	        		var info6 = '<a class="nav-href" href="./about.php?uid='+res.uid+'">关于我们</a>';
 	        		$("#nav-list-7").append(info6);
-	        		
+
 	        }
 	    })
 
 	});
 	</script>
-	<!--[if lt IE 9]>
-	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
-	<![endif]-->
 </head>
 
 <body>
@@ -78,7 +77,7 @@
 				<li id="nav-list-3" class="nav-list">
 					<!-- <a class="nav-href" href="./films.php">影视作品</a> -->
 				</li>
-				
+
 				<li id="nav-list-5" class="nav-list">
 					<!-- <a class="nav-href" href="./link.php">友情链接</a> -->
 				</li>

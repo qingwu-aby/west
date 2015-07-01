@@ -74,11 +74,12 @@ class ApiController extends BaseController {
 	 */
 	
 	public function getMovie() {
+		$authkey = '98b7210f984d47cdb67cc1564f0e2c0e';		// 云聚数据key
 		$name = I('get.name');
 		$time = date('Y-m-d',time());
 		$result = M('movies')->where(array('name' => $name, 'time' => $time))->find();
-		//if(false){
-		if($result != null) {	// 表示已经请求过API
+		if(false){
+		//if($result != null) {	// 表示已经请求过API
 			// 查数据库
 			$mid = $result['id'];
 			// 获取影院
@@ -125,7 +126,8 @@ class ApiController extends BaseController {
 			$mid = M('movies')->data(array('name' => $name, 'time' => $time))->add();
 			$location = '西安';
 			$format = 'json';
-			$url = "http://api.36wu.com/Movie/GetMovieInfo?movie=$name&location=$location&format=$format";
+			$url = "http://api.36wu.com/Movie/GetMovieInfo?authkey=$authkey&movie=$name&location=$location&format=$format";
+			//print($url);
 			$ch = curl_init();
 			curl_setopt($ch, CURLOPT_URL, $url);
 			curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);

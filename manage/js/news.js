@@ -11,7 +11,7 @@ var curTime=function(time){
     return year+'年'+month+'月'+day+'日';
 };
 
-//修改新闻
+//编辑新闻
 var updateNews=function(url,showUrl,uid){
 	var newsId;
 	// $(document).on('click','#news_logo',function(){
@@ -30,7 +30,7 @@ var updateNews=function(url,showUrl,uid){
 		var newsLogo=$('#news-'+newsId).find('.show-list-thum').attr('src');
 		var newsAuthor=$('#news-'+newsId).find('.news-author').text();
 
-		$('#news_window_title').text('修改新闻动态');
+		$('#news_window_title').text('编辑新闻动态');
 		$('#news_window').css('display','block');
 		$('#news_title').val(newsTitle);
 		$('#news_summary').val(newsSummary);
@@ -150,7 +150,7 @@ var showNews=function(url,uid){
 									'<div class="content-mess-con">访问次数：<span>'+data.data[newsNumber].views+'</span>&nbsp;&nbsp;&nbsp;&nbsp;作者：<span class="news-author">'+data.data[newsNumber].author+'</span></div>'+
 								'</div>'+
 								'<div class="delete-update">'+
-									'<span id="news-update-'+data.data[newsNumber].id+'" class="update_news">修改</span> | <span id="news-delete-'+data.data[newsNumber].id+'" class="delete_news">删除</span>'+
+									'<span id="news-update-'+data.data[newsNumber].id+'" class="update_news">编辑</span> | <span id="news-delete-'+data.data[newsNumber].id+'" class="delete_news">删除</span>'+
 								'</div>'+
 							'</div>'+
 						'</div>');
@@ -165,7 +165,7 @@ var showNews=function(url,uid){
 									'<div class="content-mess-con">访问次数：<span>'+data.data[newsNumber].views+'</span>&nbsp;&nbsp;&nbsp;&nbsp;作者：<span class="news-author">'+data.data[newsNumber].author+'</span></div>'+
 								'</div>'+
 								'<div class="delete-update">'+
-									'<span id="news-update-'+data.data[newsNumber].id+'" class="update_news">修改</span> | <span id="news-delete-'+data.data[newsNumber].id+'" class="delete_news">删除</span>'+
+									'<span id="news-update-'+data.data[newsNumber].id+'" class="update_news">编辑</span> | <span id="news-delete-'+data.data[newsNumber].id+'" class="delete_news">删除</span>'+
 								'</div>'+
 							'</div>'+
 						'</div>');
