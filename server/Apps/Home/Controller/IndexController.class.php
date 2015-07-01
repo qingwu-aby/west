@@ -85,7 +85,7 @@ class IndexController extends Controller {
 	public function getVideo() {
 		$uid = I('get.uid');
 		$videos = M('Videos');
-		$result = $videos->where(array('uid' => $uid, 'status' => 1))->order('id DESC')->limit(6)->select();
+		$result = $videos->where(array('uid' => $uid, 'status' => 1))->order('id DESC')->limit(2)->select();
 		if(count($result) == 0) {
 			$data = array(
 				'code' => -1,

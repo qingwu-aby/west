@@ -49,12 +49,24 @@
 						<span class="company"></span>
 						<span class="text" id="company_text">公司简介</span><i class="eng"> COMPANY PROFILE</i>
 						<hr/>
-				</div>
+					</div>
 					<div id="summary_company">					
 						<p class="summary">
 						 	
 						</p>
 					</div>
+					</li>
+					<li>
+						<div>
+							<span class="episode"></span>
+							<span class="text">剧集</span><i class="eng"> EPISODE</i>
+							<hr/>
+						</div>
+						<div class="thumbnail">
+							<ul id="episode_list">
+								
+							</ul>
+						</div>
 					</li>
 					<li>
 						<div>

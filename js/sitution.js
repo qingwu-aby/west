@@ -5,7 +5,7 @@ function getYmdTime(time){
 			var dateStr = new Date(time);
 			return dateStr.getFullYear() + '年' + (dateStr.getMonth()+1) +'月' + dateStr.getDate() + '日';
 		}else{
-			return '末知时间';
+			return '未知时间';
 		}
 	} 
     function getData() { 

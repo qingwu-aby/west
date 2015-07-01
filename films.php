@@ -17,15 +17,9 @@
 		.film_info img{
 			background: #C6EDFD;
 			width: 200px;
-			height: 250px;
-			padding:2px;
-			border: 1px solid #C6EDFD;
+			height: 150px;
 		}
-		.film_info img:hover{
-			background: #f8f8f8;
-			padding: 2px;
-			border: 1px solid #f8f8f8;
-		}
+		
 		.name{
 			text-align: center;
 			font-size: 18px;
@@ -50,9 +44,7 @@
 					<ul id="film_msg">
 						
 					</ul>
-						<!-- <div class="get_more">
-							<a href="javascript:;" id="get_more" >>>点击加载更多<<</a>
-						</div>  -->
+						
 				</div>
 				
 				
@@ -70,6 +62,18 @@
 						 	
 						</p>
 					</div>
+					</li>
+					<li>
+						<div>
+							<span class="episode"></span>
+							<span class="text">剧集</span><i class="eng"> EPISODE</i>
+							<hr/>
+						</div>
+						<div class="thumbnail">
+							<ul id="episode_list">
+								
+							</ul>
+						</div>
 					</li>
 					<li>
 						<div>
