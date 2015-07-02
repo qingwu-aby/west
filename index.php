@@ -72,6 +72,18 @@
 					</li>
 					<li>
 						<div>
+							<span class="episode"></span>
+							<span class="text">剧集</span><i class="eng"> EPISODE</i>
+							<hr/>
+						</div>
+						<div class="thumbnail">
+							<ul id="episode_list">
+								
+							</ul>
+						</div>
+					</li>
+					<li>
+						<div>
 							<span class="contact"></span>
 							<span class="text">联系方式</span><i class="eng"> CONTACT WAY</i>
 							<hr/>

@@ -9,8 +9,8 @@
 			
 			<div class="yMain-left row">
 				<div>
-					<span class="news"></span>
-					<span class="text">最新动态 <i class="eng">UPDATE SITUATION</i></span>
+					<span class="episode"></span>
+					<span class="text">最新剧集 <i class="eng">UPDATE EPISODE</i></span>
 					<hr />
 				</div>
 				
@@ -49,18 +49,6 @@
 					</li>
 					<li>
 						<div>
-							<span class="episode"></span>
-							<span class="text">剧集</span><i class="eng"> EPISODE</i>
-							<hr/>
-						</div>
-						<div class="thumbnail">
-							<ul id="episode_list">
-								
-							</ul>
-						</div>
-					</li>
-					<li>
-						<div>
 							<span class="contact"></span>
 							<span class="text">联系方式</span><i class="eng"> CONTACT WAY</i>
 							<hr/>
@@ -80,14 +68,14 @@
 </div>
 	<script type="text/javascript" src="./js/jquery-1.9.1.min.js"></script>
 	<script type="text/javascript" src="./js/module.js"></script>
-	<script type="text/javascript" src="./js/sitution.js"></script>
 	<script type="text/javascript" src="./js/company.js"></script>
 	<script type="text/javascript" src="./js/video.js"></script>
+	<script type="text/javascript" src="./js/getepisode.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function(){
 			$('.nav-list').removeClass('on');
-			$('#nav-list-2').addClass('on');
-			$('title').text('最新动态-陕西省影视产业管理平台系统');
+			$('#nav-list-4').addClass('on');
+			$('title').text('剧集-陕西省影视产业管理平台系统');
 			//限制可显示字数为83个汉字
 			$(".article").each(function(){
 		        var maxwidth=83;
