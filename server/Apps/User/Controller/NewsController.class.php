@@ -31,6 +31,8 @@ class NewsController extends BaseController {
                     'content' => I('post.content'),
                     'release_time' => time(),
                     'hot' => I('post.hot'),
+                    'recommend' => 0,
+                    'top' => 1,
                     'status' => 1,
                     'modify_time' => time(),
                 );
@@ -85,6 +87,8 @@ class NewsController extends BaseController {
     				'release_time' => time(),
                     'hot' => I('post.hot'),
                     'status' => 1,
+                    'recommend' => 0,
+                    'top' => 0,
     				'modify_time' => time(),
     			);
 

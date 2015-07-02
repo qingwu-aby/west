@@ -26,7 +26,10 @@ class VideosController extends BaseController {
     				'title' => I('post.title'),
                     'url' => I('post.url'),
                     'pic' => I('post.pic'),
+                    'detail' => I('post.detail'),
                     'status' => 1,
+                    'recommend' => 0,
+                    'top' => 0,
     				'modify_time' => time(),
     			);
 
@@ -73,6 +76,7 @@ class VideosController extends BaseController {
     				'title' => I('post.title'),
     				'url' => I('post.url'),
                     'pic' => I('post.pic'),
+                    'detail' => I('post.detail'),
     				'modify_time' => time(),
     			);
     			$videos = M('Videos');

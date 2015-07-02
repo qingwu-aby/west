@@ -237,6 +237,7 @@ class UserController extends BaseController {
 					'tel' => I('post.company_tel'),
 					'wechat_url' => I('post.wechat_url'),
 					'introduction' => I('post.introduction'),
+					'detail' => I('post.detail'),
 					'banner_url' => I('post.banner_url'),
 					'modify_time' => time(),
 				);
