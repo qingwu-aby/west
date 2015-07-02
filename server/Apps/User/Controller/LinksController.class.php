@@ -25,6 +25,7 @@ class LinksController extends BaseController {
 					'name' => I('post.name'),
 					'logo' => I('post.logo'),
 					'info' => I('post.info'),
+                    'detail' => I('post.detail'),
                     'status' => 1,
 					'modify_time' => time(),
 				);
@@ -74,6 +75,7 @@ class LinksController extends BaseController {
 					'name' => I('post.name'),
 					'logo' => I('post.logo'),
 					'info' => I('post.info'),
+                    'detail' => I('post.detail'),
 					'modify_time' => time(),
 				);
     			$links = M('Links');
