@@ -20,14 +20,14 @@
 			height: 150px;
 		}
 		
-		.name{
+		.name1{
 			text-align: center;
 			font-size: 18px;
 			font-weight: bold;
-			padding-left: 20px;
+			padding-left: 15px;
 			height: 30px;
 		}
-		.name a{
+		.name1 a{
 			padding-top: 20px;	
 		}
 
@@ -97,6 +97,7 @@
 	<script type="text/javascript" src="./js/jquery-1.9.1.min.js"></script>
 	<script type="text/javascript" src="./js/module.js"></script>
 	<script type="text/javascript" src="./js/company.js"></script>
+	<script type="text/javascript" src="./js/episode.js"></script>
 	<script type="text/javascript" src="./js/film.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function(){

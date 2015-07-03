@@ -4,7 +4,7 @@ $(document).ready(function(){
       var oUid = index.substr(4);
       $.ajax({
             type:'get',
-            url:"server/index.php?m=Home&c=index&a=getVideo",
+            url:"server/index.php?m=Home&c=views&a=getEpisodesList",
             data:{uid:oUid}, 
             dataType:'json',
             success:function(data){  

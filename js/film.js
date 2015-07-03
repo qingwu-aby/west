@@ -16,7 +16,7 @@
 		                                $.each(data.data,function(index,array){    
 		                                   str = '<li class="film_thum"><div class="film_info">';  
 							               str = str + '<a href="./video.php?uid='+array['uid']+'&id='+array['id']+'" target="_blank"><img src="'+array.pic.substr(1)+'"/></a>';
-							               str = str + '</div><div><strong class="name"><a href="./video.php?uid='+array['uid']+'&id='+array['id']+'" target="_blank">'+array.title+'</a></strong></div>';
+							               str = str + '</div><div><strong class="name1"><a href="./video.php?uid='+array['uid']+'&id='+array['id']+'" target="_blank">'+array.title+'</a></strong></div>';
 							               str = str + '</li>';
 							               $("#film_msg").append(str);  
 		                                })
