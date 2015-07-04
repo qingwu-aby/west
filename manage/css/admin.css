@@ -164,7 +164,6 @@
 }
 .content-films-list{
 	border: 1px solid #eee;
-	float: left;
 	background: #fff;
 	border-radius: 5px;
 	padding: 10px;
@@ -172,6 +171,11 @@
 	margin: 10px;
 	position: relative;
 	overflow: hidden;
+}
+.content-films-list-sty{
+	margin: 0;
+	margin-bottom: 20px;
+	padding: 20px;
 }
 .content-films-list:hover{
 	border: 1px solid #3ccaff;
@@ -181,38 +185,41 @@
 	width: 120px;
 }
 .films-title-sty{
-	margin-top: 10px;
-	width: 120px;
-	overflow: hidden;
-	height: 40px;
-	line-height: 20px;
+	text-align: left;
+	color: #3ccaff;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 26px;
 }
 .films-delete-update{
 	margin-bottom: 5px;
 	text-align: right;
 	color: red;
 }
-.update_films:hover,.delete_films:hover,.show_films:hover{
+.delete_films:hover{
 	color: #666;
 }
-.delete_films,.show_films{
+.delete_films{
+	position: absolute;
+	top: 20px;
+	right: 30px;
 	cursor: pointer;
 }
 
 .user-mess-id{
-	background: rgba(0,0,0,0.1);
 	position: absolute;
-	left: 0;
-	bottom: 0;
-	padding: 5px 0;
-	width: 100%;
-	display: none;
+	right: 30px;
+	bottom: 20px;
+	padding: 0 5px;
 }
-.user-mess-id:hover{
-	color: red;
+.zFilms-right-style{
+	overflow: hidden;
 }
-.content-films-list:hover .user-mess-id{
-	display: block;
+.films-detail-sty{
+	text-align: left;
+	line-height: 24px;
+	font-size: 16px;
+	margin: 10px 0;
 }
 
 /*news*/
@@ -226,12 +233,14 @@
 	padding: 5px;
 }
 .show-main-list{
-	background-color: #fff;
+	/*background: #fff url('../images/jian.png') top right no-repeat;*/
+	background: #fff;
 	border-radius: 5px;
 	padding: 20px;
 	position: relative;
 	margin-bottom: 20px;
-	border: 1px solid #fff;
+	border: 1px solid #ccc;
+	overflow: hidden;
 }
 .show-main-list:hover{
 	border: 1px solid #3ccaff;
@@ -268,11 +277,11 @@
 .delete-update{
 	position: absolute;
 	top: 20px;
-	right: 20px;
+	right: 30px;
 	color: red;
 	cursor: pointer;
 }
-.update_news:hover,.delete_news:hover{
+.delete_news:hover,.delete_episode:hover{
 	color: #999;
 }
 .home-news-col{
@@ -303,8 +312,13 @@
 	float: left;
 	margin: 0 5px;
 	cursor: pointer;
+	border-radius: 4px;
 }
 
 .show-news-con,.content-films-con{
 	display: none;
+}
+.content-episode{
+	margin-top: 60px;
+	padding: 30px 50px;
 }

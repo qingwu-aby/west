@@ -93,11 +93,98 @@ var deleteNews=function(url,showUrl,uid){
 					if(data.code==1){
 						//alert(data.msg+'！');
 						showNews(showUrl,uid);
-						
 					}
 				}
 			});
 		}
+	});
+};
+
+//推荐
+var tuijianNews=function(url,showUrl,uid){
+	$(document).on('click','.mlgb11_news',function(){
+
+		var filmsId=$(this).attr('id').substr(12);
+		// var delResult=confirm("是否删除？");
+		// if(delResult){
+			$.ajax({
+				type: 'post',
+				url: url,
+				dataType: 'json',
+				data: {action: 'news', status: 1, id: filmsId},
+				success: function(data){
+					if(data.code==1){
+						showNews(showUrl,uid);
+					}
+				}
+			});
+		//}
+	});
+};
+
+//取消推荐
+var cancletuijianNews=function(url,showUrl,uid){
+	$(document).on('click','.mlgb12_news',function(){
+
+		var filmsId=$(this).attr('id').substr(12);
+		// var delResult=confirm("是否删除？");
+		// if(delResult){
+			$.ajax({
+				type: 'post',
+				url: url,
+				dataType: 'json',
+				data: {action: 'news', status: 0, id: filmsId},
+				success: function(data){
+					if(data.code==1){
+						showNews(showUrl,uid);
+					}
+				}
+			});
+		//}
+	});
+};
+
+//置顶
+var topNews=function(url,showUrl,uid){
+	$(document).on('click','.mlgb21_news',function(){
+
+		var filmsId=$(this).attr('id').substr(12);
+		// var delResult=confirm("是否删除？");
+		// if(delResult){
+			$.ajax({
+				type: 'post',
+				url: url,
+				dataType: 'json',
+				data: {action: 'news', status: 1, id: filmsId},
+				success: function(data){
+					if(data.code==1){
+						showNews(showUrl,uid);
+					}
+				}
+			});
+		//}
+	});
+};
+
+//取消置顶
+var cancleTopNews=function(url,showUrl,uid){
+	$(document).on('click','.mlgb22_news',function(){
+
+		var filmsId=$(this).attr('id').substr(12);
+		// var delResult=confirm("是否删除？");
+		// if(delResult){
+			$.ajax({
+				type: 'post',
+				url: url,
+				dataType: 'json',
+				data: {action: 'news', status: 0, id: filmsId},
+				success: function(data){
+					if(data.code==1){
+						showNews(showUrl,uid);
+					}
+				}
+			});
+		//}
 	});
 };
 
@@ -139,6 +226,11 @@ var showNews=function(url,uid){
 						'</div>');
 					}
 
+					var mlgb11=data.data[newsNumber].recommend==1?'none':'block';
+					var mlgb12=data.data[newsNumber].recommend==0?'none':'block';
+					var mlgb21=data.data[newsNumber].top==1?'none':'block';
+					var mlgb22=data.data[newsNumber].top==0?'none':'block';
+
 					if(newsNumber<5){
 						$('#content-news-list').append('<div id="news-'+data.data[newsNumber].id+'" style="display: block;" class="show-main-list show-news-con show-news-con'+newsNumber+'">'+
 							'<img src="'+data.data[newsNumber].thumbnail+'" class="show-list show-list-thum" />'+
@@ -150,7 +242,12 @@ var showNews=function(url,uid){
 									'<div class="content-mess-con">访问次数：<span>'+data.data[newsNumber].views+'</span>&nbsp;&nbsp;&nbsp;&nbsp;作者：<span class="news-author">'+data.data[newsNumber].author+'</span></div>'+
 								'</div>'+
 								'<div class="delete-update">'+
-									'<span id="news-update-'+data.data[newsNumber].id+'" class="update_news">编辑</span> | <span id="news-delete-'+data.data[newsNumber].id+'" class="delete_news">删除</span>'+
+									'<span id="news-update-'+data.data[newsNumber].id+'" class="update_news control_news"> 编辑 </span>'+
+									'<span id="news-delete-'+data.data[newsNumber].id+'" class="delete_news control_news"> 删除 </span>'+
+									'<span id="news-mlgb11-'+data.data[newsNumber].id+'" class="mlgb11_news control_news" style="display: '+mlgb11+'"> 推荐 </span>'+
+									'<span id="news-mlgb12-'+data.data[newsNumber].id+'" class="mlgb12_news control_news" style="display: '+mlgb12+'"> 取消推荐 </span>'+
+									'<span id="news-mlgb21-'+data.data[newsNumber].id+'" class="mlgb21_news control_news" style="display: '+mlgb21+'"> 置顶 </span>'+
+									'<span id="news-mlgb22-'+data.data[newsNumber].id+'" class="mlgb22_news control_news" style="display: '+mlgb22+'"> 取消置顶 </span>'+
 								'</div>'+
 							'</div>'+
 						'</div>');
@@ -165,7 +262,12 @@ var showNews=function(url,uid){
 									'<div class="content-mess-con">访问次数：<span>'+data.data[newsNumber].views+'</span>&nbsp;&nbsp;&nbsp;&nbsp;作者：<span class="news-author">'+data.data[newsNumber].author+'</span></div>'+
 								'</div>'+
 								'<div class="delete-update">'+
-									'<span id="news-update-'+data.data[newsNumber].id+'" class="update_news">编辑</span> | <span id="news-delete-'+data.data[newsNumber].id+'" class="delete_news">删除</span>'+
+									'<span id="news-update-'+data.data[newsNumber].id+'" class="update_news control_news"> 编辑 </span>'+
+									'<span id="news-delete-'+data.data[newsNumber].id+'" class="delete_news control_news"> 删除 </span>'+
+									'<span id="news-mlgb11-'+data.data[newsNumber].id+'" class="mlgb11_news control_news" style="display: '+mlgb11+'"> 推荐 </span>'+
+									'<span id="news-mlgb12-'+data.data[newsNumber].id+'" class="mlgb12_news control_news" style="display: '+mlgb12+'"> 取消推荐 </span>'+
+									'<span id="news-mlgb21-'+data.data[newsNumber].id+'" class="mlgb21_news control_news" style="display: '+mlgb21+'"> 置顶 </span>'+
+									'<span id="news-mlgb22-'+data.data[newsNumber].id+'" class="mlgb22_news control_news" style="display: '+mlgb22+'"> 取消置顶 </span>'+
 								'</div>'+
 							'</div>'+
 						'</div>');

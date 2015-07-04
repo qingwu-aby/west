@@ -51,6 +51,12 @@ session_start();
 					<div class="aside-list-title">链接管理</div>
 				</li>
 			</a>
+			<a href="#episode">
+				<li id="aside-list-6" class="aside-list">
+					<div class="aside-list-icon myfont">&#299</div>
+					<div class="aside-list-title">剧集管理</div>
+				</li>
+			</a>
 			<a href="#news">
 				<li id="aside-list-3" class="aside-list">
 					<div class="aside-list-icon myfont">&#445</div>
@@ -138,6 +144,17 @@ session_start();
 				<span class="con-remark">没有新闻动态</span>
 			</div>
 			<div id="page-news-war" class="page-war"></div>
+		</div>
+	</div>
+
+	<!-- episode -->
+	<div id="content-6" class="content-2 content">
+		<div class="content-episode">
+			<div class="content-main-title">剧集管理<span id="episode_number" style="float: right;"></span></div>
+			<div id="content-episode-list" class="content-main-con">
+				<span class="con-remark">没有剧集</span>
+			</div>
+			<div id="page-episode-war" class="page-war"></div>
 		</div>
 	</div>
 

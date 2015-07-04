@@ -136,7 +136,7 @@ class EpisodesController extends BaseController {
     			$id = I('post.id');
     			$Episodes = M('Episodes');
     			$result = $Episodes->where("id = $id")->find();
-    			if($result != null && $result['uid'] == $uid) {
+    			if($result != null) {
                     $title = $result['title'];
     				//$result = $Episodes->where("id = $id")->delete();
     				$result = $Episodes->where("id = $id")->data(array('status' => 0))->save();

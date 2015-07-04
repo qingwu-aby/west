@@ -169,6 +169,22 @@ class ViewsController extends Controller {
 		return;
 	}
 
+	public function getEpisodesAll() {
+
+		$limit = 10000;
+		$p = I('get.p');
+			$Episodes = M('Episodes'); // 实例化User对象
+			$list = $Episodes->where(array('status' => 1))->order('id DESC')->limit($limit)->page($p)->select();
+			$count = $Episodes->count();// 查询满足要求的总记录数
+			$data = array(
+				'code' => 1,
+				'count' => $count,
+				'data' => $list,
+			);
+		$this->ajaxReturn($data);
+		return;
+	}
+
 	/**
 	 * 获取单条剧集内容
 	 */

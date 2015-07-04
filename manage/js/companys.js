@@ -12,6 +12,8 @@ var updataCompany=function(url,uid,url_2,uploadUrl,api){
 			$('#company_tel').val(data.data.tel);
 			$('#company_mail').val(data.data.mail);
 			$('#div_message').text(data.data.introduction);
+			//$('#company_remark').html(data.data.detail);
+			editor1.html($('<div/>').html(data.data.detail).text());
 		}
 	});
 
@@ -66,11 +68,12 @@ var updataCompany=function(url,uid,url_2,uploadUrl,api){
 		var sCompanyMail=$('#company_mail').val();
 		var sCompanyTel=$('#company_tel').val();
 		var sCompanyMess=$('#div_message').text();
+		var sCompanyDetail=editor1.html();
 		$.ajax({
 			type: 'post',
 			url: url_2,
 			dataType: 'json',
-			data: {company_mail: sCompanyMail,company_tel: sCompanyTel,wechat_url: sCompanyWechat,introduction: sCompanyMess,banner_url: sCompanyLogo},
+			data: {company_mail: sCompanyMail,company_tel: sCompanyTel,wechat_url: sCompanyWechat,introduction: sCompanyMess,banner_url: sCompanyLogo, detail: sCompanyDetail},
 			success: function(data){
 				if(data.code==1){
 					$('.z_change').attr('readonly','readonly');

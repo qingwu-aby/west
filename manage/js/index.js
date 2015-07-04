@@ -22,6 +22,14 @@ $(document).ready(function(){
 	var deleteFilmsUrl=api+'index.php?m=User&c=videos&a=del';
 	var updateFilmsUrl=api+'index.php?m=User&c=videos&a=edit';
 
+	var addEpisodeUrl=api+'index.php?m=user&c=episodes&a=add';
+	var showEpisodeUrl=api+'index.php?m=Home&c=views&a=getEpisodesList';
+	var deleteEpisodeUrl=api+'index.php?m=user&c=episodes&a=del';
+	var updateEpisodeUrl=api+'index.php?m=user&c=episodes&a=edit';
+
+	var tuijianUrl=api+'index.php?m=user&c=other&a=recommend';
+	var topUrl=api+'index.php?m=user&c=other&a=top';
+
 	$('#aside-list-1').addClass('on');
 
 	asideClick();
@@ -32,6 +40,16 @@ $(document).ready(function(){
 	newsNavClick();
 	controlNavClick();
 
+	episodeNavClick();
+	addEpisode(addEpisodeUrl,showEpisodeUrl,uid,uploadUrl);
+	showEpisode(showEpisodeUrl,uid);
+	deleteEpisode(deleteEpisodeUrl,showEpisodeUrl,uid);
+	tuijianEpisode(tuijianUrl,showEpisodeUrl,uid);
+	cancletuijianEpisode(tuijianUrl,showEpisodeUrl,uid);
+	topEpisode(topUrl,showEpisodeUrl,uid);
+	cancleTopEpisode(topUrl,showEpisodeUrl,uid);
+	updateEpisode(updateEpisodeUrl,showEpisodeUrl,uid);
+
 	updataCompany(editCompanyUrl,uid,editCompanyUrl_2,uploadUrl,api);   //修改公司信息
 
 	editPass(editPassUrl);   //修改密码
@@ -39,12 +57,20 @@ $(document).ready(function(){
 	addFilms(addFilmsUrl,showFilmsUrl,uid,uploadUrl);     //添加影视作品
 	showFilms(showFilmsUrl,uid);    //显示影视作品
 	deleteFilms(deleteFilmsUrl,showFilmsUrl,uid);   //删除影视作品
+	tuijianFilms(tuijianUrl,showFilmsUrl,uid);
+	cancletuijianFilms(tuijianUrl,showFilmsUrl,uid);
+	cancleTopFilms(topUrl,showFilmsUrl,uid);
+	topFilms(topUrl,showFilmsUrl,uid);
 	updateFilms(updateFilmsUrl,showFilmsUrl,uid);   //修改影视作品
 
 	addNews(addNewsUrl,showNewsUrl,uid,uploadUrl);     //添加新闻动态
 	showNews(showNewsUrl,uid);    //显示新闻动态
 	deleteNews(deleteNewsUrl,showNewsUrl,uid);   //删除新闻动态
 	updateNews(updateNewsUrl,showNewsUrl,uid);   //修改新闻动态
+	tuijianNews(tuijianUrl,showNewsUrl,uid);
+	cancletuijianNews(tuijianUrl,showNewsUrl,uid);
+	cancleTopNews(topUrl,showNewsUrl,uid);
+	topNews(topUrl,showNewsUrl,uid);
 
 	addLink(addLinkUrl,showLinkUrl,uid,uploadUrl);     //添加友情链接
 	showLink(showLinkUrl,uid);    //显示友情链接
@@ -148,6 +174,10 @@ var asideClick=function(){
 			$('.content').css({'display':'none'});
 			$('#content-6').css({'display':'block'});
 		}
+		if(oId==='aside-list-7'){
+			$('.content').css({'display':'none'});
+			$('#content-7').css({'display':'block'});
+		}
 	});
 };
 
@@ -212,5 +242,10 @@ var setPage=function(){
 		$('.content').css({'display':'none'});
 		$('#content-6').css({'display':'block'});
 		$('#aside-list-6').addClass('on');
+	}
+	if(index==='episode'){
+		$('.content').css({'display':'none'});
+		$('#content-7').css({'display':'block'});
+		$('#aside-list-7').addClass('on');
 	}
 };

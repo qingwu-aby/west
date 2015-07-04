@@ -3,14 +3,12 @@ session_start();
 if(!isset($_SESSION['username'])) {
 	echo "<script>window.location.href='../login.php'</script>";
 }
-	
+
 		$uid=$_GET['uid'];
 		$username=$_GET['username'];
 
 		if($uid&&$username){
 			include_once './header.html';
-	
-	
 ?>
 
 	<link rel="stylesheet" type="text/css" href="./css/index.css" />
@@ -18,9 +16,30 @@ if(!isset($_SESSION['username'])) {
 	<script charset="utf-8" src="./js/kindeditor/kindeditor-min.js"></script>
 	<script charset="utf-8" src="./js/kindeditor/lang/zh_CN.js"></script>
 	<script>
-		var editor;
+		var editor,editor1;
 		KindEditor.ready(function(K) {
 			editor = K.create('textarea[name="newsContent"]', {
+					allowFileManager : true,
+					autoHeightMode : true,
+					afterCreate : function() {
+						this.loadPlugin('autoheight');
+					}
+				});
+			editor1 = K.create('textarea[name="detailContent"]', {
+					allowFileManager : true,
+					autoHeightMode : true,
+					afterCreate : function() {
+						this.loadPlugin('autoheight');
+					}
+				});
+			editor2 = K.create('textarea[name="filmsContent"]', {
+					allowFileManager : true,
+					autoHeightMode : true,
+					afterCreate : function() {
+						this.loadPlugin('autoheight');
+					}
+				});
+			editor3 = K.create('textarea[name="episodeContent"]', {
 					allowFileManager : true,
 					autoHeightMode : true,
 					afterCreate : function() {
@@ -126,7 +145,7 @@ if(!isset($_SESSION['username'])) {
 				<div id="films_window" class="link_window" style="position: absolute;">
 					<span id="films_cancal" class="link_cancal">取消</span>
 					<div id="films_window_title" class="link_window_title">添加影视作品</div>
-					<span class="form">
+					<span class="form" style="padding-left: 20px;">
 						<span class="link">作品标题：</span><input id="films_title" type="text" class="update-input update-input-sty" placeholder="输入作品标题" /></br>
 						<span class="link"><div style="text-align: left;">作品图标：</div></span>
 
@@ -136,8 +155,9 @@ if(!isset($_SESSION['username'])) {
 
 						<div style="overflow:hidden; margin-left:70px;">
 							<input id="filmsUp_logo" class="file_upload" type="file" name="filename" />
-							<!-- <button id="filmsUp_button" class="button_upload">上传</button> -->
-							<!-- <input style="float: left" type="file" onchange="previewImage(this,'films_logo')" /> -->
+						</div>
+						<div style="margin-bottom: 20px; text-align：left;"><span class="link">影视摘要：</span>
+							<textarea id="films_content" style="width: 400px; height: 400px;" name="filmsContent" class="update-textarea"></textarea>
 						</div>
 
 						<span class="link">作品链接：</span><input id="films_link" type="text" class="update-input update-input-sty" placeholder="输入作品链接" /></br>
@@ -147,9 +167,8 @@ if(!isset($_SESSION['username'])) {
 					</span>
 				</div>
 				<div id="content-films-title" class="content-main-title">影视作品</div>
-				<div id="content-films-list" class="content-main-con content-films-con">
-
-				</div>
+				<div id="content-films-list" class="content-main-con content-films-con"></div>
+				<div id="page-films-war" class="page-war"></div>
 			</div>
 		</div>
 	</div>
@@ -209,6 +228,66 @@ if(!isset($_SESSION['username'])) {
 				<div id="content-news-title" class="content-main-title">新闻动态</div>
 				<div id="content-news-list" class="content-main-con"></div>
 				<div id="page-news-war" class="page-war"></div>
+			</div>
+		</div>
+	</div>
+
+	<!-- episode -->
+	<div id="content-7" class="content-2 content">
+		<div class="content-nav">
+			<div class="content-nav-son">
+				<div class="content-nav-son-title">
+					<span>剧集管理</span>
+					<div class="information">公司所有剧集按上传日期显示</div>
+				</div>
+				<ul class="content-nav-son-ul">
+					<li>
+						<a id="all_episode" href="javascript: window.scrollTo(0,0);" class="list episode-list">
+							<span class="myfont">&#271</span>
+							<span>所有剧集</span>
+							<span id="episode_number" style="float: right;"></span>
+						</a>
+					</li>
+					<li>
+						<a id="add_episode" href="javascript: window.scrollTo(0,0);" class="list episode-list">
+							<span class="myfont">&#244</span>
+							<span>添加剧集</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="content-main">
+			<div id="content-episode-1" class="content-main-sty content-episode-click">
+				<div id="episode_window" class="link_window" style="position: absolute; text-align: left;">
+					<span id="episode_cancal" class="link_cancal">取消</span>
+					<div id="episode_window_title" class="link_window_title">添加剧集</div>
+					<span class="form" style=" padding-left: 25px;">
+						<span class="link">剧集标题：</span>
+						<input id="episode_title" type="text" class="update-input update-input-sty" placeholder="输入剧集标题" /></br>
+						<span class="link">剧集摘要：</span>
+						<input id="episode_summary" type="text" class="update-input update-input-sty" placeholder="输入剧集摘要" /></br>
+						<span class="link">
+							<div style="text-algin: left;">剧集图片：</div>
+						</span>
+						<img id="episode_logo" src="" style=" margin-left: 70px; height: 98px; width: 140px;" />
+						<span style="color: red; line-height:24px; margin-left: 70px;">图片大小：700px * 490px，其他尺寸可能会显示不正常。</span></br>
+						<div style="overflow:hidden; margin-left:70px; margin-bottom: 10px;">
+							<input id="episodeUp_logo" class="file_upload" type="file" name="filename" />
+						</div>
+						<div style="margin-bottom: 20px; text-align：left;">
+							<span class="link">剧集内容：</span>
+							<textarea id="episode_content" style="width: 400px; height: 400px;" name="episodeContent" class="update-textarea" placeholder="输入新闻内容"></textarea>
+						</div>
+						<span class="link">编辑作者：</span><input id="episode_author" type="text" class="update-input update-input-sty" placeholder="作者" /></br>
+						<button id="episode_add" type="button" class="update-button link_button">确认添加</button>
+						<button id="episode_update" type="button" class="update-button link_button">确认修改</button>
+						<div id="episode_remark" style="text-align: center; color: red; padding: 10px 0;"></div>
+					</span>
+				</div>
+				<div id="content-episode-title" class="content-main-title">剧集管理</div>
+				<div id="content-episode-list" class="content-main-con"></div>
+				<div id="page-episode-war" class="page-war"></div>
 			</div>
 		</div>
 	</div>
@@ -330,6 +409,11 @@ if(!isset($_SESSION['username'])) {
 						<div class="z_title">公司简介</div>
 						<div id="div_message" class="div_message z_bg" style="width: 780px;" contenteditable="false"></div>
 					</div>
+					<div class="p">
+						<div class="z_title">公司详情</div>
+						<!-- <div id="div_detail" class="div_message z_bg" style="width: 780px;" contenteditable="false"></div> -->
+						<textarea id="detail_content" style="width: 800px; height: 400px;" name="detailContent" class="update-textarea"></textarea>
+					</div>
 
 					<button type="button" id="z_enter" class="z_button">确认修改</button>
 					<div id="company_remark" style="text-align: center;"></div>
@@ -389,6 +473,7 @@ if(!isset($_SESSION['username'])) {
 	<script type="text/javascript" src="./js/links.js"></script>
 	<script type="text/javascript" src="./js/films.js"></script>
 	<script type="text/javascript" src="./js/news.js"></script>
+	<script type="text/javascript" src="./js/episode.js"></script>
 	<script type="text/javascript" src="./js/companys.js"></script>
 	<script type="text/javascript" src="./js/index.js"></script>
 </body>
