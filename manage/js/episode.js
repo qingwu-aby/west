@@ -192,8 +192,15 @@ var showEpisode=function(url,uid){
 					var mlgb21=data.data[episodeNumber].top==1?'none':'block';
 					var mlgb22=data.data[episodeNumber].top==0?'none':'block';
 
+					var sty=null;
+					if(data.data[episodeNumber].recommend==1)
+						sty="#fff url('./images/jian.png') top right no-repeat;";
+					else{
+						sty="#fff;";
+					}
+
 					if(episodeNumber<5){
-						$('#content-episode-list').append('<div id="episode-'+data.data[episodeNumber].id+'" style="display: block;" class="show-main-list show-episode-con show-episode-con'+episodeNumber+'">'+
+						$('#content-episode-list').append('<div id="episode-'+data.data[episodeNumber].id+'" style="display: block; background: '+sty+'" class="show-main-list show-episode-con show-episode-con'+episodeNumber+'">'+
 							'<img src="'+data.data[episodeNumber].thumbnail+'" class="show-list show-list-thum" />'+
 							'<div class="show-list show-list-right">'+
 								'<h1><span class="title-list-link">'+data.data[episodeNumber].title+'</span></h1>'+
@@ -213,7 +220,7 @@ var showEpisode=function(url,uid){
 							'</div>'+
 						'</div>');
 					}else{
-						$('#content-episode-list').append('<div id="episode-'+data.data[episodeNumber].id+'" style="display: none;" class="show-main-list show-episode-con show-episode-con'+episodeNumber+'">'+
+						$('#content-episode-list').append('<div id="episode-'+data.data[episodeNumber].id+'" style="display: none; background: '+sty+'" class="show-main-list show-episode-con show-episode-con'+episodeNumber+'">'+
 							'<img src="'+data.data[episodeNumber].thumbnail+'" class="show-list show-list-thum" />'+
 							'<div class="show-list show-list-right">'+
 								'<h1><span class="title-list-link">'+data.data[episodeNumber].title+'</span></h1>'+

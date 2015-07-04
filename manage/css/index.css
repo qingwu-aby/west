@@ -211,7 +211,7 @@ header{
 	padding: 20px;
 	position: relative;
 	margin-bottom: 20px;
-	border: 1px solid #fff;
+	border: 1px solid #ccc;
 }
 .show-main-list:hover{
 	border: 1px solid #3ccaff;
@@ -249,7 +249,7 @@ header{
 .delete-update{
 	position: absolute;
 	top: 20px;
-	right: 20px;
+	right: 30px;
 	color: red;
 	cursor: pointer;
 }
@@ -283,7 +283,7 @@ header{
 }
 .content-films-list{
 	position: relative;
-	border: 1px solid #fff;
+	border: 1px solid #ccc;
 	background: #fff;
 	border-radius: 5px;
 	padding: 10px;
