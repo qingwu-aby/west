@@ -100,4 +100,26 @@ class IndexController extends Controller {
 		$this->ajaxReturn($data);
 		return ;
 	}
+
+	/**
+	 * 获取剧集
+	 */
+	public function getEpisodes() {
+		$uid = I('get.uid');
+		$Episodes = M('Episodes');
+		$result = $Episodes->where(array('uid' => $uid, 'status' => 1))->order('id DESC')->limit(2)->select();
+		if(count($result) == 0) {
+			$data = array(
+				'code' => -1,
+				'msg' => '数据为空',
+			);
+		} else {
+			$data = array(
+				'code' => 1,
+				'data' => $result,
+			);
+		}
+		$this->ajaxReturn($data);
+		return ;
+	}
 }
