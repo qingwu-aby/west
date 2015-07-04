@@ -51,6 +51,7 @@ var updateFilms=function(url,showUrl,uid){
 		var filmsLink=$('#films-'+FilmsId).find('.films-link-a').attr('href');
 		var filmsTitle=$('#films-'+FilmsId).find('.films-title-sty').text();
 		var filmsLogo=$('#films-'+FilmsId).find('.films-image-sty').attr('src');
+		var filmsDetail=$('#films-'+FilmsId).find('.films-detail-sty').html();
 
 		$('#films_window_title').text('编辑影视作品');
 		$('#films_window').css('display','block');
@@ -60,11 +61,13 @@ var updateFilms=function(url,showUrl,uid){
 		$('#films_remark').text('');
 		$('#films_add').css('display','none');
 		$('#films_update').css('display','block');
+		editor2.html(filmsDetail);
 	});
 	$(document).on('click','#films_update',function(){
 		var filmsTitle=$('#films_title').val();
 		var filmsLink=$('#films_link').val();
 		var filmsLogo=$('#films_logo').attr('src');
+		var filmsDetail=editor2.html();
 
 		if(filmsTitle==''||filmsLink==''){
 			$('#films_remark').text('信息不能为空！');
@@ -75,7 +78,7 @@ var updateFilms=function(url,showUrl,uid){
 				type: 'post',
 				url: url,
 				dataType: 'json',
-				data: {id: FilmsId,title: filmsTitle, url: filmsLink, pic: filmsLogo},
+				data: {id: FilmsId,title: filmsTitle, url: filmsLink, pic: filmsLogo, detail: filmsDetail},
 				success: function(data){
 					$('#films_remark').text(data.msg+'！');
 					$('#films_remark').css('color','red');
@@ -117,6 +120,94 @@ var deleteFilms=function(url,showUrl,uid){
 	});
 };
 
+//推荐影视作品
+var tuijianFilms=function(url,showUrl,uid){
+	$(document).on('click','.mlgb11_films',function(){
+
+		var filmsId=$(this).attr('id').substr(13);
+		// var delResult=confirm("是否删除？");
+		// if(delResult){
+			$.ajax({
+				type: 'post',
+				url: url,
+				dataType: 'json',
+				data: {action: 'video', status: 1, id: filmsId},
+				success: function(data){
+					if(data.code==1){
+						showFilms(showUrl,uid);
+					}
+				}
+			});
+		//}
+	});
+};
+
+//取消推荐影视作品
+var cancletuijianFilms=function(url,showUrl,uid){
+	$(document).on('click','.mlgb12_films',function(){
+
+		var filmsId=$(this).attr('id').substr(13);
+		// var delResult=confirm("是否删除？");
+		// if(delResult){
+			$.ajax({
+				type: 'post',
+				url: url,
+				dataType: 'json',
+				data: {action: 'video', status: 0, id: filmsId},
+				success: function(data){
+					if(data.code==1){
+						showFilms(showUrl,uid);
+					}
+				}
+			});
+		//}
+	});
+};
+
+//置顶影视作品
+var topFilms=function(url,showUrl,uid){
+	$(document).on('click','.mlgb21_films',function(){
+
+		var filmsId=$(this).attr('id').substr(13);
+		// var delResult=confirm("是否删除？");
+		// if(delResult){
+			$.ajax({
+				type: 'post',
+				url: url,
+				dataType: 'json',
+				data: {action: 'video', status: 1, id: filmsId},
+				success: function(data){
+					if(data.code==1){
+						showFilms(showUrl,uid);
+					}
+				}
+			});
+		//}
+	});
+};
+
+//取消置顶影视作品
+var cancleTopFilms=function(url,showUrl,uid){
+	$(document).on('click','.mlgb22_films',function(){
+
+		var filmsId=$(this).attr('id').substr(13);
+		// var delResult=confirm("是否删除？");
+		// if(delResult){
+			$.ajax({
+				type: 'post',
+				url: url,
+				dataType: 'json',
+				data: {action: 'video', status: 0, id: filmsId},
+				success: function(data){
+					if(data.code==1){
+						showFilms(showUrl,uid);
+					}
+				}
+			});
+		//}
+	});
+};
+
 //显示影视作品
 var showFilms=function(url,uid){
 	$.ajax({
@@ -129,6 +220,18 @@ var showFilms=function(url,uid){
 				$('#home_films').html('');
 				$('#films_number').text(' ('+data.data.length+')');
 				$('#content-films-list').html('');
+
+				$('#page-films-war').html('');
+				var filmsLen=parseInt(data.data.length/5);
+				if(data.data.length%5!=0){
+					filmsLen+=1;
+				}
+				if(filmsLen){
+					for(var i=0;i<filmsLen;i++){
+						$('#page-films-war').append('<div id="filmsPage-'+(i+1)+'" class="page-list pageFilms-list">'+(i+1)+'</div>');
+					}
+				}
+
 				for(var filmsNumber in data.data){
 					var sContent=null;
 					if(data.data[filmsNumber].title.length>=8){
@@ -137,19 +240,50 @@ var showFilms=function(url,uid){
 						sContent=data.data[filmsNumber].title;
 					}
 					if(filmsNumber<6){
-						$('#home_films').append('<a href="'+data.data[filmsNumber].url+'" target="_blank" style="background: #eee;" class="content-films-list">'+
+						$('#home_films').append('<a href="'+data.data[filmsNumber].url+'" target="_blank" style="background: #eee; float: left;" class="content-films-list">'+
 								'<img class="films-image-sty" src="'+data.data[filmsNumber].pic+'" />'+
 								'<div class="films-title-sty">'+sContent+'</div>'+
 							'</a>');
 					}
 
-					$('#content-films-list').append('<div id="films-'+data.data[filmsNumber].id+'" class="content-films-list">'+
-								'<div class="films-delete-update">'+
-									'<span id="films-update-'+data.data[filmsNumber].id+'" class="update_films">编辑</span>  <span id="films-delete-'+data.data[filmsNumber].id+'" class="delete_films">删除</span>'+
-								'</div>'+
-								'<a class="films-link-a" href="'+data.data[filmsNumber].url+'" target="_blank"><img class="films-image-sty" src="'+data.data[filmsNumber].pic+'" /></a>'+
-								'<div class="films-title-sty">'+data.data[filmsNumber].title+'</div>'+
-							'</div>');
+					var mlgb11=data.data[filmsNumber].recommend==1?'none':'block';
+					var mlgb12=data.data[filmsNumber].recommend==0?'none':'block';
+					var mlgb21=data.data[filmsNumber].top==1?'none':'block';
+					var mlgb22=data.data[filmsNumber].top==0?'none':'block';
+
+					if(filmsNumber<5){
+						$('#content-films-list').append('<div id="films-'+data.data[filmsNumber].id+'" style="padding: 20px; margin: 0; margin-bottom: 20px; display: block;" class="content-films-list show-films-con show-films-con'+filmsNumber+'">'+
+									'<div class="films-delete-update" style="position: absolute; top: 20px; right: 20px;">'+
+										'<span id="films-update-'+data.data[filmsNumber].id+'" class="update_films control_films"> 编辑 </span>'+
+										'<span id="films-delete-'+data.data[filmsNumber].id+'" class="delete_films control_films"> 删除 </span>'+
+										'<span id="films-mlgb11-'+data.data[filmsNumber].id+'" class="mlgb11_films control_films" style="display: '+mlgb11+'"> 推荐 </span>'+
+										'<span id="films-mlgb12-'+data.data[filmsNumber].id+'" class="mlgb12_films control_films" style="display: '+mlgb12+'"> 取消推荐 </span>'+
+										'<span id="films-mlgb21-'+data.data[filmsNumber].id+'" class="mlgb21_films control_films" style="display: '+mlgb21+'"> 置顶 </span>'+
+										'<span id="films-mlgb22-'+data.data[filmsNumber].id+'" class="mlgb22_films control_films" style="display: '+mlgb22+'"> 取消置顶 </span>'+
+									'</div>'+
+									'<a class="films-link-a" href="'+data.data[filmsNumber].url+'" target="_blank"><img class="films-image-sty" src="'+data.data[filmsNumber].pic+'" /></a>'+
+									'<div class="films_right_style">'+
+										'<div class="title_films_sty">'+data.data[filmsNumber].title+'</div>'+
+										'<div class="films-detail-sty">'+$('<div/>').html(data.data[filmsNumber].detail).text()+'</div>'+
+									'</div>'+
+								'</div>');
+					}else{
+						$('#content-films-list').append('<div id="films-'+data.data[filmsNumber].id+'" style="padding: 20px; margin: 0; margin-bottom: 20px;" class="content-films-list show-films-con show-films-con'+filmsNumber+'">'+
+									'<div class="films-delete-update" style="position: absolute; top: 20px; right: 20px;">'+
+										'<span id="films-update-'+data.data[filmsNumber].id+'" class="update_films control_films"> 编辑 </span>'+
+										'<span id="films-delete-'+data.data[filmsNumber].id+'" class="delete_films control_films"> 删除 </span>'+
+										'<span id="films-mlgb11-'+data.data[filmsNumber].id+'" class="mlgb11_films control_films" style="display: '+mlgb11+'"> 推荐 </span>'+
+										'<span id="films-mlgb12-'+data.data[filmsNumber].id+'" class="mlgb12_films control_films" style="display: '+mlgb12+'"> 取消推荐 </span>'+
+										'<span id="films-mlgb21-'+data.data[filmsNumber].id+'" class="mlgb21_films control_films" style="display: '+mlgb21+'"> 置顶 </span>'+
+										'<span id="films-mlgb22-'+data.data[filmsNumber].id+'" class="mlgb22_films control_films" style="display: '+mlgb22+'"> 取消置顶 </span>'+
+									'</div>'+
+									'<a class="films-link-a" href="'+data.data[filmsNumber].url+'" target="_blank"><img class="films-image-sty" src="'+data.data[filmsNumber].pic+'" /></a>'+
+									'<div class="films_right_style">'+
+										'<div class="title_films_sty">'+data.data[filmsNumber].title+'</div>'+
+										'<div class="films-detail-sty">'+$('<div/>').html(data.data[filmsNumber].detail).text()+'</div>'+
+									'</div>'+
+								'</div>');
+					}
 				}
 			}else{
 				$('#content-films-list').html('<span class="con-remark">还未添加影视作品！</span>');
@@ -159,6 +293,16 @@ var showFilms=function(url,uid){
 		},
 		error: function(){
 			$('#content-films-list').html('<span class="con-remark">显示出错！</span>');
+		}
+	});
+	$(document).on('click','.pageFilms-list',function(){
+		var pageNumber=$(this).attr('id').substr(10);
+		//alert(pageNumber);
+		$('.show-films-con').css('display','none');
+		for(var j=0; j<5; j++){
+			var index=(pageNumber-1)*5+1*j;
+			//alert(index);
+			$('.show-films-con'+index).css('display','block');
 		}
 	});
 };
@@ -202,6 +346,7 @@ var addFilms=function(url,showUrl,uid,uploadUrl){
 		var oFilmsTitle=$('#films_title').val();
 		var oFilmsLink=$('#films_link').val();
 		var oFilmsLogo=$('#films_logo').attr('src');
+		var oFilmsDetail=editor2.html();
 
 		if(oFilmsTitle==''||oFilmsLink==''){
 			$('#films_remark').text('信息不能为空！');
@@ -212,7 +357,7 @@ var addFilms=function(url,showUrl,uid,uploadUrl){
 				type: 'post',
 				url: url,
 				dataType: 'json',
-				data: {title: oFilmsTitle, url: oFilmsLink, pic: oFilmsLogo},
+				data: {title: oFilmsTitle, url: oFilmsLink, pic: oFilmsLogo, detail: oFilmsDetail},
 				success: function(data){
 					$('#films_remark').text(data.msg+'！');
 					$('#films_remark').css('color','red');

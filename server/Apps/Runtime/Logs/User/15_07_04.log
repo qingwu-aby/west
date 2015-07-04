@@ -1,0 +1,2303 @@
+[ 2015-07-04T08:22:16+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=Api&a=verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000992s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001499s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001682s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001841s ]
+
+[ 2015-07-04T08:22:20+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=Api&a=verify&localeTime=1435969340720
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000652s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000797s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000900s ]
+
+[ 2015-07-04T08:22:27+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=user&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000888s ]
+NOTIC: [8] Undefined variable: id D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\UserController.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `west_user` WHERE `username` = 'ztf' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2015-07-04T08:40:30+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=user&a=editInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000643s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0046s ]
+SQL: UPDATE `west_company` SET `uid`='13',`mail`='i@ztf.me',`tel`='13577777777',`wechat_url`='../server/Public/Uploads/2015-06-04/2015060414313915517.png',`introduction`='完美世界是一家网络游戏研发、运营、销售和服务公司。于2004年成立，2007年在美国纳斯达克上市（股票代码：PWRD）。完美世界总部位于北京，在北美、欧洲和日本设有全资子公司自主运营游戏，旗下游戏已授权至亚洲、澳洲、拉丁美洲、俄罗斯及其它俄语地区等多个国家和地区的主要游戏运营商，游戏出口至世界100多个国家和地区，为全球用户提供优质的互联网娱乐服务。',`banner_url`='../server/Public/Uploads/2015-06-04/2015060414321825086.jpg',`modify_time`='1435970430' WHERE ( uid = '13' ) [ RunTime:0.1546s ]
+
+[ 2015-07-04T08:42:05+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=user&a=editInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000927s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000999s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0047s ]
+SQL: UPDATE `west_company` SET `uid`='13',`mail`='i@ztf.me',`tel`='13577777777',`wechat_url`='../server/Public/Uploads/2015-06-04/2015060414313915517.png',`introduction`='完美世界是一家网络游戏研发、运营、销售和服务公司。于2004年成立，2007年在美国纳斯达克上市（股票代码：PWRD）。完美世界总部位于北京，在北美、欧洲和日本设有全资子公司自主运营游戏，旗下游戏已授权至亚洲、澳洲、拉丁美洲、俄罗斯及其它俄语地区等多个国家和地区的主要游戏运营商，游戏出口至世界100多个国家和地区，为全球用户提供优质的互联网娱乐服务。',`banner_url`='../server/Public/Uploads/2015-06-04/2015060414321825086.jpg',`modify_time`='1435970525' WHERE ( uid = '13' ) [ RunTime:0.1079s ]
+
+[ 2015-07-04T08:44:03+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=user&a=editInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000549s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0049s ]
+SQL: UPDATE `west_company` SET `uid`='13',`mail`='i@ztf.me',`tel`='13577777777',`wechat_url`='../server/Public/Uploads/2015-06-04/2015060414313915517.png',`introduction`='完美世界是一家网络游戏研发、运营、销售和服务公司。于2004年成立，2007年在美国纳斯达克上市（股票代码：PWRD）。完美世界总部位于北京，在北美、欧洲和日本设有全资子公司自主运营游戏，旗下游戏已授权至亚洲、澳洲、拉丁美洲、俄罗斯及其它俄语地区等多个国家和地区的主要游戏运营商，游戏出口至世界100多个国家和地区，为全球用户提供优质的互联网娱乐服务。',`detail`='就感觉感觉',`banner_url`='../server/Public/Uploads/2015-06-04/2015060414321825086.jpg',`modify_time`='1435970642' WHERE ( uid = '13' ) [ RunTime:0.1205s ]
+
+[ 2015-07-04T08:45:40+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=user&a=editInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000773s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0047s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0045s ]
+SQL: UPDATE `west_company` SET `uid`='13',`mail`='i@ztf.me',`tel`='13577777777',`wechat_url`='../server/Public/Uploads/2015-06-04/2015060414313915517.png',`introduction`='完美世界是一家网络游戏研发、运营、销售和服务公司。于2004年成立，2007年在美国纳斯达克上市（股票代码：PWRD）。完美世界总部位于北京，在北美、欧洲和日本设有全资子公司自主运营游戏，旗下游戏已授权至亚洲、澳洲、拉丁美洲、俄罗斯及其它俄语地区等多个国家和地区的主要游戏运营商，游戏出口至世界100多个国家和地区，为全球用户提供优质的互联网娱乐服务。',`detail`='&lt;span style=&quot;color:#E53333;&quot;&gt;就感觉感觉&lt;/span&gt;',`banner_url`='../server/Public/Uploads/2015-06-04/2015060414321825086.jpg',`modify_time`='1435970739' WHERE ( uid = '13' ) [ RunTime:0.4442s ]
+
+[ 2015-07-04T08:46:53+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=news&a=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000886s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_news` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `west_news` WHERE ( id = 27 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `west_news` SET `title`='上海国际电影节互联网电影嘉年华新闻通气会召开',`big_img`='no',`thumbnail`='../server/Public/Uploads/2015-06-09/2015060921425454817.jpg',`summary`='今日下午，上海国际电影节互联网电影嘉年华新闻通气会在普陀区政府召开。上海国际电影节作为中国唯一的国际A类电影节，结合自身平台与资源优势',`source`='',`author`='郁婷苈',`content`='&lt;p style=&quot;color:#333333;font-family:\'microsoft yahei\';font-size:16px;text-align:justify;background-color:#FFFFFF;&quot;&gt;
+	&lt;span style=&quot;color:#E53333;&quot;&gt;东方网记者郁婷苈6月9日报道：今日下午，上海国际电影节互联网电影嘉年华新闻通气会在普陀区政府召开。上海国际电影节作为中国唯一的国际A类电影节，结合自身平台与资源优势，此次牵手普陀区，将于6月17日，在长风生态商务区举办首届“互联网电影嘉年华”。届时将向公众和媒体开放互联网电影展映、“互联网+电影”产业投资跨界峰会、互联网电影上海高峰会以及互联网电影之夜等四大板块活动。&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:\'microsoft yahei\';font-size:16px;text-align:justify;background-color:#FFFFFF;&quot;&gt;
+	&lt;span style=&quot;line-height:1.5;color:#E53333;&quot;&gt;　　据悉，普陀区自2012年起，已连续三年承办了上海国际电影节的节中节“手机电影节”，取得了非常好的效果。今年，升级为“互联网电影嘉年华”后，进一步聚焦电影产业，搭建一个涵盖互联网各领域与电影产业各环节对话与合作的开放平台；汇集全球互联网领军人物共商发展大计；发布《“互联网+电影”趋势研究报告》全景展示中国互联网电影发展理念和成果；交流融合最先进科技与最悠久文化。&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:\'microsoft yahei\';font-size:16px;text-align:justify;background-color:#FFFFFF;&quot;&gt;
+	&lt;span style=&quot;color:#E53333;&quot;&gt;　　依托“互联网电影嘉年华”的交流平台，普陀区正积极打造发展互联网影视产业的“三个空间”：一是物理空间。在金沙江路（大渡河路-真北路）沿线，分布有华大科技园、天地软件园等产业园区，有近10万平方米的优质商务楼宇，随时欢迎互联网影视企业入驻。其中地处长征镇的天地软件园作为市中心区域规模最大的高新技术产业园区之一，现已集聚了100多家网络游戏、数字多媒体、互联网信息服务等文化创意产业领域的优秀企业。二是政策空间。制定聚焦互联网影视发展的专项产业政策，期间借鉴兄弟省市、区的经验，同时充分发挥普陀区现有文化发展资金的引导作用。针对互联网影视等“四新”经济新兴产业，在普陀区已有的各项政策的基础上，充分发挥财政资金的引导作用，有针对性地制定政策对有关企业进行扶持。不断优化产业结构，推动区域经济转型发展，力争打造成为科创中心的重要产业承载区，形成与张江高科技园区的东西联动。三是发展空间。一方面发挥区内金融资源的优势，促进互联网影视与金融融合发展。另一方面通过提供优质、廉洁、高效的政府服务，为企业提供健康可持续的发展环境。&lt;/span&gt;
+&lt;/p&gt;',`modify_time`='1435970813' WHERE ( id = 27 ) [ RunTime:0.1428s ]
+SQL: SHOW COLUMNS FROM `west_log` [ RunTime:0.0117s ]
+SQL: INSERT INTO `west_log` (`uid`,`type`,`target`,`target_id`,`target_name`,`modify_time`) VALUES ('13','edit','news','27','上海国际电影节互联网电影嘉年华新闻通气会召开','1435970813') [ RunTime:0.0837s ]
+
+[ 2015-07-04T08:56:17+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=user&a=editInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000851s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0065s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0062s ]
+SQL: UPDATE `west_company` SET `uid`='13',`mail`='i@ztf.me',`tel`='13577777777',`wechat_url`='../server/Public/Uploads/2015-06-04/2015060414313915517.png',`introduction`='完美世界是一家网络游戏研发、运营、销售和服务公司。于2004年成立，2007年在美国纳斯达克上市（股票代码：PWRD）。完美世界总部位于北京，在北美、欧洲和日本设有全资子公司自主运营游戏，旗下游戏已授权至亚洲、澳洲、拉丁美洲、俄罗斯及其它俄语地区等多个国家和地区的主要游戏运营商，游戏出口至世界100多个国家和地区，为全球用户提供优质的互联网娱乐服务。',`detail`='&lt;div style=&quot;text-align:left;&quot;&gt;
+	&lt;span style=&quot;font-family:\'Microsoft JhengHei\', Tahoma, Helvetica, Arial, 宋体, sans-serif;font-size:14px;line-height:20px;color:#E56600;background-color:#FFFFFF;&quot;&gt;完美世界是一家网络游戏研发、运营、销售和服务公司。于2004年成立，2007年在美国纳斯达克上市（股票代码：PWRD）。完美世界总部位于北京，在北美、欧洲和日本设有全资子公司自主运营游戏，旗下游戏已授权至亚洲、澳洲、拉丁美洲、俄罗斯及其它俄语地区等多个国家和地区的主要游戏运营商，游戏出口至世界100多个国家和地区，为全球用户提供优质的互联网娱乐服务。&lt;/span&gt;&lt;span style=&quot;line-height:1.5;&quot;&gt;&lt;/span&gt;
+&lt;/div&gt;',`banner_url`='../server/Public/Uploads/2015-06-04/2015060414321825086.jpg',`modify_time`='1435971377' WHERE ( uid = '13' ) [ RunTime:0.1019s ]
+
+[ 2015-07-04T08:56:32+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=user&a=editInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000848s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0053s ]
+SQL: UPDATE `west_company` SET `uid`='13',`mail`='i@ztf.me',`tel`='13577777777',`wechat_url`='../server/Public/Uploads/2015-06-04/2015060414313915517.png',`introduction`='完美世界是一家网络游戏研发、运营、销售和服务公司。于2004年成立，2007年在美国纳斯达克上市（股票代码：PWRD）。完美世界总部位于北京，在北美、欧洲和日本设有全资子公司自主运营游戏，旗下游戏已授权至亚洲、澳洲、拉丁美洲、俄罗斯及其它俄语地区等多个国家和地区的主要游戏运营商，游戏出口至世界100多个国家和地区，为全球用户提供优质的互联网娱乐服务。',`detail`='&lt;p style=&quot;text-align:left;&quot;&gt;
+	&lt;span style=&quot;font-family:\'Microsoft JhengHei\', Tahoma, Helvetica, Arial, 宋体, sans-serif;font-size:14px;line-height:20px;color:#E56600;background-color:#FFFFFF;&quot;&gt;完美世界是一家网络游戏研发、运营、销售和服务公司。于2004年成立，2007年在美国纳斯达克上市（股票代码：PWRD）。完美世界总部位于北京，在北美、欧洲和日本设有全资子公司自主运营游戏，旗下游戏已授权至亚洲、澳洲、拉丁美洲、俄罗斯及其它俄语地区等多个国家和地区的主要游戏运营商，游戏出口至世界100多个国家和地区，为全球用户提供优质的互联网娱乐服务。&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;text-align:left;&quot;&gt;
+	&lt;span style=&quot;font-family:\'Microsoft JhengHei\', Tahoma, Helvetica, Arial, 宋体, sans-serif;font-size:14px;line-height:20px;color:#E56600;background-color:#FFFFFF;&quot;&gt;&lt;span style=&quot;color:#E56600;font-family:\'Microsoft JhengHei\', Tahoma, Helvetica, Arial, 宋体, sans-serif;font-size:14px;line-height:20px;background-color:#FFFFFF;&quot;&gt;完美世界是一家网络游戏研发、运营、销售和服务公司。于2004年成立，2007年在美国纳斯达克上市（股票代码：PWRD）。完美世界总部位于北京，在北美、欧洲和日本设有全资子公司自主运营游戏，旗下游戏已授权至亚洲、澳洲、拉丁美洲、俄罗斯及其它俄语地区等多个国家和地区的主要游戏运营商，游戏出口至世界100多个国家和地区，为全球用户提供优质的互联网娱乐服务。&lt;/span&gt;&lt;br /&gt;
+&lt;/span&gt;
+&lt;/p&gt;',`banner_url`='../server/Public/Uploads/2015-06-04/2015060414321825086.jpg',`modify_time`='1435971392' WHERE ( uid = '13' ) [ RunTime:0.1179s ]
+
+[ 2015-07-04T09:45:05+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000888s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-07-04T09:45:18+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=videos&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000762s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0052s ]
+SQL: INSERT INTO `west_videos` (`uid`,`title`,`url`,`pic`,`detail`,`status`,`recommend`,`top`,`modify_time`) VALUES ('13','辅导费','方法','../server/Public/Uploads/2015-07-04/2015070409450477943.jpg','&lt;span style=&quot;color:#E53333;&quot;&gt;豆腐豆腐豆腐&lt;/span&gt;','1','0','0','1435974318') [ RunTime:0.1231s ]
+SQL: SHOW COLUMNS FROM `west_log` [ RunTime:0.0113s ]
+SQL: INSERT INTO `west_log` (`uid`,`type`,`target`,`target_id`,`target_name`,`modify_time`) VALUES ('13','add','video','40','辅导费','1435974318') [ RunTime:0.0876s ]
+
+[ 2015-07-04T09:48:52+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=videos&a=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000831s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `west_videos` WHERE ( id = 40 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `west_videos` SET `title`='辅导费',`url`='方法',`pic`='../server/Public/Uploads/2015-07-04/2015070409450477943.jpg',`detail`='&lt;span style=&quot;color:#E53333;&quot;&gt;豆腐豆腐豆腐三国杀&lt;/span&gt;',`modify_time`='1435974531' WHERE ( id = 40 ) [ RunTime:0.2236s ]
+SQL: SHOW COLUMNS FROM `west_log` [ RunTime:0.0123s ]
+SQL: INSERT INTO `west_log` (`uid`,`type`,`target`,`target_id`,`target_name`,`modify_time`) VALUES ('13','edit','video','40','辅导费','1435974531') [ RunTime:0.0912s ]
+
+[ 2015-07-04T09:49:02+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=videos&a=del
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000820s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000893s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `west_videos` WHERE ( id = 40 ) LIMIT 1   [ RunTime:0.0028s ]
+SQL: UPDATE `west_videos` SET `status`='0' WHERE ( id = 40 ) [ RunTime:0.1005s ]
+SQL: SHOW COLUMNS FROM `west_log` [ RunTime:0.0130s ]
+SQL: INSERT INTO `west_log` (`uid`,`type`,`target`,`target_id`,`target_name`,`modify_time`) VALUES ('13','del','video','40','辅导费','1435974542') [ RunTime:0.0855s ]
+
+[ 2015-07-04T09:49:25+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=videos&a=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000549s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `west_videos` WHERE ( id = 30 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `west_videos` SET `title`='法老墓的诅咒',`url`='http://player.youku.com/player.php/sid/XODUwMjkxNTY0/v.swf',`pic`='../server/Public/Uploads/2015-06-09/2015060921440399596.png',`detail`='&lt;span style=&quot;color:#E53333;&quot;&gt;dfsfsaf撒发生发生撒旦GV比较难看女&lt;/span&gt;',`modify_time`='1435974564' WHERE ( id = 30 ) [ RunTime:0.1003s ]
+SQL: SHOW COLUMNS FROM `west_log` [ RunTime:0.0127s ]
+SQL: INSERT INTO `west_log` (`uid`,`type`,`target`,`target_id`,`target_name`,`modify_time`) VALUES ('13','edit','video','30','法老墓的诅咒','1435974564') [ RunTime:0.0857s ]
+
+[ 2015-07-04T09:52:18+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=Api&a=verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000728s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000640s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000711s ]
+
+[ 2015-07-04T10:01:51+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=user&a=logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000645s ]
+
+[ 2015-07-04T10:01:51+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=Api&a=verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001010s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001529s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001750s ]
+
+[ 2015-07-04T10:01:55+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=Api&a=verify&localeTime=1435975315125
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000782s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000931s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001037s ]
+
+[ 2015-07-04T10:01:56+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=Api&a=verify&localeTime=1435975316613
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000692s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000876s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000961s ]
+
+[ 2015-07-04T10:01:57+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=Api&a=verify&localeTime=1435975317469
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000847s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000829s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000921s ]
+
+[ 2015-07-04T10:01:58+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=Api&a=verify&localeTime=1435975318141
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000609s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000694s ]
+
+[ 2015-07-04T10:01:58+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=Api&a=verify&localeTime=1435975318773
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000757s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000867s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000985s ]
+
+[ 2015-07-04T10:02:05+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=user&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+NOTIC: [8] Undefined variable: id D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\UserController.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `west_user` WHERE `username` = 'ztf' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2015-07-04T10:02:20+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=Api&a=verify&localeTime=1435975340884
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000847s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000838s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000932s ]
+
+[ 2015-07-04T10:02:21+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=Api&a=verify&localeTime=1435975341668
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004607s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000823s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000929s ]
+
+[ 2015-07-04T10:02:22+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=Api&a=verify&localeTime=1435975342292
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000788s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003242s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003395s ]
+
+[ 2015-07-04T10:02:23+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=Api&a=verify&localeTime=1435975343604
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000571s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000643s ]
+
+[ 2015-07-04T10:02:24+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=Api&a=verify&localeTime=1435975344372
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000819s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000735s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000569s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000641s ]
+
+[ 2015-07-04T10:02:25+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=Api&a=verify&localeTime=1435975345188
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000585s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000658s ]
+
+[ 2015-07-04T10:02:26+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=Api&a=verify&localeTime=1435975346189
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000595s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000667s ]
+
+[ 2015-07-04T10:02:26+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=Api&a=verify&localeTime=1435975346822
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000899s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000579s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000651s ]
+
+[ 2015-07-04T10:02:27+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=Api&a=verify&localeTime=1435975347653
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000575s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000648s ]
+
+[ 2015-07-04T10:02:35+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=user&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000530s ]
+NOTIC: [8] Undefined variable: id D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\UserController.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `west_user` WHERE `username` = 'ztf' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-07-04T10:02:37+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=Api&a=verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000717s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001186s ]
+
+[ 2015-07-04T10:02:39+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=Api&a=verify&localeTime=1435975359446
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000689s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000753s ]
+
+[ 2015-07-04T10:02:47+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=user&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000771s ]
+NOTIC: [8] Undefined variable: id D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\UserController.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `west_user` WHERE `username` = 'ztf' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-07-04T10:03:24+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=Api&a=verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000998s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000986s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001120s ]
+
+[ 2015-07-04T10:03:30+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=Api&a=verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001101s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001244s ]
+
+[ 2015-07-04T10:03:32+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=Api&a=verify&localeTime=1435975412391
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000880s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000590s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000747s ]
+
+[ 2015-07-04T10:03:33+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=Api&a=verify&localeTime=1435975413324
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000863s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000580s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000655s ]
+
+[ 2015-07-04T10:03:41+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=user&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000712s ]
+NOTIC: [8] Undefined variable: id D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\UserController.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `west_user` WHERE `username` = 'ztf' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-07-04T10:03:47+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=user&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000738s ]
+NOTIC: [8] Undefined variable: id D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\UserController.class.php 第 86 行.
+
+[ 2015-07-04T10:03:49+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=Api&a=verify&localeTime=1435975429595
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001126s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001241s ]
+
+[ 2015-07-04T10:03:50+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=Api&a=verify&localeTime=1435975430284
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000740s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000746s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000847s ]
+
+[ 2015-07-04T10:03:50+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=Api&a=verify&localeTime=1435975430899
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000579s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000652s ]
+
+[ 2015-07-04T10:03:51+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=Api&a=verify&localeTime=1435975431459
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000773s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000777s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000875s ]
+
+[ 2015-07-04T10:03:53+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=Api&a=verify&localeTime=1435975433835
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000899s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001901s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000739s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000842s ]
+
+[ 2015-07-04T10:03:54+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=Api&a=verify&localeTime=1435975434627
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000723s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000810s ]
+
+[ 2015-07-04T10:04:02+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=user&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000719s ]
+NOTIC: [8] Undefined variable: id D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\UserController.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `west_user` WHERE `username` = 'ztf' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2015-07-04T10:04:08+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=user&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+NOTIC: [8] Undefined variable: id D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\UserController.class.php 第 86 行.
+
+[ 2015-07-04T10:04:18+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=Api&a=verify&localeTime=1435975458091
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000838s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000679s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000759s ]
+
+[ 2015-07-04T10:04:18+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=Api&a=verify&localeTime=1435975458955
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001199s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001345s ]
+
+[ 2015-07-04T10:04:19+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=Api&a=verify&localeTime=1435975459883
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000652s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001233s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000996s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001125s ]
+
+[ 2015-07-04T10:04:31+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=user&a=logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+
+[ 2015-07-04T10:04:31+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=Api&a=verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001197s ]
+
+[ 2015-07-04T10:04:44+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=Api&a=verify&localeTime=1435975484549
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000801s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000933s ]
+
+[ 2015-07-04T10:04:52+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=user&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000643s ]
+NOTIC: [8] Undefined variable: id D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\UserController.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `west_user` WHERE `username` = 'ztf' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-07-04T10:04:57+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=user&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000614s ]
+NOTIC: [8] Undefined variable: id D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\UserController.class.php 第 86 行.
+
+[ 2015-07-04T10:04:58+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=Api&a=verify&localeTime=1435975498196
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000739s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000838s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000927s ]
+
+[ 2015-07-04T10:05:05+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=user&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000562s ]
+NOTIC: [8] Undefined variable: id D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\UserController.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `west_user` WHERE `username` = 'ztf' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2015-07-04T10:05:34+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=user&a=regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000720s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `west_user` WHERE ( username = 'aaa' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0053s ]
+SQL: INSERT INTO `west_user` (`username`,`password`,`group`,`status`,`modify_time`) VALUES ('aaa','47bce5c74f589f4867dbd57e9ca9f808','user','0','1435975534') [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `west_company` WHERE ( name = 'aaa' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0049s ]
+SQL: INSERT INTO `west_company` (`uid`,`name`,`mail`,`tel`,`modify_time`) VALUES ('33','aaa','aaa','aaa','1435975534') [ RunTime:0.0004s ]
+
+[ 2015-07-04T10:05:53+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=Api&a=verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000852s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000996s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001180s ]
+
+[ 2015-07-04T10:06:13+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=user&a=logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000575s ]
+
+[ 2015-07-04T10:06:13+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=Api&a=verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000911s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000946s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001064s ]
+
+[ 2015-07-04T10:07:39+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=Api&a=verify&localeTime=1435975659826
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000738s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000821s ]
+
+[ 2015-07-04T10:07:45+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=user&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000718s ]
+NOTIC: [8] Undefined variable: id D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\UserController.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `west_user` WHERE `username` = 'ztf' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-07-04T11:19:15+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=other&a=recommend
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000714s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0073s ]
+SQL: UPDATE `west_videos` SET `recommend`='1',`modify_time`='1435979955' WHERE `uid` = 13 AND `id` = 30 [ RunTime:0.1395s ]
+
+[ 2015-07-04T11:19:21+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=other&a=recommend
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001027s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0082s ]
+SQL: UPDATE `west_videos` SET `recommend`='1',`modify_time`='1435979961' WHERE `uid` = 13 AND `id` = 29 [ RunTime:0.1192s ]
+
+[ 2015-07-04T11:21:15+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=other&a=recommend
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000881s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0064s ]
+SQL: UPDATE `west_videos` SET `recommend`='0',`modify_time`='1435980075' WHERE `uid` = 13 AND `id` = 30 [ RunTime:0.1235s ]
+
+[ 2015-07-04T11:21:17+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=other&a=recommend
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000608s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0062s ]
+SQL: UPDATE `west_videos` SET `recommend`='0',`modify_time`='1435980076' WHERE `uid` = 13 AND `id` = 29 [ RunTime:1.0368s ]
+
+[ 2015-07-04T11:21:39+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=other&a=recommend
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000613s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0061s ]
+SQL: UPDATE `west_videos` SET `recommend`='1',`modify_time`='1435980098' WHERE `uid` = 13 AND `id` = 30 [ RunTime:0.1731s ]
+
+[ 2015-07-04T11:21:47+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=other&a=recommend
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0066s ]
+SQL: UPDATE `west_videos` SET `recommend`='0',`modify_time`='1435980106' WHERE `uid` = 13 AND `id` = 30 [ RunTime:0.1290s ]
+
+[ 2015-07-04T11:22:35+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=other&a=recommend
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000609s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0100s ]
+SQL: UPDATE `west_videos` SET `recommend`='1',`modify_time`='1435980154' WHERE `uid` = 13 AND `id` = 30 [ RunTime:0.1252s ]
+
+[ 2015-07-04T11:22:36+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=other&a=recommend
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0058s ]
+SQL: UPDATE `west_videos` SET `recommend`='1',`modify_time`='1435980156' WHERE `uid` = 13 AND `id` = 29 [ RunTime:0.0992s ]
+
+[ 2015-07-04T11:22:37+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=other&a=recommend
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000677s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0058s ]
+SQL: UPDATE `west_videos` SET `recommend`='0',`modify_time`='1435980157' WHERE `uid` = 13 AND `id` = 29 [ RunTime:0.1148s ]
+
+[ 2015-07-04T11:22:38+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=other&a=recommend
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0061s ]
+SQL: UPDATE `west_videos` SET `recommend`='0',`modify_time`='1435980158' WHERE `uid` = 13 AND `id` = 30 [ RunTime:0.1169s ]
+
+[ 2015-07-04T11:22:51+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=other&a=recommend
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0062s ]
+SQL: UPDATE `west_videos` SET `recommend`='1',`modify_time`='1435980171' WHERE `uid` = 13 AND `id` = 30 [ RunTime:0.1197s ]
+
+[ 2015-07-04T11:27:14+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=other&a=top
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0063s ]
+SQL: UPDATE `west_videos` SET `top`='1',`modify_time`='1435980434' WHERE `uid` = 13 AND `id` = 28 [ RunTime:0.4887s ]
+
+[ 2015-07-04T11:27:38+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=other&a=top
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0077s ]
+SQL: UPDATE `west_videos` SET `top`='1',`modify_time`='1435980458' WHERE `uid` = 13 AND `id` = 28 [ RunTime:0.1372s ]
+
+[ 2015-07-04T11:27:42+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=other&a=top
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000797s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0070s ]
+SQL: UPDATE `west_videos` SET `top`='1',`modify_time`='1435980461' WHERE `uid` = 13 AND `id` = 28 [ RunTime:0.3105s ]
+
+[ 2015-07-04T11:27:56+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=other&a=recommend
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000559s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0057s ]
+SQL: UPDATE `west_videos` SET `recommend`='1',`modify_time`='1435980476' WHERE `uid` = 13 AND `id` = 28 [ RunTime:0.3268s ]
+
+[ 2015-07-04T11:27:58+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=other&a=recommend
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000935s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0061s ]
+SQL: UPDATE `west_videos` SET `recommend`='0',`modify_time`='1435980477' WHERE `uid` = 13 AND `id` = 28 [ RunTime:0.1873s ]
+
+[ 2015-07-04T11:28:19+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=other&a=top
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0057s ]
+SQL: UPDATE `west_videos` SET `top`='0',`modify_time`='1435980499' WHERE `uid` = 13 AND `id` = 28 [ RunTime:0.0977s ]
+
+[ 2015-07-04T11:28:20+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=other&a=recommend
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000910s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0061s ]
+SQL: UPDATE `west_videos` SET `recommend`='1',`modify_time`='1435980500' WHERE `uid` = 13 AND `id` = 28 [ RunTime:0.1233s ]
+
+[ 2015-07-04T11:28:23+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=other&a=top
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000663s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0059s ]
+SQL: UPDATE `west_videos` SET `top`='1',`modify_time`='1435980503' WHERE `uid` = 13 AND `id` = 29 [ RunTime:0.1061s ]
+
+[ 2015-07-04T11:28:25+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=other&a=top
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000858s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0067s ]
+SQL: UPDATE `west_videos` SET `top`='1',`modify_time`='1435980505' WHERE `uid` = 13 AND `id` = 27 [ RunTime:0.1031s ]
+
+[ 2015-07-04T11:40:47+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=other&a=recommend
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000757s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_news` [ RunTime:0.0057s ]
+SQL: UPDATE `west_news` SET `recommend`='1',`modify_time`='1435981247' WHERE `uid` = 13 AND `id` = 7 [ RunTime:0.0005s ]
+
+[ 2015-07-04T11:41:07+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=other&a=recommend
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000954s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_news` [ RunTime:0.0066s ]
+SQL: UPDATE `west_news` SET `recommend`='1',`modify_time`='1435981267' WHERE `uid` = 13 AND `id` = 7 [ RunTime:0.0004s ]
+
+[ 2015-07-04T11:42:15+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=other&a=recommend
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000606s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_news` [ RunTime:0.0059s ]
+SQL: UPDATE `west_news` SET `recommend`='1',`modify_time`='1435981335' WHERE `uid` = 13 AND `id` = 7 [ RunTime:0.0005s ]
+
+[ 2015-07-04T11:42:17+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=other&a=recommend
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000647s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_news` [ RunTime:0.0057s ]
+SQL: UPDATE `west_news` SET `recommend`='1',`modify_time`='1435981337' WHERE `uid` = 13 AND `id` = 7 [ RunTime:0.0004s ]
+
+[ 2015-07-04T11:42:19+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=other&a=recommend
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000626s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001605s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_news` [ RunTime:0.0068s ]
+SQL: UPDATE `west_news` SET `recommend`='1',`modify_time`='1435981339' WHERE `uid` = 13 AND `id` = 7 [ RunTime:0.0006s ]
+
+[ 2015-07-04T11:42:46+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=other&a=recommend
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000654s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000808s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_news` [ RunTime:0.0059s ]
+SQL: UPDATE `west_news` SET `recommend`='1',`modify_time`='1435981366' WHERE `uid` = 13 AND `id` = 7 [ RunTime:0.0006s ]
+
+[ 2015-07-04T11:43:03+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=other&a=recommend
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000683s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_news` [ RunTime:0.0059s ]
+SQL: UPDATE `west_news` SET `recommend`='1',`modify_time`='1435981383' WHERE `uid` = 13 AND `id` = 7 [ RunTime:0.0005s ]
+
+[ 2015-07-04T11:43:33+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=other&a=recommend
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_news` [ RunTime:0.0063s ]
+SQL: UPDATE `west_news` SET `recommend`='1',`modify_time`='1435981413' WHERE `uid` = 13 AND `id` = 7 [ RunTime:0.0005s ]
+
+[ 2015-07-04T11:43:38+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=other&a=top
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_news` [ RunTime:0.0064s ]
+SQL: UPDATE `west_news` SET `top`='1',`modify_time`='1435981418' WHERE `uid` = 13 AND `id` = 7 [ RunTime:0.0003s ]
+
+[ 2015-07-04T11:44:56+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=other&a=recommend
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000844s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_news` [ RunTime:0.0077s ]
+SQL: UPDATE `west_news` SET `recommend`='1',`modify_time`='1435981496' WHERE `uid` = 13 AND `id` = 27 [ RunTime:0.2257s ]
+
+[ 2015-07-04T11:45:13+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=other&a=recommend
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_news` [ RunTime:0.0065s ]
+SQL: UPDATE `west_news` SET `recommend`='1',`modify_time`='1435981513' WHERE `uid` = 13 AND `id` = 26 [ RunTime:0.0904s ]
+
+[ 2015-07-04T11:45:52+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=other&a=top
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000597s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_news` [ RunTime:0.0058s ]
+SQL: UPDATE `west_news` SET `top`='1',`modify_time`='1435981552' WHERE `uid` = 13 AND `id` = 15 [ RunTime:0.2559s ]
+
+[ 2015-07-04T11:45:54+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=other&a=recommend
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_news` [ RunTime:0.0060s ]
+SQL: UPDATE `west_news` SET `recommend`='1',`modify_time`='1435981554' WHERE `uid` = 13 AND `id` = 14 [ RunTime:0.2277s ]
+
+[ 2015-07-04T11:45:56+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=other&a=recommend
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000631s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_news` [ RunTime:0.0061s ]
+SQL: UPDATE `west_news` SET `recommend`='0',`modify_time`='1435981555' WHERE `uid` = 13 AND `id` = 14 [ RunTime:0.1717s ]
+
+[ 2015-07-04T11:45:56+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=other&a=top
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000564s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_news` [ RunTime:0.0066s ]
+SQL: UPDATE `west_news` SET `top`='1',`modify_time`='1435981556' WHERE `uid` = 13 AND `id` = 14 [ RunTime:0.1048s ]
+
+[ 2015-07-04T11:45:57+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=other&a=top
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001026s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_news` [ RunTime:0.0062s ]
+SQL: UPDATE `west_news` SET `top`='0',`modify_time`='1435981557' WHERE `uid` = 13 AND `id` = 14 [ RunTime:0.1000s ]
+
+[ 2015-07-04T11:45:58+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=other&a=top
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000564s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_news` [ RunTime:0.0061s ]
+SQL: UPDATE `west_news` SET `top`='1',`modify_time`='1435981558' WHERE `uid` = 13 AND `id` = 14 [ RunTime:0.1147s ]
+
+[ 2015-07-04T11:46:55+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=other&a=top
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000726s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_news` [ RunTime:0.0062s ]
+SQL: UPDATE `west_news` SET `top`='0',`modify_time`='1435981615' WHERE `uid` = 13 AND `id` = 10 [ RunTime:0.2135s ]
+
+[ 2015-07-04T11:47:01+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=other&a=top
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000743s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_news` [ RunTime:0.0065s ]
+SQL: UPDATE `west_news` SET `top`='1',`modify_time`='1435981621' WHERE `uid` = 13 AND `id` = 13 [ RunTime:0.1226s ]
+
+[ 2015-07-04T11:47:04+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=other&a=recommend
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000774s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_news` [ RunTime:0.0059s ]
+SQL: UPDATE `west_news` SET `recommend`='1',`modify_time`='1435981624' WHERE `uid` = 13 AND `id` = 10 [ RunTime:0.1014s ]
+
+[ 2015-07-04T11:47:11+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=other&a=top
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000595s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_news` [ RunTime:0.0064s ]
+SQL: UPDATE `west_news` SET `top`='1',`modify_time`='1435981631' WHERE `uid` = 13 AND `id` = 12 [ RunTime:0.0990s ]
+
+[ 2015-07-04T12:55:26+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000735s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-07-04T12:55:31+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=episodes&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000680s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000785s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_episodes` [ RunTime:0.0058s ]
+SQL: INSERT INTO `west_episodes` (`uid`,`title`,`big_img`,`thumbnail`,`summary`,`source`,`author`,`content`,`release_time`,`status`,`recommend`,`top`,`modify_time`) VALUES ('13','gdg','no','../server/Public/Uploads/2015-07-04/2015070412552615883.jpg','fgg','','fgfgf','fgfg','1435985729','1','0','0','1435985729') [ RunTime:0.4638s ]
+SQL: SHOW COLUMNS FROM `west_log` [ RunTime:0.0134s ]
+SQL: INSERT INTO `west_log` (`uid`,`type`,`target`,`target_id`,`target_name`,`modify_time`) VALUES ('13','add','episodes','9','gdg','1435985730') [ RunTime:0.7741s ]
+
+[ 2015-07-04T14:22:24+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=Api&a=verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000691s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000800s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001017s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001128s ]
+
+[ 2015-07-04T14:22:33+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=user&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000769s ]
+NOTIC: [8] Undefined variable: id D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\UserController.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0760s ]
+SQL: SELECT * FROM `west_user` WHERE `username` = 'ztf' LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2015-07-04T14:26:06+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=user&a=logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000966s ]
+
+[ 2015-07-04T14:26:06+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=Api&a=verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001025s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001144s ]
+
+[ 2015-07-04T14:26:11+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=Api&a=verify&localeTime=1435991171454
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000739s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000837s ]
+
+[ 2015-07-04T14:26:12+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=Api&a=verify&localeTime=1435991172500
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000681s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000744s ]
+
+[ 2015-07-04T14:26:19+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=user&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+NOTIC: [8] Undefined variable: id D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\UserController.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `west_user` WHERE `username` = 'aaa' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-07-04T14:29:11+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000640s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-07-04T14:29:20+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=episodes&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001314s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_episodes` [ RunTime:0.0052s ]
+SQL: INSERT INTO `west_episodes` (`uid`,`title`,`big_img`,`thumbnail`,`summary`,`source`,`author`,`content`,`release_time`,`status`,`recommend`,`top`,`modify_time`) VALUES ('33','222','no','','222','','222','222','1435991360','1','0','0','1435991360') [ RunTime:0.1235s ]
+SQL: SHOW COLUMNS FROM `west_log` [ RunTime:0.0205s ]
+SQL: INSERT INTO `west_log` (`uid`,`type`,`target`,`target_id`,`target_name`,`modify_time`) VALUES ('33','add','episodes','11','222','1435991360') [ RunTime:0.0987s ]
+
+[ 2015-07-04T14:29:41+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=episodes&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000999s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_episodes` [ RunTime:0.0058s ]
+SQL: INSERT INTO `west_episodes` (`uid`,`title`,`big_img`,`thumbnail`,`summary`,`source`,`author`,`content`,`release_time`,`status`,`recommend`,`top`,`modify_time`) VALUES ('33','222','no','','222','','22','22','1435991380','1','0','0','1435991380') [ RunTime:0.1209s ]
+SQL: SHOW COLUMNS FROM `west_log` [ RunTime:0.0131s ]
+SQL: INSERT INTO `west_log` (`uid`,`type`,`target`,`target_id`,`target_name`,`modify_time`) VALUES ('33','add','episodes','12','222','1435991381') [ RunTime:0.0855s ]
+
+[ 2015-07-04T14:35:15+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=episodes&a=del
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000794s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001012s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001166s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_episodes` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `west_episodes` WHERE ( id = 8 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `west_episodes` SET `status`='0' WHERE ( id = 8 ) [ RunTime:0.1225s ]
+SQL: SHOW COLUMNS FROM `west_log` [ RunTime:0.0125s ]
+SQL: INSERT INTO `west_log` (`uid`,`type`,`target`,`target_id`,`target_name`,`modify_time`) VALUES ('13','del','episodes','8','aasdfasdffdfCXZCF','1435991714') [ RunTime:0.0855s ]
+
+[ 2015-07-04T14:35:17+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=episodes&a=del
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001464s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_episodes` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `west_episodes` WHERE ( id = 7 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `west_episodes` SET `status`='0' WHERE ( id = 7 ) [ RunTime:0.1217s ]
+SQL: SHOW COLUMNS FROM `west_log` [ RunTime:0.0132s ]
+SQL: INSERT INTO `west_log` (`uid`,`type`,`target`,`target_id`,`target_name`,`modify_time`) VALUES ('13','del','episodes','7','asdfasdfdfCXZCF','1435991717') [ RunTime:0.0853s ]
+
+[ 2015-07-04T14:35:20+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=episodes&a=del
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000806s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000963s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_episodes` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `west_episodes` WHERE ( id = 6 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `west_episodes` SET `status`='0' WHERE ( id = 6 ) [ RunTime:0.1542s ]
+SQL: SHOW COLUMNS FROM `west_log` [ RunTime:0.0198s ]
+SQL: INSERT INTO `west_log` (`uid`,`type`,`target`,`target_id`,`target_name`,`modify_time`) VALUES ('13','del','episodes','6','SSasdfasdfCXZCF','1435991719') [ RunTime:0.0897s ]
+
+[ 2015-07-04T14:35:23+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=episodes&a=del
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001625s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_episodes` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `west_episodes` WHERE ( id = 5 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `west_episodes` SET `status`='0' WHERE ( id = 5 ) [ RunTime:0.4819s ]
+SQL: SHOW COLUMNS FROM `west_log` [ RunTime:0.0085s ]
+SQL: INSERT INTO `west_log` (`uid`,`type`,`target`,`target_id`,`target_name`,`modify_time`) VALUES ('13','del','episodes','5','SSDsdfasdfsCXZCF','1435991722') [ RunTime:0.2414s ]
+
+[ 2015-07-04T14:35:25+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=episodes&a=del
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000759s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000964s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_episodes` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `west_episodes` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `west_episodes` SET `status`='0' WHERE ( id = 4 ) [ RunTime:0.0908s ]
+SQL: SHOW COLUMNS FROM `west_log` [ RunTime:0.0143s ]
+SQL: INSERT INTO `west_log` (`uid`,`type`,`target`,`target_id`,`target_name`,`modify_time`) VALUES ('13','del','episodes','4','SSDFDXZCXZCF','1435991724') [ RunTime:0.0835s ]
+
+[ 2015-07-04T14:35:27+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=episodes&a=del
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000769s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_episodes` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `west_episodes` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `west_episodes` SET `status`='0' WHERE ( id = 3 ) [ RunTime:0.1194s ]
+SQL: SHOW COLUMNS FROM `west_log` [ RunTime:0.0137s ]
+SQL: INSERT INTO `west_log` (`uid`,`type`,`target`,`target_id`,`target_name`,`modify_time`) VALUES ('13','del','episodes','3','SDFDSDSF','1435991727') [ RunTime:0.0847s ]
+
+[ 2015-07-04T14:35:31+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000872s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000895s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-07-04T14:35:36+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=episodes&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001315s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_episodes` [ RunTime:0.0052s ]
+SQL: INSERT INTO `west_episodes` (`uid`,`title`,`big_img`,`thumbnail`,`summary`,`source`,`author`,`content`,`release_time`,`status`,`recommend`,`top`,`modify_time`) VALUES ('13','fgfg','no','../server/Public/Uploads/2015-07-04/2015070414353134791.jpg','fggf','','fgfg','fgfgf','1435991736','1','0','0','1435991736') [ RunTime:0.1042s ]
+SQL: SHOW COLUMNS FROM `west_log` [ RunTime:0.0125s ]
+SQL: INSERT INTO `west_log` (`uid`,`type`,`target`,`target_id`,`target_name`,`modify_time`) VALUES ('13','add','episodes','13','fgfg','1435991736') [ RunTime:0.0859s ]
+
+[ 2015-07-04T14:36:13+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000890s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-07-04T14:36:21+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=episodes&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000507s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000860s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_episodes` [ RunTime:0.0053s ]
+SQL: INSERT INTO `west_episodes` (`uid`,`title`,`big_img`,`thumbnail`,`summary`,`source`,`author`,`content`,`release_time`,`status`,`recommend`,`top`,`modify_time`) VALUES ('13','hfh','no','../server/Public/Uploads/2015-07-04/2015070414361399979.jpg','hfh','','fhfh','&lt;span style=&quot;color:#E53333;&quot;&gt;hfhfh&lt;/span&gt;','1435991781','1','0','0','1435991781') [ RunTime:0.2175s ]
+SQL: SHOW COLUMNS FROM `west_log` [ RunTime:0.0121s ]
+SQL: INSERT INTO `west_log` (`uid`,`type`,`target`,`target_id`,`target_name`,`modify_time`) VALUES ('13','add','episodes','14','hfh','1435991781') [ RunTime:0.0859s ]
+
+[ 2015-07-04T14:36:38+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000813s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001479s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-07-04T14:36:41+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=episodes&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000761s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_episodes` [ RunTime:0.0051s ]
+SQL: INSERT INTO `west_episodes` (`uid`,`title`,`big_img`,`thumbnail`,`summary`,`source`,`author`,`content`,`release_time`,`status`,`recommend`,`top`,`modify_time`) VALUES ('13','dgdg','no','../server/Public/Uploads/2015-07-04/2015070414363893223.jpg','dgdg','','dgdgd','&lt;span style=&quot;color:#E53333;&quot;&gt;fhfhdfhfgdgd&lt;/span&gt;','1435991801','1','0','0','1435991801') [ RunTime:0.1214s ]
+SQL: SHOW COLUMNS FROM `west_log` [ RunTime:0.0123s ]
+SQL: INSERT INTO `west_log` (`uid`,`type`,`target`,`target_id`,`target_name`,`modify_time`) VALUES ('13','add','episodes','15','dgdg','1435991801') [ RunTime:0.0861s ]
+
+[ 2015-07-04T14:36:59+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000908s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001214s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-07-04T14:37:02+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=episodes&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000777s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_episodes` [ RunTime:0.0063s ]
+SQL: INSERT INTO `west_episodes` (`uid`,`title`,`big_img`,`thumbnail`,`summary`,`source`,`author`,`content`,`release_time`,`status`,`recommend`,`top`,`modify_time`) VALUES ('13','fgg','no','../server/Public/Uploads/2015-07-04/2015070414365989266.jpg','fgg','','fgfg','fggfgf','1435991821','1','0','0','1435991821') [ RunTime:0.1226s ]
+SQL: SHOW COLUMNS FROM `west_log` [ RunTime:0.0140s ]
+SQL: INSERT INTO `west_log` (`uid`,`type`,`target`,`target_id`,`target_name`,`modify_time`) VALUES ('13','add','episodes','16','fgg','1435991821') [ RunTime:0.3342s ]
+
+[ 2015-07-04T14:37:08+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001393s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-07-04T14:37:10+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=episodes&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000901s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_episodes` [ RunTime:0.0051s ]
+SQL: INSERT INTO `west_episodes` (`uid`,`title`,`big_img`,`thumbnail`,`summary`,`source`,`author`,`content`,`release_time`,`status`,`recommend`,`top`,`modify_time`) VALUES ('13','fgf','no','../server/Public/Uploads/2015-07-04/2015070414370870360.jpg','gfg','','fgfg','fggfg','1435991829','1','0','0','1435991829') [ RunTime:0.7165s ]
+SQL: SHOW COLUMNS FROM `west_log` [ RunTime:0.0129s ]
+SQL: INSERT INTO `west_log` (`uid`,`type`,`target`,`target_id`,`target_name`,`modify_time`) VALUES ('13','add','episodes','17','fgf','1435991830') [ RunTime:0.2413s ]
+
+[ 2015-07-04T14:37:20+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=episodes&a=del
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000851s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_episodes` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `west_episodes` WHERE ( id = 17 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `west_episodes` SET `status`='0' WHERE ( id = 17 ) [ RunTime:0.1921s ]
+SQL: SHOW COLUMNS FROM `west_log` [ RunTime:0.0127s ]
+SQL: INSERT INTO `west_log` (`uid`,`type`,`target`,`target_id`,`target_name`,`modify_time`) VALUES ('13','del','episodes','17','fgf','1435991840') [ RunTime:0.0855s ]
+
+[ 2015-07-04T14:37:26+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001058s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-07-04T14:37:29+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=episodes&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001639s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_episodes` [ RunTime:0.0055s ]
+SQL: INSERT INTO `west_episodes` (`uid`,`title`,`big_img`,`thumbnail`,`summary`,`source`,`author`,`content`,`release_time`,`status`,`recommend`,`top`,`modify_time`) VALUES ('13','ff','no','../server/Public/Uploads/2015-07-04/2015070414372614256.jpg','d','','dfdf','dfdf','1435991849','1','0','0','1435991849') [ RunTime:0.1224s ]
+SQL: SHOW COLUMNS FROM `west_log` [ RunTime:0.0125s ]
+SQL: INSERT INTO `west_log` (`uid`,`type`,`target`,`target_id`,`target_name`,`modify_time`) VALUES ('13','add','episodes','18','ff','1435991849') [ RunTime:0.0857s ]
+
+[ 2015-07-04T14:42:26+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=other&a=top
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001066s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_episodes` [ RunTime:0.0052s ]
+SQL: UPDATE `west_episodes` SET `top`='1',`modify_time`='1435992146' WHERE `uid` = 13 AND `id` = 18 [ RunTime:0.6522s ]
+
+[ 2015-07-04T14:43:06+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=other&a=recommend
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000808s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_episodes` [ RunTime:0.0055s ]
+SQL: UPDATE `west_episodes` SET `recommend`='1',`modify_time`='1435992186' WHERE `uid` = 13 AND `id` = 18 [ RunTime:0.1189s ]
+
+[ 2015-07-04T14:43:08+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=other&a=recommend
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000569s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_episodes` [ RunTime:0.0054s ]
+SQL: UPDATE `west_episodes` SET `recommend`='1',`modify_time`='1435992188' WHERE `uid` = 13 AND `id` = 16 [ RunTime:0.1012s ]
+
+[ 2015-07-04T14:44:10+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=other&a=recommend
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_episodes` [ RunTime:0.0050s ]
+SQL: UPDATE `west_episodes` SET `recommend`='0',`modify_time`='1435992250' WHERE `uid` = 13 AND `id` = 18 [ RunTime:0.0953s ]
+
+[ 2015-07-04T14:44:12+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=other&a=recommend
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000695s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_episodes` [ RunTime:0.0057s ]
+SQL: UPDATE `west_episodes` SET `recommend`='0',`modify_time`='1435992251' WHERE `uid` = 13 AND `id` = 16 [ RunTime:0.3702s ]
+
+[ 2015-07-04T14:45:13+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=other&a=top
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000983s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_episodes` [ RunTime:0.0054s ]
+SQL: UPDATE `west_episodes` SET `top`='0',`modify_time`='1435992313' WHERE `uid` = 13 AND `id` = 22 [ RunTime:0.0004s ]
+
+[ 2015-07-04T14:45:18+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=other&a=top
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000711s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_episodes` [ RunTime:0.0055s ]
+SQL: UPDATE `west_episodes` SET `top`='1',`modify_time`='1435992318' WHERE `uid` = 13 AND `id` = 21 [ RunTime:0.0004s ]
+
+[ 2015-07-04T14:45:45+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=other&a=top
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000751s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_episodes` [ RunTime:0.0055s ]
+SQL: UPDATE `west_episodes` SET `top`='0',`modify_time`='1435992343' WHERE `uid` = 13 AND `id` = 18 [ RunTime:1.1080s ]
+
+[ 2015-07-04T14:45:46+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=other&a=top
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000834s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_episodes` [ RunTime:0.0051s ]
+SQL: UPDATE `west_episodes` SET `top`='1',`modify_time`='1435992346' WHERE `uid` = 13 AND `id` = 16 [ RunTime:0.5466s ]
+
+[ 2015-07-04T14:45:47+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=other&a=top
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_episodes` [ RunTime:0.0059s ]
+SQL: UPDATE `west_episodes` SET `top`='1',`modify_time`='1435992347' WHERE `uid` = 13 AND `id` = 18 [ RunTime:0.1125s ]
+
+[ 2015-07-04T14:45:48+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=other&a=recommend
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000579s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_episodes` [ RunTime:0.0052s ]
+SQL: UPDATE `west_episodes` SET `recommend`='1',`modify_time`='1435992348' WHERE `uid` = 13 AND `id` = 18 [ RunTime:0.1011s ]
+
+[ 2015-07-04T14:45:49+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=other&a=recommend
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000734s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_episodes` [ RunTime:0.0053s ]
+SQL: UPDATE `west_episodes` SET `recommend`='1',`modify_time`='1435992349' WHERE `uid` = 13 AND `id` = 16 [ RunTime:0.1064s ]
+
+[ 2015-07-04T14:45:50+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=other&a=top
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000788s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_episodes` [ RunTime:0.0053s ]
+SQL: UPDATE `west_episodes` SET `top`='0',`modify_time`='1435992350' WHERE `uid` = 13 AND `id` = 16 [ RunTime:0.0900s ]
+
+[ 2015-07-04T14:45:51+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=other&a=top
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000734s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_episodes` [ RunTime:0.0058s ]
+SQL: UPDATE `west_episodes` SET `top`='0',`modify_time`='1435992351' WHERE `uid` = 13 AND `id` = 18 [ RunTime:0.1690s ]
+
+[ 2015-07-04T14:45:54+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=other&a=recommend
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000627s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_episodes` [ RunTime:0.0051s ]
+SQL: UPDATE `west_episodes` SET `recommend`='0',`modify_time`='1435992354' WHERE `uid` = 13 AND `id` = 16 [ RunTime:0.0944s ]
+
+[ 2015-07-04T14:45:55+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=other&a=top
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000750s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_episodes` [ RunTime:0.0066s ]
+SQL: UPDATE `west_episodes` SET `top`='1',`modify_time`='1435992355' WHERE `uid` = 13 AND `id` = 16 [ RunTime:0.0984s ]
+
+[ 2015-07-04T14:45:56+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=other&a=recommend
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000960s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001038s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_episodes` [ RunTime:0.0073s ]
+SQL: UPDATE `west_episodes` SET `recommend`='1',`modify_time`='1435992356' WHERE `uid` = 13 AND `id` = 15 [ RunTime:0.1513s ]
+
+[ 2015-07-04T14:45:58+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=other&a=top
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000875s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_episodes` [ RunTime:0.0061s ]
+SQL: UPDATE `west_episodes` SET `top`='1',`modify_time`='1435992358' WHERE `uid` = 13 AND `id` = 13 [ RunTime:0.1207s ]
+
+[ 2015-07-04T14:46:01+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=other&a=recommend
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000694s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_episodes` [ RunTime:0.0060s ]
+SQL: UPDATE `west_episodes` SET `recommend`='1',`modify_time`='1435992361' WHERE `uid` = 13 AND `id` = 9 [ RunTime:0.1028s ]
+
+[ 2015-07-04T15:00:49+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=episodes&a=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000731s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_episodes` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `west_episodes` WHERE ( id = 18 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `west_episodes` SET `title`='ff',`big_img`='no',`thumbnail`='../server/Public/Uploads/2015-07-04/2015070414372614256.jpg',`summary`='d',`source`='',`author`='dfdf',`content`='&lt;span style=&quot;color:#E53333;&quot;&gt;&lt;strong&gt;&lt;em&gt;&lt;u&gt;555555555555&lt;/u&gt;&lt;/em&gt;&lt;/strong&gt;&lt;/span&gt;',`modify_time`='1435993249' WHERE ( id = 18 ) [ RunTime:0.1166s ]
+SQL: SHOW COLUMNS FROM `west_log` [ RunTime:0.0139s ]
+SQL: INSERT INTO `west_log` (`uid`,`type`,`target`,`target_id`,`target_name`,`modify_time`) VALUES ('13','edit','episodes','18','ff','1435993249') [ RunTime:0.0846s ]
+
+[ 2015-07-04T15:00:59+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=episodes&a=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001168s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_episodes` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `west_episodes` WHERE ( id = 18 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `west_episodes` SET `title`='ff',`big_img`='no',`thumbnail`='../server/Public/Uploads/2015-07-04/2015070414372614256.jpg',`summary`='d55555',`source`='',`author`='dfdf',`content`='&lt;span style=&quot;color:#E53333;&quot;&gt;&lt;strong&gt;&lt;em&gt;&lt;u&gt;555555555555&lt;/u&gt;&lt;/em&gt;&lt;/strong&gt;&lt;/span&gt;',`modify_time`='1435993259' WHERE ( id = 18 ) [ RunTime:0.0927s ]
+SQL: SHOW COLUMNS FROM `west_log` [ RunTime:0.0124s ]
+SQL: INSERT INTO `west_log` (`uid`,`type`,`target`,`target_id`,`target_name`,`modify_time`) VALUES ('13','edit','episodes','18','ff','1435993259') [ RunTime:0.1195s ]
+
+[ 2015-07-04T15:01:09+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-07-04T15:01:12+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=episodes&a=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000946s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_episodes` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `west_episodes` WHERE ( id = 18 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `west_episodes` SET `title`='ff',`big_img`='no',`thumbnail`='../server/Public/Uploads/2015-07-04/2015070415010934273.png',`summary`='d55555',`source`='',`author`='dfdf',`content`='&lt;span style=&quot;color:#E53333;&quot;&gt;&lt;strong&gt;&lt;em&gt;&lt;u&gt;555555555555&lt;/u&gt;&lt;/em&gt;&lt;/strong&gt;&lt;/span&gt;',`modify_time`='1435993271' WHERE ( id = 18 ) [ RunTime:0.8712s ]
+SQL: SHOW COLUMNS FROM `west_log` [ RunTime:0.0133s ]
+SQL: INSERT INTO `west_log` (`uid`,`type`,`target`,`target_id`,`target_name`,`modify_time`) VALUES ('13','edit','episodes','18','ff','1435993272') [ RunTime:0.2336s ]
+
+[ 2015-07-04T15:02:24+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=episodes&a=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_episodes` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `west_episodes` WHERE ( id = 12 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `west_episodes` SET `title`='2225555',`big_img`='no',`thumbnail`='',`summary`='222',`source`='',`author`='22',`content`='&lt;p align=&quot;center&quot;&gt;
+	225555
+&lt;/p&gt;',`modify_time`='1435993344' WHERE ( id = 12 ) [ RunTime:0.1193s ]
+SQL: SHOW COLUMNS FROM `west_log` [ RunTime:0.0129s ]
+SQL: INSERT INTO `west_log` (`uid`,`type`,`target`,`target_id`,`target_name`,`modify_time`) VALUES ('33','edit','episodes','12','2225555','1435993344') [ RunTime:0.0855s ]
+
+[ 2015-07-04T15:03:05+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=user&a=logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000889s ]
+
+[ 2015-07-04T15:03:05+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=Api&a=verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000710s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000800s ]
+
+[ 2015-07-04T15:03:56+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=user&a=editInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000626s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000927s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001012s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0051s ]
+SQL: UPDATE `west_company` SET `uid`='13',`mail`='i@ztf.me',`tel`='13577777777',`wechat_url`='../server/Public/Uploads/2015-06-04/2015060414313915517.png',`introduction`='完美世界是一家网络游戏研发、运营、销售和服务公司。于2004年成立，2007年在美国纳斯达克上市（股票代码：PWRD）。完美世界总部位于北京，在北美、欧洲和日本设有全资子公司自主运营游戏，旗下游戏已授权至亚洲、澳洲、拉丁美洲、俄罗斯及其它俄语地区等多个国家和地区的主要游戏运营商，游戏出口至世界100多个国家和地区，为全球用户提供优质的互联网娱乐服务。',`detail`='&lt;p style=&quot;text-align:left;&quot;&gt;
+	&lt;span style=&quot;font-family:\'Microsoft JhengHei\', Tahoma, Helvetica, Arial, 宋体, sans-serif;font-size:14px;line-height:20px;color:#E56600;background-color:#FFFFFF;&quot;&gt;&lt;strong&gt;&lt;em&gt;&lt;u&gt;完美世界是一家网络游戏研发、运营、销售和服务公司。于2004年成立，2007年在美国纳斯达克上市（股票代码：PWRD）。完美世界总部位于北京，在北美、欧洲和日本设有全资子公司自主运营游戏，旗下游戏已授权至亚洲、澳洲、拉丁美洲、俄罗斯及其它俄语地区等多个国家和地区的主要游戏运营商，游戏出口至世界100多个国家和地区，为全球用户提供优质的互联网娱乐服务。&lt;/u&gt;&lt;/em&gt;&lt;/strong&gt;&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;text-align:left;&quot;&gt;
+	&lt;span style=&quot;font-family:\'Microsoft JhengHei\', Tahoma, Helvetica, Arial, 宋体, sans-serif;font-size:14px;line-height:20px;color:#E56600;background-color:#FFFFFF;&quot;&gt;&lt;span style=&quot;color:#E56600;font-family:\'Microsoft JhengHei\', Tahoma, Helvetica, Arial, 宋体, sans-serif;font-size:14px;line-height:20px;background-color:#FFFFFF;&quot;&gt;&lt;strong&gt;&lt;em&gt;&lt;u&gt;完美世界是一家网络游戏研发、运营、销售和服务公司。于2004年成立，2007年在美国纳斯达克上市（股票代码：PWRD）。完美世界总部位于北京，在北美、欧洲和日本设有全资子公司自主运营游戏，旗下游戏已授权至亚洲、澳洲、拉丁美洲、俄罗斯及其它俄语地区等多个国家和地区的主要游戏运营商，游戏出口至世界100多个国家和地区，为全球用户提供优质的互联网娱乐服务。&lt;/u&gt;&lt;/em&gt;&lt;/strong&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;/span&gt; 
+&lt;/p&gt;',`banner_url`='../server/Public/Uploads/2015-06-04/2015060414321825086.jpg',`modify_time`='1435993436' WHERE ( uid = '13' ) [ RunTime:0.1175s ]
+
+[ 2015-07-04T15:04:33+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=user&a=editInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000719s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0048s ]
+SQL: UPDATE `west_company` SET `uid`='13',`mail`='i@ztf.me',`tel`='13577777777',`wechat_url`='../server/Public/Uploads/2015-06-04/2015060414313915517.png',`introduction`='完美世界是一家网络游戏研发、运营、销售和服务公司。于2004年成立，2007年在美国纳斯达克上市（股票代码：PWRD）。完美世界总部位于北京，在北美、欧洲和日本设有全资子公司自主运营游戏，旗下游戏已授权至亚洲、澳洲、拉丁美洲、俄罗斯及其它俄语地区等多个国家和地区的主要游戏运营商，游戏出口至世界100多个国家和地区，为全球用户提供优质的互联网娱乐服务。',`detail`='&lt;p style=&quot;text-align:left;&quot;&gt;
+	&lt;span style=&quot;font-family:\'Microsoft JhengHei\', Tahoma, Helvetica, Arial, 宋体, sans-serif;font-size:14px;line-height:20px;color:#00D5FF;&quot;&gt;完美世界是一家网络游戏研发、运营、销售和服务公司。于2004年成立，2007年在美国纳斯达克上市（股票代码：PWRD）。完美世界总部位于北京，在北美、欧洲和日本设有全资子公司自主运营游戏，旗下游戏已授权至亚洲、澳洲、拉丁美洲、俄罗斯及其它俄语地区等多个国家和地区的主要游戏运营商，游戏出口至世界100多个国家和地区，为全球用户提供优质的互联网娱乐服务。&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;text-align:left;&quot;&gt;
+	&lt;span style=&quot;font-family:\'Microsoft JhengHei\', Tahoma, Helvetica, Arial, 宋体, sans-serif;font-size:14px;line-height:20px;color:#00D5FF;&quot;&gt;&lt;span style=&quot;color:#00D5FF;font-family:\'Microsoft JhengHei\', Tahoma, Helvetica, Arial, 宋体, sans-serif;font-size:14px;line-height:20px;&quot;&gt;完美世界是一家网络游戏研发、运营、销售和服务公司。于2004年成立，2007年在美国纳斯达克上市（股票代码：PWRD）。完美世界总部位于北京，在北美、欧洲和日本设有全资子公司自主运营游戏，旗下游戏已授权至亚洲、澳洲、拉丁美洲、俄罗斯及其它俄语地区等多个国家和地区的主要游戏运营商，游戏出口至世界100多个国家和地区，为全球用户提供优质的互联网娱乐服务。&lt;/span&gt;&lt;/span&gt; 
+&lt;/p&gt;',`banner_url`='../server/Public/Uploads/2015-06-04/2015060414321825086.jpg',`modify_time`='1435993473' WHERE ( uid = '13' ) [ RunTime:0.1173s ]
+
+[ 2015-07-04T15:15:23+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=user&a=logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+
+[ 2015-07-04T15:15:23+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=Api&a=verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000911s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001003s ]
+
+[ 2015-07-04T15:15:26+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=Api&a=verify&localeTime=1435994126640
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000807s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000866s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000704s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000780s ]
+
+[ 2015-07-04T15:15:27+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=Api&a=verify&localeTime=1435994127344
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000735s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000819s ]
+
+[ 2015-07-04T15:15:28+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=Api&a=verify&localeTime=1435994128000
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000818s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001165s ]
+
+[ 2015-07-04T15:15:28+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=Api&a=verify&localeTime=1435994128664
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000728s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000803s ]
+
+[ 2015-07-04T15:15:29+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=Api&a=verify&localeTime=1435994129656
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000673s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000749s ]
+
+[ 2015-07-04T15:15:30+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=Api&a=verify&localeTime=1435994130264
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000672s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000743s ]
+
+[ 2015-07-04T15:15:30+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=Api&a=verify&localeTime=1435994130873
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000932s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001037s ]
+
+[ 2015-07-04T15:15:31+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=Api&a=verify&localeTime=1435994131497
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000794s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000876s ]
+
+[ 2015-07-04T15:15:32+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=Api&a=verify&localeTime=1435994132176
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000775s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000702s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000776s ]
+
+[ 2015-07-04T16:44:51+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=Api&a=verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000767s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000871s ]
+
+[ 2015-07-04T16:44:58+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=user&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined variable: id D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\UserController.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `west_user` WHERE `username` = 'aaa' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2015-07-04T16:45:04+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=user&a=logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001091s ]
+
+[ 2015-07-04T16:45:04+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=Api&a=verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001055s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000989s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001119s ]
+
+[ 2015-07-04T16:45:12+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=Api&a=verify&localeTime=1435999512561
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000788s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001083s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001218s ]
+
+[ 2015-07-04T16:45:13+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=Api&a=verify&localeTime=1435999513257
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001068s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001187s ]
+
+[ 2015-07-04T16:45:13+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=Api&a=verify&localeTime=1435999513929
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000903s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001217s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001330s ]
+
+[ 2015-07-04T16:45:14+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=Api&a=verify&localeTime=1435999514745
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000854s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000840s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001179s ]
+
+[ 2015-07-04T16:45:16+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=Api&a=verify&localeTime=1435999516306
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000892s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000909s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000991s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001075s ]
+
+[ 2015-07-04T16:45:17+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=Api&a=verify&localeTime=1435999517233
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000947s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000896s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001063s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001191s ]
+
+[ 2015-07-04T16:45:47+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=user&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001155s ]
+NOTIC: [8] Undefined variable: id D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\UserController.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `west_user` WHERE `username` = 'ztf' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2015-07-04T17:54:01+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=episodes&a=del
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000859s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001517s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_episodes` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `west_episodes` WHERE ( id = 18 ) LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2015-07-04T17:55:03+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=episodes&a=del
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000824s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_episodes` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `west_episodes` WHERE ( id = 18 ) LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2015-07-04T17:55:13+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=episodes&a=del
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000728s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000745s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_episodes` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `west_episodes` WHERE ( id = 18 ) LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2015-07-04T17:58:32+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=episodes&a=del
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001140s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_episodes` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `west_episodes` WHERE ( id = 16 ) LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2015-07-04T17:58:37+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=episodes&a=del
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000844s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001779s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_episodes` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `west_episodes` WHERE ( id = 18 ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2015-07-04T17:58:45+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=episodes&a=del
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_episodes` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `west_episodes` WHERE ( id = 18 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `west_episodes` SET `status`='0' WHERE ( id = 18 ) [ RunTime:0.1144s ]
+SQL: SHOW COLUMNS FROM `west_log` [ RunTime:0.0149s ]
+SQL: INSERT INTO `west_log` (`uid`,`type`,`target`,`target_id`,`target_name`,`modify_time`) VALUES ('13','del','episodes','18','ff','1436003925') [ RunTime:0.0835s ]
+
+[ 2015-07-04T18:01:13+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=episodes&a=del
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000744s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000687s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_episodes` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `west_episodes` WHERE ( id = 16 ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2015-07-04T18:01:45+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=episodes&a=del
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000924s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001640s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_episodes` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `west_episodes` WHERE ( id = 16 ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-07-04T18:04:16+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=episodes&a=del
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000824s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000888s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_episodes` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `west_episodes` WHERE ( id = 16 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `west_episodes` SET `status`='0' WHERE ( id = 16 ) [ RunTime:0.1057s ]
+SQL: SHOW COLUMNS FROM `west_log` [ RunTime:0.0152s ]
+SQL: INSERT INTO `west_log` (`uid`,`type`,`target`,`target_id`,`target_name`,`modify_time`) VALUES ('1','del','episodes','16','fgg','1436004256') [ RunTime:0.0830s ]
+
+[ 2015-07-04T18:05:01+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=Api&a=verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000643s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000714s ]
+
+[ 2015-07-04T18:05:31+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=user&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000627s ]
+NOTIC: [8] Undefined variable: id D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\UserController.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `west_user` WHERE `username` = 'ztf' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2015-07-04T18:05:42+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000527s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-07-04T18:05:47+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=episodes&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000800s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_episodes` [ RunTime:0.0054s ]
+SQL: INSERT INTO `west_episodes` (`uid`,`title`,`big_img`,`thumbnail`,`summary`,`source`,`author`,`content`,`release_time`,`status`,`recommend`,`top`,`modify_time`) VALUES ('13','fff','no','../server/Public/Uploads/2015-07-04/2015070418054288614.png','fff','','fff','ff','1436004345','1','0','0','1436004345') [ RunTime:0.8929s ]
+SQL: SHOW COLUMNS FROM `west_log` [ RunTime:0.0128s ]
+SQL: INSERT INTO `west_log` (`uid`,`type`,`target`,`target_id`,`target_name`,`modify_time`) VALUES ('13','add','episodes','19','fff','1436004346') [ RunTime:0.5780s ]
+
+[ 2015-07-04T18:06:01+08:00 ] 127.0.0.1 /mlgb/server/index.php?m=user&c=episodes&a=del
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001607s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\mlgb\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_episodes` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `west_episodes` WHERE ( id = 19 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `west_episodes` SET `status`='0' WHERE ( id = 19 ) [ RunTime:0.1168s ]
+SQL: SHOW COLUMNS FROM `west_log` [ RunTime:0.0172s ]
+SQL: INSERT INTO `west_log` (`uid`,`type`,`target`,`target_id`,`target_name`,`modify_time`) VALUES ('1','del','episodes','19','fff','1436004361') [ RunTime:0.0921s ]
+

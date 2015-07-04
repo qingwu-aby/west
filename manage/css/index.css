@@ -194,7 +194,7 @@ header{
 
 
 /*news*/
-#news_window{
+#news_window,#episode_window{
 	border: 1px solid #ccc;
 	width: 700px;
 	margin-left: -350px;
@@ -272,17 +272,24 @@ header{
 
 
 /*films*/
+#films_window{
+	border: 1px solid #ccc;
+	width: 700px;
+	margin-left: -350px;
+	text-align: left;
+}
 .content-films-con{
 	overflow: hidden;
 }
 .content-films-list{
+	position: relative;
 	border: 1px solid #fff;
-	float: left;
 	background: #fff;
 	border-radius: 5px;
 	padding: 10px;
 	color: #666;
 	margin: 10px;
+	overflow: hidden;
 }
 .content-films-list:hover{
 	border: 1px solid #3ccaff;
@@ -298,20 +305,44 @@ header{
 	height: 40px;
 	line-height: 20px;
 }
+.title_films_sty{
+	text-align: left;
+	color: #3ccaff;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 26px;
+}
 .films-delete-update{
 	margin-bottom: 5px;
 	text-align: right;
 	color: red;
 }
-.update_films:hover,.delete_films:hover{
+.control_films:hover,.control_news:hover{
 	color: #666;
 }
-.delete_films,.update_films{
+.control_films,.control_news{
 	cursor: pointer;
+	display: block;
+	float: left;
+	padding: 0 3px;
 }
 
-
-
+.films-link-a{
+	margin-right: 20px;
+	float: left;
+}
+.films_right_style{
+	overflow: hidden;
+}
+.films-detail-sty{
+	text-align: left;
+	line-height: 24px;
+	font-size: 16px;
+	margin: 10px 0;
+}
+.show-films-con{
+	display: none;
+}
 
 .page-war{
 	display: inline-block;
@@ -327,6 +358,7 @@ header{
 	float: left;
 	margin: 0 5px;
 	cursor: pointer;
+	border-radius: 4px;
 }
 
 .show-news-con{

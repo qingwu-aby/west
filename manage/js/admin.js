@@ -14,6 +14,9 @@ $(document).ready(function(){
 	var linksUrl=api+'index.php?m=Admin&c=views&a=getLinks';
 	var delLinksUrl=api+'index.php?m=Admin&c=manage&a=dealLinks';
 
+	var episodeUrl=api+'index.php?m=Home&c=views&a=getEpisodesAll';
+	var delEpisodeUrl=api+'index.php?m=user&c=episodes&a=del';
+
 	asideClick();
 	setPage();
 	seeMoreClick();
@@ -33,6 +36,9 @@ $(document).ready(function(){
 
 	showNews(newsUrl);
 	deleteNews(delNewsUrl,newsUrl);
+
+	showEpisode(episodeUrl);
+	deleteEpisode(delEpisodeUrl,episodeUrl);
 
 	showLinks(linksUrl);
 	deleteLinks(delLinksUrl,linksUrl);
@@ -174,6 +180,115 @@ var deleteNews=function(url,showUrl){
 	});
 };
 
+var deleteEpisode=function(url,showUrl){
+	$(document).on('click','.delete_episode',function(){
+		var episodeId=$(this).attr('id').substr(15);
+		var delResult=confirm("是否删除？");
+		if(delResult){
+			$.ajax({
+				type: 'post',
+				url: url,
+				dataType: 'json',
+				data: {id: episodeId},
+				success: function(data){
+					if(data.code==1){
+						showEpisode(showUrl);
+					}
+				}
+			});
+		}
+	});
+};
+
+//剧集显示
+var showEpisode=function(url){
+	$.ajax({
+		type: 'get',
+		url: url,
+		dataType: 'json',
+		data: {p: 1},
+		success: function(data){
+			if(data.code==1){
+				$('#episode_number').text(' ('+data.data.length+')');
+				$('#content-episode-list').html('');
+				$('#page-episode-war').html('');
+				var newsLen=parseInt(data.data.length/5);
+				if(data.data.length%5!=0){
+					newsLen+=1;
+				}
+				if(newsLen){
+					for(var i=0;i<newsLen;i++){
+						$('#page-episode-war').append('<div id="episodePage-'+(i+1)+'" class="page-list pageEpisode-list">'+(i+1)+'</div>');
+					}
+				}
+
+				for(var newsNumber in data.data){
+
+					var sty=null;
+					if(data.data[newsNumber].recommend==1)
+						sty="#fff url('./images/jian.png') top right no-repeat;";
+					else{
+						sty="#fff;";
+					}
+
+					if(newsNumber<5){
+						$('#content-episode-list').append('<div id="episode-'+data.data[newsNumber].id+'" style="display: block; background:'+sty+'" class="show-main-list show-episode-con show-episode-con'+newsNumber+'">'+
+							'<img src="'+data.data[newsNumber].thumbnail+'" class="show-list show-list-thum" />'+
+							'<div class="show-list show-list-right">'+
+								'<h1><span class="title-list-link">'+data.data[newsNumber].title+'</span></h1>'+
+								'<h2><div class="content-list-con">'+data.data[newsNumber].summary+'</div></h2>'+
+								'<input type="hidden" class="content-list-content" value="'+data.data[newsNumber].content+'" />'+
+								'<div class="content-list-mess">'+
+									'<div class="content-mess-con">访问次数：<span>'+data.data[newsNumber].views+'</span>'+
+									'&nbsp;&nbsp;&nbsp;&nbsp;作者：<span>'+data.data[newsNumber].author+'</span>'+
+									'&nbsp;&nbsp;&nbsp;&nbsp;用户ID：<span>'+data.data[newsNumber].uid+'</span></div>'+
+								'</div>'+
+								'<div class="delete-update">'+
+									'<span id="episode-delete-'+data.data[newsNumber].id+'" class="delete_episode">删除</span>'+
+								'</div>'+
+							'</div>'+
+						'</div>');
+					}else{
+						$('#content-episode-list').append('<div id="episode-'+data.data[newsNumber].id+'" style="display: none; background:'+sty+'" class="show-main-list show-episode-con show-episode-con'+newsNumber+'">'+
+							'<img src="'+data.data[newsNumber].thumbnail+'" class="show-list show-list-thum" />'+
+							'<div class="show-list show-list-right">'+
+								'<h1><span class="title-list-link">'+data.data[newsNumber].title+'</span></h1>'+
+								'<h2><div class="content-list-con">'+data.data[newsNumber].summary+'</div></h2>'+
+								'<input type="hidden" class="content-list-content" value="'+data.data[newsNumber].content+'" />'+
+								'<div class="content-list-mess">'+
+									'<div class="content-mess-con">访问次数：<span>'+data.data[newsNumber].views+'</span>'+
+									'&nbsp;&nbsp;&nbsp;&nbsp;作者：<span>'+data.data[newsNumber].author+'</span>'+
+									'&nbsp;&nbsp;&nbsp;&nbsp;公司：<span>'+data.data[newsNumber].company_name+'</span></div>'+
+								'</div>'+
+								'<div class="delete-update">'+
+									'<span id="episode-delete-'+data.data[newsNumber].id+'" class="delete_episode">删除</span>'+
+								'</div>'+
+							'</div>'+
+						'</div>');
+					}
+				}
+			}else{
+				$('#content-episode-list').html('<span class="con-remark">还未添加新闻！</span>');
+				$('#home_episode').html('<span class="con-remark">没有动态</span>');
+				$('#episode_number').text('');
+			}
+		},
+		error: function(){
+			$('#content-episode-list').html('<span class="con-remark">显示出错！</span>');
+		}
+	});
+	$(document).on('click','.pageEpisode-list',function(){
+		var pageNumber=$(this).attr('id').substr(12);
+		//alert(pageNumber);
+		$('.show-episode-con').css('display','none');
+		for(var j=0; j<5; j++){
+			var index=(pageNumber-1)*5+1*j;
+			//alert(index);
+			$('.show-episode-con'+index).css('display','block');
+		}
+	});
+};
+
 //显示新闻
 var showNews=function(url){
 	$.ajax({
@@ -210,9 +325,15 @@ var showNews=function(url){
 						'<div style="line-height: 20px; margin-top: 10px;">'+sContent+'</div>'+
 						'</div>');
 					}
+					var sty=null;
+					if(data.data[newsNumber].recommend==1)
+						sty="#fff url('./images/jian.png') top right no-repeat;";
+					else{
+						sty="#fff;";
+					}
 
 					if(newsNumber<5){
-						$('#content-news-list').append('<div id="news-'+data.data[newsNumber].id+'" style="display: block;" class="show-main-list show-news-con show-news-con'+newsNumber+'">'+
+						$('#content-news-list').append('<div id="news-'+data.data[newsNumber].id+'" style="display: block; background:'+sty+'" class="show-main-list show-news-con show-news-con'+newsNumber+'">'+
 							'<img src="'+data.data[newsNumber].thumbnail+'" class="show-list show-list-thum" />'+
 							'<div class="show-list show-list-right">'+
 								'<h1><span class="title-list-link">'+data.data[newsNumber].title+'</span></h1>'+
@@ -229,7 +350,7 @@ var showNews=function(url){
 							'</div>'+
 						'</div>');
 					}else{
-						$('#content-news-list').append('<div id="news-'+data.data[newsNumber].id+'" class="show-main-list show-news-con show-news-con'+newsNumber+'">'+
+						$('#content-news-list').append('<div id="news-'+data.data[newsNumber].id+'" style="background:'+sty+'" class="show-main-list show-news-con show-news-con'+newsNumber+'">'+
 							'<img src="'+data.data[newsNumber].thumbnail+'" class="show-list show-list-thum" />'+
 							'<div class="show-list show-list-right">'+
 								'<h1><span class="title-list-link">'+data.data[newsNumber].title+'</span></h1>'+
@@ -304,8 +425,8 @@ var showFilms=function(url){
 				$('#films_number').text(' ('+data.data.length+')');
 				$('#content-films-list').html('');
 				$('#page-films-war').html('');
-				var filmsLen=parseInt(data.data.length/10);
-				if(data.data.length%10!=0){
+				var filmsLen=parseInt(data.data.length/5);
+				if(data.data.length%5!=0){
 					filmsLen+=1;
 				}
 				if(filmsLen){
@@ -323,30 +444,39 @@ var showFilms=function(url){
 						sContent=data.data[filmsNumber].title;
 					}
 					if(filmsNumber<6){
-						$('#home_films').append('<div href="'+data.data[filmsNumber].url+'" style="background: #eee;" class="content-films-list">'+
+						$('#home_films').append('<div href="'+data.data[filmsNumber].url+'" style="background: #eee; float: left;" class="content-films-list">'+
 								'<a href="'+data.data[filmsNumber].url+'" target="_blank"><img class="films-image-sty" src="'+data.data[filmsNumber].pic+'" /></a>'+
 								'<div class="films-title-sty">'+sContent+'</div>'+
 							'</div>');
 					}
 
-					if(filmsNumber<10){
-						$('#content-films-list').append('<div id="films-'+data.data[filmsNumber].id+'" style="display: block;" class="content-films-list content-films-con content-films-list'+filmsNumber+'">'+
+					var sty=null;
+					if(data.data[filmsNumber].recommend==1)
+						sty="#fff url('./images/jian.png') top right no-repeat;";
+					else{
+						sty="#fff;";
+					}
+
+					if(filmsNumber<5){
+						$('#content-films-list').append('<div id="films-'+data.data[filmsNumber].id+'" style="display: block; background: '+sty+'" class="content-films-list content-films-list-sty content-films-con content-films-list'+filmsNumber+'">'+
 								'<div class="films-delete-update">'+
-									//'<span id="films-show-'+data.data[filmsNumber].id+'" class="show_films">详情</span>'+
 									'<span id="films-delete-'+data.data[filmsNumber].id+'" class="delete_films">删除</span>'+
 								'</div>'+
-								'<a href="'+data.data[filmsNumber].url+'" target="_blank"><img class="films-image-sty" src="'+data.data[filmsNumber].pic+'" /></a>'+
-								'<div class="films-title-sty">'+data.data[filmsNumber].title+'</div>'+
-								'<div class="user-mess-id">公司：'+data.data[filmsNumber].company_name+'</div>'+
+								'<a style="float: left; margin-right: 20px;" href="'+data.data[filmsNumber].url+'" target="_blank"><img class="films-image-sty" src="'+data.data[filmsNumber].pic+'" /></a>'+
+								'<div class="zFilms-right-style">'+
+									'<div class="films-title-sty">'+data.data[filmsNumber].title+'</div>'+
+									'<div class="films-detail-sty">'+$('<div/>').html(data.data[filmsNumber].detail).text()+'</div>'+
+									'<div class="user-mess-id">公司：'+data.data[filmsNumber].company_name+'</div>'+
+								'</div>'+
 							'</div>');
 					}else{
-						$('#content-films-list').append('<div id="films-'+data.data[filmsNumber].id+'" class="content-films-list content-films-con content-films-list'+filmsNumber+'">'+
+						$('#content-films-list').append('<div id="films-'+data.data[filmsNumber].id+'" style="background: '+sty+'" class="content-films-list content-films-list-sty content-films-con content-films-list'+filmsNumber+'">'+
 								'<div class="films-delete-update">'+
-									//'<span id="films-show-'+data.data[filmsNumber].id+'" class="show_films">详情</span>'+
 									'<span id="films-delete-'+data.data[filmsNumber].id+'" class="delete_films">删除</span>'+
 								'</div>'+
-								'<a href="'+data.data[filmsNumber].url+'" target="_blank"><img class="films-image-sty" src="'+data.data[filmsNumber].pic+'" /></a>'+
+								'<a style="float: left; margin-right: 20px;" href="'+data.data[filmsNumber].url+'" target="_blank"><img class="films-image-sty" src="'+data.data[filmsNumber].pic+'" /></a>'+
 								'<div class="films-title-sty">'+data.data[filmsNumber].title+'</div>'+
+								'<div class="films-detail-sty">'+$('<div/>').html(data.data[filmsNumber].detail).text()+'</div>'+
 								'<div class="user-mess-id">公司：'+data.data[filmsNumber].company_name+'</div>'+
 							'</div>');
 					}
@@ -365,8 +495,8 @@ var showFilms=function(url){
 		var pageNumber=$(this).attr('id').substr(10);
 		//alert(pageNumber);
 		$('.content-films-con').css('display','none');
-		for(var j=0; j<10; j++){
-			var index=(pageNumber-1)*10+1*j;
+		for(var j=0; j<5; j++){
+			var index=(pageNumber-1)*5+1*j;
 			//alert(index);
 			$('.content-films-list'+index).css('display','block');
 		}
@@ -732,7 +862,7 @@ var setPage=function(){
 		$('#content-5').css({'display':'block'});
 		$('#aside-list-5').addClass('on');
 	}
-	if(index==='control'){
+	if(index==='episode'){
 		$('.content').css({'display':'none'});
 		$('#content-6').css({'display':'block'});
 		$('#aside-list-6').addClass('on');

@@ -67,7 +67,7 @@ aside{
 }
 .aside-list{
 	width: 90px;
-	height: 80px;
+	height: 70px;
 	cursor: pointer;
 	overflow: hidden;
 }
@@ -87,7 +87,7 @@ aside{
 	border: 2px solid #fff;
 }
 .aside-list-icon{
-	margin-top: 15px;
+	margin-top: 10px;
 	font-size: 30px;
 	height: 30px;
 }
@@ -114,10 +114,11 @@ aside{
 #content-3,
 #content-4,
 #content-5,
-#content-6{
+#content-6,
+#content-7{
 	display: none;
 }
-#content-films-1,#content-links-1,#content-control-1,#content-user-1,#content-news-1{
+#content-films-1,#content-links-1,#content-control-1,#content-user-1,#content-news-1,#content-episode-1{
 	display: block;
 }
 .content-1{
