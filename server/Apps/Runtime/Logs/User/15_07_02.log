@@ -656,3 +656,14 @@ NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\westfilms
 SQL: SHOW COLUMNS FROM `west_episodes` [ RunTime:0.0030s ]
 SQL: UPDATE `west_episodes` SET `top`='0',`modify_time`='1435840420' WHERE `uid` = 13 AND `id` = 2 [ RunTime:0.0330s ]
 
+[ 2015-07-02T20:37:49+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=verify&localeTime=1435840669304
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
