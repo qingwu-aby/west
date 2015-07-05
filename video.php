@@ -91,6 +91,7 @@
 	<script type="text/javascript" src="./js/module.js"></script>
 	<script type="text/javascript" src="./js/company.js"></script>
 	<script type="text/javascript" src="./js/getvideo.js"></script>
+	<script type="text/javascript" src="./js/episode.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function(){
 			$('.nav-list').removeClass('on');
