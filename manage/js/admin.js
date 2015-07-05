@@ -235,7 +235,7 @@ var showEpisode=function(url){
 						$('#content-episode-list').append('<div id="episode-'+data.data[newsNumber].id+'" style="display: block; background:'+sty+'" class="show-main-list show-episode-con show-episode-con'+newsNumber+'">'+
 							'<img src="'+data.data[newsNumber].thumbnail+'" class="show-list show-list-thum" />'+
 							'<div class="show-list show-list-right">'+
-							'<h1><span class="title-list-link"><a class="link_title" target="_blank" href="../episode.php?uid='+data.data[newsNumber].uid+'&id='+data.data[newsNumber].id+'">'+data.data[newsNumber].title+'</a></span></h1>'+
+							'<h1><span class="title-list-link"><a class="link_title" target="_blank" href="../episode_detail.php?uid='+data.data[newsNumber].uid+'&id='+data.data[newsNumber].id+'">'+data.data[newsNumber].title+'</a></span></h1>'+
 								'<h2><div class="content-list-con">'+data.data[newsNumber].summary+'</div></h2>'+
 								'<input type="hidden" class="content-list-content" value="'+data.data[newsNumber].content+'" />'+
 								'<div class="content-list-mess">'+
@@ -252,7 +252,7 @@ var showEpisode=function(url){
 						$('#content-episode-list').append('<div id="episode-'+data.data[newsNumber].id+'" style="display: none; background:'+sty+'" class="show-main-list show-episode-con show-episode-con'+newsNumber+'">'+
 							'<img src="'+data.data[newsNumber].thumbnail+'" class="show-list show-list-thum" />'+
 							'<div class="show-list show-list-right">'+
-							'<h1><span class="title-list-link"><a class="link_title" target="_blank" href="../episode.php?uid='+data.data[newsNumber].uid+'&id='+data.data[newsNumber].id+'">'+data.data[newsNumber].title+'</a></span></h1>'+
+							'<h1><span class="title-list-link"><a class="link_title" target="_blank" href="../episode_detail.php?uid='+data.data[newsNumber].uid+'&id='+data.data[newsNumber].id+'">'+data.data[newsNumber].title+'</a></span></h1>'+
 								'<h2><div class="content-list-con">'+data.data[newsNumber].summary+'</div></h2>'+
 								'<input type="hidden" class="content-list-content" value="'+data.data[newsNumber].content+'" />'+
 								'<div class="content-list-mess">'+
@@ -444,9 +444,9 @@ var showFilms=function(url){
 						sContent=data.data[filmsNumber].title;
 					}
 					if(filmsNumber<6){
-						$('#home_films').append('<div href="'+data.data[filmsNumber].url+'" style="background: #eee; float: left;" class="content-films-list">'+
+						$('#home_films').append('<div href="'+data.data[filmsNumber].url+'" style="background: #eee; float: left;" class="content-films-list ononon">'+
 								'<a href="'+data.data[filmsNumber].url+'" target="_blank"><img class="films-image-sty" src="'+data.data[filmsNumber].pic+'" /></a>'+
-								'<div class="films-title-sty">'+sContent+'</div>'+
+								'<div class="films-titleHome-sty">'+sContent+'</div>'+
 							'</div>');
 					}
 

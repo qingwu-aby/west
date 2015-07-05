@@ -240,7 +240,7 @@ var showFilms=function(url,uid){
 						sContent=data.data[filmsNumber].title;
 					}
 					if(filmsNumber<6){
-						$('#home_films').append('<a href="'+data.data[filmsNumber].url+'" target="_blank" style="background: #eee; float: left;" class="content-films-list">'+
+						$('#home_films').append('<a href="'+data.data[filmsNumber].url+'" target="_blank" style="background: #eee; float: left;" class="content-films-list ononon">'+
 								'<img class="films-image-sty" src="'+data.data[filmsNumber].pic+'" />'+
 								'<div class="films-title-sty">'+sContent+'</div>'+
 							'</a>');

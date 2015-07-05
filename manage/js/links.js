@@ -26,7 +26,7 @@ var showLink=function(url,uid){
 							'</td>'+
 							'<td class="table_col table_col_1">'+data.data[linkNumber].name+'</td>'+
 							'<td class="table_col table_col_2"><img style="height: 30px; width: 100px; margin: 0 auto;" src="'+data.data[linkNumber].logo+'" /></td>'+
-							'<td class="table_col table_col_3">'+data.data[linkNumber].info+'</td>'+
+							'<td class="table_col table_col_3"><a class="linklink" href="'+data.data[linkNumber].info+'" target="_blank">'+data.data[linkNumber].info+'</a></td>'+
 							'</tr>');
 					}else{
 						$('#table_show').append('<tr id="link-'+data.data[linkNumber].id+'" class="tr_2">'+
@@ -36,7 +36,7 @@ var showLink=function(url,uid){
 							'</td>'+
 							'<td class="table_col table_col_1">'+data.data[linkNumber].name+'</td>'+
 							'<td class="table_col table_col_2"><img style="height: 30px; width: 100px; margin: 0 auto;" src="'+data.data[linkNumber].logo+'" /></td>'+
-							'<td class="table_col table_col_3">'+data.data[linkNumber].info+'</td>'+
+							'<td class="table_col table_col_3"><a class="linklink" href="'+data.data[linkNumber].info+'" target="_blank">'+data.data[linkNumber].info+'</a></td>'+
 							'</tr>');
 					}
 				}

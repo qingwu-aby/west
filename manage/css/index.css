@@ -4,8 +4,17 @@
 .link_title,.link_title:hover{
 	text-decoration: underline;
 }
+.linklink{
+	color: #000;
+	text-decoration: underline;
+}
+.linklink:hover{
+	color: #3ccaff;
+	text-decoration: underline;
+}
+
 header{
-	
+
 }
 .company_logo{
 	height: 50px;
@@ -296,6 +305,9 @@ header{
 	color: #666;
 	margin: 10px;
 	overflow: hidden;
+}
+.ononon{
+	border: 1px solid #fff;
 }
 .content-films-list:hover{
 	border: 1px solid #3ccaff;
