@@ -16,7 +16,7 @@ function getYmdTime(time){
                  $.ajax({
                     type:'get',
                     async:false,
-                    url:"server/index.php?m=Home&c=index&a=getNewsList",
+                    url:"server/index.php?m=Home&c=views&a=getEpisodesList",
                     data:{uid:oUid,p:i}, 
                     dataType:'json',
                     success:function(data){  

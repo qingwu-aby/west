@@ -4,7 +4,7 @@
 		overflow: hidden;
 		width: 680px;
 		}
-		.film_thum{
+		/*.film_thum{
 			float: left;
 			padding-top: 20px;
 		}
@@ -29,6 +29,14 @@
 		}
 		.name1 a{
 			padding-top: 20px;	
+		}*/
+		.list_img_pic img{
+			width: 200px;
+			height: 150px;
+		}
+		.list_img{
+			margin:15px 0;
+			padding: 15px 0;
 		}
 
 </style>
