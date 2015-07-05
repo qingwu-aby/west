@@ -49,7 +49,7 @@ var updateFilms=function(url,showUrl,uid){
 
 		FilmsId=$(this).attr('id').substr(13);
 		var filmsLink=$('#films-'+FilmsId).find('.films-link-a').attr('href');
-		var filmsTitle=$('#films-'+FilmsId).find('.films-title-sty').text();
+		var filmsTitle=$('#films-'+FilmsId).find('.title_films_sty').text();
 		var filmsLogo=$('#films-'+FilmsId).find('.films-image-sty').attr('src');
 		var filmsDetail=$('#films-'+FilmsId).find('.films-detail-sty').html();
 
@@ -251,9 +251,16 @@ var showFilms=function(url,uid){
 					var mlgb21=data.data[filmsNumber].top==1?'none':'block';
 					var mlgb22=data.data[filmsNumber].top==0?'none':'block';
 
+					var sty=null;
+					if(data.data[filmsNumber].recommend==1)
+						sty="#fff url('./images/jian.png') top right no-repeat;";
+					else{
+						sty="#fff;";
+					}
+
 					if(filmsNumber<5){
-						$('#content-films-list').append('<div id="films-'+data.data[filmsNumber].id+'" style="padding: 20px; margin: 0; margin-bottom: 20px; display: block;" class="content-films-list show-films-con show-films-con'+filmsNumber+'">'+
-									'<div class="films-delete-update" style="position: absolute; top: 20px; right: 20px;">'+
+						$('#content-films-list').append('<div id="films-'+data.data[filmsNumber].id+'" style="background: '+sty+' padding: 20px; margin: 0; margin-bottom: 20px; display: block;" class="content-films-list show-films-con show-films-con'+filmsNumber+'">'+
+									'<div class="films-delete-update" style="position: absolute; top: 20px; right: 30px;">'+
 										'<span id="films-update-'+data.data[filmsNumber].id+'" class="update_films control_films"> 编辑 </span>'+
 										'<span id="films-delete-'+data.data[filmsNumber].id+'" class="delete_films control_films"> 删除 </span>'+
 										'<span id="films-mlgb11-'+data.data[filmsNumber].id+'" class="mlgb11_films control_films" style="display: '+mlgb11+'"> 推荐 </span>'+
@@ -263,13 +270,13 @@ var showFilms=function(url,uid){
 									'</div>'+
 									'<a class="films-link-a" href="'+data.data[filmsNumber].url+'" target="_blank"><img class="films-image-sty" src="'+data.data[filmsNumber].pic+'" /></a>'+
 									'<div class="films_right_style">'+
-										'<div class="title_films_sty">'+data.data[filmsNumber].title+'</div>'+
+									'<div class="title_films_sty"><a class="link_title" target="_blank" href="../video.php?uid='+uid+'&id='+data.data[filmsNumber].id+'">'+data.data[filmsNumber].title+'</a></div>'+
 										'<div class="films-detail-sty">'+$('<div/>').html(data.data[filmsNumber].detail).text()+'</div>'+
 									'</div>'+
 								'</div>');
 					}else{
-						$('#content-films-list').append('<div id="films-'+data.data[filmsNumber].id+'" style="padding: 20px; margin: 0; margin-bottom: 20px;" class="content-films-list show-films-con show-films-con'+filmsNumber+'">'+
-									'<div class="films-delete-update" style="position: absolute; top: 20px; right: 20px;">'+
+						$('#content-films-list').append('<div id="films-'+data.data[filmsNumber].id+'" style="background: '+sty+' padding: 20px; margin: 0; margin-bottom: 20px;" class="content-films-list show-films-con show-films-con'+filmsNumber+'">'+
+									'<div class="films-delete-update" style="position: absolute; top: 20px; right: 30px;">'+
 										'<span id="films-update-'+data.data[filmsNumber].id+'" class="update_films control_films"> 编辑 </span>'+
 										'<span id="films-delete-'+data.data[filmsNumber].id+'" class="delete_films control_films"> 删除 </span>'+
 										'<span id="films-mlgb11-'+data.data[filmsNumber].id+'" class="mlgb11_films control_films" style="display: '+mlgb11+'"> 推荐 </span>'+
@@ -279,7 +286,7 @@ var showFilms=function(url,uid){
 									'</div>'+
 									'<a class="films-link-a" href="'+data.data[filmsNumber].url+'" target="_blank"><img class="films-image-sty" src="'+data.data[filmsNumber].pic+'" /></a>'+
 									'<div class="films_right_style">'+
-										'<div class="title_films_sty">'+data.data[filmsNumber].title+'</div>'+
+									'<div class="title_films_sty"><a class="link_title" target="_blank" href="../video.php?uid='+uid+'&id='+data.data[filmsNumber].id+'">'+data.data[filmsNumber].title+'</a></div>'+
 										'<div class="films-detail-sty">'+$('<div/>').html(data.data[filmsNumber].detail).text()+'</div>'+
 									'</div>'+
 								'</div>');

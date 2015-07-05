@@ -231,11 +231,18 @@ var showNews=function(url,uid){
 					var mlgb21=data.data[newsNumber].top==1?'none':'block';
 					var mlgb22=data.data[newsNumber].top==0?'none':'block';
 
+					var sty=null;
+					if(data.data[newsNumber].recommend==1)
+						sty="#fff url('./images/jian.png') top right no-repeat;";
+					else{
+						sty="#fff;";
+					}
+
 					if(newsNumber<5){
-						$('#content-news-list').append('<div id="news-'+data.data[newsNumber].id+'" style="display: block;" class="show-main-list show-news-con show-news-con'+newsNumber+'">'+
+						$('#content-news-list').append('<div id="news-'+data.data[newsNumber].id+'" style="display: block; background: '+sty+'" class="show-main-list show-news-con show-news-con'+newsNumber+'">'+
 							'<img src="'+data.data[newsNumber].thumbnail+'" class="show-list show-list-thum" />'+
 							'<div class="show-list show-list-right">'+
-								'<h1><span class="title-list-link">'+data.data[newsNumber].title+'</span></h1>'+
+							'<h1><span class="title-list-link"><a class="link_title" target="_blank" href="../detail.php?uid='+uid+'&id='+data.data[newsNumber].id+'">'+data.data[newsNumber].title+'</a></span></h1>'+
 								'<h2><div class="content-list-con">'+data.data[newsNumber].summary+'</div></h2>'+
 								'<input type="hidden" class="content-list-content" value="'+data.data[newsNumber].content+'" />'+
 								'<div class="content-list-mess">'+
@@ -252,10 +259,10 @@ var showNews=function(url,uid){
 							'</div>'+
 						'</div>');
 					}else{
-						$('#content-news-list').append('<div id="news-'+data.data[newsNumber].id+'" class="show-main-list show-news-con show-news-con'+newsNumber+'">'+
+						$('#content-news-list').append('<div id="news-'+data.data[newsNumber].id+'"  style="background: '+sty+'" class="show-main-list show-news-con show-news-con'+newsNumber+'">'+
 							'<img src="'+data.data[newsNumber].thumbnail+'" class="show-list show-list-thum" />'+
 							'<div class="show-list show-list-right">'+
-								'<h1><span class="title-list-link">'+data.data[newsNumber].title+'</span></h1>'+
+							'<h1><span class="title-list-link"><a class="link_title" target="_blank" href="../detail.php?uid='+uid+'&id='+data.data[newsNumber].id+'">'+data.data[newsNumber].title+'</a></span></h1>'+
 								'<h2><div class="content-list-con">'+data.data[newsNumber].summary+'</div></h2>'+
 								'<input type="hidden" class="content-list-content" value="'+data.data[newsNumber].content+'" />'+
 								'<div class="content-list-mess">'+
