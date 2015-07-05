@@ -235,7 +235,7 @@ var showEpisode=function(url){
 						$('#content-episode-list').append('<div id="episode-'+data.data[newsNumber].id+'" style="display: block; background:'+sty+'" class="show-main-list show-episode-con show-episode-con'+newsNumber+'">'+
 							'<img src="'+data.data[newsNumber].thumbnail+'" class="show-list show-list-thum" />'+
 							'<div class="show-list show-list-right">'+
-								'<h1><span class="title-list-link">'+data.data[newsNumber].title+'</span></h1>'+
+							'<h1><span class="title-list-link"><a class="link_title" target="_blank" href="../episode.php?uid='+data.data[newsNumber].uid+'&id='+data.data[newsNumber].id+'">'+data.data[newsNumber].title+'</a></span></h1>'+
 								'<h2><div class="content-list-con">'+data.data[newsNumber].summary+'</div></h2>'+
 								'<input type="hidden" class="content-list-content" value="'+data.data[newsNumber].content+'" />'+
 								'<div class="content-list-mess">'+
@@ -252,13 +252,13 @@ var showEpisode=function(url){
 						$('#content-episode-list').append('<div id="episode-'+data.data[newsNumber].id+'" style="display: none; background:'+sty+'" class="show-main-list show-episode-con show-episode-con'+newsNumber+'">'+
 							'<img src="'+data.data[newsNumber].thumbnail+'" class="show-list show-list-thum" />'+
 							'<div class="show-list show-list-right">'+
-								'<h1><span class="title-list-link">'+data.data[newsNumber].title+'</span></h1>'+
+							'<h1><span class="title-list-link"><a class="link_title" target="_blank" href="../episode.php?uid='+data.data[newsNumber].uid+'&id='+data.data[newsNumber].id+'">'+data.data[newsNumber].title+'</a></span></h1>'+
 								'<h2><div class="content-list-con">'+data.data[newsNumber].summary+'</div></h2>'+
 								'<input type="hidden" class="content-list-content" value="'+data.data[newsNumber].content+'" />'+
 								'<div class="content-list-mess">'+
 									'<div class="content-mess-con">访问次数：<span>'+data.data[newsNumber].views+'</span>'+
 									'&nbsp;&nbsp;&nbsp;&nbsp;作者：<span>'+data.data[newsNumber].author+'</span>'+
-									'&nbsp;&nbsp;&nbsp;&nbsp;公司：<span>'+data.data[newsNumber].company_name+'</span></div>'+
+									'&nbsp;&nbsp;&nbsp;&nbsp;公司：<span>'+data.data[newsNumber].uid+'</span></div>'+
 								'</div>'+
 								'<div class="delete-update">'+
 									'<span id="episode-delete-'+data.data[newsNumber].id+'" class="delete_episode">删除</span>'+
@@ -336,7 +336,7 @@ var showNews=function(url){
 						$('#content-news-list').append('<div id="news-'+data.data[newsNumber].id+'" style="display: block; background:'+sty+'" class="show-main-list show-news-con show-news-con'+newsNumber+'">'+
 							'<img src="'+data.data[newsNumber].thumbnail+'" class="show-list show-list-thum" />'+
 							'<div class="show-list show-list-right">'+
-								'<h1><span class="title-list-link">'+data.data[newsNumber].title+'</span></h1>'+
+							'<h1><span class="title-list-link"><a class="link_title" target="_blank" href="../detail.php?uid='+data.data[newsNumber].uid+'&id='+data.data[newsNumber].id+'">'+data.data[newsNumber].title+'</a></span></h1>'+
 								'<h2><div class="content-list-con">'+data.data[newsNumber].summary+'</div></h2>'+
 								'<input type="hidden" class="content-list-content" value="'+data.data[newsNumber].content+'" />'+
 								'<div class="content-list-mess">'+
@@ -353,13 +353,13 @@ var showNews=function(url){
 						$('#content-news-list').append('<div id="news-'+data.data[newsNumber].id+'" style="background:'+sty+'" class="show-main-list show-news-con show-news-con'+newsNumber+'">'+
 							'<img src="'+data.data[newsNumber].thumbnail+'" class="show-list show-list-thum" />'+
 							'<div class="show-list show-list-right">'+
-								'<h1><span class="title-list-link">'+data.data[newsNumber].title+'</span></h1>'+
+							'<h1><span class="title-list-link"><a class="link_title" target="_blank" href="../detail.php?uid='+data.data[newsNumber].uid+'&id='+data.data[newsNumber].id+'">'+data.data[newsNumber].title+'</a></span></h1>'+
 								'<h2><div class="content-list-con">'+data.data[newsNumber].summary+'</div></h2>'+
 								'<input type="hidden" class="content-list-content" value="'+data.data[newsNumber].content+'" />'+
 								'<div class="content-list-mess">'+
 									'<div class="content-mess-con">访问次数：<span>'+data.data[newsNumber].views+'</span>'+
 									'&nbsp;&nbsp;&nbsp;&nbsp;作者：<span>'+data.data[newsNumber].author+'</span>'+
-									'&nbsp;&nbsp;&nbsp;&nbsp;公司：<span>'+data.data[newsNumber].company_name+'</span></div>'+
+									'&nbsp;&nbsp;&nbsp;&nbsp;公司：<span>'+data.data[newsNumber].uid+'</span></div>'+
 								'</div>'+
 								'<div class="delete-update">'+
 									'<span id="news-delete-'+data.data[newsNumber].id+'" class="delete_news">删除</span>'+
@@ -464,9 +464,9 @@ var showFilms=function(url){
 								'</div>'+
 								'<a style="float: left; margin-right: 20px;" href="'+data.data[filmsNumber].url+'" target="_blank"><img class="films-image-sty" src="'+data.data[filmsNumber].pic+'" /></a>'+
 								'<div class="zFilms-right-style">'+
-									'<div class="films-title-sty">'+data.data[filmsNumber].title+'</div>'+
+								'<div class="films-title-sty"><a class="link_title" target="_blank" href="../video.php?uid='+data.data[filmsNumber].uid+'&id='+data.data[filmsNumber].id+'">'+data.data[filmsNumber].title+'</a></div>'+
 									'<div class="films-detail-sty">'+$('<div/>').html(data.data[filmsNumber].detail).text()+'</div>'+
-									'<div class="user-mess-id">公司：'+data.data[filmsNumber].company_name+'</div>'+
+									'<div class="user-mess-id">用户ID：'+data.data[filmsNumber].uid+'</div>'+
 								'</div>'+
 							'</div>');
 					}else{
@@ -475,9 +475,9 @@ var showFilms=function(url){
 									'<span id="films-delete-'+data.data[filmsNumber].id+'" class="delete_films">删除</span>'+
 								'</div>'+
 								'<a style="float: left; margin-right: 20px;" href="'+data.data[filmsNumber].url+'" target="_blank"><img class="films-image-sty" src="'+data.data[filmsNumber].pic+'" /></a>'+
-								'<div class="films-title-sty">'+data.data[filmsNumber].title+'</div>'+
+								'<div class="films-title-sty"><a class="link_title" target="_blank" href="../video.php?uid='+data.data[filmsNumber].uid+'&id='+data.data[filmsNumber].id+'">'+data.data[filmsNumber].title+'</a></div>'+
 								'<div class="films-detail-sty">'+$('<div/>').html(data.data[filmsNumber].detail).text()+'</div>'+
-								'<div class="user-mess-id">公司：'+data.data[filmsNumber].company_name+'</div>'+
+								'<div class="user-mess-id">用户ID：'+data.data[filmsNumber].uid+'</div>'+
 							'</div>');
 					}
 				}

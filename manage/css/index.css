@@ -1,3 +1,9 @@
+.link_title{
+	color: #3ccaff;
+}
+.link_title,.link_title:hover{
+	text-decoration: underline;
+}
 header{
 	
 }
@@ -150,7 +156,7 @@ header{
 	font-weight: bold;
 	border-bottom: 2px solid #ccc;
 	padding-bottom: 10px;
-	margin-bottom: 20px; 
+	margin-bottom: 20px;
 }
 .link_button{
 	display: none;

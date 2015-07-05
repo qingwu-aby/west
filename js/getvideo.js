@@ -17,9 +17,13 @@ $(document).ready(function(){
           var result = data.data; 
             str = '<div class="detail_content">';  
             str = str + '<h3 class="video_title">'+result.title+'</h4><div id="frame" class="detail_content"><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" scrolling="no" allowtransparency="yes" src="'+result.url+'"></iframe></div>';
+            str = str + '<p>'+htmlDecode(result.detail)+'</p>';
             str = str + '<div class="href"><p class="link_info"><span>链接：</span><span class="link_href"><a href="javascript:;">'+result.url+'</a></span></p></div>';
             str = str + '</div>';
             $("#detail_content").append(str);  
       }
       })
     });
+function htmlDecode(value){
+  return $('<div/>').html(value).text();
+}

@@ -1,3 +1,10 @@
+.link_title{
+	color: #3ccaff;
+}
+.link_title,.link_title:hover{
+	text-decoration: underline;
+}
+
 .header-title{
 	width: 450px;
 }
@@ -163,7 +170,7 @@
 	overflow: hidden;
 }
 .content-films-list{
-	border: 1px solid #eee;
+	border: 1px solid #ccc;
 	background: #fff;
 	border-radius: 5px;
 	padding: 10px;

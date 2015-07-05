@@ -49,7 +49,7 @@ var updateFilms=function(url,showUrl,uid){
 
 		FilmsId=$(this).attr('id').substr(13);
 		var filmsLink=$('#films-'+FilmsId).find('.films-link-a').attr('href');
-		var filmsTitle=$('#films-'+FilmsId).find('.films-title-sty').text();
+		var filmsTitle=$('#films-'+FilmsId).find('.title_films_sty').text();
 		var filmsLogo=$('#films-'+FilmsId).find('.films-image-sty').attr('src');
 		var filmsDetail=$('#films-'+FilmsId).find('.films-detail-sty').html();
 
@@ -270,7 +270,7 @@ var showFilms=function(url,uid){
 									'</div>'+
 									'<a class="films-link-a" href="'+data.data[filmsNumber].url+'" target="_blank"><img class="films-image-sty" src="'+data.data[filmsNumber].pic+'" /></a>'+
 									'<div class="films_right_style">'+
-										'<div class="title_films_sty">'+data.data[filmsNumber].title+'</div>'+
+									'<div class="title_films_sty"><a class="link_title" target="_blank" href="../video.php?uid='+uid+'&id='+data.data[filmsNumber].id+'">'+data.data[filmsNumber].title+'</a></div>'+
 										'<div class="films-detail-sty">'+$('<div/>').html(data.data[filmsNumber].detail).text()+'</div>'+
 									'</div>'+
 								'</div>');
@@ -286,7 +286,7 @@ var showFilms=function(url,uid){
 									'</div>'+
 									'<a class="films-link-a" href="'+data.data[filmsNumber].url+'" target="_blank"><img class="films-image-sty" src="'+data.data[filmsNumber].pic+'" /></a>'+
 									'<div class="films_right_style">'+
-										'<div class="title_films_sty">'+data.data[filmsNumber].title+'</div>'+
+									'<div class="title_films_sty"><a class="link_title" target="_blank" href="../video.php?uid='+uid+'&id='+data.data[filmsNumber].id+'">'+data.data[filmsNumber].title+'</a></div>'+
 										'<div class="films-detail-sty">'+$('<div/>').html(data.data[filmsNumber].detail).text()+'</div>'+
 									'</div>'+
 								'</div>');

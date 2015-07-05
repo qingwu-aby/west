@@ -4,7 +4,7 @@
 		overflow: hidden;
 		width: 680px;
 		}
-		.film_thum{
+		/*.film_thum{
 			float: left;
 			padding-top: 20px;
 		}
@@ -20,15 +20,23 @@
 			height: 150px;
 		}
 		
-		.name{
+		.name1{
 			text-align: center;
 			font-size: 18px;
 			font-weight: bold;
-			padding-left: 20px;
+			padding-left: 15px;
 			height: 30px;
 		}
-		.name a{
+		.name1 a{
 			padding-top: 20px;	
+		}*/
+		.list_img_pic img{
+			width: 200px;
+			height: 150px;
+		}
+		.list_img{
+			margin:15px 0;
+			padding: 15px 0;
 		}
 
 </style>
@@ -97,6 +105,7 @@
 	<script type="text/javascript" src="./js/jquery-1.9.1.min.js"></script>
 	<script type="text/javascript" src="./js/module.js"></script>
 	<script type="text/javascript" src="./js/company.js"></script>
+	<script type="text/javascript" src="./js/episode.js"></script>
 	<script type="text/javascript" src="./js/film.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function(){
