@@ -12,7 +12,7 @@ $(document).ready(function(){
                         var str = "";  
                         $.each(data.data,function(index,array){    
                            str = '<li class="Thum">';  
-                           str = str + '<a href="./episode.php?uid='+array['uid']+'&id='+array['id']+'"><img src="'+array['thumbnail'].substr(1)+'"/></a>';
+                           str = str + '<a href="./episode_detail.php?uid='+array['uid']+'&id='+array['id']+'"><img src="'+array['thumbnail'].substr(1)+'"/></a>';
                            str = str + '<div class="name">'+array['title']+'</div>';
                            str = str + '</li>';
                            $("#episode_list").append(str);  
