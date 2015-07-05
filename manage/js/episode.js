@@ -203,7 +203,7 @@ var showEpisode=function(url,uid){
 						$('#content-episode-list').append('<div id="episode-'+data.data[episodeNumber].id+'" style="display: block; background: '+sty+'" class="show-main-list show-episode-con show-episode-con'+episodeNumber+'">'+
 							'<img src="'+data.data[episodeNumber].thumbnail+'" class="show-list show-list-thum" />'+
 							'<div class="show-list show-list-right">'+
-							'<h1><span class="title-list-link"><a class="link_title" target="_blank" href="../episode.php?uid='+uid+'&id='+data.data[episodeNumber].id+'">'+data.data[episodeNumber].title+'</a></span></h1>'+
+							'<h1><span class="title-list-link"><a class="link_title" target="_blank" href="../episode_detail.php?uid='+uid+'&id='+data.data[episodeNumber].id+'">'+data.data[episodeNumber].title+'</a></span></h1>'+
 								'<h2><div class="content-list-con">'+data.data[episodeNumber].summary+'</div></h2>'+
 								'<input type="hidden" class="content-list-content" value="'+data.data[episodeNumber].content+'" />'+
 								'<div class="content-list-mess">'+
@@ -223,7 +223,7 @@ var showEpisode=function(url,uid){
 						$('#content-episode-list').append('<div id="episode-'+data.data[episodeNumber].id+'" style="display: none; background: '+sty+'" class="show-main-list show-episode-con show-episode-con'+episodeNumber+'">'+
 							'<img src="'+data.data[episodeNumber].thumbnail+'" class="show-list show-list-thum" />'+
 							'<div class="show-list show-list-right">'+
-							'<h1><span class="title-list-link"><a class="link_title" target="_blank" href="../episode.php?uid='+uid+'&id='+data.data[episodeNumber].id+'">'+data.data[episodeNumber].title+'</a></span></h1>'+
+							'<h1><span class="title-list-link"><a class="link_title" target="_blank" href="../episode_detail.php?uid='+uid+'&id='+data.data[episodeNumber].id+'">'+data.data[episodeNumber].title+'</a></span></h1>'+
 								'<h2><div class="content-list-con">'+data.data[episodeNumber].summary+'</div></h2>'+
 								'<input type="hidden" class="content-list-content" value="'+data.data[episodeNumber].content+'" />'+
 								'<div class="content-list-mess">'+

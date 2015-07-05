@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 [ 2015-07-05T11:50:36+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=verify
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
@@ -83,6 +84,84 @@ SQL: UPDATE `west_links` SET `id`='23',`uid`='13',`name`='W3CSchool',`logo`='../
 SQL: SHOW COLUMNS FROM `west_log` [ RunTime:0.0080s ]
 SQL: INSERT INTO `west_log` (`uid`,`type`,`target`,`target_id`,`target_name`,`modify_time`) VALUES ('13','edit','links','23','W3CSchool','1436068830') [ RunTime:0.0290s ]
 =======
+[ 2015-07-05T12:02:53+08:00 ] 127.0.0.1 /WesternFilms/WesternFilms201507/server/index.php?m=User&c=Api&a=verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000989s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001112s ]
+
+[ 2015-07-05T12:03:51+08:00 ] 127.0.0.1 /WesternFilms/WesternFilms201507/server/index.php?m=User&c=Api&a=verify&localeTime=1436069031666
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000846s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002152s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002369s ]
+
+[ 2015-07-05T12:06:53+08:00 ] 127.0.0.1 /WesternFilms/WesternFilms201507/server/index.php?m=User&c=Api&a=verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000997s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001053s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001420s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001619s ]
+
+[ 2015-07-05T12:07:23+08:00 ] 127.0.0.1 /WesternFilms/WesternFilms201507/server/index.php?m=User&c=Api&a=verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000710s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000892s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000989s ]
+
+[ 2015-07-05T12:07:37+08:00 ] 127.0.0.1 /WesternFilms/WesternFilms201507/server/index.php?m=User&c=user&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+NOTIC: [8] Undefined variable: id D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\WesternFilms201507\server\Apps\User\Controller\UserController.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `west_user` WHERE `username` = 'ztf' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-07-05T12:28:09+08:00 ] 127.0.0.1 /WesternFilms/WesternFilms201507/server/index.php?m=user&c=other&a=recommend
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\WesternFilms201507\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_episodes` [ RunTime:0.0051s ]
+SQL: UPDATE `west_episodes` SET `recommend`='1',`modify_time`='1436070488' WHERE `uid` = 13 AND `id` = 20 [ RunTime:0.1527s ]
+
+[ 2015-07-05T12:28:23+08:00 ] 127.0.0.1 /WesternFilms/WesternFilms201507/server/index.php?m=user&c=other&a=recommend
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000577s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\WesternFilms201507\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_news` [ RunTime:0.0052s ]
+SQL: UPDATE `west_news` SET `recommend`='1',`modify_time`='1436070503' WHERE `uid` = 13 AND `id` = 14 [ RunTime:0.1207s ]
+>>>>>>> f90ffb40bb926a10c1b94cf834c828c54d1aaf2b
+=======
 [ 2015-07-05T09:22:36+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=verify
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
@@ -159,5 +238,94 @@ INFO: [ app_begin ] --END-- [ RunTime:0.001154s ]
 NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\WesternFilms\server\Apps\User\Controller\BaseController.class.php 第 29 行.
 SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0098s ]
 SQL: UPDATE `west_videos` SET `top`='0',`modify_time`='1436059383' WHERE `uid` = 13 AND `id` = 26 [ RunTime:0.0409s ]
+<<<<<<< HEAD
 >>>>>>> d11055badb215aeaf85ce2ac0fcc8e82d2d5d877
+=======
+>>>>>>> 26e5706708d83603dabf61438fc12b4d8533a87f
+
+[ 2015-07-05T12:34:37+08:00 ] 127.0.0.1 /WesternFilms/WesternFilms201507/server/index.php?m=User&c=Api&a=verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000850s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000719s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000797s ]
+
+[ 2015-07-05T12:34:49+08:00 ] 127.0.0.1 /WesternFilms/WesternFilms201507/server/index.php?m=User&c=user&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000613s ]
+NOTIC: [8] Undefined variable: id D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\WesternFilms201507\server\Apps\User\Controller\UserController.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `west_user` WHERE `username` = 'ztf' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-07-05T12:36:28+08:00 ] 127.0.0.1 /WesternFilms/WesternFilms201507/server/index.php?m=User&c=Api&a=verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000677s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001591s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001772s ]
+
+[ 2015-07-05T12:36:29+08:00 ] 127.0.0.1 /WesternFilms/WesternFilms201507/server/index.php?m=User&c=Api&a=verify&localeTime=1436070989852
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000939s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000654s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000730s ]
+
+[ 2015-07-05T12:36:51+08:00 ] 127.0.0.1 /WesternFilms/WesternFilms201507/server/index.php?m=User&c=user&a=logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+
+[ 2015-07-05T12:36:51+08:00 ] 127.0.0.1 /WesternFilms/WesternFilms201507/server/index.php?m=User&c=Api&a=verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000629s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001021s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001062s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001230s ]
+
+[ 2015-07-05T12:37:00+08:00 ] 127.0.0.1 /WesternFilms/WesternFilms201507/server/index.php?m=User&c=Api&a=verify&localeTime=1436071020486
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001828s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000680s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000768s ]
+
+[ 2015-07-05T12:37:08+08:00 ] 127.0.0.1 /WesternFilms/WesternFilms201507/server/index.php?m=User&c=user&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+NOTIC: [8] Undefined variable: id D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\WesternFilms201507\server\Apps\User\Controller\UserController.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `west_user` WHERE `username` = 'ztf' LIMIT 1   [ RunTime:0.0003s ]
+>>>>>>> f90ffb40bb926a10c1b94cf834c828c54d1aaf2b
 

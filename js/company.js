@@ -14,7 +14,7 @@ $(document).ready(function(){
             $('#mail').html(result.mail);
             var wechat = '<span id="linkme_images"><img src="'+result.wechat_url.substr(1)+'" /></span>';
             $("#wechat").append(wechat);
-            var str = '<span class="summary">'+result.introduction+'</span><span class="summary_info"><a href="./about.php">[详情]</a></span>';
+            var str = '<span class="summary">'+result.introduction+'</span><span class="summary_info"><a href="./about.php?uid='+result.uid+'">[详情]</a></span>';
             $("#summary_company").append(str); 
 
         }
