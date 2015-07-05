@@ -2833,3 +2833,22 @@ SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0020s ]
 SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0020s ]
 SQL: UPDATE `west_company` SET `uid`='13',`mail`='i@ztf.me',`tel`='13577777777',`wechat_url`='../server/Public/Uploads/2015-06-04/2015060414313915517.png',`introduction`='完美世界是一家网络游戏研发、运营、销售和服务公司。于2004年成立，2007年在美国纳斯达克上市（股票代码：PWRD）。完美世界总部位于北京，在北美、欧洲和日本设有全资子公司自主运营游戏，旗下游戏已授权至亚洲、澳洲、拉丁美洲、俄罗斯及其它俄语地区等多个国家和地区的主要游戏运营商，游戏出口至世界100多个国家和地区，为全球用户提供优质的互联网娱乐服务。',`detail`='&lt;span style=&quot;font-family:\'Microsoft JhengHei\', Tahoma, Helvetica, Arial, 宋体, sans-serif;font-size:14px;line-height:20px;background-color:#FFFFFF;&quot;&gt;完美世界是一家网络游戏研发、运营、销售和服务公司。于2004年成立，2007年在美国纳斯达克上市（股票代码：PWRD）。完美世界总部位于北京，在北美、欧洲和日本设有全资子公司自主运营游戏，旗下游戏已授权至亚洲、澳洲、拉丁美洲、俄罗斯及其它俄语地区等多个国家和地区的主要游戏运营商，游戏出口至世界100多个国家和地区，为全球用户提供优质的互联网娱乐服务。&lt;/span&gt;&lt;span style=&quot;font-family:\'Microsoft JhengHei\', Tahoma, Helvetica, Arial, 宋体, sans-serif;font-size:14px;line-height:20px;background-color:#FFFFFF;&quot;&gt;完美世界是一家网络游戏研发、运营、销售和服务公司。于2004年成立，2007年在美国纳斯达克上市（股票代码：PWRD）。完美世界总部位于北京，在北美、欧洲和日本设有全资子公司自主运营游戏，旗下游戏已授权至亚洲、澳洲、拉丁美洲、俄罗斯及其它俄语地区等多个国家和地区的主要游戏运营商，游戏出口至世界100多个国家和地区，为全球用户提供优质的互联网娱乐服务。&lt;/span&gt;&lt;span style=&quot;font-family:\'Microsoft JhengHei\', Tahoma, Helvetica, Arial, 宋体, sans-serif;font-size:14px;line-height:20px;background-color:#FFFFFF;&quot;&gt;完美世界是一家网络游戏研发、运营、销售和服务公司。于2004年成立，2007年在美国纳斯达克上市（股票代码：PWRD）。完美世界总部位于北京，在北美、欧洲和日本设有全资子公司自主运营游戏，旗下游戏已授权至亚洲、澳洲、拉丁美洲、俄罗斯及其它俄语地区等多个国家和地区的主要游戏运营商，游戏出口至世界100多个国家和地区，为全球用户提供优质的互联网娱乐服务。&lt;/span&gt;&lt;span style=&quot;font-family:\'Microsoft JhengHei\', Tahoma, Helvetica, Arial, 宋体, sans-serif;font-size:14px;line-height:20px;background-color:#FFFFFF;&quot;&gt;完美世界是一家网络游戏研发、运营、销售和服务公司。于2004年成立，2007年在美国纳斯达克上市（股票代码：PWRD）。完美世界总部位于北京，在北美、欧洲和日本设有全资子公司自主运营游戏，旗下游戏已授权至亚洲、澳洲、拉丁美洲、俄罗斯及其它俄语地区等多个国家和地区的主要游戏运营商，游戏出口至世界100多个国家和地区，为全球用户提供优质的互联网娱乐服务。&lt;/span&gt;&lt;span style=&quot;font-family:\'Microsoft JhengHei\', Tahoma, Helvetica, Arial, 宋体, sans-serif;font-size:14px;line-height:20px;background-color:#FFFFFF;&quot;&gt;完美世界是一家网络游戏研发、运营、销售和服务公司。于2004年成立，2007年在美国纳斯达克上市（股票代码：PWRD）。完美世界总部位于北京，在北美、欧洲和日本设有全资子公司自主运营游戏，旗下游戏已授权至亚洲、澳洲、拉丁美洲、俄罗斯及其它俄语地区等多个国家和地区的主要游戏运营商，游戏出口至世界100多个国家和地区，为全球用户提供优质的互联网娱乐服务。&lt;/span&gt;&lt;span style=&quot;font-family:\'Microsoft JhengHei\', Tahoma, Helvetica, Arial, 宋体, sans-serif;font-size:14px;line-height:20px;background-color:#FFFFFF;&quot;&gt;完美世界是一家网络游戏研发、运营、销售和服务公司。于2004年成立，2007年在美国纳斯达克上市（股票代码：PWRD）。完美世界总部位于北京，在北美、欧洲和日本设有全资子公司自主运营游戏，旗下游戏已授权至亚洲、澳洲、拉丁美洲、俄罗斯及其它俄语地区等多个国家和地区的主要游戏运营商，游戏出口至世界100多个国家和地区，为全球用户提供优质的互联网娱乐服务。&lt;/span&gt;&lt;span style=&quot;font-family:\'Microsoft JhengHei\', Tahoma, Helvetica, Arial, 宋体, sans-serif;font-size:14px;line-height:20px;background-color:#FFFFFF;&quot;&gt;完美世界是一家网络游戏研发、运营、销售和服务公司。于2004年成立，2007年在美国纳斯达克上市（股票代码：PWRD）。完美世界总部位于北京，在北美、欧洲和日本设有全资子公司自主运营游戏，旗下游戏已授权至亚洲、澳洲、拉丁美洲、俄罗斯及其它俄语地区等多个国家和地区的主要游戏运营商，游戏出口至世界100多个国家和地区，为全球用户提供优质的互联网娱乐服务。&lt;/span&gt;',`banner_url`='../server/Public/Uploads/2015-06-04/2015060414321825086.jpg',`modify_time`='1436023189' WHERE ( uid = '13' ) [ RunTime:0.1000s ]
 
+[ 2015-07-04T23:22:25+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=user&a=logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-04T23:22:26+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
