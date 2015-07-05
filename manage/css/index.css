@@ -297,6 +297,9 @@ header{
 	margin: 10px;
 	overflow: hidden;
 }
+.ononon{
+	border: 1px solid #fff;
+}
 .content-films-list:hover{
 	border: 1px solid #3ccaff;
 }

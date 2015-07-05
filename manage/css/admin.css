@@ -179,6 +179,9 @@
 	position: relative;
 	overflow: hidden;
 }
+.ononon{
+	border: 1px solid #fff;
+}
 .content-films-list-sty{
 	margin: 0;
 	margin-bottom: 20px;
@@ -190,6 +193,13 @@
 .films-image-sty{
 	height: 150px;
 	width: 120px;
+}
+.films-titleHome-sty{
+	margin-top: 10px;
+	width: 120px;
+	overflow: hidden;
+	height: 40px;
+	line-height: 20px;
 }
 .films-title-sty{
 	text-align: left;
