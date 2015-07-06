@@ -259,7 +259,7 @@ var showFilms=function(url,uid){
 					}
 
 					if(filmsNumber<5){
-						$('#content-films-list').append('<div id="films-'+data.data[filmsNumber].id+'" style="background: '+sty+' padding: 20px; margin: 0; margin-bottom: 20px; display: block;" class="content-films-list show-films-con show-films-con'+filmsNumber+'">'+
+						$('#content-films-list').append('<div id="films-'+data.data[filmsNumber].id+'" style="background: '+sty+' padding: 20px; padding-top: 40px; margin: 0; margin-bottom: 20px; display: block;" class="content-films-list show-films-con show-films-con'+filmsNumber+'">'+
 									'<div class="films-delete-update" style="position: absolute; top: 20px; right: 30px;">'+
 										'<span id="films-update-'+data.data[filmsNumber].id+'" class="update_films control_films"> 编辑 </span>'+
 										'<span id="films-delete-'+data.data[filmsNumber].id+'" class="delete_films control_films"> 删除 </span>'+
@@ -275,7 +275,7 @@ var showFilms=function(url,uid){
 									'</div>'+
 								'</div>');
 					}else{
-						$('#content-films-list').append('<div id="films-'+data.data[filmsNumber].id+'" style="background: '+sty+' padding: 20px; margin: 0; margin-bottom: 20px;" class="content-films-list show-films-con show-films-con'+filmsNumber+'">'+
+						$('#content-films-list').append('<div id="films-'+data.data[filmsNumber].id+'" style="background: '+sty+' padding: 20px; padding-top: 40px; margin: 0; margin-bottom: 20px;" class="content-films-list show-films-con show-films-con'+filmsNumber+'">'+
 									'<div class="films-delete-update" style="position: absolute; top: 20px; right: 30px;">'+
 										'<span id="films-update-'+data.data[filmsNumber].id+'" class="update_films control_films"> 编辑 </span>'+
 										'<span id="films-delete-'+data.data[filmsNumber].id+'" class="delete_films control_films"> 删除 </span>'+
