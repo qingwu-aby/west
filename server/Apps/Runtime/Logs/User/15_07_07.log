@@ -1,0 +1,50 @@
+[ 2015-07-07T11:39:14+08:00 ] 192.168.1.104 /WesternFilms/server/index.php?m=User&c=Api&a=verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000931s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001438s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.017226s ]
+INFO: [ app_end ] --END-- [ RunTime:0.017537s ]
+
+[ 2015-07-07T11:39:27+08:00 ] 192.168.1.104 /WesternFilms/server/index.php?m=User&c=user&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000746s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001134s ]
+NOTIC: [8] Undefined variable: id D:\wamp\www\WesternFilms\server\Apps\User\Controller\UserController.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0182s ]
+SQL: SELECT * FROM `west_user` WHERE `username` = 'ztf' LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2015-07-07T11:40:45+08:00 ] 192.168.1.104 /WesternFilms/server/index.php?m=User&c=videos&a=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000731s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001195s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\WesternFilms\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `west_videos` WHERE ( id = 30 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `west_videos` SET `title`='法老墓的诅咒',`url`='http://player.youku.com/player.php/sid/XODUwMjkxNTY0/v.swf',`pic`='../server/Public/Uploads/2015-06-09/2015060921440399596.png',`detail`='&lt;span style=&quot;color:#E53333;&quot;&gt;&lt;span style=&quot;color:#999999;font-family:\'Microsoft Yahei\';line-height:20px;background-color:#FAFDFF;&quot;&gt;需要程序猿鼓励师，因为这里都是美妙的妹子， 我们不需要你带很多钱来上班，因为老大会带你装带你飞， 工作安静让你有力，活动开放让你有励，气氛好到你没话说。 你想了解更多？那就发送你的简历吧，听我慢慢话你知。 &amp;nbsp; 招聘前端开发工程师&lt;span style=&quot;color:#999999;font-family:\'Microsoft Yahei\';line-height:20px;background-color:#FAFDFF;&quot;&gt;需要程序猿鼓励师，因为这里都是美妙的妹子， 我们不需要你带很多钱来上班，因为老大会带你装带你飞， 工作安静让你有力，活动开放让你有励，气氛好到你没话说。 你想了解更多？那就发送你的简历吧，听我慢慢话你知。 &amp;nbsp; 招聘前端开发工程师&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;',`modify_time`='1436240444' WHERE ( id = 30 ) [ RunTime:0.0838s ]
+SQL: SHOW COLUMNS FROM `west_log` [ RunTime:0.0491s ]
+SQL: INSERT INTO `west_log` (`uid`,`type`,`target`,`target_id`,`target_name`,`modify_time`) VALUES ('13','edit','video','30','法老墓的诅咒','1436240445') [ RunTime:0.0725s ]
+
+[ 2015-07-07T11:41:50+08:00 ] 192.168.1.104 /WesternFilms/server/index.php?m=User&c=videos&a=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000725s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001197s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\WesternFilms\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `west_videos` WHERE ( id = 30 ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: UPDATE `west_videos` SET `title`='法老墓的诅咒',`url`='http://player.youku.com/player.php/sid/XODUwMjkxNTY0/v.swf',`pic`='../server/Public/Uploads/2015-06-09/2015060921440399596.png',`detail`='&lt;span style=&quot;color:#E53333;&quot;&gt;&lt;span style=&quot;color:#999999;font-family:\'Microsoft Yahei\';line-height:20px;background-color:#FAFDFF;&quot;&gt;需要程序猿鼓励师，因为这里都是美妙的妹子， 我们不需要你带很多钱来上班，因为老大会带你装带你飞， 工作安静让你有力，活动开放让你有励，气氛好到你没话说。 你想了解更多？那就发送你的简历吧，听我慢慢话你知。 &amp;nbsp; 招聘前端开发工程师&lt;span style=&quot;color:#999999;font-family:\'Microsoft Yahei\';line-height:20px;background-color:#FAFDFF;&quot;&gt;需要程序猿鼓励师，因为这里都是美妙的妹子， 我们不需要你带很多钱来上班，因为老大会带你装带你飞， 工作安静让你有力，活动开放让你有励，气氛好到你没话说。 你想了解更多？那就发送你的简历吧，听我慢慢话你知。 &amp;nbsp; 招聘前端开发工程师&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;',`modify_time`='1436240510' WHERE ( id = 30 ) [ RunTime:0.0419s ]
+SQL: SHOW COLUMNS FROM `west_log` [ RunTime:0.0096s ]
+SQL: INSERT INTO `west_log` (`uid`,`type`,`target`,`target_id`,`target_name`,`modify_time`) VALUES ('13','edit','video','30','法老墓的诅咒','1436240510') [ RunTime:0.0366s ]
+

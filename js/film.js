@@ -49,6 +49,7 @@ function getYmdTime(time){
                 var oUid = index.substr(4);
                  $.ajax({
                     type:'get',
+                    async:false,
                     url:"server/index.php?m=Home&c=views&a=getVideo",
                     data:{uid:oUid,p:j}, 
                     dataType:'json',
