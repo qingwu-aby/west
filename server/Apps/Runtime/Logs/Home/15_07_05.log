@@ -11680,7 +11680,64 @@ SQL: SHOW COLUMNS FROM `west_episodes` [ RunTime:0.0096s ]
 SQL: SELECT * FROM `west_episodes` WHERE `status` = 1 ORDER BY id DESC LIMIT 0,10000   [ RunTime:0.0008s ]
 SQL: SELECT COUNT(*) AS tp_count FROM `west_episodes` LIMIT 1   [ RunTime:0.0003s ]
 
+<<<<<<< HEAD
+[ 2015-07-05T14:46:45+08:00 ] 127.0.0.1 /WesternFilms/WesternFilms201507/server/index.php?m=Home&c=views&a=getEpisodesList&uid=13&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000925s ]
+SQL: SHOW COLUMNS FROM `west_episodes` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `west_episodes` WHERE `status` = 1 AND `uid` = 13 ORDER BY id DESC LIMIT 0,10000   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_episodes` LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-07-05T14:46:45+08:00 ] 127.0.0.1 /WesternFilms/WesternFilms201507/server/index.php?m=Home&c=views&a=getNewsList&uid=13&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000967s ]
+SQL: SHOW COLUMNS FROM `west_news` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `west_news` WHERE `status` = 1 AND `uid` = 13 ORDER BY id DESC LIMIT 0,10000   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_news` LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-07-05T14:46:45+08:00 ] 127.0.0.1 /WesternFilms/WesternFilms201507/server/index.php?m=Home&c=views&a=getVideo&uid=13&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000728s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003676s ]
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `west_videos` WHERE ( status = 1 ) AND `uid` = 13 ORDER BY id DESC LIMIT 0,10000   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_videos` LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-07-05T14:46:45+08:00 ] 127.0.0.1 /WesternFilms/WesternFilms201507/server/index.php?m=Home&c=index&a=getCompany&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000956s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001128s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2015-07-05T14:46:45+08:00 ] 127.0.0.1 /WesternFilms/WesternFilms201507/server/index.php?m=Home&c=views&a=getLinks&uid=13&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000641s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000979s ]
+SQL: SHOW COLUMNS FROM `west_links` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `west_links` WHERE ( status = 1 ) AND `uid` = 13 ORDER BY id DESC LIMIT 0,10000   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_links` LIMIT 1   [ RunTime:0.0004s ]
+
+=======
 >>>>>>> 29bd05fb860c76a5dd9ff07ef0e2c27131940a41
+<<<<<<< HEAD
 [ 2015-07-05T17:37:42+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=Home&c=views&a=getEpisodesList&uid=13&p=1
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
@@ -13433,3 +13490,6 @@ SQL: SHOW COLUMNS FROM `west_episodes` [ RunTime:0.0120s ]
 SQL: SELECT * FROM `west_episodes` WHERE `uid` = 13 AND `id` = 15 LIMIT 1   [ RunTime:0.0012s ]
 SQL: UPDATE `west_episodes` SET `views`='4' WHERE `uid` = 13 AND `id` = 15 [ RunTime:0.2904s ]
 
+=======
+>>>>>>> 0daeb9cc01a56c54f3d39037984558f4f386dd99
+>>>>>>> 3db92a6d25769b1bb8583cdc36b6b8fa234cd7e1

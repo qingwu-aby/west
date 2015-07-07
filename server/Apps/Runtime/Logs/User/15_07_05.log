@@ -615,6 +615,29 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000738s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000818s ]
 
+<<<<<<< HEAD
+[ 2015-07-05T14:46:35+08:00 ] 127.0.0.1 /WesternFilms/WesternFilms201507/server/index.php?m=User&c=Api&a=verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000715s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.021084s ]
+INFO: [ app_end ] --END-- [ RunTime:0.021210s ]
+
+[ 2015-07-05T14:46:44+08:00 ] 127.0.0.1 /WesternFilms/WesternFilms201507/server/index.php?m=User&c=user&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000736s ]
+NOTIC: [8] Undefined variable: id D:\WampServer2.1a-x32\WampServer\wamp\www\WesternFilms\WesternFilms201507\server\Apps\User\Controller\UserController.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `west_user` WHERE `username` = 'ztf' LIMIT 1   [ RunTime:0.0004s ]
+=======
 [ 2015-07-05T13:12:33+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=verify
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
@@ -687,6 +710,7 @@ INFO: [ app_begin ] --END-- [ RunTime:0.001339s ]
 NOTIC: [8] Undefined variable: id D:\wamp\www\WesternFilms\server\Apps\User\Controller\UserController.class.php 第 86 行.
 SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0158s ]
 SQL: SELECT * FROM `west_user` WHERE `username` = 'ztf' LIMIT 1   [ RunTime:0.0046s ]
+>>>>>>> 0daeb9cc01a56c54f3d39037984558f4f386dd99
 
 [ 2015-07-05T17:37:33+08:00 ] 127.0.0.1 /WesternFilms/server/index.php?m=User&c=Api&a=verify
 INFO: [ app_init ] --START--
