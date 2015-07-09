@@ -59,7 +59,7 @@ function getYmdTime(time){
                                 $.each(data.data,function(index,array){  
                                     str = '<li class="list_img"><div class="img">';  
                                     str = str + '<a href="./video.php?uid='+array['uid']+'&id='+array['id']+'" target="_blank"><span class="list_img_pic"><img src="'+array['pic'].substr(1)+'"/></span></a>';  
-                                    str = str + '</div><div class="info"><a href="./detail.php?uid='+array['uid']+'&id='+array['id']+'"><h4 class="header_info">'+array['title']+'</h4></a>';  
+                                    str = str + '</div><div class="info"><a href="./video.php?uid='+array['uid']+'&id='+array['id']+'"><h4 class="header_info">'+array['title']+'</h4></a>';  
                                     str = str + '<p class="article">'+htmlDecode(array['detail'])+'</p>';  
                                     var date_str = getYmdTime(new Date(array['modify_time'] * 1000));
                                     str = str + '<i class="date">'+date_str+'</i></div>';

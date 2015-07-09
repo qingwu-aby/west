@@ -1,0 +1,203 @@
+[ 2015-07-08T14:30:21+08:00 ] 127.0.0.1 /22/server/index.php?m=User&c=Api&a=verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000841s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001446s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.024221s ]
+INFO: [ app_end ] --END-- [ RunTime:0.024472s ]
+
+[ 2015-07-08T14:30:27+08:00 ] 127.0.0.1 /22/server/index.php?m=User&c=user&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000876s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001335s ]
+NOTIC: [8] Undefined variable: id D:\wamp\www\22\server\Apps\User\Controller\UserController.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0340s ]
+SQL: SELECT * FROM `west_user` WHERE `username` = 'ztf' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-07-08T14:31:01+08:00 ] 127.0.0.1 /22/server/index.php?m=User&c=videos&a=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000735s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001193s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\22\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `west_videos` WHERE ( id = 30 ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: UPDATE `west_videos` SET `title`='法老墓的诅咒',`url`='http://player.video.qiyi.com/b1297fdad21b2fc1c5903ac9bb64c88d/0/0/v_19rrojejec.swf-albumId=369392600-tvId=369392600-isPurchase=0',`pic`='../server/Public/Uploads/2015-06-09/2015060921440399596.png',`detail`='水电费水电费个是的发给是大法官是大法官啥地方gdf电饭锅电饭锅电饭锅大范甘迪发给dfg大范甘迪发给电饭锅地方公司的公司的公司电饭锅是大法官是大法官是大法官啥地方个地方官啥地方个地方官啥地方给对方',`modify_time`='1436337060' WHERE ( id = 30 ) [ RunTime:0.0897s ]
+SQL: SHOW COLUMNS FROM `west_log` [ RunTime:0.0412s ]
+SQL: INSERT INTO `west_log` (`uid`,`type`,`target`,`target_id`,`target_name`,`modify_time`) VALUES ('13','edit','video','30','法老墓的诅咒','1436337061') [ RunTime:0.0424s ]
+
+[ 2015-07-08T16:40:33+08:00 ] 127.0.0.1 /22/server/index.php?m=User&c=Api&a=verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000909s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001502s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001368s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001549s ]
+
+[ 2015-07-08T16:40:51+08:00 ] 127.0.0.1 /22/server/index.php?m=User&c=user&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000771s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001160s ]
+NOTIC: [8] Undefined variable: id D:\wamp\www\22\server\Apps\User\Controller\UserController.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `west_user` WHERE `username` = 'ceshizhanghao' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-07-08T16:41:01+08:00 ] 127.0.0.1 /22/server/index.php?m=User&c=user&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000744s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001144s ]
+NOTIC: [8] Undefined variable: id D:\wamp\www\22\server\Apps\User\Controller\UserController.class.php 第 86 行.
+
+[ 2015-07-08T16:41:03+08:00 ] 127.0.0.1 /22/server/index.php?m=User&c=Api&a=verify&localeTime=1436344863298
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000745s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001010s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001157s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001545s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001716s ]
+
+[ 2015-07-08T16:41:09+08:00 ] 127.0.0.1 /22/server/index.php?m=User&c=user&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000729s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001104s ]
+NOTIC: [8] Undefined variable: id D:\wamp\www\22\server\Apps\User\Controller\UserController.class.php 第 86 行.
+
+[ 2015-07-08T16:41:30+08:00 ] 127.0.0.1 /22/server/index.php?m=User&c=Api&a=verify&localeTime=1436344890245
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000929s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001010s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001120s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001295s ]
+
+[ 2015-07-08T16:41:44+08:00 ] 127.0.0.1 /22/server/index.php?m=User&c=user&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000721s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001123s ]
+NOTIC: [8] Undefined variable: id D:\wamp\www\22\server\Apps\User\Controller\UserController.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `west_user` WHERE `username` = '测试账号' LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2015-07-08T16:42:01+08:00 ] 127.0.0.1 /22/server/index.php?m=User&c=videos&a=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000859s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001549s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\22\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `west_videos` WHERE ( id = 41 ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: UPDATE `west_videos` SET `title`='《多啦A梦：伴我同行》',`url`='http://www.iqiyi.com/common/flashplayer/20150703/EnjoyPlayer_4_2_3_c3_3_3.swf?vid=b1297fdad21b2fc1c5903ac9bb64c88d&amp;pageURL=v_19rrojejec.swf&amp;albumId=369392600&amp;tvId=369392600&amp;isPurchase=0&amp;share_sTime=0&amp;share_eTime=0&amp;source=124.115.8.38',`pic`='../server/Public/Uploads/2015-06-17/2015061716395292618.jpg',`detail`='&lt;span&gt;&lt;span style=&quot;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;color:;&quot;&gt;&lt;/span&gt;&lt;/span&gt;',`modify_time`='1436344921' WHERE ( id = 41 ) [ RunTime:0.0472s ]
+SQL: SHOW COLUMNS FROM `west_log` [ RunTime:0.0097s ]
+SQL: INSERT INTO `west_log` (`uid`,`type`,`target`,`target_id`,`target_name`,`modify_time`) VALUES ('35','edit','video','41','《多啦A梦：伴我同行》','1436344921') [ RunTime:0.0711s ]
+
+[ 2015-07-08T16:42:54+08:00 ] 127.0.0.1 /22/server/index.php?m=User&c=videos&a=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001253s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\22\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `west_videos` WHERE ( id = 42 ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: UPDATE `west_videos` SET `title`='hh',`url`='http://www.iqiyi.com/common/flashplayer/20150703/EnjoyPlayer_4_2_3_c3_3_3.swf?vid=b1297fdad21b2fc1c5903ac9bb64c88d&amp;pageURL=v_19rrojejec.swf&amp;albumId=369392600&amp;tvId=369392600&amp;isPurchase=0&amp;share_sTime=0&amp;share_eTime=0&amp;source=124.115.8.38',`pic`='../server/Public/Uploads/2015-07-07/2015070717564664182.jpeg',`detail`='&lt;span style=&quot;font-size:13px;line-height:20.0200004577637px;&quot;&gt;&lt;span style=&quot;color:#252525;font-family:宋体, sans-serif;font-size:14px;line-height:24px;background-color:#FFFFFF;&quot;&gt;然而30分钟过后，郭敬明再度转发了“作业本”在去年7月为《小时代》辩白的微博：“‘小时代的票房统计出了中国的傻逼数量’，这种论调隐隐不妥，大家都是成年人，成年人应该允许别人看自己喜欢的东西，那只是一个电影而已，改变不了谁的人生。如果价值观能被这么个电影改变，这让获奖大片与职业导演们情何以堪？况且，看个电影都要被教育被批评被嘲笑，那人生也太艰难了。&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size:13px;line-height:20.0200004577637px;font-family:arial;&quot;&gt;&lt;/span&gt;',`modify_time`='1436344974' WHERE ( id = 42 ) [ RunTime:0.0946s ]
+SQL: SHOW COLUMNS FROM `west_log` [ RunTime:0.0173s ]
+SQL: INSERT INTO `west_log` (`uid`,`type`,`target`,`target_id`,`target_name`,`modify_time`) VALUES ('35','edit','video','42','hh','1436344974') [ RunTime:0.0459s ]
+
+[ 2015-07-08T17:37:07+08:00 ] 127.0.0.1 /22/server/index.php?m=User&c=Api&a=verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001418s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.072000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.072178s ]
+
+[ 2015-07-08T17:37:50+08:00 ] 127.0.0.1 /22/server/index.php?m=User&c=Api&a=verify&localeTime=1436348270563
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000727s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000994s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001076s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001233s ]
+
+[ 2015-07-08T17:37:52+08:00 ] 127.0.0.1 /22/server/index.php?m=User&c=Api&a=verify&localeTime=1436348272892
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000725s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000997s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001081s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001239s ]
+
+[ 2015-07-08T17:37:58+08:00 ] 127.0.0.1 /22/server/index.php?m=User&c=user&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000705s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001174s ]
+NOTIC: [8] Undefined variable: id D:\wamp\www\22\server\Apps\User\Controller\UserController.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0185s ]
+SQL: SELECT * FROM `west_user` WHERE `username` = '测试账号' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-07-08T17:38:12+08:00 ] 127.0.0.1 /22/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000824s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001186s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001351s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\22\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-07-08T17:38:26+08:00 ] 127.0.0.1 /22/server/index.php?m=User&c=links&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000798s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001452s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\22\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_links` [ RunTime:0.0100s ]
+SQL: INSERT INTO `west_links` (`uid`,`name`,`logo`,`info`,`status`,`modify_time`) VALUES ('35','Coding','../server/Public/Uploads/2015-07-08/2015070817381230175.png','http://www.coding.com','1','1436348305') [ RunTime:0.3348s ]
+SQL: SHOW COLUMNS FROM `west_log` [ RunTime:0.0094s ]
+SQL: INSERT INTO `west_log` (`uid`,`type`,`target`,`target_id`,`target_name`,`modify_time`) VALUES ('35','add','links','48','Coding','1436348306') [ RunTime:0.0553s ]
+

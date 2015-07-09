@@ -6,15 +6,15 @@
 	}
 	
 	.href{
-		width: 650px;
-		height: 60px;
+		width: 660px;
+		height: 80px;
 		background: #eee;
 		border:1px solid #e7e7e7;
 		border-radius: 5px;
 		margin-top: 25px;
 	}
-	.link_info{
-		line-height: 50px;
+	.link_info_mlgb{
+		line-height: 20px;
 	}
 	.link_href{
 		text-decoration: underline;
@@ -23,7 +23,7 @@
 		text-align: center;
 		font-size: 30px;
 		font-weight: bold;
-		padding: 10px;
+		padding: 6px;
 	}
 	iframe{
 		width: 650px;
@@ -90,8 +90,9 @@
 	<script type="text/javascript" src="./js/jquery-1.9.1.min.js"></script>
 	<script type="text/javascript" src="./js/module.js"></script>
 	<script type="text/javascript" src="./js/company.js"></script>
-	<script type="text/javascript" src="./js/getvideo.js"></script>
+	
 	<script type="text/javascript" src="./js/episode.js"></script>
+	<script type="text/javascript" src="./js/getvideo.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function(){
 			$('.nav-list').removeClass('on');

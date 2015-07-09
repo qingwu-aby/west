@@ -48,3 +48,361 @@ SQL: UPDATE `west_videos` SET `title`='法老墓的诅咒',`url`='http://player.
 SQL: SHOW COLUMNS FROM `west_log` [ RunTime:0.0096s ]
 SQL: INSERT INTO `west_log` (`uid`,`type`,`target`,`target_id`,`target_name`,`modify_time`) VALUES ('13','edit','video','30','法老墓的诅咒','1436240510') [ RunTime:0.0366s ]
 
+[ 2015-07-07T13:28:10+08:00 ] 192.168.1.104 /WesternFilms/server/index.php?m=User&c=Api&a=verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000722s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001401s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001523s ]
+
+[ 2015-07-07T13:28:12+08:00 ] 192.168.1.104 /WesternFilms/server/index.php?m=User&c=Api&a=verify&localeTime=1436246892767
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000737s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000994s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001136s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001990s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002272s ]
+
+[ 2015-07-07T13:28:18+08:00 ] 192.168.1.104 /WesternFilms/server/index.php?m=User&c=user&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000717s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001155s ]
+NOTIC: [8] Undefined variable: id D:\wamp\www\WesternFilms\server\Apps\User\Controller\UserController.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `west_user` WHERE `username` = 'ztf' LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2015-07-07T13:28:33+08:00 ] 192.168.1.104 /WesternFilms/server/index.php?m=User&c=videos&a=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000726s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000993s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001127s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\WesternFilms\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `west_videos` WHERE ( id = 29 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `west_videos` SET `title`='战狼特攻队',`url`='http://player.youku.com/player.php/sid/XNDgwODYyNDYw/v.swf',`pic`='../server/Public/Uploads/2015-06-09/2015060921441141616.png',`detail`='fff',`modify_time`='1436246912' WHERE ( id = 29 ) [ RunTime:0.0584s ]
+SQL: SHOW COLUMNS FROM `west_log` [ RunTime:0.0141s ]
+SQL: INSERT INTO `west_log` (`uid`,`type`,`target`,`target_id`,`target_name`,`modify_time`) VALUES ('13','edit','video','29','战狼特攻队','1436246913') [ RunTime:0.0662s ]
+
+[ 2015-07-07T17:43:10+08:00 ] 192.168.1.104 /22/server/index.php?m=User&c=Api&a=verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001440s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001370s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001534s ]
+
+[ 2015-07-07T17:43:24+08:00 ] 192.168.1.104 /22/server/index.php?m=User&c=Api&a=verify&localeTime=1436262204583
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000751s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001241s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001131s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001291s ]
+
+[ 2015-07-07T17:43:31+08:00 ] 192.168.1.104 /22/server/index.php?m=User&c=user&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000738s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001180s ]
+NOTIC: [8] Undefined variable: id D:\wamp\www\22\server\Apps\User\Controller\UserController.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `west_user` WHERE `username` = '测试账号' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-07-07T17:43:46+08:00 ] 192.168.1.104 /22/server/index.php?m=User&c=videos&a=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000712s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001151s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\22\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `west_videos` WHERE ( id = 41 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `west_videos` SET `title`='《多啦A梦：伴我同行》',`url`='http://player.video.qiyi.com/b1297fdad21b2fc1c5903ac9bb64c88d/0/0/v_19rrojejec.swf-albumId=369392600-tvId=369392600-isPurchase=0',`pic`='../server/Public/Uploads/2015-06-17/2015061716395292618.jpg',`detail`='edwtregregregregregregre',`modify_time`='1436262226' WHERE ( id = 41 ) [ RunTime:0.1237s ]
+SQL: SHOW COLUMNS FROM `west_log` [ RunTime:0.0166s ]
+SQL: INSERT INTO `west_log` (`uid`,`type`,`target`,`target_id`,`target_name`,`modify_time`) VALUES ('35','edit','video','41','《多啦A梦：伴我同行》','1436262226') [ RunTime:0.0471s ]
+
+[ 2015-07-07T17:45:41+08:00 ] 192.168.1.104 /22/server/index.php?m=User&c=videos&a=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001517s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\22\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `west_videos` WHERE ( id = 41 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `west_videos` SET `title`='《多啦A梦：伴我同行》',`url`='http://player.video.qiyi.com/b1297fdad21b2fc1c5903ac9bb64c88d/0/0/v_19rrojejec.swf-albumId=369392600-tvId=369392600-isPurchase=0',`pic`='../server/Public/Uploads/2015-06-17/2015061716395292618.jpg',`detail`='&lt;div class=&quot;para&quot; style=&quot;font-size:14px;color:#333333;font-family:arial, tahoma, \'Microsoft Yahei\', 宋体, sans-serif;background-color:#FFFFFF;&quot;&gt;
+	哆啦A梦：伴我同行》是一部纪念《&lt;a target=&quot;_blank&quot; href=&quot;http://baike.baidu.com/view/6022.htm&quot;&gt;哆啦A梦&lt;/a&gt;》之父&lt;a target=&quot;_blank&quot; href=&quot;http://baike.baidu.com/view/308876.htm&quot;&gt;藤子·F·不二雄&lt;/a&gt;诞辰80周年的3D动画电影，由&lt;a target=&quot;_blank&quot; href=&quot;http://baike.baidu.com/item/%E5%85%AB%E6%9C%A8%E9%BE%99%E4%B8%80&quot;&gt;八木龙一&lt;/a&gt;、&lt;a target=&quot;_blank&quot; href=&quot;http://baike.baidu.com/view/10120841.htm&quot;&gt;山崎贵&lt;/a&gt;导演执导，由&lt;a target=&quot;_blank&quot; href=&quot;http://baike.baidu.com/view/958828.htm&quot;&gt;东宝株式会社&lt;/a&gt;出品。
+&lt;/div&gt;
+&lt;div class=&quot;para&quot; style=&quot;font-size:14px;color:#333333;font-family:arial, tahoma, \'Microsoft Yahei\', 宋体, sans-serif;background-color:#FFFFFF;&quot;&gt;
+	该片讲述了&lt;a target=&quot;_blank&quot; href=&quot;http://baike.baidu.com/subview/6022/11251387.htm&quot;&gt;哆啦A梦&lt;/a&gt;圆满完成了他的使命，启程返回22世纪，大雄该如何以一己之力实现他那来之不易的幸福未来。
+&lt;/div&gt;
+&lt;div class=&quot;para&quot; style=&quot;font-size:14px;color:#333333;font-family:arial, tahoma, \'Microsoft Yahei\', 宋体, sans-serif;background-color:#FFFFFF;&quot;&gt;
+	该片于2014年8月8日在日本上映，2015年5月28日在中国内地上映。
+&lt;/div&gt;',`modify_time`='1436262341' WHERE ( id = 41 ) [ RunTime:0.0444s ]
+SQL: SHOW COLUMNS FROM `west_log` [ RunTime:0.0094s ]
+SQL: INSERT INTO `west_log` (`uid`,`type`,`target`,`target_id`,`target_name`,`modify_time`) VALUES ('35','edit','video','41','《多啦A梦：伴我同行》','1436262341') [ RunTime:0.0304s ]
+
+[ 2015-07-07T17:46:40+08:00 ] 192.168.1.104 /22/server/index.php?m=User&c=videos&a=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000809s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001348s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\22\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `west_videos` WHERE ( id = 41 ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: UPDATE `west_videos` SET `title`='《多啦A梦：伴我同行》',`url`='http://player.video.qiyi.com/b1297fdad21b2fc1c5903ac9bb64c88d/0/0/v_19rrojejec.swf-albumId=369392600-tvId=369392600-isPurchase=0',`pic`='../server/Public/Uploads/2015-06-17/2015061716395292618.jpg',`detail`='&lt;div class=&quot;para&quot; style=&quot;font-size:14px;color:#333333;font-family:arial, tahoma, \'Microsoft Yahei\', 宋体, sans-serif;background-color:#FFFFFF;&quot;&gt;
+	&lt;span style=&quot;color:#333333;font-family:arial;font-size:13px;line-height:20.0200004577637px;background-color:#FFFFFF;&quot;&gt;《&lt;/span&gt;&lt;span style=&quot;color:#CC0000;font-family:arial;font-size:13px;line-height:20.0200004577637px;background-color:#FFFFFF;&quot;&gt;哆啦A梦&lt;/span&gt;&lt;span style=&quot;color:#333333;font-family:arial;font-size:13px;line-height:20.0200004577637px;background-color:#FFFFFF;&quot;&gt;：&lt;/span&gt;&lt;span style=&quot;color:#CC0000;font-family:arial;font-size:13px;line-height:20.0200004577637px;background-color:#FFFFFF;&quot;&gt;伴我同行&lt;/span&gt;&lt;span style=&quot;color:#333333;font-family:arial;font-size:13px;line-height:20.0200004577637px;background-color:#FFFFFF;&quot;&gt;》是一部纪念《&lt;/span&gt;&lt;span style=&quot;color:#CC0000;font-family:arial;font-size:13px;line-height:20.0200004577637px;background-color:#FFFFFF;&quot;&gt;哆啦A梦&lt;/span&gt;&lt;span style=&quot;color:#333333;font-family:arial;font-size:13px;line-height:20.0200004577637px;background-color:#FFFFFF;&quot;&gt;》之父藤子·F·不二雄诞辰80周年的3D动画电影，由八木龙一、山崎贵导演执导，由东宝株式会社出品。该片讲述了&lt;/span&gt;&lt;span style=&quot;color:#CC0000;font-family:arial;font-size:13px;line-height:20.0200004577637px;background-color:#FFFFFF;&quot;&gt;哆啦A梦&lt;/span&gt;&lt;span style=&quot;color:#333333;font-family:arial;font-size:13px;line-height:20.0200004577637px;background-color:#FFFFFF;&quot;&gt;圆满完成了他的使命，启程返回22世纪，大雄该如何以一己之力实现他那来之不易的幸福未来。该片于2014年8月8日在日本上映，2015年5月28日在&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class=&quot;para&quot; style=&quot;font-size:14px;color:#333333;font-family:arial, tahoma, \'Microsoft Yahei\', 宋体, sans-serif;background-color:#FFFFFF;&quot;&gt;
+&lt;/div&gt;',`modify_time`='1436262400' WHERE ( id = 41 ) [ RunTime:0.0489s ]
+SQL: SHOW COLUMNS FROM `west_log` [ RunTime:0.0093s ]
+SQL: INSERT INTO `west_log` (`uid`,`type`,`target`,`target_id`,`target_name`,`modify_time`) VALUES ('35','edit','video','41','《多啦A梦：伴我同行》','1436262400') [ RunTime:0.0341s ]
+
+[ 2015-07-07T17:47:36+08:00 ] 192.168.1.104 /22/server/index.php?m=User&c=videos&a=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000727s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001135s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\22\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `west_videos` WHERE ( id = 41 ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: UPDATE `west_videos` SET `title`='《多啦A梦：伴我同行》',`url`='http://player.video.qiyi.com/b1297fdad21b2fc1c5903ac9bb64c88d/0/0/v_19rrojejec.swf-albumId=369392600-tvId=369392600-isPurchase=0',`pic`='../server/Public/Uploads/2015-06-17/2015061716395292618.jpg',`detail`='&lt;span&gt;&lt;span style=&quot;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;color:;&quot;&gt;&lt;/span&gt;&lt;/span&gt;',`modify_time`='1436262456' WHERE ( id = 41 ) [ RunTime:0.0454s ]
+SQL: SHOW COLUMNS FROM `west_log` [ RunTime:0.0098s ]
+SQL: INSERT INTO `west_log` (`uid`,`type`,`target`,`target_id`,`target_name`,`modify_time`) VALUES ('35','edit','video','41','《多啦A梦：伴我同行》','1436262456') [ RunTime:0.0991s ]
+
+[ 2015-07-07T17:54:04+08:00 ] 192.168.1.104 /22/server/index.php?m=User&c=videos&a=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000912s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001543s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\22\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `west_videos` WHERE ( id = 40 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `west_videos` SET `title`='《王大花的革命生涯》',`url`='http://player.video.qiyi.com/770619a9627246c68887829a1c7985fa/0/0/v_19rrnm9ock.swf-albumId=202544101-tvId=357729000-isPurchase=0',`pic`='../server/Public/Uploads/2015-06-17/2015061716314490968.jpg',`detail`='&lt;p&gt;
+	《王大花的革命生涯》是由简川訸执导的一部谍战悬疑剧，由闫妮、张博、辛芷蕾、高峰等主演。
+&lt;/p&gt;
+&lt;p&gt;
+	该剧讲述了一个来自于农村的具有喜剧人格的女性人物王大花，她用亲身经历写就了一部农村妇女在国难当头的大背景下走向革命并完成自身成长的故事。
+&lt;/p&gt;',`modify_time`='1436262844' WHERE ( id = 40 ) [ RunTime:0.0375s ]
+SQL: SHOW COLUMNS FROM `west_log` [ RunTime:0.0097s ]
+SQL: INSERT INTO `west_log` (`uid`,`type`,`target`,`target_id`,`target_name`,`modify_time`) VALUES ('35','edit','video','40','《王大花的革命生涯》','1436262844') [ RunTime:0.0358s ]
+
+[ 2015-07-07T17:54:45+08:00 ] 192.168.1.104 /22/server/index.php?m=User&c=videos&a=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000937s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001130s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\22\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `west_videos` WHERE ( id = 40 ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: UPDATE `west_videos` SET `title`='《王大花的革命生涯》',`url`='http://player.video.qiyi.com/770619a9627246c68887829a1c7985fa/0/0/v_19rrnm9ock.swf-albumId=202544101-tvId=357729000-isPurchase=0',`pic`='../server/Public/Uploads/2015-06-17/2015061716314490968.jpg',`detail`='&lt;p style=&quot;text-indent:2em;&quot;&gt;
+	《王大花的革命生涯》是由简川訸执导的一部谍战悬疑剧，由闫妮、张博、辛芷蕾、高峰等主演。
+&lt;/p&gt;
+&lt;p style=&quot;text-indent:2em;&quot;&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;text-indent:2em;&quot;&gt;
+	该剧讲述了一个来自于农村的具有喜剧人格的女性人物王大花，她用亲身经历写就了一部农村妇女在国难当头的大背景下走向革命并完成自身成长的故事。
+&lt;/p&gt;',`modify_time`='1436262885' WHERE ( id = 40 ) [ RunTime:0.0559s ]
+SQL: SHOW COLUMNS FROM `west_log` [ RunTime:0.0096s ]
+SQL: INSERT INTO `west_log` (`uid`,`type`,`target`,`target_id`,`target_name`,`modify_time`) VALUES ('35','edit','video','40','《王大花的革命生涯》','1436262885') [ RunTime:0.0382s ]
+
+[ 2015-07-07T17:55:20+08:00 ] 192.168.1.104 /22/server/index.php?m=User&c=videos&a=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000764s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001196s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\22\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `west_videos` WHERE ( id = 40 ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: UPDATE `west_videos` SET `title`='《王大花的革命生涯》',`url`='http://player.video.qiyi.com/770619a9627246c68887829a1c7985fa/0/0/v_19rrnm9ock.swf-albumId=202544101-tvId=357729000-isPurchase=0',`pic`='../server/Public/Uploads/2015-06-17/2015061716314490968.jpg',`detail`='&lt;p&gt;
+	《王大花的革命生涯》是由简川訸执导的一部谍战悬疑剧，由闫妮、张博、辛芷蕾、高峰等主演。
+&lt;/p&gt;
+&lt;p&gt;
+	该剧讲述了一个来自于农村的具有喜剧人格的女性人物王大花，她用亲身经历写就了一部农村妇女在国难当头的大背景下走向革命并完成自身成长的故事。
+&lt;/p&gt;',`modify_time`='1436262920' WHERE ( id = 40 ) [ RunTime:0.0555s ]
+SQL: SHOW COLUMNS FROM `west_log` [ RunTime:0.0167s ]
+SQL: INSERT INTO `west_log` (`uid`,`type`,`target`,`target_id`,`target_name`,`modify_time`) VALUES ('35','edit','video','40','《王大花的革命生涯》','1436262920') [ RunTime:0.0442s ]
+
+[ 2015-07-07T17:55:39+08:00 ] 192.168.1.104 /22/server/index.php?m=User&c=videos&a=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000787s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001126s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\22\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `west_videos` WHERE ( id = 40 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `west_videos` SET `title`='《王大花的革命生涯》',`url`='http://player.video.qiyi.com/770619a9627246c68887829a1c7985fa/0/0/v_19rrnm9ock.swf-albumId=202544101-tvId=357729000-isPurchase=0',`pic`='../server/Public/Uploads/2015-06-17/2015061716314490968.jpg',`detail`='&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;',`modify_time`='1436262939' WHERE ( id = 40 ) [ RunTime:0.0489s ]
+SQL: SHOW COLUMNS FROM `west_log` [ RunTime:0.0099s ]
+SQL: INSERT INTO `west_log` (`uid`,`type`,`target`,`target_id`,`target_name`,`modify_time`) VALUES ('35','edit','video','40','《王大花的革命生涯》','1436262939') [ RunTime:0.0380s ]
+
+[ 2015-07-07T17:56:12+08:00 ] 192.168.1.104 /22/server/index.php?m=User&c=videos&a=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000729s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001158s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\22\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `west_videos` WHERE ( id = 40 ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: UPDATE `west_videos` SET `title`='《王大花的革命生涯》',`url`='http://player.video.qiyi.com/770619a9627246c68887829a1c7985fa/0/0/v_19rrnm9ock.swf-albumId=202544101-tvId=357729000-isPurchase=0',`pic`='../server/Public/Uploads/2015-06-17/2015061716314490968.jpg',`detail`='&lt;p&gt;
+	dsfghj
+&lt;/p&gt;',`modify_time`='1436262971' WHERE ( id = 40 ) [ RunTime:0.0396s ]
+SQL: SHOW COLUMNS FROM `west_log` [ RunTime:0.0094s ]
+SQL: INSERT INTO `west_log` (`uid`,`type`,`target`,`target_id`,`target_name`,`modify_time`) VALUES ('35','edit','video','40','《王大花的革命生涯》','1436262972') [ RunTime:0.0359s ]
+
+[ 2015-07-07T17:56:30+08:00 ] 192.168.1.104 /22/server/index.php?m=User&c=videos&a=del
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000768s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001230s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\22\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `west_videos` WHERE ( id = 40 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `west_videos` SET `status`='0' WHERE ( id = 40 ) [ RunTime:0.0403s ]
+SQL: SHOW COLUMNS FROM `west_log` [ RunTime:0.0100s ]
+SQL: INSERT INTO `west_log` (`uid`,`type`,`target`,`target_id`,`target_name`,`modify_time`) VALUES ('35','del','video','40','《王大花的革命生涯》','1436262990') [ RunTime:0.0381s ]
+
+[ 2015-07-07T17:56:46+08:00 ] 192.168.1.104 /22/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000750s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000981s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001126s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\22\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-07-07T17:56:51+08:00 ] 192.168.1.104 /22/server/index.php?m=User&c=videos&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000794s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001664s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\22\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0094s ]
+SQL: INSERT INTO `west_videos` (`uid`,`title`,`url`,`pic`,`detail`,`status`,`recommend`,`top`,`modify_time`) VALUES ('35','hh','hhh','../server/Public/Uploads/2015-07-07/2015070717564664182.jpeg','&lt;p&gt;
+	dsfghj
+&lt;/p&gt;','1','0','0','1436263011') [ RunTime:0.0533s ]
+SQL: SHOW COLUMNS FROM `west_log` [ RunTime:0.0161s ]
+SQL: INSERT INTO `west_log` (`uid`,`type`,`target`,`target_id`,`target_name`,`modify_time`) VALUES ('35','add','video','42','hh','1436263011') [ RunTime:0.0649s ]
+
+[ 2015-07-07T17:57:26+08:00 ] 192.168.1.104 /22/server/index.php?m=user&c=other&a=recommend
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000985s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001121s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\22\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0093s ]
+SQL: UPDATE `west_videos` SET `recommend`='1',`modify_time`='1436263045' WHERE `uid` = 35 AND `id` = 42 [ RunTime:0.0581s ]
+
+[ 2015-07-07T17:57:26+08:00 ] 192.168.1.104 /22/server/index.php?m=user&c=other&a=recommend
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000735s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001011s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001150s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\22\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0099s ]
+SQL: UPDATE `west_videos` SET `recommend`='0',`modify_time`='1436263046' WHERE `uid` = 35 AND `id` = 42 [ RunTime:0.0663s ]
+
+[ 2015-07-07T17:57:33+08:00 ] 192.168.1.104 /22/server/index.php?m=User&c=videos&a=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001119s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\22\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `west_videos` WHERE ( id = 42 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `west_videos` SET `title`='hh',`url`='hhh',`pic`='../server/Public/Uploads/2015-07-07/2015070717564664182.jpeg',`detail`='&lt;p&gt;
+	dsfghj
+&lt;/p&gt;',`modify_time`='1436263053' WHERE ( id = 42 ) [ RunTime:0.0586s ]
+SQL: SHOW COLUMNS FROM `west_log` [ RunTime:0.0095s ]
+SQL: INSERT INTO `west_log` (`uid`,`type`,`target`,`target_id`,`target_name`,`modify_time`) VALUES ('35','edit','video','42','hh','1436263053') [ RunTime:0.0539s ]
+
+[ 2015-07-07T17:57:55+08:00 ] 192.168.1.104 /22/server/index.php?m=User&c=videos&a=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000868s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001634s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\22\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `west_videos` WHERE ( id = 42 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `west_videos` SET `title`='hh',`url`='hhh',`pic`='../server/Public/Uploads/2015-07-07/2015070717564664182.jpeg',`detail`='&lt;span style=&quot;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-size:13px;line-height:20.0200004577637px;font-family:arial;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-size:13px;line-height:20.0200004577637px;font-family:arial;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-size:13px;line-height:20.0200004577637px;font-family:arial;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-size:13px;line-height:20.0200004577637px;font-family:arial;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-size:13px;line-height:20.0200004577637px;font-family:arial;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-size:13px;line-height:20.0200004577637px;font-family:arial;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-size:13px;line-height:20.0200004577637px;font-family:arial;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-size:13px;line-height:20.0200004577637px;font-family:arial;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-size:13px;line-height:20.0200004577637px;font-family:arial;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-size:13px;line-height:20.0200004577637px;font-family:arial;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-size:13px;line-height:20.0200004577637px;font-family:arial;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-size:13px;line-height:20.0200004577637px;font-family:arial;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-size:13px;line-height:20.0200004577637px;font-family:arial;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-size:13px;line-height:20.0200004577637px;font-family:arial;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-size:13px;line-height:20.0200004577637px;font-family:arial;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-size:13px;line-height:20.0200004577637px;font-family:arial;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-size:13px;line-height:20.0200004577637px;font-family:arial;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-size:13px;line-height:20.0200004577637px;font-family:arial;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-size:13px;line-height:20.0200004577637px;font-family:arial;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-size:13px;line-height:20.0200004577637px;font-family:arial;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-size:13px;line-height:20.0200004577637px;font-family:arial;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-size:13px;line-height:20.0200004577637px;font-family:arial;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-size:13px;line-height:20.0200004577637px;font-family:arial;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-size:13px;line-height:20.0200004577637px;font-family:arial;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-size:13px;line-height:20.0200004577637px;font-family:arial;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-size:13px;line-height:20.0200004577637px;font-family:arial;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-size:13px;line-height:20.0200004577637px;font-family:arial;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-size:13px;line-height:20.0200004577637px;font-family:arial;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-size:13px;line-height:20.0200004577637px;font-family:arial;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-size:13px;line-height:20.0200004577637px;font-family:arial;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-size:13px;line-height:20.0200004577637px;font-family:arial;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-size:13px;line-height:20.0200004577637px;font-family:arial;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-size:13px;line-height:20.0200004577637px;font-family:arial;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;',`modify_time`='1436263075' WHERE ( id = 42 ) [ RunTime:0.0601s ]
+SQL: SHOW COLUMNS FROM `west_log` [ RunTime:0.0167s ]
+SQL: INSERT INTO `west_log` (`uid`,`type`,`target`,`target_id`,`target_name`,`modify_time`) VALUES ('35','edit','video','42','hh','1436263075') [ RunTime:0.0557s ]
+
+[ 2015-07-07T18:00:28+08:00 ] 192.168.1.104 /22/server/index.php?m=User&c=videos&a=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000839s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001388s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\22\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0109s ]
+SQL: SELECT * FROM `west_videos` WHERE ( id = 42 ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: UPDATE `west_videos` SET `title`='hh',`url`='hhh',`pic`='../server/Public/Uploads/2015-07-07/2015070717564664182.jpeg',`detail`='&lt;span style=&quot;font-size:13px;line-height:20.0200004577637px;&quot;&gt;&lt;span style=&quot;color:#252525;font-family:宋体, sans-serif;font-size:14px;line-height:24px;background-color:#FFFFFF;&quot;&gt;然而30分钟过后，郭敬明再度转发了“作业本”在去年7月为《小时代》辩白的微博：“‘小时代的票房统计出了中国的傻逼数量’，这种论调隐隐不妥，大家都是成年人，成年人应该允许别人看自己喜欢的东西，那只是一个电影而已，改变不了谁的人生。如果价值观能被这么个电影改变，这让获奖大片与职业导演们情何以堪？况且，看个电影都要被教育被批评被嘲笑，那人生也太艰难了。&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size:13px;line-height:20.0200004577637px;font-family:arial;&quot;&gt;&lt;/span&gt;',`modify_time`='1436263228' WHERE ( id = 42 ) [ RunTime:0.0447s ]
+SQL: SHOW COLUMNS FROM `west_log` [ RunTime:0.0091s ]
+SQL: INSERT INTO `west_log` (`uid`,`type`,`target`,`target_id`,`target_name`,`modify_time`) VALUES ('35','edit','video','42','hh','1436263228') [ RunTime:0.0336s ]
+
+[ 2015-07-07T18:01:28+08:00 ] 192.168.1.104 /22/server/index.php?m=User&c=videos&a=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000823s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001536s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\22\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `west_videos` WHERE ( id = 41 ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: UPDATE `west_videos` SET `title`='《多啦A梦：伴我同行》',`url`='http://player.video.qiyi.com/',`pic`='../server/Public/Uploads/2015-06-17/2015061716395292618.jpg',`detail`='&lt;span&gt;&lt;span style=&quot;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;span style=&quot;font-family:arial;font-size:13px;line-height:20.0200004577637px;&quot;&gt;哆啦A梦，伴我同行&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;color:;&quot;&gt;&lt;/span&gt;&lt;/span&gt;',`modify_time`='1436263287' WHERE ( id = 41 ) [ RunTime:0.1223s ]
+SQL: SHOW COLUMNS FROM `west_log` [ RunTime:0.0170s ]
+SQL: INSERT INTO `west_log` (`uid`,`type`,`target`,`target_id`,`target_name`,`modify_time`) VALUES ('35','edit','video','41','《多啦A梦：伴我同行》','1436263288') [ RunTime:0.1579s ]
+
