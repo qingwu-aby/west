@@ -1,0 +1,1086 @@
+[ 2015-07-07T07:35:02+08:00 ] 192.168.1.100 /WesternFilms/server/index.php?m=Home&c=index&a=getCompany&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005730s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014163s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0398s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0094s ]
+
+[ 2015-07-07T07:35:02+08:00 ] 192.168.1.100 /WesternFilms/server/index.php?m=Home&c=index&a=getNewsList&uid=13&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001151s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001700s ]
+SQL: SHOW COLUMNS FROM `west_news` [ RunTime:0.0256s ]
+SQL: SELECT * FROM `west_news` WHERE `uid` = 13 AND `status` = 1 AND `hot` = 0 ORDER BY top DESC, id DESC LIMIT 0,10   [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_news` LIMIT 1   [ RunTime:0.0019s ]
+
+[ 2015-07-07T07:35:02+08:00 ] 192.168.1.100 /WesternFilms/server/index.php?m=Home&c=index&a=getCompany&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000913s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001962s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002438s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0013s ]
+
+[ 2015-07-07T07:35:02+08:00 ] 192.168.1.100 /WesternFilms/server/index.php?m=Home&c=index&a=getVideo&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001457s ]
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0276s ]
+SQL: SELECT * FROM `west_videos` WHERE `uid` = 13 AND `status` = 1 ORDER BY id DESC LIMIT 2   [ RunTime:0.0011s ]
+
+[ 2015-07-07T07:35:03+08:00 ] 192.168.1.100 /WesternFilms/server/index.php?m=Home&c=index&a=getMedia&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000857s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001554s ]
+SQL: SHOW COLUMNS FROM `west_news` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `west_news` WHERE `status` = 1 AND `hot` = 1 AND `uid` = 13 ORDER BY top DESC, id DESC LIMIT 4   [ RunTime:0.0014s ]
+
+[ 2015-07-07T07:35:03+08:00 ] 192.168.1.100 /WesternFilms/server/index.php?m=Home&c=index&a=getEpisodes&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000944s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001133s ]
+SQL: SHOW COLUMNS FROM `west_episodes` [ RunTime:0.0252s ]
+SQL: SELECT * FROM `west_episodes` WHERE `uid` = 13 AND `status` = 1 ORDER BY id DESC LIMIT 2   [ RunTime:0.0012s ]
+
+[ 2015-07-07T07:35:24+08:00 ] 192.168.1.100 /WesternFilms/server/index.php?m=Home&c=index&a=getCompany&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000911s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001396s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2015-07-07T07:35:24+08:00 ] 192.168.1.100 /WesternFilms/server/index.php?m=Home&c=index&a=getNewsList&uid=13&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000851s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001178s ]
+SQL: SHOW COLUMNS FROM `west_news` [ RunTime:0.0111s ]
+SQL: SELECT * FROM `west_news` WHERE `uid` = 13 AND `status` = 1 AND `hot` = 0 ORDER BY top DESC, id DESC LIMIT 0,10   [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_news` LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2015-07-07T07:35:25+08:00 ] 192.168.1.100 /WesternFilms/server/index.php?m=Home&c=index&a=getCompany&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000919s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001155s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001305s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2015-07-07T07:35:25+08:00 ] 192.168.1.100 /WesternFilms/server/index.php?m=Home&c=index&a=getVideo&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000761s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001354s ]
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `west_videos` WHERE `uid` = 13 AND `status` = 1 ORDER BY id DESC LIMIT 2   [ RunTime:0.0011s ]
+
+[ 2015-07-07T07:35:25+08:00 ] 192.168.1.100 /WesternFilms/server/index.php?m=Home&c=index&a=getMedia&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000741s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001177s ]
+SQL: SHOW COLUMNS FROM `west_news` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `west_news` WHERE `status` = 1 AND `hot` = 1 AND `uid` = 13 ORDER BY top DESC, id DESC LIMIT 4   [ RunTime:0.0015s ]
+
+[ 2015-07-07T07:35:25+08:00 ] 192.168.1.100 /WesternFilms/server/index.php?m=Home&c=index&a=getEpisodes&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000919s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001145s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001303s ]
+SQL: SHOW COLUMNS FROM `west_episodes` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `west_episodes` WHERE `uid` = 13 AND `status` = 1 ORDER BY id DESC LIMIT 2   [ RunTime:0.0013s ]
+
+[ 2015-07-07T07:35:34+08:00 ] 192.168.1.100 /WesternFilms/server/index.php?m=Home&c=index&a=getCompany&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000723s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001190s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2015-07-07T07:35:34+08:00 ] 192.168.1.100 /WesternFilms/server/index.php?m=Home&c=index&a=getNewsList&uid=13&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000873s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001166s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001336s ]
+SQL: SHOW COLUMNS FROM `west_news` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `west_news` WHERE `uid` = 13 AND `status` = 1 AND `hot` = 0 ORDER BY top DESC, id DESC LIMIT 0,10   [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_news` LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2015-07-07T07:35:34+08:00 ] 192.168.1.100 /WesternFilms/server/index.php?m=Home&c=index&a=getCompany&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000734s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001006s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001137s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2015-07-07T07:35:34+08:00 ] 192.168.1.100 /WesternFilms/server/index.php?m=Home&c=index&a=getEpisodes&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000767s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001193s ]
+SQL: SHOW COLUMNS FROM `west_episodes` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `west_episodes` WHERE `uid` = 13 AND `status` = 1 ORDER BY id DESC LIMIT 2   [ RunTime:0.0012s ]
+
+[ 2015-07-07T07:35:34+08:00 ] 192.168.1.100 /WesternFilms/server/index.php?m=Home&c=index&a=getVideo&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000832s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001173s ]
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `west_videos` WHERE `uid` = 13 AND `status` = 1 ORDER BY id DESC LIMIT 2   [ RunTime:0.0012s ]
+
+[ 2015-07-07T07:35:42+08:00 ] 192.168.1.100 /WesternFilms/server/index.php?m=Home&c=index&a=getCompany&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000769s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001093s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001243s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2015-07-07T07:35:42+08:00 ] 192.168.1.100 /WesternFilms/server/index.php?m=Home&c=index&a=getNewsList&uid=13&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000847s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001127s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001271s ]
+SQL: SHOW COLUMNS FROM `west_news` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `west_news` WHERE `uid` = 13 AND `status` = 1 AND `hot` = 0 ORDER BY top DESC, id DESC LIMIT 0,10   [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_news` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-07-07T07:35:42+08:00 ] 192.168.1.100 /WesternFilms/server/index.php?m=Home&c=index&a=getCompany&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000787s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001235s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2015-07-07T07:35:42+08:00 ] 192.168.1.100 /WesternFilms/server/index.php?m=Home&c=index&a=getEpisodes&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000843s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001234s ]
+SQL: SHOW COLUMNS FROM `west_episodes` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `west_episodes` WHERE `uid` = 13 AND `status` = 1 ORDER BY id DESC LIMIT 2   [ RunTime:0.0014s ]
+
+[ 2015-07-07T07:35:42+08:00 ] 192.168.1.100 /WesternFilms/server/index.php?m=Home&c=index&a=getVideo&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000841s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001167s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001327s ]
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0111s ]
+SQL: SELECT * FROM `west_videos` WHERE `uid` = 13 AND `status` = 1 ORDER BY id DESC LIMIT 2   [ RunTime:0.0014s ]
+
+[ 2015-07-07T07:35:46+08:00 ] 192.168.1.100 /WesternFilms/server/index.php?m=Home&c=index&a=getCompany&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000850s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001178s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001328s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2015-07-07T07:35:46+08:00 ] 192.168.1.100 /WesternFilms/server/index.php?m=Home&c=index&a=getCompany&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000712s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001362s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2015-07-07T07:35:46+08:00 ] 192.168.1.100 /WesternFilms/server/index.php?m=Home&c=index&a=getEpisodes&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000742s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001185s ]
+SQL: SHOW COLUMNS FROM `west_episodes` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `west_episodes` WHERE `uid` = 13 AND `status` = 1 ORDER BY id DESC LIMIT 2   [ RunTime:0.0012s ]
+
+[ 2015-07-07T07:35:46+08:00 ] 192.168.1.100 /WesternFilms/server/index.php?m=Home&c=views&a=getVideo&uid=13&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000790s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001139s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001281s ]
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `west_videos` WHERE ( status = 1 ) AND `uid` = 13 ORDER BY id DESC LIMIT 0,10000   [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_videos` LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2015-07-07T07:35:50+08:00 ] 192.168.1.100 /WesternFilms/server/index.php?m=Home&c=index&a=getCompany&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000745s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001148s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2015-07-07T07:35:50+08:00 ] 192.168.1.100 /WesternFilms/server/index.php?m=Home&c=index&a=getCompany&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000745s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001144s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2015-07-07T07:35:50+08:00 ] 192.168.1.100 /WesternFilms/server/index.php?m=Home&c=index&a=getVideo&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000734s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001184s ]
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `west_videos` WHERE `uid` = 13 AND `status` = 1 ORDER BY id DESC LIMIT 2   [ RunTime:0.0011s ]
+
+[ 2015-07-07T07:35:50+08:00 ] 192.168.1.100 /WesternFilms/server/index.php?m=Home&c=views&a=getEpisodesList&uid=13&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000747s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001206s ]
+SQL: SHOW COLUMNS FROM `west_episodes` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `west_episodes` WHERE `status` = 1 AND `uid` = 13 ORDER BY id DESC LIMIT 0,10000   [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_episodes` LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2015-07-07T07:35:54+08:00 ] 192.168.1.100 /WesternFilms/server/index.php?m=Home&c=index&a=getCompany&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000815s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001269s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2015-07-07T07:35:55+08:00 ] 192.168.1.100 /WesternFilms/server/index.php?m=Home&c=index&a=getCompany&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000809s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001344s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2015-07-07T07:35:55+08:00 ] 192.168.1.100 /WesternFilms/server/index.php?m=Home&c=views&a=getLinks&uid=13&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000823s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001154s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001301s ]
+SQL: SHOW COLUMNS FROM `west_links` [ RunTime:0.0312s ]
+SQL: SELECT * FROM `west_links` WHERE ( status = 1 ) AND `uid` = 13 ORDER BY id DESC LIMIT 0,10000   [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_links` LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2015-07-07T07:35:58+08:00 ] 192.168.1.100 /WesternFilms/server/index.php?m=Home&c=index&a=getCompany&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000769s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001008s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001138s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2015-07-07T07:35:58+08:00 ] 192.168.1.100 /WesternFilms/server/index.php?m=Home&c=index&a=getNewsList&uid=13&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000740s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001010s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001138s ]
+SQL: SHOW COLUMNS FROM `west_news` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `west_news` WHERE `uid` = 13 AND `status` = 1 AND `hot` = 0 ORDER BY top DESC, id DESC LIMIT 0,10   [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_news` LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2015-07-07T07:35:58+08:00 ] 192.168.1.100 /WesternFilms/server/index.php?m=Home&c=index&a=getCompany&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000750s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001190s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2015-07-07T07:35:58+08:00 ] 192.168.1.100 /WesternFilms/server/index.php?m=Home&c=index&a=getVideo&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000744s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001237s ]
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `west_videos` WHERE `uid` = 13 AND `status` = 1 ORDER BY id DESC LIMIT 2   [ RunTime:0.0012s ]
+
+[ 2015-07-07T07:35:59+08:00 ] 192.168.1.100 /WesternFilms/server/index.php?m=Home&c=index&a=getMedia&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000831s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001161s ]
+SQL: SHOW COLUMNS FROM `west_news` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `west_news` WHERE `status` = 1 AND `hot` = 1 AND `uid` = 13 ORDER BY top DESC, id DESC LIMIT 4   [ RunTime:0.0015s ]
+
+[ 2015-07-07T07:35:59+08:00 ] 192.168.1.100 /WesternFilms/server/index.php?m=Home&c=index&a=getEpisodes&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000754s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001196s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001341s ]
+SQL: SHOW COLUMNS FROM `west_episodes` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `west_episodes` WHERE `uid` = 13 AND `status` = 1 ORDER BY id DESC LIMIT 2   [ RunTime:0.0012s ]
+
+[ 2015-07-07T07:36:07+08:00 ] 192.168.1.100 /WesternFilms/server/index.php?m=Home&c=index&a=getCompany&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000994s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001614s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2015-07-07T07:36:07+08:00 ] 192.168.1.100 /WesternFilms/server/index.php?m=Home&c=index&a=getCompany&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000790s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001335s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2015-07-07T07:36:14+08:00 ] 192.168.1.100 /WesternFilms/server/index.php?m=Home&c=index&a=getCompany&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000839s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001135s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001287s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2015-07-07T07:36:14+08:00 ] 192.168.1.100 /WesternFilms/server/index.php?m=Home&c=index&a=getNewsList&uid=13&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002483s ]
+SQL: SHOW COLUMNS FROM `west_news` [ RunTime:0.0186s ]
+SQL: SELECT * FROM `west_news` WHERE `uid` = 13 AND `status` = 1 AND `hot` = 0 ORDER BY top DESC, id DESC LIMIT 0,10   [ RunTime:0.0023s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_news` LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2015-07-07T07:36:14+08:00 ] 192.168.1.100 /WesternFilms/server/index.php?m=Home&c=index&a=getCompany&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000772s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001185s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2015-07-07T07:36:14+08:00 ] 192.168.1.100 /WesternFilms/server/index.php?m=Home&c=index&a=getVideo&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000996s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001187s ]
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `west_videos` WHERE `uid` = 13 AND `status` = 1 ORDER BY id DESC LIMIT 2   [ RunTime:0.0011s ]
+
+[ 2015-07-07T07:36:14+08:00 ] 192.168.1.100 /WesternFilms/server/index.php?m=Home&c=index&a=getMedia&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000766s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001189s ]
+SQL: SHOW COLUMNS FROM `west_news` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `west_news` WHERE `status` = 1 AND `hot` = 1 AND `uid` = 13 ORDER BY top DESC, id DESC LIMIT 4   [ RunTime:0.0015s ]
+
+[ 2015-07-07T07:36:14+08:00 ] 192.168.1.100 /WesternFilms/server/index.php?m=Home&c=index&a=getEpisodes&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000728s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001222s ]
+SQL: SHOW COLUMNS FROM `west_episodes` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `west_episodes` WHERE `uid` = 13 AND `status` = 1 ORDER BY id DESC LIMIT 2   [ RunTime:0.0012s ]
+
+[ 2015-07-07T11:36:29+08:00 ] 192.168.1.100 /WesternFilms/server/index.php?m=Home&c=index&a=getCompany&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008966s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008557s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0174s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0018s ]
+
+[ 2015-07-07T11:36:29+08:00 ] 192.168.1.100 /WesternFilms/server/index.php?m=Home&c=index&a=getNewsList&uid=13&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000788s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001341s ]
+SQL: SHOW COLUMNS FROM `west_news` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `west_news` WHERE `uid` = 13 AND `status` = 1 AND `hot` = 0 ORDER BY top DESC, id DESC LIMIT 0,10   [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_news` LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2015-07-07T11:36:29+08:00 ] 192.168.1.100 /WesternFilms/server/index.php?m=Home&c=index&a=getCompany&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000873s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001461s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0013s ]
+
+[ 2015-07-07T11:36:29+08:00 ] 192.168.1.100 /WesternFilms/server/index.php?m=Home&c=index&a=getVideo&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000857s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001391s ]
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `west_videos` WHERE `uid` = 13 AND `status` = 1 ORDER BY id DESC LIMIT 2   [ RunTime:0.0011s ]
+
+[ 2015-07-07T11:36:29+08:00 ] 192.168.1.100 /WesternFilms/server/index.php?m=Home&c=index&a=getMedia&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000810s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001376s ]
+SQL: SHOW COLUMNS FROM `west_news` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `west_news` WHERE `status` = 1 AND `hot` = 1 AND `uid` = 13 ORDER BY top DESC, id DESC LIMIT 4   [ RunTime:0.0015s ]
+
+[ 2015-07-07T11:36:30+08:00 ] 192.168.1.100 /WesternFilms/server/index.php?m=Home&c=index&a=getEpisodes&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000707s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000981s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001111s ]
+SQL: SHOW COLUMNS FROM `west_episodes` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `west_episodes` WHERE `uid` = 13 AND `status` = 1 ORDER BY id DESC LIMIT 2   [ RunTime:0.0012s ]
+
+[ 2015-07-07T11:36:32+08:00 ] 192.168.1.100 /WesternFilms/server/index.php?m=Home&c=index&a=getCompany&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001169s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-07-07T11:36:32+08:00 ] 192.168.1.100 /WesternFilms/server/index.php?m=Home&c=index&a=getCompany&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002031s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-07-07T11:36:32+08:00 ] 192.168.1.100 /WesternFilms/server/index.php?m=Home&c=index&a=getEpisodes&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000723s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001147s ]
+SQL: SHOW COLUMNS FROM `west_episodes` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `west_episodes` WHERE `uid` = 13 AND `status` = 1 ORDER BY id DESC LIMIT 2   [ RunTime:0.0012s ]
+
+[ 2015-07-07T11:36:32+08:00 ] 192.168.1.100 /WesternFilms/server/index.php?m=Home&c=views&a=getVideo&uid=13&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000738s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001339s ]
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `west_videos` WHERE ( status = 1 ) AND `uid` = 13 ORDER BY id DESC LIMIT 0,10000   [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_videos` LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2015-07-07T11:39:07+08:00 ] 192.168.1.104 /WesternFilms/server/index.php?m=Home&c=index&a=getCompany&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000826s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001382s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2015-07-07T11:39:07+08:00 ] 192.168.1.104 /WesternFilms/server/index.php?m=Home&c=index&a=getNewsList&uid=13&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000772s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001156s ]
+SQL: SHOW COLUMNS FROM `west_news` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `west_news` WHERE `uid` = 13 AND `status` = 1 AND `hot` = 0 ORDER BY top DESC, id DESC LIMIT 0,10   [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_news` LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2015-07-07T11:39:07+08:00 ] 192.168.1.104 /WesternFilms/server/index.php?m=Home&c=index&a=getCompany&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000742s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001196s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2015-07-07T11:39:07+08:00 ] 192.168.1.104 /WesternFilms/server/index.php?m=Home&c=index&a=getVideo&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000824s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001202s ]
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `west_videos` WHERE `uid` = 13 AND `status` = 1 ORDER BY id DESC LIMIT 2   [ RunTime:0.0011s ]
+
+[ 2015-07-07T11:39:07+08:00 ] 192.168.1.104 /WesternFilms/server/index.php?m=Home&c=index&a=getMedia&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000816s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001536s ]
+SQL: SHOW COLUMNS FROM `west_news` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `west_news` WHERE `status` = 1 AND `hot` = 1 AND `uid` = 13 ORDER BY top DESC, id DESC LIMIT 4   [ RunTime:0.0016s ]
+
+[ 2015-07-07T11:39:08+08:00 ] 192.168.1.104 /WesternFilms/server/index.php?m=Home&c=index&a=getEpisodes&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000834s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001376s ]
+SQL: SHOW COLUMNS FROM `west_episodes` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `west_episodes` WHERE `uid` = 13 AND `status` = 1 ORDER BY id DESC LIMIT 2   [ RunTime:0.0011s ]
+
+[ 2015-07-07T11:39:09+08:00 ] 192.168.1.104 /WesternFilms/server/index.php?m=Home&c=index&a=getCompany&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000829s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001392s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2015-07-07T11:39:10+08:00 ] 192.168.1.104 /WesternFilms/server/index.php?m=Home&c=index&a=getCompany&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000729s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001157s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2015-07-07T11:39:10+08:00 ] 192.168.1.104 /WesternFilms/server/index.php?m=Home&c=index&a=getEpisodes&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003707s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002600s ]
+SQL: SHOW COLUMNS FROM `west_episodes` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `west_episodes` WHERE `uid` = 13 AND `status` = 1 ORDER BY id DESC LIMIT 2   [ RunTime:0.0017s ]
+
+[ 2015-07-07T11:39:10+08:00 ] 192.168.1.104 /WesternFilms/server/index.php?m=Home&c=views&a=getVideo&uid=13&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000746s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002240s ]
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0201s ]
+SQL: SELECT * FROM `west_videos` WHERE ( status = 1 ) AND `uid` = 13 ORDER BY id DESC LIMIT 0,10000   [ RunTime:0.0022s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_videos` LIMIT 1   [ RunTime:0.0060s ]
+
+[ 2015-07-07T11:39:29+08:00 ] 192.168.1.104 /WesternFilms/server/index.php?m=Home&c=index&a=getCompany&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000773s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001166s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001315s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2015-07-07T11:39:29+08:00 ] 192.168.1.104 /WesternFilms/server/index.php?m=Home&c=views&a=getEpisodesList&uid=13&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002417s ]
+SQL: SHOW COLUMNS FROM `west_episodes` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `west_episodes` WHERE `status` = 1 AND `uid` = 13 ORDER BY id DESC LIMIT 0,10000   [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_episodes` LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2015-07-07T11:39:29+08:00 ] 192.168.1.104 /WesternFilms/server/index.php?m=Home&c=views&a=getVideo&uid=13&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000818s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001142s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001301s ]
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0113s ]
+SQL: SELECT * FROM `west_videos` WHERE ( status = 1 ) AND `uid` = 13 ORDER BY id DESC LIMIT 0,10000   [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_videos` LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2015-07-07T11:39:29+08:00 ] 192.168.1.104 /WesternFilms/server/index.php?m=Home&c=views&a=getLinks&uid=13&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000873s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: SHOW COLUMNS FROM `west_links` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `west_links` WHERE ( status = 1 ) AND `uid` = 13 ORDER BY id DESC LIMIT 0,10000   [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_links` LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2015-07-07T11:39:29+08:00 ] 192.168.1.104 /WesternFilms/server/index.php?m=Home&c=views&a=getNewsList&uid=13&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000898s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001199s ]
+SQL: SHOW COLUMNS FROM `west_news` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `west_news` WHERE `status` = 1 AND `uid` = 13 ORDER BY id DESC LIMIT 0,10000   [ RunTime:0.0023s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_news` LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2015-07-07T11:40:45+08:00 ] 192.168.1.104 /WesternFilms/server/index.php?m=Home&c=views&a=getVideo&uid=13&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001114s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001105s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001252s ]
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `west_videos` WHERE ( status = 1 ) AND `uid` = 13 ORDER BY id DESC LIMIT 0,10000   [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_videos` LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2015-07-07T11:41:20+08:00 ] 192.168.1.104 /WesternFilms/server/index.php?m=Home&c=index&a=getCompany&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000822s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001435s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2015-07-07T11:41:20+08:00 ] 192.168.1.104 /WesternFilms/server/index.php?m=Home&c=index&a=getNewsList&uid=13&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001185s ]
+SQL: SHOW COLUMNS FROM `west_news` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `west_news` WHERE `uid` = 13 AND `status` = 1 AND `hot` = 0 ORDER BY top DESC, id DESC LIMIT 0,10   [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_news` LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2015-07-07T11:41:20+08:00 ] 192.168.1.104 /WesternFilms/server/index.php?m=Home&c=index&a=getCompany&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000705s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001010s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001142s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2015-07-07T11:41:21+08:00 ] 192.168.1.104 /WesternFilms/server/index.php?m=Home&c=index&a=getVideo&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000771s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001531s ]
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `west_videos` WHERE `uid` = 13 AND `status` = 1 ORDER BY id DESC LIMIT 2   [ RunTime:0.0012s ]
+
+[ 2015-07-07T11:41:21+08:00 ] 192.168.1.104 /WesternFilms/server/index.php?m=Home&c=index&a=getMedia&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000832s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001149s ]
+SQL: SHOW COLUMNS FROM `west_news` [ RunTime:0.0113s ]
+SQL: SELECT * FROM `west_news` WHERE `status` = 1 AND `hot` = 1 AND `uid` = 13 ORDER BY top DESC, id DESC LIMIT 4   [ RunTime:0.0015s ]
+
+[ 2015-07-07T11:41:21+08:00 ] 192.168.1.104 /WesternFilms/server/index.php?m=Home&c=index&a=getEpisodes&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000798s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001139s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001283s ]
+SQL: SHOW COLUMNS FROM `west_episodes` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `west_episodes` WHERE `uid` = 13 AND `status` = 1 ORDER BY id DESC LIMIT 2   [ RunTime:0.0013s ]
+
+[ 2015-07-07T11:41:23+08:00 ] 192.168.1.104 /WesternFilms/server/index.php?m=Home&c=index&a=getCompany&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000779s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001223s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2015-07-07T11:41:23+08:00 ] 192.168.1.104 /WesternFilms/server/index.php?m=Home&c=index&a=getCompany&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000763s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001152s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2015-07-07T11:41:23+08:00 ] 192.168.1.104 /WesternFilms/server/index.php?m=Home&c=index&a=getEpisodes&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000853s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001224s ]
+SQL: SHOW COLUMNS FROM `west_episodes` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `west_episodes` WHERE `uid` = 13 AND `status` = 1 ORDER BY id DESC LIMIT 2   [ RunTime:0.0012s ]
+
+[ 2015-07-07T11:41:24+08:00 ] 192.168.1.104 /WesternFilms/server/index.php?m=Home&c=views&a=getVideo&uid=13&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000780s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001191s ]
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0126s ]
+SQL: SELECT * FROM `west_videos` WHERE ( status = 1 ) AND `uid` = 13 ORDER BY id DESC LIMIT 0,10000   [ RunTime:0.0018s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_videos` LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2015-07-07T11:41:50+08:00 ] 192.168.1.104 /WesternFilms/server/index.php?m=Home&c=views&a=getVideo&uid=13&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000749s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001215s ]
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `west_videos` WHERE ( status = 1 ) AND `uid` = 13 ORDER BY id DESC LIMIT 0,10000   [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_videos` LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2015-07-07T11:41:54+08:00 ] 192.168.1.104 /WesternFilms/server/index.php?m=Home&c=index&a=getCompany&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000850s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001447s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2015-07-07T11:41:54+08:00 ] 192.168.1.104 /WesternFilms/server/index.php?m=Home&c=index&a=getCompany&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000758s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001148s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2015-07-07T11:41:54+08:00 ] 192.168.1.104 /WesternFilms/server/index.php?m=Home&c=index&a=getEpisodes&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000916s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001222s ]
+SQL: SHOW COLUMNS FROM `west_episodes` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `west_episodes` WHERE `uid` = 13 AND `status` = 1 ORDER BY id DESC LIMIT 2   [ RunTime:0.0012s ]
+
+[ 2015-07-07T11:41:54+08:00 ] 192.168.1.104 /WesternFilms/server/index.php?m=Home&c=views&a=getVideo&uid=13&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000888s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001562s ]
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0111s ]
+SQL: SELECT * FROM `west_videos` WHERE ( status = 1 ) AND `uid` = 13 ORDER BY id DESC LIMIT 0,10000   [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_videos` LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2015-07-07T11:43:36+08:00 ] 192.168.1.104 /WesternFilms/server/index.php?m=Home&c=index&a=getCompany&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000815s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001448s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2015-07-07T11:43:36+08:00 ] 192.168.1.104 /WesternFilms/server/index.php?m=Home&c=index&a=getCompany&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001178s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001331s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0111s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2015-07-07T11:43:36+08:00 ] 192.168.1.104 /WesternFilms/server/index.php?m=Home&c=index&a=getEpisodes&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001204s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001355s ]
+SQL: SHOW COLUMNS FROM `west_episodes` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `west_episodes` WHERE `uid` = 13 AND `status` = 1 ORDER BY id DESC LIMIT 2   [ RunTime:0.0012s ]
+
+[ 2015-07-07T11:43:36+08:00 ] 192.168.1.104 /WesternFilms/server/index.php?m=Home&c=views&a=getVideo&uid=13&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000856s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002583s ]
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `west_videos` WHERE ( status = 1 ) AND `uid` = 13 ORDER BY id DESC LIMIT 0,10000   [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_videos` LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2015-07-07T11:43:53+08:00 ] 192.168.1.104 /WesternFilms/server/index.php?m=Home&c=index&a=getCompany&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000722s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001122s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-07-07T11:43:53+08:00 ] 192.168.1.104 /WesternFilms/server/index.php?m=Home&c=index&a=getCompany&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000741s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001198s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2015-07-07T11:43:53+08:00 ] 192.168.1.104 /WesternFilms/server/index.php?m=Home&c=index&a=getEpisodes&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000759s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001939s ]
+SQL: SHOW COLUMNS FROM `west_episodes` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `west_episodes` WHERE `uid` = 13 AND `status` = 1 ORDER BY id DESC LIMIT 2   [ RunTime:0.0012s ]
+
+[ 2015-07-07T11:43:53+08:00 ] 192.168.1.104 /WesternFilms/server/index.php?m=Home&c=views&a=getVideo&uid=13&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000926s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001564s ]
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `west_videos` WHERE ( status = 1 ) AND `uid` = 13 ORDER BY id DESC LIMIT 0,10000   [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_videos` LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2015-07-07T11:44:11+08:00 ] 192.168.1.104 /WesternFilms/server/index.php?m=Home&c=index&a=getCompany&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000835s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001609s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2015-07-07T11:44:11+08:00 ] 192.168.1.104 /WesternFilms/server/index.php?m=Home&c=index&a=getCompany&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000752s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001153s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2015-07-07T11:44:11+08:00 ] 192.168.1.104 /WesternFilms/server/index.php?m=Home&c=index&a=getEpisodes&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000750s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001203s ]
+SQL: SHOW COLUMNS FROM `west_episodes` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `west_episodes` WHERE `uid` = 13 AND `status` = 1 ORDER BY id DESC LIMIT 2   [ RunTime:0.0012s ]
+
+[ 2015-07-07T11:44:11+08:00 ] 192.168.1.104 /WesternFilms/server/index.php?m=Home&c=views&a=getVideo&uid=13&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000760s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001172s ]
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `west_videos` WHERE ( status = 1 ) AND `uid` = 13 ORDER BY id DESC LIMIT 0,10000   [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_videos` LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2015-07-07T13:06:51+08:00 ] 192.168.1.104 /WesternFilms/server/index.php?m=Home&c=index&a=getCompany&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000811s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001370s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2015-07-07T13:06:51+08:00 ] 192.168.1.104 /WesternFilms/server/index.php?m=Home&c=index&a=getNewsList&uid=13&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000746s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000995s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001124s ]
+SQL: SHOW COLUMNS FROM `west_news` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `west_news` WHERE `uid` = 13 AND `status` = 1 AND `hot` = 0 ORDER BY top DESC, id DESC LIMIT 0,10   [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `west_news` LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2015-07-07T13:06:51+08:00 ] 192.168.1.104 /WesternFilms/server/index.php?m=Home&c=index&a=getCompany&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000847s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001206s ]
+SQL: SHOW COLUMNS FROM `west_company` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `west_company` WHERE `uid` = 13 LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2015-07-07T13:06:51+08:00 ] 192.168.1.104 /WesternFilms/server/index.php?m=Home&c=index&a=getVideo&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000780s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001166s ]
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `west_videos` WHERE `uid` = 13 AND `status` = 1 ORDER BY id DESC LIMIT 2   [ RunTime:0.0012s ]
+
+[ 2015-07-07T13:06:51+08:00 ] 192.168.1.104 /WesternFilms/server/index.php?m=Home&c=index&a=getMedia&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000829s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001375s ]
+SQL: SHOW COLUMNS FROM `west_news` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `west_news` WHERE `status` = 1 AND `hot` = 1 AND `uid` = 13 ORDER BY top DESC, id DESC LIMIT 4   [ RunTime:0.0014s ]
+
+[ 2015-07-07T13:06:51+08:00 ] 192.168.1.104 /WesternFilms/server/index.php?m=Home&c=index&a=getEpisodes&uid=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000952s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001166s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001312s ]
+SQL: SHOW COLUMNS FROM `west_episodes` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `west_episodes` WHERE `uid` = 13 AND `status` = 1 ORDER BY id DESC LIMIT 2   [ RunTime:0.0015s ]
+

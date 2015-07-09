@@ -18,31 +18,39 @@ hr{
 	margin-top:5px;
 	border-top:1px solid #ceecff;
 }
-	.film_show ul{
-		overflow: hidden;
-		width: 680px;
-		}
-		.film_thum{
-			float: left;
-			padding-top: 20px;
-		}
-		
-		.film_info{
-			line-height: 24px;
-			width: 200px;
-			padding-left: 20px;
-		}
-		.film_summary{
-			text-align: left;
-			text-indent: 0;
-			margin:0;
-		}
-		.film_info img{
-			padding:2px;
-			width: 200px;
-			height: 50px;
-		}
-		
+.film_show ul{
+overflow: hidden;
+width: 680px;
+}
+.film_thum{
+	float: left;
+	margin:15px 0;
+	padding-top: 15px;
+}
+
+.film_info{
+	line-height: 24px;
+	width: 200px;
+	float: left;
+	padding-left: 20px;
+}
+.film_summary{
+	text-align: left;
+	text-indent: 0;
+	margin:0;
+}
+.film_info img{
+	padding:2px;
+	width: 200px;
+	height: 50px;
+}
+.link_detail{
+	width: 400px;
+	overflow: hidden;
+}
+.art{
+	margin:0 15px;
+}
 </style>
 <div id="content" class="content">
 	<div class="war">
@@ -97,6 +105,7 @@ hr{
 	<script type="text/javascript" src="./js/module.js"></script>
 	<script type="text/javascript" src="./js/company.js"></script>
 	<script type="text/javascript" src="./js/link.js"></script>
+	<script type="text/javascript" src="./js/link_string.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function(){
 			$('.nav-list').removeClass('on');

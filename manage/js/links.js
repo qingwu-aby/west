@@ -12,6 +12,7 @@ var showLink=function(url,uid){
 							'<td class="table_col table_title table_select"></td>'+
 							'<td class="table_col table_title">友情链接名称</td>'+
 							'<td class="table_col table_title">友情链接LOGO地址</td>'+
+							'<td class="table_col table_title">友情链接详情</td>'+
 							'<td class="table_col table_title">友情链接地址</td>'+
 							'</tr>');
 				$('#home_link').html('');
@@ -26,7 +27,8 @@ var showLink=function(url,uid){
 							'</td>'+
 							'<td class="table_col table_col_1">'+data.data[linkNumber].name+'</td>'+
 							'<td class="table_col table_col_2"><img style="height: 30px; width: 100px; margin: 0 auto;" src="'+data.data[linkNumber].logo+'" /></td>'+
-							'<td class="table_col table_col_3"><a class="linklink" href="'+data.data[linkNumber].info+'" target="_blank">'+data.data[linkNumber].info+'</a></td>'+
+							'<td class="table_col table_col_3">'+data.data[linkNumber].detail+'</td>'+
+							'<td class="table_col table_col_4"><a class="linklink" href="'+data.data[linkNumber].info+'" target="_blank">'+data.data[linkNumber].info+'</a></td>'+
 							'</tr>');
 					}else{
 						$('#table_show').append('<tr id="link-'+data.data[linkNumber].id+'" class="tr_2">'+
@@ -36,7 +38,8 @@ var showLink=function(url,uid){
 							'</td>'+
 							'<td class="table_col table_col_1">'+data.data[linkNumber].name+'</td>'+
 							'<td class="table_col table_col_2"><img style="height: 30px; width: 100px; margin: 0 auto;" src="'+data.data[linkNumber].logo+'" /></td>'+
-							'<td class="table_col table_col_3"><a class="linklink" href="'+data.data[linkNumber].info+'" target="_blank">'+data.data[linkNumber].info+'</a></td>'+
+							'<td class="table_col table_col_3">'+data.data[linkNumber].detail+'</td>'+
+							'<td class="table_col table_col_4"><a class="linklink" href="'+data.data[linkNumber].info+'" target="_blank">'+data.data[linkNumber].info+'</a></td>'+
 							'</tr>');
 					}
 				}
@@ -61,14 +64,6 @@ var showLink=function(url,uid){
 
 //添加友情链接
 var addLink=function(url,showLinkUrl,uid,uploadUrl){
-	// $(document).on('click','#links_logo',function(){
-	// 	$('#upload-img').fadeIn();
-	// });
-	// $(document).on('click','#img-links',function(){
-	// 	var linksImgSrc=$('#show .img-link:last-child').text();
-	// 	$('#links_logo').attr('src','./uploads'+linksImgSrc);
-	// 	$('#upload-img').fadeOut();
-	// });
 
 	$(document).on('change','#linkUp_logo',function(){
 
@@ -99,8 +94,9 @@ var addLink=function(url,showLinkUrl,uid,uploadUrl){
 		var oLinkName=$('#link_name').val();
 		var oLinkMess=$('#link_mess').val();
 		var oLinkImag=$('#links_logo').attr('src');
+		var oLinkDetail=$('#detail_mess').val();
 
-		if(oLinkName==''||oLinkMess==''||oLinkImag==''){
+		if(oLinkName==''||oLinkMess==''||oLinkDetail==''){
 			$('#link_remark').text('信息不能为空！');
 			$('#link_remark').css('color','red');
 		}else{
@@ -109,7 +105,7 @@ var addLink=function(url,showLinkUrl,uid,uploadUrl){
 				type: 'post',
 				url: url,
 				dataType: 'json',
-				data: {name: oLinkName, logo: oLinkImag, info: oLinkMess},
+				data: {name: oLinkName, logo: oLinkImag, info: oLinkMess,detail: oLinkDetail},
 				success: function(data){
 					$('#link_remark').text(data.msg+'！');
 					$('#link_remark').css('color','red');
@@ -119,6 +115,7 @@ var addLink=function(url,showLinkUrl,uid,uploadUrl){
 						$('#link_remark').css('color','green');
 						$('#link_name').val('');
 						$('#link_mess').val('');
+						$('#detail_mess').val('');
 						setTimeout(function(){$('#link_window').fadeOut()},600);
 						$('.links-list').css({'background-color':'','color':'#666'});
 						$('#all_links').css({'background-color':'#ccc','color':'#000'});
@@ -136,24 +133,18 @@ var addLink=function(url,showLinkUrl,uid,uploadUrl){
 //编辑友情链接
 var updateLink=function(url,showLinkUrl,uid){
 	var linkId;
-	// $(document).on('click','#links_logo',function(){
-	// 	$('#upload-img').fadeIn();
-	// });
-	// $(document).on('click','#img-links',function(){
-	// 	var linksImgSrc=$('#show .img-link:last-child').text();
-	// 	$('#links_logo').attr('src','./uploads'+linksImgSrc);
-	// 	$('#upload-img').fadeOut();
-	// });
 	$(document).on('click','.update_ico',function(){
 		linkId=$(this).attr('id').substr(7);
 		var linkName=$('#link-'+linkId).find('.table_col_1').text();
-		var linkMess=$('#link-'+linkId).find('.table_col_3').text();
+		var linkMess=$('#link-'+linkId).find('.table_col_4').text();
+		var linkDetail=$('#link-'+linkId).find('.table_col_3').text();
 		var linkImag=$('#link-'+linkId).find('.table_col_2 img').attr('src');
 
 		$('#link_window_title').text('编辑友情链接');
 		$('#link_window').css('display','block');
 		$('#link_name').val(linkName);
 		$('#link_mess').val(linkMess);
+		$('#detail_mess').val(linkDetail);
 		$('#links_logo').attr('src',linkImag);
 		$('#link_add').css('display','none');
 		$('#link_update').css('display','block');
@@ -163,8 +154,9 @@ var updateLink=function(url,showLinkUrl,uid){
 		var oLinkName=$('#link_name').val();
 		var oLinkMess=$('#link_mess').val();
 		var oLinkImag=$('#links_logo').attr('src');
+		var oLinkDetail=$('#detail_mess').val();
 
-		if(oLinkName==''||oLinkMess==''){
+		if(oLinkName==''||oLinkMess==''||oLinkDetail==''){
 			$('#link_remark').text('信息不能为空！');
 			$('#link_remark').css('color','red');
 		}else{
@@ -173,7 +165,7 @@ var updateLink=function(url,showLinkUrl,uid){
 				type: 'post',
 				url: url,
 				dataType: 'json',
-				data: {id: linkId,name: oLinkName, logo: oLinkImag, info: oLinkMess},
+				data: {id: linkId,name: oLinkName, logo: oLinkImag, info: oLinkMess, detail: oLinkDetail},
 				success: function(data){
 					$('#link_remark').text(data.msg+'！');
 					$('#link_remark').css('color','red');
@@ -239,6 +231,7 @@ var linksNavClick=function(){
 			$('#link_window').css('display','block');
 			$('#link_name').val('');
 			$('#link_mess').val('');
+			$('#detail_mess').val('');
 			$('#links_logo').attr('src','');
 			$('#link_add').css('display','block');
 			$('#link_update').css('display','none');

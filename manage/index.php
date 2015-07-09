@@ -342,7 +342,9 @@ if(!isset($_SESSION['username'])) {
 							<input id="linkUp_logo" class="file_upload" type="file" name="filename" />
 							<!-- <button id="linkUp_button" class="button_upload">上传</button> -->
 						</div>
-						<span class="link">链接地址：</span><input id="link_mess" type="text" class="update-input update-input-sty" placeholder="输入链接说明" /></br>
+						</br>
+						<span class="link">链接详情：</span><input id="detail_mess" type="text" class="update-input update-input-sty" placeholder="输入链接详情" /></br>
+						<span class="link">链接地址：</span><input id="link_mess" type="text" class="update-input update-input-sty" placeholder="输入链接地址" /></br>
 						<button id="link_add" type="button" class="update-button link_button">确认添加</button>
 						<button id="link_update" type="button" class="update-button link_button">确认修改</button>
 						<div id="link_remark" style="text-align: center; color: red; padding: 10px 0;"></div>
