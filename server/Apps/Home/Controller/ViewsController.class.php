@@ -22,7 +22,7 @@ class ViewsController extends Controller {
 		//if(IS_POST) {
 			$uid = I('get.uid');
 			$news = M('News'); // 实例化User对象
-			$list = $news->where(array('status' => 1))->where(array('uid' => $uid))->order('id DESC')->limit($limit)->page($p)->select();
+			$list = $news->where(array('status' => 1))->where(array('uid' => $uid))->order('top DESC, id DESC')->limit($limit)->page($p)->select();
 			$count = $news->count();// 查询满足要求的总记录数
 			$data = array(
 				'code' => 1,
@@ -75,7 +75,7 @@ class ViewsController extends Controller {
 		$p = I('get.p');
 		$limit = 10000;
 		$videos = M('Videos');
-		$result = $videos->where('status = 1')->where(array('uid' => $uid))->order('id DESC')->limit($limit)->page($p)->select();
+		$result = $videos->where('status = 1')->where(array('uid' => $uid))->order('top DESC, id DESC')->limit($limit)->page($p)->select();
 		$count = $videos->count();// 查询满足要求的总记录数
 		if(count($result) == 0) {
 			$data = array(
@@ -151,7 +151,7 @@ class ViewsController extends Controller {
 		//if(IS_POST) {
 			$uid = I('get.uid');
 			$Episodes = M('Episodes'); // 实例化User对象
-			$list = $Episodes->where(array('status' => 1))->where(array('uid' => $uid))->order('id DESC')->limit($limit)->page($p)->select();
+			$list = $Episodes->where(array('status' => 1))->where(array('uid' => $uid))->order('top DESC, id DESC')->limit($limit)->page($p)->select();
 			$count = $Episodes->count();// 查询满足要求的总记录数
 			$data = array(
 				'code' => 1,

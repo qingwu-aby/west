@@ -1,0 +1,132 @@
+[ 2015-07-09T21:44:39+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.060004s ]
+INFO: [ app_end ] --END-- [ RunTime:0.060004s ]
+
+[ 2015-07-09T21:44:49+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=user&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: id D:\wamp\www\westfilms\server\Apps\User\Controller\UserController.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `west_user` WHERE `username` = 'ztf' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-07-09T21:45:03+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=verify&localeTime=1436449502901
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-09T21:45:08+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=user&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+NOTIC: [8] Undefined variable: id D:\wamp\www\westfilms\server\Apps\User\Controller\UserController.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `west_user` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `west_user` WHERE `username` = 'ztf' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-07-09T21:47:58+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=user&c=other&a=top
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\westfilms\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0070s ]
+SQL: UPDATE `west_videos` SET `top`='1',`modify_time`='1436449678' WHERE `uid` = 13 AND `id` = 28 [ RunTime:0.0610s ]
+
+[ 2015-07-09T21:48:10+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=user&c=other&a=top
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\westfilms\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_videos` [ RunTime:0.0060s ]
+SQL: UPDATE `west_videos` SET `top`='1',`modify_time`='1436449690' WHERE `uid` = 13 AND `id` = 26 [ RunTime:0.0470s ]
+
+[ 2015-07-09T21:49:34+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=user&c=other&a=top
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\westfilms\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_news` [ RunTime:0.0030s ]
+SQL: UPDATE `west_news` SET `top`='1',`modify_time`='1436449774' WHERE `uid` = 13 AND `id` = 10 [ RunTime:0.0390s ]
+
+[ 2015-07-09T21:52:10+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\westfilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-07-09T21:52:16+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=user&c=episodes&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\westfilms\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_episodes` [ RunTime:0.0090s ]
+SQL: INSERT INTO `west_episodes` (`uid`,`title`,`big_img`,`thumbnail`,`summary`,`source`,`author`,`content`,`release_time`,`status`,`recommend`,`top`,`modify_time`) VALUES ('13','asf','no','../server/Public/Uploads/2015-07-09/2015070921521035716.jpg','asdfas','','asfas','asdfadsfasdf','1436449936','1','0','0','1436449936') [ RunTime:0.1350s ]
+SQL: SHOW COLUMNS FROM `west_log` [ RunTime:0.0110s ]
+SQL: INSERT INTO `west_log` (`uid`,`type`,`target`,`target_id`,`target_name`,`modify_time`) VALUES ('13','add','episodes','23','asf','1436449936') [ RunTime:0.0400s ]
+
+[ 2015-07-09T21:52:26+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=User&c=Api&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\westfilms\server\Think\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-07-09T21:52:30+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=user&c=episodes&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\westfilms\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_episodes` [ RunTime:0.0070s ]
+SQL: INSERT INTO `west_episodes` (`uid`,`title`,`big_img`,`thumbnail`,`summary`,`source`,`author`,`content`,`release_time`,`status`,`recommend`,`top`,`modify_time`) VALUES ('13','VVVVV','no','../server/Public/Uploads/2015-07-09/2015070921522645397.jpg','asdfasdf','','asfdasds','sfasfasdfasdfasdf','1436449949','1','0','0','1436449949') [ RunTime:0.0850s ]
+SQL: SHOW COLUMNS FROM `west_log` [ RunTime:0.0070s ]
+SQL: INSERT INTO `west_log` (`uid`,`type`,`target`,`target_id`,`target_name`,`modify_time`) VALUES ('13','add','episodes','24','VVVVV','1436449950') [ RunTime:0.0880s ]
+
+[ 2015-07-09T21:52:37+08:00 ] 127.0.0.1 /westfilms/server/index.php?m=user&c=other&a=top
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\westfilms\server\Apps\User\Controller\BaseController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `west_episodes` [ RunTime:0.0030s ]
+SQL: UPDATE `west_episodes` SET `top`='1',`modify_time`='1436449957' WHERE `uid` = 13 AND `id` = 23 [ RunTime:0.0400s ]
+
